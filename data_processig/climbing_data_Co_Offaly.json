@@ -1,0 +1,111 @@
+{
+  "Co. Offaly": {
+    "county_info": {
+      "name": "Co. Offaly"
+    },
+    "climbing_sites": [
+      {
+        "name": "Silver River Crag",
+        "page_title": "Silver_River_Crag",
+        "url": "http://wiki.climbing.ie/index.php?title=Silver_River_Crag",
+        "routes": [
+          {
+            "name": "Black hole",
+            "height": null,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. Egan solo 21 Sep 2010",
+            "description": "Start at the left side of the crag underneath an obvious crack which opens into a wide dark recess nearer the top. There is a small tree projecting from the face left of the recess. Step up onto the horizontal crack and continue straight up past the dark recess mantelshelfing to finish."
+          },
+          {
+            "name": "Little Pocket",
+            "height": null,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "E. McBride solo 21 Sep 2010",
+            "description": "Start in the middle of the seemingly blank section between Black hole and Netty. Climb straight up without using the crack or recess from Black hole on the left or any of the side pulls from the vertical crack/overlap on Netty. Make use of the little round pocket fitting only a few fingers."
+          },
+          {
+            "name": "Netty",
+            "height": null,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": []
+          },
+          {
+            "name": "Loose Tooth",
+            "height": null,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "E. McBride solo 21 Sep 2010",
+            "description": "Start just left of where the large horizontal crack leads into the overhanging roof on the right hand side of the face. Climb directly up to the obvious right facing sharp hold projecting from the rock. This hold is slightly loose and will fail eventually. Continue delicately to the top on less positive holds."
+          },
+          {
+            "name": "Hungover",
+            "height": null,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "E. McBride solo 15 Oct 2010",
+            "description": "This climb goes up between the small root on the right of Loose Tooth and the sharp corner on the extreme right of the crag. The initial section involves surmounting the overhang on positive sharp holds but the top half is a smoother wall."
+          },
+          {
+            "name": "The Prow and the Stars",
+            "height": null,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "E. McBride solo 15 Oct 2010",
+            "description": "Some of the holds on this climb are also used on Hungover. The crag finishes on its right hand side at a sharp corner/prow overhanging at the bottom and forming a smooth arête as it goes up. Climb straight up on the corner. There are good holds available to surmount the overhang but the rock becomes smoother as you go up."
+          },
+          {
+            "name": "Over and up",
+            "height": null,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. Egan solo 17 Sep 2010",
+            "description": "Gain the horizontal crack as for the start of Loose Tooth. Traverse across underneath the overhang and turn the corner. Ascend to the top just right of the corner. The rest of the climbs are further upstream. Continue around the corner to where a fallen tree blocks your path. As you continue around the corner the crag comes into view. It is undercut and heavily vegetated with ivy in places. There appears to be a lot of loose rock on the crag. All of the climbs described have been led after inspection and cleaning on toprope. Some very loose and dangerous rock has been removed especially on climbs 8 and 9 but we have tried to remove as little as possible so use your own judgement. The next two climbs are on a narrow section of rock left of the first obvious corner on the crag."
+          },
+          {
+            "name": "On the corner",
+            "height": null,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "E. McBride, S. Egan. 1 Oct 2010",
+            "description": "Start to the right of a twisted fallen branch.Your left hand will mostly use the left edge of the cliff. Climb straight up using a combination of small flat steps on your left, a vertical flaring crack low in the middle and small edges above and to the right. There is a useful hidden hold under a tuft of grass on the left edge. Trend left towards a small bulging rock projecting from the left edge of the face above. Pull up on the bulge allowing you to reach a sharp hold on the corner and then top out on an obviously cleaned flat rock on top of the face. The vegetation and clay has been cleaned from this rock to expose the finishing holds of the climb. Behind this rock is another short vegetated rock step about 6ft high. There are numerous trees for belay points back from the top of this. The step has not been cleaned as you can walk leftwards along it, passing behind a large detached block, and ascend using a small tree to pull on. Protection on this climb is available early in the form of a good nut on your right and a small dubious wire later on. Take care if placing a nut in the final vertical crack at the top. The rock on the left moves very slightly."
+          },
+          {
+            "name": "Inside Story,",
+            "height": null,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "E. McBride solo. 1 Oct 2010",
+            "description": "This climb ascends the inside corner immediately right of climb 8. Start at the centre of the face just left of a pile of fallen loose rocks covered in ivy. The initial handholds are provided by a short vertical crack just above your head. Leave the ground using only smears and not the cheat stones behind your right leg. Ascend trending right towards the corner where you encounter a long thin vertical crack ending at the top. Layback this crack to the finish. You finish on the same belay stance as climb 1. Good nut protection can be obtained in the vertical crack along the way. A hex placement is available just below the top. Continuing right of Inside Story you encounter the main face of this crag. It is heavily vegetated especially near the top and there appears to be a lot of loose and dangerous rock in places. With a lot of effort/cleaning it could yield more climbs. It is however worth noting that this crag is a main feature on a looped nature walk and such activities might not be welcome by locals and trail organisers."
+          }
+        ],
+        "routes_count": 9,
+        "coordinates": {
+          "latitude": null,
+          "longitude": null
+        },
+        "cluster_id": 1,
+        "cluster_label": "Intermediate crag"
+      }
+    ]
+  }
+}

@@ -1,98 +1,267 @@
-import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
 
-import { HelloWave } from '@/components/hello-wave';
-import ParallaxScrollView from '@/components/parallax-scroll-view';
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-import { Link } from 'expo-router';
+import { useRouter } from 'expo-router';
+import React, { useMemo, useState } from 'react';
+import {
+  ActivityIndicator,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
+import type { Region } from 'react-native-maps';
+import { ClimbingMap } from '../../components/ClimbingMap';
+import { SearchPanel } from '../../components/SearchPanel';
+import {
+  ClimbingSite,
+  useClimbingSites,
+} from '../../hooks/use-climbing-sites';
 
 export default function HomeScreen() {
-  return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-      headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
-        />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12',
-            })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <Link href="/modal">
-          <Link.Trigger>
-            <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-          </Link.Trigger>
-          <Link.Preview />
-          <Link.Menu>
-            <Link.MenuAction title="Action" icon="cube" onPress={() => alert('Action pressed')} />
-            <Link.MenuAction
-              title="Share"
-              icon="square.and.arrow.up"
-              onPress={() => alert('Share pressed')}
-            />
-            <Link.Menu title="More" icon="ellipsis">
-              <Link.MenuAction
-                title="Delete"
-                icon="trash"
-                destructive
-                onPress={() => alert('Delete pressed')}
-              />
-            </Link.Menu>
-          </Link.Menu>
-        </Link>
+  const router = useRouter(); 
 
-        <ThemedText>
-          {`Tap the Explore tab to learn more about what's included in this starter app.`}
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
-    </ParallaxScrollView>
+  const { allSites, loading, countyOptions, clusterOptions } =
+    useClimbingSites();
+
+  const [searchText, setSearchText] = useState('');
+  const [selectedCounty, setSelectedCounty] = useState<string>('全部');
+  const [selectedCluster, setSelectedCluster] =
+    useState<number | null>(null);
+  const [selectedSite, setSelectedSite] =
+    useState<ClimbingSite | null>(null);
+  const [showCountyDropdown, setShowCountyDropdown] = useState(false);
+
+  
+  const [focusRegion, setFocusRegion] = useState<Region | null>({
+    latitude: 53.1424,
+    longitude: -7.6921,
+    latitudeDelta: 4,
+    longitudeDelta: 4,
+  });
+
+  
+  const filteredSites = useMemo(() => {
+    const q = searchText.trim().toLowerCase();
+
+    return allSites.filter((site) => {
+      if (selectedCounty !== '全部' && site.countyName !== selectedCounty) {
+        return false;
+      }
+
+      if (selectedCluster !== null && site.cluster_id !== selectedCluster) {
+        return false;
+      }
+
+      if (q) {
+        const inCounty =
+          (site.countyName || '').toLowerCase().includes(q);
+        const inName = site.name.toLowerCase().includes(q);
+        const inCluster =
+          (site.cluster_label || '').toLowerCase().includes(q);
+        const inRoutes = (site.routes || []).some((r) =>
+          r.name.toLowerCase().includes(q)
+        );
+
+        if (!inCounty && !inName && !inCluster && !inRoutes) {
+          return false;
+        }
+      }
+
+      return true;
+    });
+  }, [allSites, searchText, selectedCounty, selectedCluster]);
+
+  
+   
+  const suggestedSites = useMemo(() => {
+    const q = searchText.trim().toLowerCase();
+    if (!q) return [];
+
+    const result: ClimbingSite[] = [];
+    for (const site of allSites) {
+      if (!site.coordinates) continue;
+
+      const nameMatch = site.name.toLowerCase().includes(q);
+      const countyMatch =
+        (site.countyName || '').toLowerCase().includes(q);
+
+      if (nameMatch || countyMatch) {
+        result.push(site);
+      }
+      if (result.length >= 5) break;
+    }
+    return result;
+  }, [searchText, allSites]);
+
+  
+  const computeRegionForSites = (sites: ClimbingSite[]): Region | null => {
+    const coords = sites
+      .filter((s) => s.coordinates)
+      .map((s) => s.coordinates!);
+
+    if (!coords.length) return null;
+
+    let minLat = coords[0].latitude;
+    let maxLat = coords[0].latitude;
+    let minLng = coords[0].longitude;
+    let maxLng = coords[0].longitude;
+
+    coords.forEach((c) => {
+      minLat = Math.min(minLat, c.latitude);
+      maxLat = Math.max(maxLat, c.latitude);
+      minLng = Math.min(minLng, c.longitude);
+      maxLng = Math.max(maxLng, c.longitude);
+    });
+
+    const centerLat = (minLat + maxLat) / 2;
+    const centerLng = (minLng + maxLng) / 2;
+    const spanLat = maxLat - minLat;
+    const spanLng = maxLng - minLng;
+
+    
+    const latitudeDelta = Math.max(spanLat * 1.4, 0.2);
+    const longitudeDelta = Math.max(spanLng * 1.4, 0.2);
+
+    return {
+      latitude: centerLat,
+      longitude: centerLng,
+      latitudeDelta,
+      longitudeDelta,
+    };
+  };
+
+  
+  const focusOnSite = (site: ClimbingSite) => {
+    setSelectedSite(site);
+
+    if (site.countyName) {
+      setSelectedCounty(site.countyName);
+    }
+
+    if (site.coordinates) {
+      
+      setFocusRegion({
+        latitude: site.coordinates.latitude,
+        longitude: site.coordinates.longitude,
+        latitudeDelta: 0.12,
+        longitudeDelta: 0.12,
+      });
+    }
+
+    
+    setSearchText('');
+  };
+
+  
+  const handleSelectCounty = (county: string) => {
+    setSelectedCounty(county);
+    setShowCountyDropdown(false);
+
+    if (county === '全部') {
+      setSelectedSite(null);
+      setFocusRegion({
+        latitude: 53.1424,
+        longitude: -7.6921,
+        latitudeDelta: 4,
+        longitudeDelta: 4,
+      });
+      return;
+    }
+
+    const sitesInCounty = allSites.filter(
+      (s) => s.countyName === county && s.coordinates
+    );
+
+    if (sitesInCounty.length > 0) {
+      const region = computeRegionForSites(sitesInCounty);
+      if (region) {
+        setFocusRegion(region);
+      }
+      
+      setSelectedSite(sitesInCounty[0]);
+    }
+  };
+
+  if (loading) {
+    return (
+      <View style={styles.loadingContainer}>
+        <ActivityIndicator size="large" />
+        <Text style={styles.loadingText}>loading climbing point data...</Text>
+      </View>
+    );
+  }
+
+  return (
+    <View style={styles.container}>
+      {/* 顶部搜索 + 筛选 */}
+      <SearchPanel
+        searchText={searchText}
+        onChangeSearchText={setSearchText}
+        selectedCounty={selectedCounty}
+        onSelectCounty={handleSelectCounty}
+        countyOptions={countyOptions}
+        selectedCluster={selectedCluster}
+        onSelectCluster={setSelectedCluster}
+        clusterOptions={clusterOptions}
+        suggestedSites={suggestedSites}
+        onSelectSite={focusOnSite}
+        showCountyDropdown={showCountyDropdown}
+        onToggleCountyDropdown={() =>
+          setShowCountyDropdown((prev) => !prev)
+        }
+      />
+
+      {/* 地图 */}
+      <ClimbingMap
+        sites={filteredSites}
+        selectedSite={selectedSite}
+        onSelectSite={focusOnSite}
+        focusRegion={focusRegion}
+      />
+
+      {/* 底部信息条 */}
+      <View style={styles.infoBar}>
+        <Text style={styles.infoText}>
+          🧗 Currently showing {filteredSites.length} climbing points(A total of{' '}
+          {allSites.length})
+        </Text>
+      </View>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: 'row',
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
     alignItems: 'center',
-    gap: 8,
+    backgroundColor: '#f5f5f5',
   },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
+  loadingText: {
+    marginTop: 12,
+    fontSize: 16,
+    color: '#666',
   },
-  reactLogo: {
-    height: 178,
-    width: 290,
+  infoBar: {
+    position: 'absolute',
     bottom: 0,
     left: 0,
-    position: 'absolute',
+    right: 0,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    backgroundColor: 'rgba(0,0,0,0.6)',
+  },
+  infoText: {
+    color: '#fff',
+    fontSize: 12,
+    textAlign: 'center',
+  },
+  infoSubText: {
+    color: '#ddd',
+    fontSize: 11,
+    textAlign: 'center',
+    marginTop: 2,
   },
 });

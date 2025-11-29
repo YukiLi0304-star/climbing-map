@@ -1,0 +1,408 @@
+{
+  "Co. Limerick": {
+    "county_info": {
+      "name": "Co. Limerick"
+    },
+    "climbing_sites": [
+      {
+        "name": "Knockhourough",
+        "page_title": "Knockhourough",
+        "url": "http://wiki.climbing.ie/index.php?title=Knockhourough",
+        "routes": [
+          {
+            "name": "DON'T SPEAK TOO SOON",
+            "height": null,
+            "difficulty": "HS 4a",
+            "overall_grade": "HS",
+            "technical_grade": "4a",
+            "sub_routes": [],
+            "first_ascent": "D. Hunt, C. Ahearne, J. Yelverton, 20th September 1995",
+            "description": "Start about 1 m right of where the main wall drops to about 5 m.Climb directly to the top, passing just right of the small tree 2 m from the top. BLACK BUM VS 4c Follow the right-trending crack to the top. LOOKS CAN DECEIVE HS 4a Start 2 m left of route 7.Climb straight up past bush stump to the top. BELOW THE BOULDER VS 4c Start about 1 m left of the small corner/crack on the main wall.Climb straight up over bulge to the top. STAB CITY S 4a This route follows the obvious crack near the middle of the main wall, just right of Below The Boulder. Start in the corner under the end of the overhang.Climb out from the corner into the crack, following it to the top. SLIPSTONE 8m S Takes the corner at the left end of the two tier wall finishing out left. An excellent climb. THE CUTTING EDGE 10m VS 4c Start 1 m left of Quickstep.Climb strenuously up, moving slightly right to gain an awkward jug. -Continue on to the ledge, and from there directly to the top. QUICKSTEP 8m M Takes the right arête of the two tier wall. Large holds but very smooth. Step carefully. GALTY VIEW VD Start 1 m right of the arête at the end of the tow tier wall.Climb direct to the top on good jugs. BOXED IN M CLAUSTRAPHOBIA M BUSHES IN THE WAY 10m M PIECE OF PISS 10m M Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "BLACK BUM",
+            "height": null,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "E. Fitzgerald (solo). 23rd September 1995",
+            "description": "Follow the right-trending crack to the top. LOOKS CAN DECEIVE HS 4a Start 2 m left of route 7.Climb straight up past bush stump to the top. BELOW THE BOULDER VS 4c Start about 1 m left of the small corner/crack on the main wall.Climb straight up over bulge to the top. STAB CITY S 4a This route follows the obvious crack near the middle of the main wall, just right of Below The Boulder. Start in the corner under the end of the overhang.Climb out from the corner into the crack, following it to the top. SLIPSTONE 8m S Takes the corner at the left end of the two tier wall finishing out left. An excellent climb. THE CUTTING EDGE 10m VS 4c Start 1 m left of Quickstep.Climb strenuously up, moving slightly right to gain an awkward jug. -Continue on to the ledge, and from there directly to the top. QUICKSTEP 8m M Takes the right arête of the two tier wall. Large holds but very smooth. Step carefully. GALTY VIEW VD Start 1 m right of the arête at the end of the tow tier wall.Climb direct to the top on good jugs. BOXED IN M CLAUSTRAPHOBIA M BUSHES IN THE WAY 10m M PIECE OF PISS 10m M Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "LOOKS CAN DECEIVE",
+            "height": null,
+            "difficulty": "HS 4a",
+            "overall_grade": "HS",
+            "technical_grade": "4a",
+            "sub_routes": [],
+            "first_ascent": "D. Hunt (solo). 23rd September 1995",
+            "description": "Start 2 m left of route 7.Climb straight up past bush stump to the top. BELOW THE BOULDER VS 4c Start about 1 m left of the small corner/crack on the main wall.Climb straight up over bulge to the top. STAB CITY S 4a This route follows the obvious crack near the middle of the main wall, just right of Below The Boulder. Start in the corner under the end of the overhang.Climb out from the corner into the crack, following it to the top. SLIPSTONE 8m S Takes the corner at the left end of the two tier wall finishing out left. An excellent climb. THE CUTTING EDGE 10m VS 4c Start 1 m left of Quickstep.Climb strenuously up, moving slightly right to gain an awkward jug. -Continue on to the ledge, and from there directly to the top. QUICKSTEP 8m M Takes the right arête of the two tier wall. Large holds but very smooth. Step carefully. GALTY VIEW VD Start 1 m right of the arête at the end of the tow tier wall.Climb direct to the top on good jugs. BOXED IN M CLAUSTRAPHOBIA M BUSHES IN THE WAY 10m M PIECE OF PISS 10m M Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "BELOW THE BOULDER",
+            "height": null,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "D. Hunt. August 1995",
+            "description": "Start about 1 m left of the small corner/crack on the main wall.Climb straight up over bulge to the top. STAB CITY S 4a This route follows the obvious crack near the middle of the main wall, just right of Below The Boulder. Start in the corner under the end of the overhang.Climb out from the corner into the crack, following it to the top. SLIPSTONE 8m S Takes the corner at the left end of the two tier wall finishing out left. An excellent climb. THE CUTTING EDGE 10m VS 4c Start 1 m left of Quickstep.Climb strenuously up, moving slightly right to gain an awkward jug. -Continue on to the ledge, and from there directly to the top. QUICKSTEP 8m M Takes the right arête of the two tier wall. Large holds but very smooth. Step carefully. GALTY VIEW VD Start 1 m right of the arête at the end of the tow tier wall.Climb direct to the top on good jugs. BOXED IN M CLAUSTRAPHOBIA M BUSHES IN THE WAY 10m M PIECE OF PISS 10m M Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "STAB CITY",
+            "height": null,
+            "difficulty": "S 4a",
+            "overall_grade": "S",
+            "technical_grade": "4a",
+            "sub_routes": [],
+            "first_ascent": "D. Hunt (solo). 1st October 1995",
+            "description": "This route follows the obvious crack near the middle of the main wall, just right of Below The Boulder. Start in the corner under the end of the overhang.Climb out from the corner into the crack, following it to the top. SLIPSTONE 8m S Takes the corner at the left end of the two tier wall finishing out left. An excellent climb. THE CUTTING EDGE 10m VS 4c Start 1 m left of Quickstep.Climb strenuously up, moving slightly right to gain an awkward jug. -Continue on to the ledge, and from there directly to the top. QUICKSTEP 8m M Takes the right arête of the two tier wall. Large holds but very smooth. Step carefully. GALTY VIEW VD Start 1 m right of the arête at the end of the tow tier wall.Climb direct to the top on good jugs. BOXED IN M CLAUSTRAPHOBIA M BUSHES IN THE WAY 10m M PIECE OF PISS 10m M Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "SLIPSTONE",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "W. Walker, P. Treacy, W. Walker (Jnr), 12th April 1986",
+            "description": "Takes the corner at the left end of the two tier wall finishing out left. An excellent climb. THE CUTTING EDGE 10m VS 4c Start 1 m left of Quickstep.Climb strenuously up, moving slightly right to gain an awkward jug. -Continue on to the ledge, and from there directly to the top. QUICKSTEP 8m M Takes the right arête of the two tier wall. Large holds but very smooth. Step carefully. GALTY VIEW VD Start 1 m right of the arête at the end of the tow tier wall.Climb direct to the top on good jugs. BOXED IN M CLAUSTRAPHOBIA M BUSHES IN THE WAY 10m M PIECE OF PISS 10m M Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "THE CUTTING EDGE",
+            "height": 10,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "D. Hunt (solo). 23rd September 1995",
+            "description": "Start 1 m left of Quickstep.Climb strenuously up, moving slightly right to gain an awkward jug. -Continue on to the ledge, and from there directly to the top. QUICKSTEP 8m M Takes the right arête of the two tier wall. Large holds but very smooth. Step carefully. GALTY VIEW VD Start 1 m right of the arête at the end of the tow tier wall.Climb direct to the top on good jugs. BOXED IN M CLAUSTRAPHOBIA M BUSHES IN THE WAY 10m M PIECE OF PISS 10m M Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "QUICKSTEP",
+            "height": 8,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "W. Walker, W. Walker (Jnr). 12th April 1986",
+            "description": "Takes the right arête of the two tier wall. Large holds but very smooth. Step carefully. GALTY VIEW VD Start 1 m right of the arête at the end of the tow tier wall.Climb direct to the top on good jugs. BOXED IN M CLAUSTRAPHOBIA M BUSHES IN THE WAY 10m M PIECE OF PISS 10m M Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "GALTY VIEW",
+            "height": null,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Hunt (solo). 20th September 1995",
+            "description": "Start 1 m right of the arête at the end of the tow tier wall.Climb direct to the top on good jugs. BOXED IN M CLAUSTRAPHOBIA M BUSHES IN THE WAY 10m M PIECE OF PISS 10m M Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "BOXED IN",
+            "height": null,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Hunt (solo). 20th September 1995",
+            "description": "CLAUSTRAPHOBIA M BUSHES IN THE WAY 10m M PIECE OF PISS 10m M Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "CLAUSTRAPHOBIA",
+            "height": null,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Hunt (solo). 20th September 1995",
+            "description": "BUSHES IN THE WAY 10m M PIECE OF PISS 10m M Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "BUSHES IN THE WAY",
+            "height": 10,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C. Ahearne (solo). 20th September 1995",
+            "description": "PIECE OF PISS 10m M Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "PIECE OF PISS",
+            "height": 10,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "E. Fitzgerald (solo). 23rd September 1995",
+            "description": "Follow the left trending crack to the top. The following routes are on the block pinnacle, starting from the arête nearest the two tier wall. HELIX 10m HS 4b Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "HELIX",
+            "height": 10,
+            "difficulty": "HS 4b",
+            "overall_grade": "HS",
+            "technical_grade": "4b",
+            "sub_routes": [],
+            "first_ascent": "W. Walker, May 1986",
+            "description": "Start at the left corner of the block pinnacle where a groove is undercut by the overhang on the front of the pinnacle.Gain the groove from the left and climb it to a large sloping ledge. Traverse right across the face of the pinnacle until the top may be gained with ease. SIDESTEP 6m VS 4c Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "SIDESTEP",
+            "height": 6,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "W. Walker, May 1986",
+            "description": "Start in the gully just left of Helix and climb the wall of the pinnacle direct to the top. MICRO 5b More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          },
+          {
+            "name": "MICRO",
+            "height": null,
+            "difficulty": "5b",
+            "overall_grade": "5b",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Hunt (solo), 20th September 1995",
+            "description": "More of a boulder problem than a route. Gain the top of the right arête of the pinnacle without using the corner."
+          }
+        ],
+        "routes_count": 16,
+        "coordinates": {
+          "latitude": null,
+          "longitude": null
+        },
+        "cluster_id": 1,
+        "cluster_label": "Intermediate crag"
+      },
+      {
+        "name": "Knockroe",
+        "page_title": "Knockroe",
+        "url": "http://wiki.climbing.ie/index.php?title=Knockroe",
+        "routes": [
+          {
+            "name": "Smear test",
+            "height": 10,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "D. Hunt, T. Stanway, 1995",
+            "description": "Start: At the toe of the buttress. Climb the groove on the left moving left at the overhang then back right to smear up the wall just left of the arête (crux) to the top. No protection is available for the top 6m of the route. Piseog ** 10m VS 5a Start on the right of the buttress at the crack leading into a hanging groove. Gain the ledge below and left of the groove (crux). Move right and climb over a bulge into the groove. Follow this to the top. Mollys Bar 10m V.Diff The wide groove in the corner. Good nut belays are possible on the ledge just below the top Full Circle 11m E2/E3 5c/6a The obvious hanging arete towards the left side of the crag. Climb the small roof just left of its apex to finish directly up the arete. No protection. Top roped prior to ascent. Shacks 11m HS 4b Climb the groove right of the prow. A bulge near the bottom is the crux. Eliminator 11m HS 4b Start at the narrow wall right of the groove. Climb the wall using the rib on the left, moving right to a ledge (crux). Continue up the wall following the curving crack to a mantleshelf on to a flake formed by the crack. Climb the buttress to the top. The upper section of Eliminator was originally climbed using the start now taken by Galloping Maggot. Galloping Maggot 11m HS 4b Right of the narrow wall is an overhung groove. Climb up this onto the Eliminator ledge. Climb the slanting groove on the right to the top. Right of Galloping Maggot is a high smooth wall bounded on the right by a deep chimney in a corner. Lauras Ledge 11m E1 5b Start near the centre of the wall below an incipient crack. Climb up the deepest section of the crack, gaining a small edge 1ft right of the crack (crux). Continue up to a small ledge on the right, and finish up the front of the arête. Central Chimney 10m Diff Climbs the deep chimney. Blank Looks 6m HS 4c Climbs the right wall of the corner starting from an embedded boulder near the arête. Scramble to the top or descend the chimney to the left. Inspiration 7m VS 5a The undercut crack just right of the arête is climbed with the main difficulties in the first 4m. Continue steeply to the ledge. Finish as for the previous route. Bookcase 10m V.Diff Climb the wide crack to the right moving left into a subsidiary crack after a short way and up to the ledge. Scramble to the top. Woodbine 10m MS Climb the next crack to a large block standing on the ledge. Follow the arête on the right to the top. Alfredo 10m MS The deep cleft is a classic chimney/groove climb. Ascend directly to the top. Crater 10m VS 4c Start at the toe of the buttress or the crack just to the right. Climb the wall to the top. Right of the last route the crag is broken by a grassy ledge at 3m which has a collection of pinnacles at it's right end. Ivy Tower 10m VS 5a Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Piseog",
+            "height": 10,
+            "difficulty": "VS 5a",
+            "overall_grade": "VS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "W. Walker, B. McNelis, 18th July 1985",
+            "description": "Start on the right of the buttress at the crack leading into a hanging groove. Gain the ledge below and left of the groove (crux). Move right and climb over a bulge into the groove. Follow this to the top. Mollys Bar 10m V.Diff The wide groove in the corner. Good nut belays are possible on the ledge just below the top Full Circle 11m E2/E3 5c/6a The obvious hanging arete towards the left side of the crag. Climb the small roof just left of its apex to finish directly up the arete. No protection. Top roped prior to ascent. Shacks 11m HS 4b Climb the groove right of the prow. A bulge near the bottom is the crux. Eliminator 11m HS 4b Start at the narrow wall right of the groove. Climb the wall using the rib on the left, moving right to a ledge (crux). Continue up the wall following the curving crack to a mantleshelf on to a flake formed by the crack. Climb the buttress to the top. The upper section of Eliminator was originally climbed using the start now taken by Galloping Maggot. Galloping Maggot 11m HS 4b Right of the narrow wall is an overhung groove. Climb up this onto the Eliminator ledge. Climb the slanting groove on the right to the top. Right of Galloping Maggot is a high smooth wall bounded on the right by a deep chimney in a corner. Lauras Ledge 11m E1 5b Start near the centre of the wall below an incipient crack. Climb up the deepest section of the crack, gaining a small edge 1ft right of the crack (crux). Continue up to a small ledge on the right, and finish up the front of the arête. Central Chimney 10m Diff Climbs the deep chimney. Blank Looks 6m HS 4c Climbs the right wall of the corner starting from an embedded boulder near the arête. Scramble to the top or descend the chimney to the left. Inspiration 7m VS 5a The undercut crack just right of the arête is climbed with the main difficulties in the first 4m. Continue steeply to the ledge. Finish as for the previous route. Bookcase 10m V.Diff Climb the wide crack to the right moving left into a subsidiary crack after a short way and up to the ledge. Scramble to the top. Woodbine 10m MS Climb the next crack to a large block standing on the ledge. Follow the arête on the right to the top. Alfredo 10m MS The deep cleft is a classic chimney/groove climb. Ascend directly to the top. Crater 10m VS 4c Start at the toe of the buttress or the crack just to the right. Climb the wall to the top. Right of the last route the crag is broken by a grassy ledge at 3m which has a collection of pinnacles at it's right end. Ivy Tower 10m VS 5a Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Shacks",
+            "height": 11,
+            "difficulty": "HS 4b",
+            "overall_grade": "HS",
+            "technical_grade": "4b",
+            "sub_routes": [],
+            "first_ascent": "W. Walker, P. Treacy, April 1985",
+            "description": "Climb the groove right of the prow. A bulge near the bottom is the crux. Eliminator 11m HS 4b Start at the narrow wall right of the groove. Climb the wall using the rib on the left, moving right to a ledge (crux). Continue up the wall following the curving crack to a mantleshelf on to a flake formed by the crack. Climb the buttress to the top. The upper section of Eliminator was originally climbed using the start now taken by Galloping Maggot. Galloping Maggot 11m HS 4b Right of the narrow wall is an overhung groove. Climb up this onto the Eliminator ledge. Climb the slanting groove on the right to the top. Right of Galloping Maggot is a high smooth wall bounded on the right by a deep chimney in a corner. Lauras Ledge 11m E1 5b Start near the centre of the wall below an incipient crack. Climb up the deepest section of the crack, gaining a small edge 1ft right of the crack (crux). Continue up to a small ledge on the right, and finish up the front of the arête. Central Chimney 10m Diff Climbs the deep chimney. Blank Looks 6m HS 4c Climbs the right wall of the corner starting from an embedded boulder near the arête. Scramble to the top or descend the chimney to the left. Inspiration 7m VS 5a The undercut crack just right of the arête is climbed with the main difficulties in the first 4m. Continue steeply to the ledge. Finish as for the previous route. Bookcase 10m V.Diff Climb the wide crack to the right moving left into a subsidiary crack after a short way and up to the ledge. Scramble to the top. Woodbine 10m MS Climb the next crack to a large block standing on the ledge. Follow the arête on the right to the top. Alfredo 10m MS The deep cleft is a classic chimney/groove climb. Ascend directly to the top. Crater 10m VS 4c Start at the toe of the buttress or the crack just to the right. Climb the wall to the top. Right of the last route the crag is broken by a grassy ledge at 3m which has a collection of pinnacles at it's right end. Ivy Tower 10m VS 5a Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Eliminator",
+            "height": 11,
+            "difficulty": "HS 4b",
+            "overall_grade": "HS",
+            "technical_grade": "4b",
+            "sub_routes": [],
+            "first_ascent": "W. Walker, B. McNelis, 20th July 1985",
+            "description": "Start at the narrow wall right of the groove. Climb the wall using the rib on the left, moving right to a ledge (crux). Continue up the wall following the curving crack to a mantleshelf on to a flake formed by the crack. Climb the buttress to the top. The upper section of Eliminator was originally climbed using the start now taken by Galloping Maggot. Galloping Maggot 11m HS 4b Right of the narrow wall is an overhung groove. Climb up this onto the Eliminator ledge. Climb the slanting groove on the right to the top. Right of Galloping Maggot is a high smooth wall bounded on the right by a deep chimney in a corner. Lauras Ledge 11m E1 5b Start near the centre of the wall below an incipient crack. Climb up the deepest section of the crack, gaining a small edge 1ft right of the crack (crux). Continue up to a small ledge on the right, and finish up the front of the arête. Central Chimney 10m Diff Climbs the deep chimney. Blank Looks 6m HS 4c Climbs the right wall of the corner starting from an embedded boulder near the arête. Scramble to the top or descend the chimney to the left. Inspiration 7m VS 5a The undercut crack just right of the arête is climbed with the main difficulties in the first 4m. Continue steeply to the ledge. Finish as for the previous route. Bookcase 10m V.Diff Climb the wide crack to the right moving left into a subsidiary crack after a short way and up to the ledge. Scramble to the top. Woodbine 10m MS Climb the next crack to a large block standing on the ledge. Follow the arête on the right to the top. Alfredo 10m MS The deep cleft is a classic chimney/groove climb. Ascend directly to the top. Crater 10m VS 4c Start at the toe of the buttress or the crack just to the right. Climb the wall to the top. Right of the last route the crag is broken by a grassy ledge at 3m which has a collection of pinnacles at it's right end. Ivy Tower 10m VS 5a Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Galloping Maggot",
+            "height": 11,
+            "difficulty": "HS 4b",
+            "overall_grade": "HS",
+            "technical_grade": "4b",
+            "sub_routes": [],
+            "first_ascent": "B. McNelis, P. McElligot, May 1985",
+            "description": "Galloping Maggot 11m HS 4b Right of the narrow wall is an overhung groove. Climb up this onto the Eliminator ledge. Climb the slanting groove on the right to the top. Right of Galloping Maggot is a high smooth wall bounded on the right by a deep chimney in a corner. Lauras Ledge 11m E1 5b Start near the centre of the wall below an incipient crack. Climb up the deepest section of the crack, gaining a small edge 1ft right of the crack (crux). Continue up to a small ledge on the right, and finish up the front of the arête. Central Chimney 10m Diff Climbs the deep chimney. Blank Looks 6m HS 4c Climbs the right wall of the corner starting from an embedded boulder near the arête. Scramble to the top or descend the chimney to the left. Inspiration 7m VS 5a The undercut crack just right of the arête is climbed with the main difficulties in the first 4m. Continue steeply to the ledge. Finish as for the previous route. Bookcase 10m V.Diff Climb the wide crack to the right moving left into a subsidiary crack after a short way and up to the ledge. Scramble to the top. Woodbine 10m MS Climb the next crack to a large block standing on the ledge. Follow the arête on the right to the top. Alfredo 10m MS The deep cleft is a classic chimney/groove climb. Ascend directly to the top. Crater 10m VS 4c Start at the toe of the buttress or the crack just to the right. Climb the wall to the top. Right of the last route the crag is broken by a grassy ledge at 3m which has a collection of pinnacles at it's right end. Ivy Tower 10m VS 5a Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Lauras Ledge",
+            "height": 11,
+            "difficulty": "E1 5b",
+            "overall_grade": "E1",
+            "technical_grade": "5b",
+            "sub_routes": [],
+            "first_ascent": "D. Hunt (solo), June 1995",
+            "description": "Start near the centre of the wall below an incipient crack. Climb up the deepest section of the crack, gaining a small edge 1ft right of the crack (crux). Continue up to a small ledge on the right, and finish up the front of the arête. Central Chimney 10m Diff Climbs the deep chimney. Blank Looks 6m HS 4c Climbs the right wall of the corner starting from an embedded boulder near the arête. Scramble to the top or descend the chimney to the left. Inspiration 7m VS 5a The undercut crack just right of the arête is climbed with the main difficulties in the first 4m. Continue steeply to the ledge. Finish as for the previous route. Bookcase 10m V.Diff Climb the wide crack to the right moving left into a subsidiary crack after a short way and up to the ledge. Scramble to the top. Woodbine 10m MS Climb the next crack to a large block standing on the ledge. Follow the arête on the right to the top. Alfredo 10m MS The deep cleft is a classic chimney/groove climb. Ascend directly to the top. Crater 10m VS 4c Start at the toe of the buttress or the crack just to the right. Climb the wall to the top. Right of the last route the crag is broken by a grassy ledge at 3m which has a collection of pinnacles at it's right end. Ivy Tower 10m VS 5a Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Central Chimney",
+            "height": 10,
+            "difficulty": "Diff",
+            "overall_grade": "Diff",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "W. Walker, May 1985",
+            "description": "Climbs the deep chimney. Blank Looks 6m HS 4c Climbs the right wall of the corner starting from an embedded boulder near the arête. Scramble to the top or descend the chimney to the left. Inspiration 7m VS 5a The undercut crack just right of the arête is climbed with the main difficulties in the first 4m. Continue steeply to the ledge. Finish as for the previous route. Bookcase 10m V.Diff Climb the wide crack to the right moving left into a subsidiary crack after a short way and up to the ledge. Scramble to the top. Woodbine 10m MS Climb the next crack to a large block standing on the ledge. Follow the arête on the right to the top. Alfredo 10m MS The deep cleft is a classic chimney/groove climb. Ascend directly to the top. Crater 10m VS 4c Start at the toe of the buttress or the crack just to the right. Climb the wall to the top. Right of the last route the crag is broken by a grassy ledge at 3m which has a collection of pinnacles at it's right end. Ivy Tower 10m VS 5a Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Blank Looks",
+            "height": 6,
+            "difficulty": "HS 4c",
+            "overall_grade": "HS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "W. Walker, May 1985",
+            "description": "Climbs the right wall of the corner starting from an embedded boulder near the arête. Scramble to the top or descend the chimney to the left. Inspiration 7m VS 5a The undercut crack just right of the arête is climbed with the main difficulties in the first 4m. Continue steeply to the ledge. Finish as for the previous route. Bookcase 10m V.Diff Climb the wide crack to the right moving left into a subsidiary crack after a short way and up to the ledge. Scramble to the top. Woodbine 10m MS Climb the next crack to a large block standing on the ledge. Follow the arête on the right to the top. Alfredo 10m MS The deep cleft is a classic chimney/groove climb. Ascend directly to the top. Crater 10m VS 4c Start at the toe of the buttress or the crack just to the right. Climb the wall to the top. Right of the last route the crag is broken by a grassy ledge at 3m which has a collection of pinnacles at it's right end. Ivy Tower 10m VS 5a Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Inspiration",
+            "height": 7,
+            "difficulty": "VS 5a",
+            "overall_grade": "VS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "W. Walker, May 1985",
+            "description": "The undercut crack just right of the arête is climbed with the main difficulties in the first 4m. Continue steeply to the ledge. Finish as for the previous route. Bookcase 10m V.Diff Climb the wide crack to the right moving left into a subsidiary crack after a short way and up to the ledge. Scramble to the top. Woodbine 10m MS Climb the next crack to a large block standing on the ledge. Follow the arête on the right to the top. Alfredo 10m MS The deep cleft is a classic chimney/groove climb. Ascend directly to the top. Crater 10m VS 4c Start at the toe of the buttress or the crack just to the right. Climb the wall to the top. Right of the last route the crag is broken by a grassy ledge at 3m which has a collection of pinnacles at it's right end. Ivy Tower 10m VS 5a Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Woodbine",
+            "height": 10,
+            "difficulty": "MS",
+            "overall_grade": "MS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "W. Walker, April 1985",
+            "description": "Climb the next crack to a large block standing on the ledge. Follow the arête on the right to the top. Alfredo 10m MS The deep cleft is a classic chimney/groove climb. Ascend directly to the top. Crater 10m VS 4c Start at the toe of the buttress or the crack just to the right. Climb the wall to the top. Right of the last route the crag is broken by a grassy ledge at 3m which has a collection of pinnacles at it's right end. Ivy Tower 10m VS 5a Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Alfredo",
+            "height": 10,
+            "difficulty": "MS",
+            "overall_grade": "MS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "W. Walker, B. McNelis, P. McElligot, May 1985",
+            "description": "The deep cleft is a classic chimney/groove climb. Ascend directly to the top. Crater 10m VS 4c Start at the toe of the buttress or the crack just to the right. Climb the wall to the top. Right of the last route the crag is broken by a grassy ledge at 3m which has a collection of pinnacles at it's right end. Ivy Tower 10m VS 5a Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Crater",
+            "height": 10,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "B. McNelis, P. McElligot, May 1985",
+            "description": "Start at the toe of the buttress or the crack just to the right. Climb the wall to the top. Right of the last route the crag is broken by a grassy ledge at 3m which has a collection of pinnacles at it's right end. Ivy Tower 10m VS 5a Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Ivy Tower",
+            "height": 10,
+            "difficulty": "VS 5a",
+            "overall_grade": "VS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "W. Walker, P. McElligot, May 1985",
+            "description": "Start at a recess below the left end of the ledge and scramble up to it. Move right to the cleft at the back of the first pinnacle. Climb the cleft, with difficulty initially, to gain the top of the pinnacle. Step across the gap into a groove and up this to the top. Siamese Chimneys 8m Moderate There are a set of chimneys splitting the pinnacles. Immediately below these is a small buttress. Climb this into the chimney and move right onto a slab on the second pinnacle. Up this to the top. Right of the pinnacles the crag fades into the hillside - 5m to the right is an isolated buttress split by a groove which diminishes to an overhanging crack in its upper part Hanging Gardens 8m Severe Climb the groove and overhanging crack. Beware of loose rock in the lower section. Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth 4m high buttress above and right of the leftmost of the string of broken buttresses seen slanting across the hill from right to left when&nbsp;approaching the main crag. This buttress has an undercut crack at 4c and a leaning corner at 5a."
+          },
+          {
+            "name": "Other Information: A low level traverse has been done on the main crag at about 5c/6a.&nbsp;Other isolated outcrops on the hill provide limited opportunities for bouldering. One of the best of these is a smooth",
+            "height": 4,
+            "difficulty": "4c",
+            "overall_grade": "4c",
+            "technical_grade": null,
+            "sub_routes": []
+          }
+        ],
+        "routes_count": 14,
+        "coordinates": {
+          "latitude": null,
+          "longitude": null
+        },
+        "cluster_id": 1,
+        "cluster_label": "Intermediate crag"
+      },
+      {
+        "name": "Lough Gur",
+        "page_title": "Lough_Gur",
+        "url": "http://wiki.climbing.ie/index.php?title=Lough_Gur",
+        "routes": [
+          {
+            "name": "Crack One",
+            "height": 6,
+            "difficulty": "Diff",
+            "overall_grade": "Diff",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Kilfenane O.P.C, early 1986",
+            "description": "Crack Two 6m Diff Kilfenane Groove 6m V.Diff Takes the obvious groove at the right end of the buttress. Secure bridging all the way to the top makes this a fine little climb for its size and grade Dead Spaghetti 4m 5a W. Walker, 11.11.86 A short problem up the thin crack in the overhanging left wall of the corner. Right again is a higher overgrown corner followed by an equally overgrown projecting buttress. To the right of this buttress is the overhanging wall on which the best climbing is to be found. Cave Crack 9m VS 4c Take the crack leading out of the cave at the left end of the wall Dummycles 9m VS 5a Start: a few feet right of Cave Crack at a thin crack which leads into a groove capped by loose looking blocks. Turn these on the left and finish steeply up the wall Golden Groove 9m Severe Takes a shallow groove 3m right of Dummycles. A good climb with the crux just below the top Hangover HS 4a Takes the centre of the leaning wall between the right arête of the overhanging wall and Golden Groove"
+          },
+          {
+            "name": "Crack Two",
+            "height": 6,
+            "difficulty": "Diff",
+            "overall_grade": "Diff",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Kilfenane O.P.C, early 1986",
+            "description": "Kilfenane Groove 6m V.Diff Takes the obvious groove at the right end of the buttress. Secure bridging all the way to the top makes this a fine little climb for its size and grade Dead Spaghetti 4m 5a W. Walker, 11.11.86 A short problem up the thin crack in the overhanging left wall of the corner. Right again is a higher overgrown corner followed by an equally overgrown projecting buttress. To the right of this buttress is the overhanging wall on which the best climbing is to be found. Cave Crack 9m VS 4c Take the crack leading out of the cave at the left end of the wall Dummycles 9m VS 5a Start: a few feet right of Cave Crack at a thin crack which leads into a groove capped by loose looking blocks. Turn these on the left and finish steeply up the wall Golden Groove 9m Severe Takes a shallow groove 3m right of Dummycles. A good climb with the crux just below the top Hangover HS 4a Takes the centre of the leaning wall between the right arête of the overhanging wall and Golden Groove"
+          },
+          {
+            "name": "Dead Spaghetti",
+            "height": 4,
+            "difficulty": "5a",
+            "overall_grade": "5a",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. Treacy, W. Walker, June 1986",
+            "description": "W. Walker, 11.11.86 A short problem up the thin crack in the overhanging left wall of the corner. Right again is a higher overgrown corner followed by an equally overgrown projecting buttress. To the right of this buttress is the overhanging wall on which the best climbing is to be found. Cave Crack 9m VS 4c Take the crack leading out of the cave at the left end of the wall Dummycles 9m VS 5a Start: a few feet right of Cave Crack at a thin crack which leads into a groove capped by loose looking blocks. Turn these on the left and finish steeply up the wall Golden Groove 9m Severe Takes a shallow groove 3m right of Dummycles. A good climb with the crux just below the top Hangover HS 4a Takes the centre of the leaning wall between the right arête of the overhanging wall and Golden Groove"
+          },
+          {
+            "name": "Cave Crack",
+            "height": 9,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "P. Treacy, W. Walker, June 1986",
+            "description": "Take the crack leading out of the cave at the left end of the wall Dummycles 9m VS 5a Start: a few feet right of Cave Crack at a thin crack which leads into a groove capped by loose looking blocks. Turn these on the left and finish steeply up the wall Golden Groove 9m Severe Takes a shallow groove 3m right of Dummycles. A good climb with the crux just below the top Hangover HS 4a Takes the centre of the leaning wall between the right arête of the overhanging wall and Golden Groove"
+          },
+          {
+            "name": "Dummycles",
+            "height": 9,
+            "difficulty": "VS 5a",
+            "overall_grade": "VS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "I. Gibson, 18.4.1987",
+            "description": "Start: a few feet right of Cave Crack at a thin crack which leads into a groove capped by loose looking blocks. Turn these on the left and finish steeply up the wall Golden Groove 9m Severe Takes a shallow groove 3m right of Dummycles. A good climb with the crux just below the top Hangover HS 4a Takes the centre of the leaning wall between the right arête of the overhanging wall and Golden Groove"
+          },
+          {
+            "name": "Hangover",
+            "height": null,
+            "difficulty": "HS 4a",
+            "overall_grade": "HS",
+            "technical_grade": "4a",
+            "sub_routes": [],
+            "description": "Takes the centre of the leaning wall between the right arête of the overhanging wall and Golden Groove"
+          }
+        ],
+        "routes_count": 6,
+        "coordinates": {
+          "latitude": null,
+          "longitude": null
+        },
+        "cluster_id": 1,
+        "cluster_label": "Intermediate crag"
+      }
+    ]
+  }
+}

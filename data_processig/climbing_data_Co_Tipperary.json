@@ -1,0 +1,560 @@
+{
+  "Co. Tipperary": {
+    "county_info": {
+      "name": "Co. Tipperary"
+    },
+    "climbing_sites": [
+      {
+        "name": "Devil's bit",
+        "page_title": "Devil%27s_bit",
+        "url": "http://wiki.climbing.ie/index.php?title=Devil%27s_bit",
+        "routes": [
+          {
+            "name": "IP66",
+            "height": 12,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy S McDermott 25/8/2007",
+            "description": "Climb the crack two meters left of the statue. climb on good holds past chock stones until it is possible to step right. Continue to top. 2.GREETED BY MARY HS 4b 12m Climb the corner 3m right of ip66. The next routes are at the back of Small Rock. 3.PHYSICS HS 4b 8m Just to the right of the cross there is a detached block, climb the crack behind this."
+          },
+          {
+            "name": "H. Hennessy",
+            "height": null,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy S McDermott 26/8/2007",
+            "description": "Climb the crack two meters left of the statue. climb on good holds past chock stones until it is possible to step right. Continue to top. 2.GREETED BY MARY HS 4b 12m Climb the corner 3m right of ip66. The next routes are at the back of Small Rock. 3.PHYSICS HS 4b 8m Just to the right of the cross there is a detached block, climb the crack behind this."
+          },
+          {
+            "name": "GREETED BY MARY",
+            "height": 12,
+            "difficulty": "HS 4b",
+            "overall_grade": "HS",
+            "technical_grade": "4b",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy S McDermott 26/8/2007",
+            "description": "Climb the corner 3m right of ip66. The next routes are at the back of Small Rock. 3.PHYSICS HS 4b 8m Just to the right of the cross there is a detached block, climb the crack behind this."
+          },
+          {
+            "name": "H.Hennessy",
+            "height": null,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Hennessy H.Hennessy 9/9/2007",
+            "description": "Climb the corner 3m right of ip66. The next routes are at the back of Small Rock. 3.PHYSICS HS 4b 8m Just to the right of the cross there is a detached block, climb the crack behind this."
+          },
+          {
+            "name": "PHYSICS",
+            "height": 8,
+            "difficulty": "HS 4b",
+            "overall_grade": "HS",
+            "technical_grade": "4b",
+            "sub_routes": [],
+            "first_ascent": "R.Hennessy H.Hennessy 9/9/2007",
+            "description": "Just to the right of the cross there is a detached block, climb the crack behind this."
+          },
+          {
+            "name": "ORIGINAL FIRE",
+            "height": 10,
+            "difficulty": "HVS 5a",
+            "overall_grade": "HVS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy 9/9/2007",
+            "description": "This climb starts 20m right of the descent it takes a line on a detached block which is marked by a horizontal break at half height. Climb the center of this. ==Long Rock Area 1== The next lines are across the Bit on Long Rock and are marked by a series of corners. Routes are described left to right"
+          },
+          {
+            "name": "The Dragon",
+            "height": 12,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "J G O'Dwyer Dan Cobren 29/5/2006",
+            "description": "Climbs the second corner."
+          },
+          {
+            "name": "Toasty Warm",
+            "height": 13,
+            "difficulty": "HVS 5a",
+            "overall_grade": "HVS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy B.Dunne 27/9/2007",
+            "description": "Start 3m right of the Dragon, follow crack until it veers leftwards. Finish boldly up the face."
+          },
+          {
+            "name": "Bee",
+            "height": 12,
+            "difficulty": "HVS 5a",
+            "overall_grade": "HVS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy 25/8/2007",
+            "description": "Start 4m right of the obvious small roof. Climb steeply for 3m to ledge; continue up crack to grassy ledge,finish up left hand crack."
+          },
+          {
+            "name": "Rumour Room",
+            "height": 12,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy summer 2008",
+            "description": "Climbs the roof. start of a block climb to a grassy ledge and finish up centre of wall."
+          },
+          {
+            "name": "Last Remaining Light",
+            "height": 5,
+            "difficulty": "HVS 5a",
+            "overall_grade": "HVS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy S.McDermott 20/10/2007",
+            "description": "Start below roof. Climb to just below roof and traverse left on small holds to the arete take this to top."
+          },
+          {
+            "name": "Running Scared",
+            "height": null,
+            "difficulty": "E2 5c",
+            "overall_grade": "E2",
+            "technical_grade": "5c",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy 30/5/2009",
+            "description": "Start as for the last route and climb straight through the roof. ==Long Rock area 2== The next routes start about seventy meters to the right where the cliff rises again"
+          },
+          {
+            "name": "Clio",
+            "height": 12,
+            "difficulty": "S 4a",
+            "overall_grade": "S",
+            "technical_grade": "4a",
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy S McDermott 26/8/2007",
+            "description": "At the far left of the crag start under a overhang, follow a crack to a grassy ledge and finish easily to top."
+          },
+          {
+            "name": "Lost",
+            "height": 10,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy (solo) 1/3/2009",
+            "description": "Climb 3m right of Clio past overlap to top."
+          },
+          {
+            "name": "Concise",
+            "height": 10,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "description": "H. Hennessy S.Mcdermott Start at a curving crack six meters right of lost,climb this and finish on the face above."
+          },
+          {
+            "name": "Aneurysm",
+            "height": 17,
+            "difficulty": "E1 5b",
+            "overall_grade": "E1",
+            "technical_grade": "5b",
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy B.Dunne (abseil inspected) 29/8/2007",
+            "description": "In the centre of the main face this line takes two cracks that run from 1/4 height to top, start below these at awide crack."
+          },
+          {
+            "name": "Catholic School Girls Rock",
+            "height": 17,
+            "difficulty": "HVS 5a",
+            "overall_grade": "HVS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy R.Hennessy 12/8/2007",
+            "description": "Start as for last route after three meters traverse into corner follow this untill it is possible to step right. finish easily. direct start climb boldly up to the corner."
+          },
+          {
+            "name": "Pursuit of Happiness",
+            "height": 17,
+            "difficulty": "E2 6a",
+            "overall_grade": "E2",
+            "technical_grade": "6a",
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy B.Dunne (abseil inspected) summer 12/7/2008",
+            "description": "Start below overhang make some bouldery moves to gain the crack, climb this to a ledge follow the next cract to top."
+          },
+          {
+            "name": "Snowstorm",
+            "height": 17,
+            "difficulty": "E2 5b",
+            "overall_grade": "E2",
+            "technical_grade": "5b",
+            "sub_routes": [],
+            "first_ascent": "M. Walsh C. Ennis, 23/3/2008",
+            "description": "start at crack on the right wall under a big roof. traverse leftwards under the roof onto the face follow the arete to top."
+          },
+          {
+            "name": "Snatch",
+            "height": 18,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy C. Hanley 12/7/2008",
+            "description": "five meters right of snowstorm is a corner follow this for eight meters and step left into another corner finish easily."
+          },
+          {
+            "name": "Mean Machine",
+            "height": 18,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy C.Hanley 12/7/2008",
+            "description": "four meters right of snatch is stepped arete follow this to top."
+          },
+          {
+            "name": "Sticky Gear",
+            "height": 16,
+            "difficulty": "HVS 5a",
+            "overall_grade": "HVS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy R. Hennessy 1/9/2007",
+            "description": "climbs the second corner at the far left of the face just right of a big slab."
+          },
+          {
+            "name": "Get on Top",
+            "height": 16,
+            "difficulty": "E1 5b",
+            "overall_grade": "E1",
+            "technical_grade": "5b",
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy S. McDermott 13/10/2007",
+            "description": "start ten meters right of sticky gear. climb the second crack on the face."
+          },
+          {
+            "name": "Primate",
+            "height": 16,
+            "difficulty": "HVS 5a",
+            "overall_grade": "HVS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "M. Walsh H. Hennessy summer 2009",
+            "description": "takes the wide crack right of get on top tricky move near top."
+          },
+          {
+            "name": "Decent Chimney s",
+            "height": 16,
+            "difficulty": "4a",
+            "overall_grade": "4a",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy R. Hennessy 8/9/2007",
+            "description": "in the middle of the face is a large detached block, climb a short corner and either bridge up the chimney or walk up the back!"
+          },
+          {
+            "name": "Bliss",
+            "height": 16,
+            "difficulty": "E1 5b",
+            "overall_grade": "E1",
+            "technical_grade": "5b",
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy R. Hennessy summer 2009",
+            "description": "climbs the thin crack four meters right of decent chimney to a bulge at 3/4 height makea hard move past this and finish on good holds. ==Long Rock Area 3== The next lines start sixty meters right on a south facing cliff clearly visible from the forest track."
+          },
+          {
+            "name": "Hair Today Gone Tomorrow s",
+            "height": 15,
+            "difficulty": "4a",
+            "overall_grade": "4a",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy 4/8/2008",
+            "description": "Climbs the slab right of minor thing."
+          },
+          {
+            "name": "Disposition",
+            "height": 15,
+            "difficulty": "E2 5b",
+            "overall_grade": "E2",
+            "technical_grade": "5b",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy (abseil inspected) 30/5/2009",
+            "description": "This route takes the striking arete at the left side of the crag. start as for minor thing, traverse right to the arete climb this with increasing difficulty. Direct Start (5b) Start directly below the arete, steep climbing poorly protected."
+          },
+          {
+            "name": "Direct Start",
+            "height": null,
+            "difficulty": "5b",
+            "overall_grade": "5b",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy B.Dunne summer 2009",
+            "description": "Start directly below the arete, steep climbing poorly protected."
+          },
+          {
+            "name": "Manapause",
+            "height": 15,
+            "difficulty": "VS 4b",
+            "overall_grade": "VS",
+            "technical_grade": "4b",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy S.Mcdermott 15/9/2007",
+            "description": "Start below a grassy ledge to the right of a small roof, climb up into a scoop then move leftwards up a corner to top. poorly protected."
+          },
+          {
+            "name": "Unnamed",
+            "height": 14,
+            "difficulty": "E2 5c",
+            "overall_grade": "E2",
+            "technical_grade": "5c",
+            "sub_routes": [],
+            "first_ascent": "M.Walsh C.Ennis 23/3/2008",
+            "description": "Climbs the wide crack four meters right of the roof."
+          },
+          {
+            "name": "Pebble Dash",
+            "height": 14,
+            "difficulty": "E1 5a",
+            "overall_grade": "E1",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy 15/9/2007",
+            "description": "Start in the center of the face below a small corner with a thin crack in it. protection is hard to arrange."
+          },
+          {
+            "name": "Outer Limits",
+            "height": 10,
+            "difficulty": "E2 5b",
+            "overall_grade": "E2",
+            "technical_grade": "5b",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy 9/2008 (abseil inspected)",
+            "description": "A bold line on the face just right of pebble dash. start of a detached block make some insecure moves to the sloping ledge and gear! mantle this and finish easily."
+          },
+          {
+            "name": "Wasted",
+            "height": 14,
+            "difficulty": "HS 4b",
+            "overall_grade": "HS",
+            "technical_grade": "4b",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy 19/8/2007",
+            "description": "Start three meters right of outer limits take the left hand crack.overgrown."
+          },
+          {
+            "name": "Busted Knee",
+            "height": 14,
+            "difficulty": "HS 4b",
+            "overall_grade": "HS",
+            "technical_grade": "4b",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy 19/8/2007",
+            "description": "Takes the right hand crack, big gear useful."
+          },
+          {
+            "name": "JD and Coke",
+            "height": 14,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy J.dollard 23/3/2008",
+            "description": "Start as for light my way when the ledge is reached take the left hand crack through a small overhang which is hard to start."
+          },
+          {
+            "name": "Light My Way",
+            "height": 14,
+            "difficulty": "S 4a",
+            "overall_grade": "S",
+            "technical_grade": "4a",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy S.Mcdermott 20/10/2007",
+            "description": "Start below an to the right of a large ledge. climb up to the ledge and climb the corner using a wide crack"
+          },
+          {
+            "name": "Raging Demon",
+            "height": 14,
+            "difficulty": "HVS 5a",
+            "overall_grade": "HVS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy 19/8/2007",
+            "description": "Six meters right of light my way is a clean crack that runs to half height climb this until it is possible to reach the aréte follow this to top. To the right of raging demon is another face with some nice looking lines that would need cleaning. only two have been climbed so far."
+          },
+          {
+            "name": "Fallen Angel",
+            "height": 16,
+            "difficulty": "HVS 5a",
+            "overall_grade": "HVS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy B.Dunne 22/9/2007",
+            "description": "This line takes a finger crack in the center. climb the first eight meters with difficulty untill ledge is gained move right and finish up easily."
+          },
+          {
+            "name": "Split Division",
+            "height": 15,
+            "difficulty": "HVS 5a",
+            "overall_grade": "HVS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "J.Dollard H.Hennessy 23/3/2008",
+            "description": "Ten meters right of fallen angel is a corner with its right hand wall overhanging. follow this to a ledge and make some delicate moves to top"
+          },
+          {
+            "name": "Chimney Sweep",
+            "height": 14,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "P.Scanlan R.Cunningham Feb 2012",
+            "description": "Start two meters left of Pebble Dash, climb the obvious chimney to the top.Good protection."
+          },
+          {
+            "name": "April Fools",
+            "height": 15,
+            "difficulty": "HVS 5a",
+            "overall_grade": "HVS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "P.Scanlan R.Cunningham 01 April 2012",
+            "description": "Start four meters right of Fallen Angel and climb the finger crack, good protection. Some delicate moves to top."
+          },
+          {
+            "name": "Mirage",
+            "height": 15,
+            "difficulty": "S 4a",
+            "overall_grade": "S",
+            "technical_grade": "4a",
+            "sub_routes": [],
+            "first_ascent": "R.Cunningham P.Scanlan April 2012",
+            "description": "Start four meters right of April Fools and climb the easy crack to the top, good protection. ."
+          },
+          {
+            "name": "Optically active",
+            "height": 8,
+            "difficulty": "S 4a",
+            "overall_grade": "S",
+            "technical_grade": "4a",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy (solo) 21/10/2007",
+            "description": "The crack four meters right of almond finger."
+          },
+          {
+            "name": "Comatose s",
+            "height": 8,
+            "difficulty": "4a",
+            "overall_grade": "4a",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy (solo) 21/10/2007",
+            "description": "Start in a corner eight meters right of optically active, reach a grassy ledge and fight your way through the heather above."
+          },
+          {
+            "name": "Oxidative Phosphorylation",
+            "height": 8,
+            "difficulty": "HS 4b",
+            "overall_grade": "HS",
+            "technical_grade": "4b",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy (solo) 21/10/2007",
+            "description": "Take the left hand crack to a ledge at half height make har moves to top. ==Long Rock Area 5== The next lines are on a small outcrop on the opposite side of area 1 on long rock. its best approached by walking along the top and scrambling down. the routes are on the lower outcrop"
+          },
+          {
+            "name": "Grind",
+            "height": 10,
+            "difficulty": "HS 4b",
+            "overall_grade": "HS",
+            "technical_grade": "4b",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy 24/4/2010",
+            "description": "This line climbs the arete near the center of the crag that starts off an overhang at 1/3 height. start to the right climb a corner for three meters and traverse left to the arete. follow this to top."
+          },
+          {
+            "name": "Disarm",
+            "height": 10,
+            "difficulty": "HS 4b",
+            "overall_grade": "HS",
+            "technical_grade": "4b",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy (solo) 24/4/2010",
+            "description": "Climbs the corner right of grind."
+          },
+          {
+            "name": "Damage Case",
+            "height": 8,
+            "difficulty": "E1 5a",
+            "overall_grade": "E1",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy R.Hennessy 24/4/2010",
+            "description": "Climbs the slightly overhanging crack to the left of the slab. make some hard moves to to reach the slab finish easily."
+          },
+          {
+            "name": "Rockin Robin",
+            "height": 8,
+            "difficulty": "HS 4a",
+            "overall_grade": "HS",
+            "technical_grade": "4a",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy (solo) 24/4/2010",
+            "description": "Climb the slab right of damage case no protection."
+          },
+          {
+            "name": "Setting Forth",
+            "height": 8,
+            "difficulty": "S 4a",
+            "overall_grade": "S",
+            "technical_grade": "4a",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy(solo) 24/4/20010",
+            "description": "The crack right of rockin robin."
+          },
+          {
+            "name": "Far Behind",
+            "height": 8,
+            "difficulty": "VS 4c",
+            "overall_grade": "VS",
+            "technical_grade": "4c",
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy (solo) 24/4/2010",
+            "description": "Start on good holds pull up over overhang and finish up slab easily."
+          },
+          {
+            "name": "Senor",
+            "height": 10,
+            "difficulty": "HVS 5a",
+            "overall_grade": "HVS",
+            "technical_grade": "5a",
+            "sub_routes": [],
+            "first_ascent": "B. Dunne H. Hennessy 22/9/2007",
+            "description": "Six meters left of overgrown pile of s**t take the crack that runs into a small corner. pull over the over hang at 1/2 height (crux) then continue to top."
+          },
+          {
+            "name": "Overgrown Pile of S t",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": []
+          }
+        ],
+        "routes_count": 54,
+        "coordinates": {
+          "latitude": null,
+          "longitude": null
+        },
+        "cluster_id": 2,
+        "cluster_label": "Elite crag (hardest routes)"
+      }
+    ]
+  }
+}
