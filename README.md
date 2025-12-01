@@ -1,10 +1,8 @@
 # Irish Climbing Wiki Mobile Application
 * Final Year Project (FYP)
 * Name: Li Anran
-* Student ID: 2202520301008
-* Supervisor: Wang Fei
-* Program: BSc in Big Data (Carlow IT International School)
-
+* Student ID: C00292764
+* Supervisor: Tom Corcoran
 ## Project Overview
 The Irish Climbing Wiki Mobile Application is a cross-platform mobile app designed for climbing enthusiasts to access and explore climbing route information across Ireland. The app presents open data from the Irish Climbing Wiki (powered by MediaWiki) through a modern mobile interface, featuring geographic organization, map-based navigation, and detailed route information.
 
