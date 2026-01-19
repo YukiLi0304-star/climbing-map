@@ -208,7 +208,7 @@ const styles = StyleSheet.create({
   
   legend: {
     position: 'absolute',
-    top: 10,
+    bottom: 70,
     right: 10,
     backgroundColor: 'rgba(255, 255, 255, 0.95)',
     padding: 10,
@@ -216,6 +216,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#ddd',
     maxWidth: 180,
+    zIndex: 1,
   },
   legendTitle: {
     fontSize: 12,
