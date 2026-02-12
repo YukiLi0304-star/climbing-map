@@ -1,0 +1,709 @@
+{
+  "Co. Fermanagh": {
+    "county_info": {
+      "name": "Co. Fermanagh"
+    },
+    "climbing_sites": [
+      {
+        "name": "Benaughlin",
+        "page_title": "Benaughlin",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Benaughlin",
+        "routes": [
+          {
+            "name": "CATHARSIS CORNER",
+            "height": 30,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Rogers, Fulton 1968",
+            "description": null
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 54.187667,
+          "longitude": -6.8214,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Crag With A View",
+        "page_title": "Crag_With_A_View",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Crag_With_A_View",
+        "routes": [
+          {
+            "name": "CARLA'S CORNER",
+            "height": 35,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M.Smith, A.Devlin 24th July 1982",
+            "description": null
+          },
+          {
+            "name": "ROUTE WITH A VIEW",
+            "height": 48,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M.Smith, A.Devlin, R.Finlay 31st July 1982",
+            "description": null
+          },
+          {
+            "name": "WIDE LEGGED AND FOOTLESS",
+            "height": 44,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "A.Devlin, M.Smith, R.Finlay 31st July 1982",
+            "description": null
+          },
+          {
+            "name": "A FIERCE PANCAKE",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P.Nolan, M.Cox 1985",
+            "description": null
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 54.190667,
+          "longitude": -6.825667,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Cuilcagh Gap",
+        "page_title": "Cuilcagh_Gap",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Cuilcagh_Gap",
+        "routes": [
+          {
+            "name": "PIN HOLES",
+            "height": 10,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "PIN HEAD ARÊTE",
+            "height": 15,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T.Fogg, N.Young 17th June 1983",
+            "description": null
+          },
+          {
+            "name": "MIDGE SLAB",
+            "height": 10,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Soñar     E6 6a",
+            "height": 30,
+            "difficulty": "E6",
+            "overall_grade": "E6",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "A. Marshall, P. Swail A surprisingly unrelenting route with many surprises. It takes the left of the 2 obvious aretes above the boulder field right of the green mesh walk in to culcagh mountain. A hard committing and unprotected start (crux) leaves you at the first horizontal break with good gear. From here proceed up the face and arete until left at a slot high on the wall move up and out right to the arete and onto the other side. From a good flat hold move up and left to a comfortable positio"
+          },
+          {
+            "name": "Two Finger & Toe E1 6b",
+            "height": 27,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Bell,A.Acheson 1st Sep 2022",
+            "description": null
+          },
+          {
+            "name": "Midget Crack  HS 4c",
+            "height": 27,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Bell,A.Acheson 1st Sep 2022",
+            "description": null
+          }
+        ],
+        "routes_count": 6,
+        "coordinates": {
+          "latitude": 54.1864,
+          "longitude": -6.826733,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "The Fosstra",
+        "page_title": "The_Fosstra",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=The_Fosstra",
+        "routes": [
+          {
+            "name": "B.L.M.",
+            "height": 20,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "TISAKRACKER",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Finlay, K.Quinn 1980",
+            "description": null
+          },
+          {
+            "name": "ROOTS",
+            "height": 20,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "BRUTE FORCE",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J.Rotherham, B.McDermot June 1980",
+            "description": null
+          },
+          {
+            "name": "THIRD FORCE",
+            "height": 25,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M.Smith, R.Finlay 25th November 1981",
+            "description": null
+          },
+          {
+            "name": "POINTLESS ALTERNATIVE",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T.Fogg, P.Nolan 26th May 1983",
+            "description": null
+          },
+          {
+            "name": "AUNTYCLIMBX",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M.Smith, R.Finlay 25th November 1981",
+            "description": null
+          },
+          {
+            "name": "MARK'S ROUTE",
+            "height": 22,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M.Smith, A.Devlin, M.Manson 17th July 1982",
+            "description": null
+          },
+          {
+            "name": "TASK FORCE",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T.Fogg, P.Holmes 26th April 1982",
+            "description": null
+          },
+          {
+            "name": "GUNGE",
+            "height": 20,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Finlay, P.Nolan 5th May 1983",
+            "description": null
+          }
+        ],
+        "routes_count": 10,
+        "coordinates": {
+          "latitude": 54.1906,
+          "longitude": -6.8258,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Hanging Rock",
+        "page_title": "Hanging_Rock",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Hanging_Rock",
+        "routes": [
+          {
+            "name": "FANDANGO",
+            "height": 40,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M.Henry 1979",
+            "description": null
+          },
+          {
+            "name": "BLACK RHUMBA",
+            "height": 44,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Huddleston, R.Finlay (originally climbed as A2)M. Smith, A. Devlin 18th April 1982",
+            "description": null
+          },
+          {
+            "name": "THE LONGEST DAY",
+            "height": 44,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P.Nolan, D.Scott 21st June 1991",
+            "description": null
+          },
+          {
+            "name": "ASHTREE WALTZ",
+            "height": 45,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 54.2767659,
+          "longitude": -7.8326148,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Knockmore",
+        "page_title": "Knockmore",
+        "climbing_type": "Sport Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Knockmore",
+        "routes": [
+          {
+            "name": "MACHINE NUT CRACK",
+            "height": 77,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D.Stelfox, R.Lawson 13th June 1982",
+            "description": null
+          },
+          {
+            "name": "ROOKERY NOOK",
+            "height": 30,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Rogers, Orr 1965",
+            "description": null
+          },
+          {
+            "name": "JALLA SAID CALL IT THE FIELD",
+            "height": 15,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Climb the groove on clean rock trending left then right."
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 53.8082173,
+          "longitude": -10.0208166,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Monastir Sink",
+        "page_title": "Monastir_Sink",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Monastir_Sink",
+        "routes": [
+          {
+            "name": "REVIVAL",
+            "height": 15,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J.Walsh, R.Hassard June 1993",
+            "description": null
+          },
+          {
+            "name": "PADDY'S SWING",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Rogers, Orr 1967",
+            "description": null
+          },
+          {
+            "name": "(1) MORIARTY",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Rogers, Orr 1966",
+            "description": null
+          },
+          {
+            "name": "(2) KEVIN'S ROUTE",
+            "height": 20,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Finlay, P.Hall May 1981",
+            "description": null
+          },
+          {
+            "name": "MIKE'S ROUTE",
+            "height": 20,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Rogers, Orr 1966",
+            "description": null
+          },
+          {
+            "name": "ELIMINATION",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Rogers, Fulton 1968",
+            "description": null
+          },
+          {
+            "name": "PERCENTAGE",
+            "height": 8,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Baxter, Dixon 1967",
+            "description": null
+          },
+          {
+            "name": "SPIDER",
+            "height": 20,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Rogers 1967M.Smith (Direct Finish)",
+            "description": null
+          },
+          {
+            "name": "SCORPION",
+            "height": 22,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Finlay, S.Hall September 1988",
+            "description": null
+          },
+          {
+            "name": "ELIZABETHAN",
+            "height": 18,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Rogers, Orr 1966",
+            "description": null
+          },
+          {
+            "name": "HANGING TREE WALL",
+            "height": 30,
+            "difficulty": "A2",
+            "overall_grade": "A2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "ZOOLOGICAL GARDENS",
+            "height": 25,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "A vague route up the gully. 12. ILLOGICAL OOZE 25m HS 4a This was a cleaned version of Zoological Gardens but has since reverted to it's original condition. (Cleaned again - 2009)"
+          },
+          {
+            "name": "ILLOGICAL OOZE",
+            "height": 25,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "This was a cleaned version of Zoological Gardens but has since reverted to it's original condition. (Cleaned again - 2009)",
+            "description": null
+          },
+          {
+            "name": "APPAULING",
+            "height": 23,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Rogers, P.McDermot, P.McHugh 1969",
+            "description": null
+          },
+          {
+            "name": "HOWARD'S ROUTE",
+            "height": 23,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hebblethwaite 1992",
+            "description": null
+          },
+          {
+            "name": "HOWARD'S OTHER ROUTE",
+            "height": 23,
+            "difficulty": "E5",
+            "overall_grade": "E5",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hebblethwaite 1994",
+            "description": null
+          },
+          {
+            "name": "HOWARD'S THIRD ROUTE",
+            "height": 25,
+            "difficulty": "E5",
+            "overall_grade": "E5",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hebblethwaite 1994",
+            "description": null
+          },
+          {
+            "name": "THE BOUNDER",
+            "height": 40,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J.Codling, M.Manson (3 rest points) 9th April 1980; ",
+            "description": null
+          },
+          {
+            "name": "MONASTIR DIRECT",
+            "height": 33,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "McDermott, Cousting (one aid point) 1967",
+            "description": null
+          },
+          {
+            "name": "EXPOSE",
+            "height": 30,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Rogers, Fulton July 1968",
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Skreen Rock",
+        "page_title": "Skreen_Rock",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Skreen_Rock",
+        "routes": [
+          {
+            "name": "3 NURSERY BUTTRESS",
+            "height": 5,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "4 QUANGO'S TANGO  5m VD",
+            "description": null
+          },
+          {
+            "name": "4 QUANGO'S TANGO",
+            "height": 5,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "5 CAVE CORNER  5m Mod",
+            "description": null
+          },
+          {
+            "name": "14 FOOTLESS DUCK",
+            "height": 8,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "15 FRESH START \t15m\tE1 5b",
+            "description": null
+          },
+          {
+            "name": "17 TECHNICAL ADVICE",
+            "height": 8,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "A.Carden 1979",
+            "description": null
+          },
+          {
+            "name": "<br />Climb the cliff",
+            "height": 1,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "A.Carden 1979",
+            "description": null
+          },
+          {
+            "name": "18 THIEF'S FLIGHT",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "A.Carden 1979",
+            "description": null
+          },
+          {
+            "name": "<br />Climb the front of pinnacle at obvious crack",
+            "height": 1,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "19 PILLAR ARÊTE",
+            "height": 8,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "20 JARGONISTIC \t8m\tVS 4c",
+            "description": null
+          }
+        ],
+        "routes_count": 8,
+        "coordinates": {
+          "latitude": 54.190133,
+          "longitude": -6.825,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Wheathill Rock",
+        "page_title": "Wheathill_Rock",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Wheathill_Rock",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.1898,
+          "longitude": -6.824267,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Coolrakan Quarry",
+        "page_title": "Coolrakan_Quarry",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Coolrakan_Quarry",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}

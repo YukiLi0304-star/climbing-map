@@ -1,0 +1,22 @@
+{
+  "Co. Donegal": {
+    "county_info": {
+      "name": "Co. Donegal"
+    },
+    "climbing_sites": [
+      {
+        "name": "Portsalon",
+        "page_title": "Portsalon",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Portsalon",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 55.2088876,
+          "longitude": -7.6223447,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "Co. Tyrone": {
+    "county_info": {
+      "name": "Co. Tyrone"
+    },
+    "climbing_sites": [
+      {
+        "name": "Strabane Glen",
+        "page_title": "Strabane_Glen",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Strabane_Glen",
+        "routes": [
+          {
+            "name": "Rigor Mortis",
+            "height": 18,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "A. Tees, R. Smith. 14th Oct 1979.",
+            "description": null
+          },
+          {
+            "name": "Lundy's Last Laugh",
+            "height": 33,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C. Wray, A. Tees (alternate leads), R. Wray. 23rd Nov. 1980.",
+            "description": null
+          },
+          {
+            "name": "Start: about",
+            "height": 5,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "A. Tees, R. Wray. 27th Dec. 1980.",
+            "description": null
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 54.8358356,
+          "longitude": -7.4433251,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Cookstown Quarry",
+        "page_title": "Cookstown_Quarry",
+        "climbing_type": "Quarry",
+        "url": "http://wiki.climbing.ie/index.php?title=Cookstown_Quarry",
+        "routes": [
+          {
+            "name": "Willow",
+            "height": 5,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Smith (solo) 1979.",
+            "description": null
+          },
+          {
+            "name": "Pathos",
+            "height": 6,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Smith (solo). 1979.",
+            "description": null
+          },
+          {
+            "name": "Wild Side",
+            "height": 9,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Smith, R. Cole. 1979.",
+            "description": null
+          },
+          {
+            "name": "Brick in the Wall",
+            "height": 13,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Smith, A. Carden. 1979.",
+            "description": null
+          },
+          {
+            "name": "Step out of Time",
+            "height": 18,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Smith, R. Cole. 1979.",
+            "description": null
+          },
+          {
+            "name": "Little Crack",
+            "height": 10,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Takes thin crack L of 'The Corner'. Gain crack from small ledge on R and climb it using poor finger slots. Reach holds at top of crack and gain blocks and ledge, finishing up cracks on R. D. Smith, A. Devlin. Big Crack 10m E1 6a Start: 2m L of 'Little Crack'. Awkward moves to gain high layoff edge. Move R to base of crack. Layoff/jam up past pod in crack to ledge. Exit L to top. Hard, but safe. M. Smith, A. Devlin. Adrian's Route 10m MVS 5a Climb white bulge L of 'Big Crack' using jugs to reach "
+          },
+          {
+            "name": "Big Crack",
+            "height": 10,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start: 2m L of 'Little Crack'. Awkward moves to gain high layoff edge. Move R to base of crack. Layoff/jam up past pod in crack to ledge. Exit L to top. Hard, but safe. M. Smith, A. Devlin. Adrian's Route 10m MVS 5a Climb white bulge L of 'Big Crack' using jugs to reach loose block and stump on L. Move up R past large bush to finish as for 'Big Crack'. A. Devlin, M. Smith, D. Smith. Plum Jam 12m E2 5b Start: up small corner L of 'Adrian's Route' and climb to loose jugs at 3m. Reach high on L to "
+          },
+          {
+            "name": "Adrian's Route",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Climb white bulge L of 'Big Crack' using jugs to reach loose block and stump on L. Move up R past large bush to finish as for 'Big Crack'. A. Devlin, M. Smith, D. Smith. Plum Jam 12m E2 5b Start: up small corner L of 'Adrian's Route' and climb to loose jugs at 3m. Reach high on L to thin crack on slab. Step L and up cracked slab to finish L of bush. D. Smith, M. Smith, A. Devlin. The Crack 12m VS 5b Start: under overhanging crack L of 'Plum Jam'. High reach to base of crack. Jam up crack to jugs"
+          },
+          {
+            "name": "Plum Jam",
+            "height": 12,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start: up small corner L of 'Adrian's Route' and climb to loose jugs at 3m. Reach high on L to thin crack on slab. Step L and up cracked slab to finish L of bush. D. Smith, M. Smith, A. Devlin. The Crack 12m VS 5b Start: under overhanging crack L of 'Plum Jam'. High reach to base of crack. Jam up crack to jugs. Up easily to top. M. Smith, A. Devlin Diagonal 12m HVS 5b Start: as for 'The Crack'. Move L from base of crack on layoffs and climb to small sapling. Up to ledge and move R to climb awkwa"
+          },
+          {
+            "name": "Diagonal",
+            "height": 12,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start: as for 'The Crack'. Move L from base of crack on layoffs and climb to small sapling. Up to ledge and move R to climb awkward using high jugs. D. Smith, R.E. Lawson. Start: L of ledge 3m L of 'Diagonal@. Awkward mantelshelf onto ledge. Up obvious cracks to a bulge which is climbed on the R to gain ledge. Step L and up cracks to top. M. Smith, A. Devlin. Buttress Right 12m E1 5c (SR) Start: route takes blank buttress L of 'Walkover'. From foot ledges 1m L of ledge move straight up to first "
+          },
+          {
+            "name": "Walkover",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start: L of ledge 3m L of 'Diagonal@. Awkward mantelshelf onto ledge. Up obvious cracks to a bulge which is climbed on the R to gain ledge. Step L and up cracks to top. M. Smith, A. Devlin. Buttress Right 12m E1 5c (SR) Start: route takes blank buttress L of 'Walkover'. From foot ledges 1m L of ledge move straight up to first of two horizontal breaks. Gain second break and peg on R. Up L oof peg to top. Siderunners placed in 'Walkover'. D. Smith, A. Devlin, M. Smith. Buttress Left 12m E1 5c (SR)"
+          },
+          {
+            "name": "Buttress Right",
+            "height": 12,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start: route takes blank buttress L of 'Walkover'. From foot ledges 1m L of ledge move straight up to first of two horizontal breaks. Gain second break and peg on R. Up L oof peg to top. Siderunners placed in 'Walkover'. D. Smith, A. Devlin, M. Smith. Buttress Left 12m E1 5c (SR) Start: as for 'Buttress Right'. Move up slab for 1m before delicate traverse L to foot ledge below thin crack and obvious, dubious peg. Move up to peg and traverse R to peg in 'Buttress Right'. Move L then up to top. Si"
+          },
+          {
+            "name": "Buttress Left",
+            "height": 12,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start: as for 'Buttress Right'. Move up slab for 1m before delicate traverse L to foot ledge below thin crack and obvious, dubious peg. Move up to peg and traverse R to peg in 'Buttress Right'. Move L then up to top. Side runners in 'Walkover' and 'Step out of Time'. M. Smith, D. Smith. Step out of Time See above under New Climbs 1980 (direct start now possible."
+          },
+          {
+            "name": "A Level Blues",
+            "height": 12,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start: at L side of a ground level bulge 2m L of 'Step out of Time'. Climb up L with difficulty to a small ledge below a blank slab. Gain a stance on ledge (crux, unprotected). Up blank slab to an overlap which is climbed on the R using high jugs. Move L and straight up to top. D. Smith, T. Benson. Brick in the Wall 13m VS 5a Start; at the bottom of the bank at the L of the quarry, just L of the overhangs. Climb rib to foot of ledge at 2m. Travers R using finger edges to a ledge. Climb crack abo"
+          },
+          {
+            "name": "Big Duck",
+            "height": 12,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start: as for 'Brick in the Wall' to finger edges. Move straight up blank section to sandy patch and peg on R. Gain foot ledge L of peg and finish straight up with poor protection to small sapling on edge of face. D. Smith (SUTF). Right Hand 12m E2 5b Climb rib to hand ledge and rusty peg at 9m. Climb up R under bulges to finish at sapling on edge of face. M. Smith, A. Devlin, A. Devlin. Brain Wash 12m E1 5c. See description above, in New Climbs 1980."
+          },
+          {
+            "name": "Right Hand",
+            "height": 12,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Climb rib to hand ledge and rusty peg at 9m. Climb up R under bulges to finish at sapling on edge of face. M. Smith, A. Devlin, A. Devlin. Brain Wash 12m E1 5c. See description above, in New Climbs 1980."
+          },
+          {
+            "name": "Brain Wash",
+            "height": 12,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "See description above, in New Climbs 1980.",
+            "description": null
+          },
+          {
+            "name": "Big Slabber",
+            "height": 9,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "N.B. It is possible some of these routes may have been retro-bolted in the years since 1984.",
+            "description": null
+          }
+        ],
+        "routes_count": 18,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}

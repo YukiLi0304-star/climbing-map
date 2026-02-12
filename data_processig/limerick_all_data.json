@@ -1,0 +1,151 @@
+{
+  "Co. Limerick": {
+    "county_info": {
+      "name": "Co. Limerick"
+    },
+    "climbing_sites": [
+      {
+        "name": "Knockhourough",
+        "page_title": "Knockhourough",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Knockhourough",
+        "routes": [
+          {
+            "name": "Start",
+            "height": 2,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "SLIPSTONE",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "W. Walker, P. Treacy, W. Walker (Jnr), 12th April 1986",
+            "description": null
+          },
+          {
+            "name": "THE CUTTING EDGE",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Hunt (solo). 23rd September 1995",
+            "description": null
+          },
+          {
+            "name": "QUICKSTEP",
+            "height": 8,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "BUSHES IN THE WAY",
+            "height": 10,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "PIECE OF PISS",
+            "height": 10,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "HELIX",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "W. Walker, May 1986",
+            "description": null
+          },
+          {
+            "name": "SIDESTEP",
+            "height": 6,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "W. Walker, May 1986",
+            "description": null
+          }
+        ],
+        "routes_count": 8,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Knockroe",
+        "page_title": "Knockroe",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Knockroe",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.4201238,
+          "longitude": -8.7422356,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Lough Gur",
+        "page_title": "Lough_Gur",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Lough_Gur",
+        "routes": [
+          {
+            "name": "Dead Spaghetti",
+            "height": 4,
+            "difficulty": "5A",
+            "overall_grade": "5A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "W. Walker, 11.11.86 A short problem up the thin crack in the overhanging left wall of the corner. Right again is a higher overgrown corner followed by an equally overgrown projecting buttress. To the right of this buttress is the overhanging wall on which the best climbing is to be found. Cave Crack 9m VS 4cP. Treacy, W. Walker, June 1986Take the crack leading out of the cave at the left end of the wall"
+          },
+          {
+            "name": "Dummycles",
+            "height": 9,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Gibson, 18.4.1987",
+            "description": null
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 52.5172682,
+          "longitude": -8.5342475,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

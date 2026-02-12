@@ -1,0 +1,1217 @@
+{
+  "Co. Sligo": {
+    "county_info": {
+      "name": "Co. Sligo"
+    },
+    "climbing_sites": [
+      {
+        "name": "Aughris Head",
+        "page_title": "Aughris_Head",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=Aughris_Head",
+        "routes": [
+          {
+            "name": "Start",
+            "height": 2,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "G.Moss, J. Byrne, J. Reville July 2013."
+          },
+          {
+            "name": "Pilgrims  M.S.<br>G. Moss, J. Reville July 2013<br>Start",
+            "height": 2,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. Horan & C. O'Riordan July 1991",
+            "description": null
+          },
+          {
+            "name": "SAUSAGES",
+            "height": 22,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C. O'Riordan & E. Walshe July 1991",
+            "description": null
+          },
+          {
+            "name": "RASHERS",
+            "height": 22,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "E. Walshe & C. O'Riordan July 1991",
+            "description": null
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 54.2768751,
+          "longitude": -8.7726473,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Cooney Rock",
+        "page_title": "Cooney_Rock",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Cooney_Rock",
+        "routes": [
+          {
+            "name": "Codex",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(B. Proctor M. Daly) 20/4/2019",
+            "description": null
+          },
+          {
+            "name": "Kindred Spirits",
+            "height": 20,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly B. Proctor) 15/4/2021",
+            "description": null
+          },
+          {
+            "name": "Breithlá",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly B. Proctor) 24/3/2019",
+            "description": null
+          },
+          {
+            "name": "Choctaw 170",
+            "height": 20,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly B. Proctor) 15/4/2021",
+            "description": null
+          },
+          {
+            "name": "Bluegrass",
+            "height": 25,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly B. Proctor) 28/3/2019",
+            "description": null
+          },
+          {
+            "name": "Sligo Sloper",
+            "height": 25,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly B. Proctor) 29/4/2019",
+            "description": null
+          },
+          {
+            "name": "Black Gold",
+            "height": 25,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly B. Proctor) 30/3/2019",
+            "description": null
+          },
+          {
+            "name": "Carpetbagger",
+            "height": 23,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly B. Proctor) 20/4/2019",
+            "description": null
+          },
+          {
+            "name": "Ivy Groove",
+            "height": 23,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly B. Proctor) 20/4/2019",
+            "description": null
+          },
+          {
+            "name": "Crack a-go-go",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly B. Proctor) 29/4/2019",
+            "description": null
+          }
+        ],
+        "routes_count": 10,
+        "coordinates": {
+          "latitude": 53.9664939,
+          "longitude": -6.3714402,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Doomore Crag",
+        "page_title": "Doomore_Crag",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Doomore_Crag",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Happy Valli",
+        "page_title": "Happy_Valli",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Happy_Valli",
+        "routes": [
+          {
+            "name": "Prego –",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(V. Schafer 15/4/08) Start 5m left of \"Snow White\" move slightly right up wall, through gap in heather ledge, to top. Stake belay. Juggy and well protected 3 Steps to Heather – 15m (S 4a) (A.Tees, V.Schafer, A.Carlin 19/9/08) less than 1m left of \"Prego\", is a diagonal stepped corner, which is climbed to a ledge. Continue up on steep rock with good holds in a nice situation Snow White – 20m (S 4a) This takes the obvious two tier corner, at the left end of the crag. Rattenfanger Wall – 15m (VS 4b"
+          },
+          {
+            "name": "3 Steps to Heather –",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(A.Tees, V.Schafer, A.Carlin 19/9/08) less than 1m left of \"Prego\", is a diagonal stepped corner, which is climbed to a ledge. Continue up on steep rock with good holds in a nice situation Snow White – 20m (S 4a) This takes the obvious two tier corner, at the left end of the crag. Rattenfanger Wall – 15m (VS 4b) (A.Tees, V.Schafer, A.Carlin 19/9/08) This takes the wall between Snow White and Muck on Top. Start in the corner just left of the start of Muck on Top, and climb to ledge. Continue up w"
+          },
+          {
+            "name": "Snow White –",
+            "height": 20,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "This takes the obvious two tier corner, at the left end of the crag. Rattenfanger Wall – 15m (VS 4b) (A.Tees, V.Schafer, A.Carlin 19/9/08) This takes the wall between Snow White and Muck on Top. Start in the corner just left of the start of Muck on Top, and climb to ledge. Continue up wall above on small footholds just right of vegetated bank to smaller ledge. Start on small holds on RHS of wall, and move left to good cracks/protection in wall centre, and up right, to the top Muck on Top – 20m ("
+          },
+          {
+            "name": "Rattenfanger Wall –",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(A.Tees, V.Schafer, A.Carlin 19/9/08) This takes the wall between Snow White and Muck on Top. Start in the corner just left of the start of Muck on Top, and climb to ledge. Continue up wall above on small footholds just right of vegetated bank to smaller ledge. Start on small holds on RHS of wall, and move left to good cracks/protection in wall centre, and up right, to the top Muck on Top – 20m (S 4a) (V.Schafer, A.Tees 17/6/07) Approx 3m left of \"Ox Stair\" gain a ledge and a leftward rising cra"
+          },
+          {
+            "name": "Muck on Top –",
+            "height": 20,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(V.Schafer, A.Tees 17/6/07) Approx 3m left of \"Ox Stair\" gain a ledge and a leftward rising crack to the bottom of a leaning corner crack. Climb it on good jugs, and continue directly to the top Part Man Part Biscuit – 20m (VS 4c) (J.Walls, V.Schafer) Start 3m right of Muck on Top and climb directly up, through overhang at 3/4 height (crux) to the top Ox Stair – 20m (VS 4b) (A.Tees, V.Schafer) Approx 4m left of the arete of \"Vereker\" this route gains the shallow right facing corners at half heig"
+          },
+          {
+            "name": "Part Man Part Biscuit –",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(J.Walls, V.Schafer) Start 3m right of Muck on Top and climb directly up, through overhang at 3/4 height (crux) to the top Ox Stair – 20m (VS 4b) (A.Tees, V.Schafer) Approx 4m left of the arete of \"Vereker\" this route gains the shallow right facing corners at half height, and up the vertical wall above using a large \"Friend\" in a pocket Teeling – 20m (HVS 5a) (M.Daly, P.Harrington 21/7/07) On the face, 1 metre left of the corner of De Cuellar. Climb delicately to gain a small rib. Gain the crack"
+          },
+          {
+            "name": "Ox Stair –",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(A.Tees, V.Schafer) Approx 4m left of the arete of \"Vereker\" this route gains the shallow right facing corners at half height, and up the vertical wall above using a large \"Friend\" in a pocket Teeling – 20m (HVS 5a) (M.Daly, P.Harrington 21/7/07) On the face, 1 metre left of the corner of De Cuellar. Climb delicately to gain a small rib. Gain the crack above and follow it through a bulge to the top Higher in Time – 25m (HVS 5a) (P.Cooper, A.Tees 19/9/08) Start in a niche between starts of 'De Cu"
+          },
+          {
+            "name": "Teeling –",
+            "height": 20,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(M.Daly, P.Harrington 21/7/07) On the face, 1 metre left of the corner of De Cuellar. Climb delicately to gain a small rib. Gain the crack above and follow it through a bulge to the top Higher in Time – 25m (HVS 5a) (P.Cooper, A.Tees 19/9/08) Start in a niche between starts of 'De Cuellar' and 'Verecker'. Climb up to overlap then traverse delicately leftwards, grade then continuously eases with progress, to finish up the exit crack of 'Muck on Top'; taking the right hand exit De Cuellar – 25m (E"
+          },
+          {
+            "name": "Higher in Time –",
+            "height": 25,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(P.Cooper, A.Tees 19/9/08) Start in a niche between starts of 'De Cuellar' and 'Verecker'. Climb up to overlap then traverse delicately leftwards, grade then continuously eases with progress, to finish up the exit crack of 'Muck on Top'; taking the right hand exit De Cuellar – 25m (E2 5b) (M.Daly, C.McDaid 9/6/07) Start in the rightward facing corner just left of Verecker. Climb the corner to the base of an overlap. Surmount this to gain a good ledge. Following the crack with increasing difficul"
+          },
+          {
+            "name": "De Cuellar –",
+            "height": 25,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(M.Daly, C.McDaid 9/6/07) Start in the rightward facing corner just left of Verecker. Climb the corner to the base of an overlap. Surmount this to gain a good ledge. Following the crack with increasing difficulty to the top Verecker – 25m (E3 5c) (M.Daly, C.McDaid 9/6/07) Start at the base of the prominent arête left of Colmcille Corner. The route takes the arête. Make one move up the short wall left of the arête and step right to the edge. Climb the arête passing one difficult section to a rest"
+          },
+          {
+            "name": "Verecker –",
+            "height": 25,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(M.Daly, C.McDaid 9/6/07) Start at the base of the prominent arête left of Colmcille Corner. The route takes the arête. Make one move up the short wall left of the arête and step right to the edge. Climb the arête passing one difficult section to a rest ledge at the base of the final section. Place a small friend in a vertical slot and climb the technical wall left of the arête (crux). Gain a jug on the arête which steady’s one for the final exit moves. Nut and stake belay Raven – 25m (HS 4b)v ("
+          },
+          {
+            "name": "Raven –",
+            "height": 25,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(M.McGuigan, A.Tees, V.Schafer 26/1/08) Start below and right of the left facing corner leading to the large nest on the wall left of \"Colmcille Corner\". Climb from the lowest point, up and left into the corner, avoiding the nest as best you can. Continue up (airily) on good holds, left of the line of \"Dont Touch That Tree\". This route should only be attempted outside the nesting season Don’t Touch that Tree – 25m (E1 5b) (G.Thomas, S.Kennedy, V.Schafer (2/9/06) Takes the spectacular crack line "
+          },
+          {
+            "name": "Don’t Touch that Tree –",
+            "height": 25,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(G.Thomas, S.Kennedy, V.Schafer (2/9/06) Takes the spectacular crack line to the left of Colmcille Corner. Crux is mid height 600px|Happy Valli topo pic Colmcille Corner – 25m (HS 4b) (A.Tees, B.Magowan, V.Schafer 28/5/06) Takes the most obvious corner on the crag Corcorans Fightin Sixty Ninth – 30m (E2 5c) (M.Daly, B.Proctor 7/4/07) 2 Metres right of Colmcille Corner there is a short corner. Start just right of this. Climb up by technical moves to the first runner at 7 metres. Continue to the o"
+          },
+          {
+            "name": "Colmcille Corner –",
+            "height": 25,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(A.Tees, B.Magowan, V.Schafer 28/5/06) Takes the most obvious corner on the crag Corcorans Fightin Sixty Ninth – 30m (E2 5c) (M.Daly, B.Proctor 7/4/07) 2 Metres right of Colmcille Corner there is a short corner. Start just right of this. Climb up by technical moves to the first runner at 7 metres. Continue to the overlap at 2/3 height (good runners). Climb this using a good hold on the right-hand side of the lip of the overlap. Place two poor runners and continue through crux moves to a good led"
+          },
+          {
+            "name": "Corcorans Fightin Sixty Ninth –",
+            "height": 30,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(M.Daly, B.Proctor 7/4/07) 2 Metres right of Colmcille Corner there is a short corner. Start just right of this. Climb up by technical moves to the first runner at 7 metres. Continue to the overlap at 2/3 height (good runners). Climb this using a good hold on the right-hand side of the lip of the overlap. Place two poor runners and continue through crux moves to a good ledge and runners. Finish up short corner General Humbert – 30m (E2 5c) (M.Daly, B.Proctor 4/11/06) Start 5 metres right of Colm"
+          },
+          {
+            "name": "General Humbert –",
+            "height": 30,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(M.Daly, B.Proctor 4/11/06) Start 5 metres right of Colmcille Corner just left of fence. Climb up wall to flake at 4 metres. Climb directly up wall passing horizontal breaks (friend protection). Gain the base of a faint crack. Climb the crack and gain a quartz niche. Climb steeply up bulge to gain good jugs. Surmount the bulge (crux) and get established at the base of crack. Follow to top. Good protection Paddy Alley – 30m (E2 5c) (M.Daly, B.Proctor 7/4/07) Start 6 metres right of Colmcille Corn"
+          },
+          {
+            "name": "Paddy Alley –",
+            "height": 30,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(M.Daly, B.Proctor 7/4/07) Start 6 metres right of Colmcille Corner and 1 metre right of fence. Climb to obvious scoop. Continue to good ledge at base of thin crack. Climb this at first and when it peters out, (½ friend placement on the left) continue up the wall (crux) to rest. Follow the re-emerging crack to the top Poltroons – 25m (S 4a) (A.Tees, S.Kennedy, V.Schafer 2/9/06) About 8m right of \"Colmcille Corner\" climb one of two short corners, and move up left to reach obvious ledge. Steeper, "
+          },
+          {
+            "name": "Poltroons –",
+            "height": 25,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(A.Tees, S.Kennedy, V.Schafer 2/9/06) About 8m right of \"Colmcille Corner\" climb one of two short corners, and move up left to reach obvious ledge. Steeper, but well protected, climbing leads directly to a second narrower ledge, from where a series of rightward trending steps leads to a vegetated ledge. Climb directly up clean wall to the top Spider – 25m (E1 5b) (D.Millar, V.Schafer Aug 08) This route climbs the wall and overlap between \"Poltroons\" and \"Hellburner\". Start 2m left of Hellburner "
+          },
+          {
+            "name": "Spider –",
+            "height": 25,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(D.Millar, V.Schafer Aug 08) This route climbs the wall and overlap between \"Poltroons\" and \"Hellburner\". Start 2m left of Hellburner and climb to right hand side of obvious overlap at 1/3rd height. Assemble gear and move diagonally up and left to obvious horizontal break and from here to spacious ledge above. Climb slabby wall left of the Hellburner corner to another ledge and then the top Hellburner 20m HVS 5a (M.Daly, C. McDaid 23/7/08) Just left of Rhiannon there is a right facing groove/cor"
+          },
+          {
+            "name": "Hellburner",
+            "height": 20,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(M.Daly, C. McDaid 23/7/08) Just left of Rhiannon there is a right facing groove/corner. Climb this direct, through the bulge to a spacious ledge. Finish up via heather clad ledges. Very well protected. Rhiannon – 20m (E2 5b) (C.McDaid, M.Daly 9/6/07) Starts 3m left of the isolated boulder. Climb direct to the horizontal break (small cams), then technical and precarious climbing leads up the wall (RP's) through a \"corridor\", after which the angle relents. The technical climbing ends here, althou"
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Hawk Rock/Cuckoo Buttress",
+        "page_title": "Hawk_Rock/Cuckoo_Buttress",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Hawk_Rock/Cuckoo_Buttress",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Kings Mountain",
+        "page_title": "Kings_Mountain",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Kings_Mountain",
+        "routes": [
+          {
+            "name": "SPAGHETTI DEWDROP",
+            "height": 36,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. Crymble, R. Huddlestone 21 January 1973",
+            "description": null
+          },
+          {
+            "name": "DENTURES",
+            "height": 20,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "A.Linton, D.Caughers Start just down from the col in the centre of the gully. Climb the clean curving crack to an overhang at 8 metres, easier to top. HUD'S PUD 17m S 4a S. Crymble, R. Huddlestone From the col climb the stepped clean crack on the left to the top."
+          },
+          {
+            "name": "HUD'S PUD",
+            "height": 17,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "S. Crymble, R. Huddlestone From the col climb the stepped clean crack on the left to the top."
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 54.345433,
+          "longitude": -8.4570643,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Mullaghmore/Roskeeragh Point",
+        "page_title": "Mullaghmore/Roskeeragh_Point",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Mullaghmore/Roskeeragh_Point",
+        "routes": [
+          {
+            "name": "GROUND ATTACK",
+            "height": 16,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Finlay, P.Hall 8th August 1982",
+            "description": null
+          },
+          {
+            "name": "NOW A VETERAN",
+            "height": 12,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G.McCann, P.Chatterley 8th August 1982",
+            "description": null
+          },
+          {
+            "name": "DOWNWARD THRUST",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P.Hall, R.Finlay 8th August 1982",
+            "description": null
+          },
+          {
+            "name": "VERTICAL TAKEOFF",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Finlay, P.Hall 1982",
+            "description": null
+          },
+          {
+            "name": "FISH WITH BOOTS",
+            "height": 12,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Allsop, Walls 1991",
+            "description": null
+          },
+          {
+            "name": "SHORT AND CURLEY",
+            "height": 12,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Allsop, J.Walls 28th July 1990",
+            "description": null
+          },
+          {
+            "name": "FYF",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P.Grant and Gortatole party 3rd April 1983",
+            "description": null
+          },
+          {
+            "name": "SHEFFIELD",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P.Hall 30th May 1982",
+            "description": null
+          },
+          {
+            "name": "BLOW INS",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P.Daly, J.Flanagan Takes the arête and short groove between Sheffield and Ardent. P.Hall, J.Stewart 18th June 1982"
+          },
+          {
+            "name": "SHOCKWAVE",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P.Hall, J.Stewart 18th June 1982",
+            "description": null
+          },
+          {
+            "name": "ARDENT+F82",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P.Hall, J.Stewart 13th June 1982",
+            "description": null
+          },
+          {
+            "name": "HAUGHEY'S HANDBAG",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D.Hall. 1982",
+            "description": null
+          },
+          {
+            "name": "GO FOR IT",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P.Grant, G.Burns, J.Keeney 3rd April 1983",
+            "description": null
+          },
+          {
+            "name": "Start",
+            "height": 2,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P.Hall, J.Stewart 13th June 1982",
+            "description": null
+          },
+          {
+            "name": "STRAY EXOCETS",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P.Hall, J.Stewart 13th June 1982",
+            "description": null
+          },
+          {
+            "name": "SIDEWINDER",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P.Hall, R.Finlay 18th July 1982",
+            "description": null
+          },
+          {
+            "name": "CEASEFIRE",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Finlay, G.McCaron 7th August 1983",
+            "description": null
+          },
+          {
+            "name": "GRINGO",
+            "height": 8,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "A.Currans, M.Cox 7th August 1983",
+            "description": null
+          },
+          {
+            "name": "BATTLE OF THE PLATE",
+            "height": 8,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "A.Currans, M.Cox 7th August 1983",
+            "description": null
+          },
+          {
+            "name": "PSYCHOLOGICAL WARFARE",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "A.Currans, M.Mace, C.Cassidy, K.McConnel, J.Hamilton 3rd April '83 Start 4m left of Bomb Alley. Climb obvious rounded flake steps to thin exit on upper wall. 21. BOMB ALLEY ** 10m S 3c P.Hall, D.Hall 11th September 1982"
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Scalp na gCapail",
+        "page_title": "Scalp_na_gCapail",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Scalp_na_gCapail",
+        "routes": [
+          {
+            "name": "1. High Five",
+            "height": 18,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(Martin Daly , Conan McSharry Daly - 26/06/2021)",
+            "description": null
+          },
+          {
+            "name": "Santa Maria de Vison",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly , B. Proctor - 6th October 2018)",
+            "description": null
+          },
+          {
+            "name": "Garda Síochána",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C Ó Fiannachta, H Doherty. 13/05/2019",
+            "description": null
+          },
+          {
+            "name": "An Éalaitheoir",
+            "height": 25,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C Ó Fiannachta, J Mcnulty. 19/06/2021",
+            "description": null
+          },
+          {
+            "name": "3a. Slí na Fianna.",
+            "height": 25,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(C Ó Fiannachta, L Slaughter, 12/07/2021)",
+            "description": null
+          },
+          {
+            "name": "Dreadnought",
+            "height": 25,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "( M. Daly , B. Proctor - 15th April 2021)",
+            "description": null
+          },
+          {
+            "name": "Juliana",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "( M. Daly , B. Proctor - 29th September 2018)",
+            "description": null
+          },
+          {
+            "name": "Lockdown Lunacy",
+            "height": 25,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(Martin Daly, Brendan Proctor - 8th June 2020)  ",
+            "description": null
+          },
+          {
+            "name": "Lavia",
+            "height": 25,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly , B. Proctor - 29th September 2018) ",
+            "description": null
+          },
+          {
+            "name": "7a. Téigh Siar Fear Óg",
+            "height": 27,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "L. Slaughter, M. Magennis. 10/07/2021 ",
+            "description": null
+          },
+          {
+            "name": "Firestarter,",
+            "height": 20,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C Ó Fiannachta, J Gillmor. 13/05/2019",
+            "description": null
+          },
+          {
+            "name": "Bealach An Laoch Suaimhneach",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C Ó Fiannachta, H. Doherty. 1/5/2019",
+            "description": null
+          },
+          {
+            "name": "An Domhan Nua,",
+            "height": 20,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C. Ó Fiannachta, H. Doherty. 27/04/2019",
+            "description": null
+          },
+          {
+            "name": "Under the Carpet",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C Ó Fiannachta, I Krella. May 2017",
+            "description": null
+          },
+          {
+            "name": "Moore Street Trader",
+            "height": 25,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly, C. McDaid – 27th April 2007)",
+            "description": null
+          },
+          {
+            "name": "Polish Paddy",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M. Daly, C.McDaid – 27th April 2007)",
+            "description": null
+          },
+          {
+            "name": "Ganger Gaffney",
+            "height": 25,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(M.Daly, C.McDaid - 4th June 2007)",
+            "description": null
+          },
+          {
+            "name": "Tweezer",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(C. McDaid, M. Daly – 27th April 2007)",
+            "description": null
+          },
+          {
+            "name": "God of Strathyre",
+            "height": 13,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(C.McDaid, D. O’Neill –28th April 2007)",
+            "description": null
+          },
+          {
+            "name": "Postie Pornstar",
+            "height": 20,
+            "difficulty": "4A",
+            "overall_grade": "4A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "(C.McDaid, M.Daly – 4th June 2007)",
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Slish Wood",
+        "page_title": "Slish_Wood",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Slish_Wood",
+        "routes": [
+          {
+            "name": "QUARTZ KNOB",
+            "height": 13,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "CENTRAL AISLE",
+            "height": 18,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G.Foley October 1974",
+            "description": null
+          },
+          {
+            "name": "HAZEL OVERHANG",
+            "height": 7,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 54.2308281,
+          "longitude": -8.4013543,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Tormore",
+        "page_title": "Tormore",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Tormore",
+        "routes": [
+          {
+            "name": "THE MAD SWEENEY",
+            "height": 24,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Calvin Torrans, Eddie Cooper 1983",
+            "description": null
+          },
+          {
+            "name": "SIMPLE PLEASURES",
+            "height": 24,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Calvin Torrans, Dermot Somers 2nd May 1981",
+            "description": null
+          },
+          {
+            "name": "HARLEQUIN",
+            "height": 24,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Eddie Cooper, Calvin Torrans Spring 1985",
+            "description": null
+          },
+          {
+            "name": "FERDIA",
+            "height": 28,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Ken Higgs, Tom Ryan 5th March 1977",
+            "description": null
+          },
+          {
+            "name": "CLAIOMH",
+            "height": 24,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Eddie Cooper, Tim Snaith 1984",
+            "description": null
+          },
+          {
+            "name": "ABOVE THE SALT",
+            "height": 30,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Calvin Torrans, Clare Sheridan 16th April 1977",
+            "description": null
+          },
+          {
+            "name": "THE BURNING BUSH",
+            "height": 26,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Owen Jacob, Ken Higgs 30th May 1982",
+            "description": null
+          },
+          {
+            "name": "WARTHOG",
+            "height": 27,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Ken Higgs, Tom Ryan 5th March 1977",
+            "description": null
+          },
+          {
+            "name": "HALFBREED",
+            "height": 27,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Ken Higgs, Tom Ryan 5th March 1977",
+            "description": null
+          },
+          {
+            "name": "TEFLON",
+            "height": 24,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Robbie Fenlon, Alan Millar 1986",
+            "description": null
+          },
+          {
+            "name": "STRONGBOW",
+            "height": 24,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Tom Ryan, Ken Higgs September 1977",
+            "description": null
+          },
+          {
+            "name": "TATTOOED TEARS",
+            "height": 24,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Calvin Torrans, Robbie Fenlon 15th June 1987",
+            "description": null
+          },
+          {
+            "name": "SUNBANE",
+            "height": 24,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Keefe Murphy, Tom Ryan July 1983",
+            "description": null
+          },
+          {
+            "name": "CONDOR",
+            "height": 27,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Tom Ryan, Ken Higgs, 4/3/1977",
+            "description": null
+          },
+          {
+            "name": "RAB C",
+            "height": 26,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Calvin Torrans, Howard Hebblethwaite June 1988",
+            "description": null
+          },
+          {
+            "name": "BOUDOIR BLUES",
+            "height": 40,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Donie O'Sullivan, Robbie Fenlon June 1988",
+            "description": null
+          },
+          {
+            "name": "LAST OF THE SUMMER WINE",
+            "height": 26,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Tom Ryan, Keefe Murphy 10th October 1982",
+            "description": null
+          },
+          {
+            "name": "SERPENTS TAIL",
+            "height": 27,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Keefe Murphy, Tom Ryan July 1983",
+            "description": null
+          },
+          {
+            "name": "WEEKEND WARRIOR",
+            "height": 30,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Calvin Torrans, Clare Sheridan 1980",
+            "description": null
+          },
+          {
+            "name": "FINE TIME",
+            "height": 30,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Howard Hebblethwaite, Willie Rock July 1994",
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.3496729,
+          "longitude": -8.4100643,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Union Woods",
+        "page_title": "Union_Woods",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Union_Woods",
+        "routes": [
+          {
+            "name": "1 Awkward Friend",
+            "height": 12,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Jonathan Gilmore, Daniel O Brien, Conal Sexton 24 May 2016",
+            "description": null
+          },
+          {
+            "name": "2 Crack, Crack and a Prayer",
+            "height": 12,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Jonathan Gilmore, Conal Sexton, Daniel O Brien 24 May 2016",
+            "description": null
+          },
+          {
+            "name": "3 Welcome to the Jungle",
+            "height": 7,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Daniel O’Brien, Jonathan Gilmore 17 May 2019",
+            "description": null
+          },
+          {
+            "name": "4 Tomtrooper",
+            "height": 8,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Conal Sexton, Daniel O’Brien 28 May 2019",
+            "description": null
+          },
+          {
+            "name": "5 The Walls have Eyes",
+            "height": 9,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Daniel O’Brien, Conal Sexton 21 May 2019",
+            "description": null
+          }
+        ],
+        "routes_count": 5,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "Co. Leitrim": {
+    "county_info": {
+      "name": "Co. Leitrim"
+    },
+    "climbing_sites": [
+      {
+        "name": "Cloch An tSagairt / Carrignahasta",
+        "page_title": "Cloch_An_tSagairt_/_Carrignahasta",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Cloch_An_tSagairt_/_Carrignahasta",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.182933,
+          "longitude": -6.831,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Cloonty Pruglish",
+        "page_title": "Cloonty_Pruglish",
+        "climbing_type": "Quarry",
+        "url": "http://wiki.climbing.ie/index.php?title=Cloonty_Pruglish",
+        "routes": [
+          {
+            "name": "2- HIGH IDEALS & CRAZY DREAMS - E4 6a",
+            "height": 25,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Takes the obvious thin crack about 5 m right of the big corner. The left route of the face. Hard thin climbing on adequate (small) gear leads to easier climbing above. Pass 1 RB and launch upwards through the overhang to the anchors 2 RB’s. Exciting! 3- MIDDLE MAN- E3 5b ? needs confirmation. 25m A bit vague on this. Climb leftwards up chossy looking crack/ramp, then straight up to anchors (2RB’s) past 1 welcome RB on route. Awaiting the direct start! 4- LAUNCHPAD TO HYPERSPACE – E2 5b * 25m Zig"
+          },
+          {
+            "name": "3- MIDDLE MAN- E3 5b ? needs confirmation.",
+            "height": 25,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "A bit vague on this. Climb leftwards up chossy looking crack/ramp, then straight up to anchors (2RB’s) past 1 welcome RB on route. Awaiting the direct start! 4- LAUNCHPAD TO HYPERSPACE – E2 5b * 25m Zig-Zag up the arête on the right hand side of the face, past 3 RB’’s, until level with anchors of MIDDLE MAN, then traverse left. A nice, ‘sporty’ route. Kev Power on the arete of Launchpad To Hyperspace 5- CHOSS MONSTER E1 5a? 30m? 5 m right is another large loose looking corner. Climb the cracks o"
+          },
+          {
+            "name": "4- LAUNCHPAD TO HYPERSPACE – E2 5b",
+            "height": 25,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Zig-Zag up the arête on the right hand side of the face, past 3 RB’’s, until level with anchors of MIDDLE MAN, then traverse left. A nice, ‘sporty’ route. Kev Power on the arete of Launchpad To Hyperspace 5- CHOSS MONSTER E1 5a? 30m? 5 m right is another large loose looking corner. Climb the cracks on right hand wall of this until you can gain left trending corner under some roofs. Launch up crack on right hand wall to grassy ledge level with roof. 2 RB anchors. Not as bad as the name suggests, "
+          },
+          {
+            "name": "5- CHOSS MONSTER E1 5a?",
+            "height": 30,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "5 m right is another large loose looking corner. Climb the cracks on right hand wall of this until you can gain left trending corner under some roofs. Launch up crack on right hand wall to grassy ledge level with roof. 2 RB anchors. Not as bad as the name suggests, or it looks! Kev Power leading Choss Monster, E1 5a The main face is THE reason to climb here. It is (approx) 60-70 m high and about 400m long. There are sections of good clean rock, mixed with sections of choss. A deep corner splits "
+          },
+          {
+            "name": "Climbs the groove",
+            "height": 15,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 5,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "King's Rock",
+        "page_title": "King%27s_Rock",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=King%27s_Rock",
+        "routes": [
+          {
+            "name": "Return of the king E1 5b",
+            "height": 10,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy, M. Walsh (abseil inspected) 27/3/2011",
+            "description": null
+          },
+          {
+            "name": "Mind those cows E1 5b",
+            "height": 10,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M.Walsh, H.Hennessy (abseil inspected) 27/3/2011",
+            "description": null
+          },
+          {
+            "name": "Amber S 4a",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy (solo) 9/2010",
+            "description": null
+          },
+          {
+            "name": "Uncle Tom's tractor HVS 5a",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M.Walsh, H.Hennessy, C.Seery (abseil inspected) 27/3/2011",
+            "description": null
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Mass Rock",
+        "page_title": "Mass_Rock",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Mass_Rock",
+        "routes": [
+          {
+            "name": "Drumshambo Breakfast Roll E1 5b",
+            "height": 15,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "B.Seery, H.Hennessy (Ground up) 24/4/2011",
+            "description": null
+          },
+          {
+            "name": "The Great Hunger E2 5b",
+            "height": 15,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy, B.Seery (Cleaned prior to ascent) 24/4/2011",
+            "description": null
+          },
+          {
+            "name": "Feed Me D",
+            "height": 12,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "The Offering E4 6a",
+            "height": 18,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M.Walsh, H.Hennessy (Cleaned prior to ascent) 24/4/2011",
+            "description": null
+          },
+          {
+            "name": "Dont Pull Mary E2 5c",
+            "height": 18,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M.Walsh, B.Seery (Cleaned prior to ascent) 24/4/2011",
+            "description": null
+          },
+          {
+            "name": "Jigsaw HS 4b",
+            "height": 15,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy, C.Seery 24/4/2011",
+            "description": null
+          },
+          {
+            "name": "The 5th Ape VS 4c",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy, M.Walsh (Cleaned prior to ascent) 4/6/2011",
+            "description": null
+          },
+          {
+            "name": "Im in Heaven HVS 5a",
+            "height": 15,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M.Walsh,H.Hennessy (Cleaned prior to ascent)4/6/2011",
+            "description": null
+          },
+          {
+            "name": "Reaper E3 5c",
+            "height": 15,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy, M.Walsh (Cleaned prior to ascent) 4/6/2011",
+            "description": null
+          },
+          {
+            "name": "Forbidden Fruit HVS 5a",
+            "height": 15,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy (Cleaned prior to ascent) 2/5/2011",
+            "description": null
+          },
+          {
+            "name": "Mmm Boxty HVS 5a",
+            "height": 14,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy, C.Seery (Cleaned prior to ascent) 2/5/2011",
+            "description": null
+          },
+          {
+            "name": "How Much is Enough E1 5b",
+            "height": 14,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "B.Seery, H.Hennessy 03/07/11 Start 2m right of Mmm Boxty. Take a line straight to the top with thin moves between the horizontal breaks and moving through the bucket holds up higher. 16. OMG E1 5b 14m H.Hennessy, B.Seery 23/4/2011"
+          },
+          {
+            "name": "OMG E1 5b",
+            "height": 14,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy, B.Seery 23/4/2011",
+            "description": null
+          },
+          {
+            "name": "lord of the sheep HVS 5a",
+            "height": 14,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy, M.Keogh 23/2/2013",
+            "description": null
+          }
+        ],
+        "routes_count": 14,
+        "coordinates": {
+          "latitude": 53.2031803,
+          "longitude": -6.2633032,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "The Doons",
+        "page_title": "The_Doons",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=The_Doons",
+        "routes": [
+          {
+            "name": "LORNA",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Tim Fogg, Ian Rea 17th January 1981",
+            "description": null
+          },
+          {
+            "name": "LIMESTONE LEMUR",
+            "height": 28,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D.Stelfox, I.Rea 17th January 1981",
+            "description": null
+          },
+          {
+            "name": "SLIGO RIPPER",
+            "height": 30,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D.Stelfox, I.Rea. 17th January 1981",
+            "description": null
+          },
+          {
+            "name": "MANKY MONKEY",
+            "height": 24,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start - 4 m left of an ivy creeper, and takes the line up to the deep flakey chimney. Climb moving slightly left towards chimney and exit. Belay 7m back around boulder."
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 54.2880905,
+          "longitude": -8.3291936,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Swiss Valley",
+        "page_title": "Swiss_Valley",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=Swiss_Valley",
+        "routes": [
+          {
+            "name": "Enigma** VS",
+            "height": 30,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Yosef Dvores, Laura McMorrow, 2022",
+            "description": null
+          },
+          {
+            "name": "Prime Lime Climb E4/5",
+            "height": 40,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Yosef Dvores, Jon Gilmour, 7th May 2024",
+            "description": null
+          },
+          {
+            "name": "Fossil Features HS",
+            "height": 25,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Yosef Dvores, Jon Gilmour, 7th May 2024",
+            "description": null
+          },
+          {
+            "name": "Lime Light  VS",
+            "height": 50,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Yosef Dvores, Laura McMorrow, 2022",
+            "description": null
+          },
+          {
+            "name": "Lime in the ballnut E1",
+            "height": 50,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Yosef Dvores, Jon Gilmour, 17th May 2022",
+            "description": null
+          },
+          {
+            "name": "Yosef's route HVS",
+            "height": 50,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Jon Gilmour, Yosef Dvores, 12th May 2023",
+            "description": null
+          },
+          {
+            "name": "Optimus Lime VS",
+            "height": 35,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Yosef Dvores, Gavin Conlon, 10th August, 2024",
+            "description": null
+          },
+          {
+            "name": "Little drops of coolness E1",
+            "height": 45,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start on a narrow ledge below a thin crack and a few meters above a bigger ledge underneath. Climb straight up, weaving whichever way tickles your fancy."
+          }
+        ],
+        "routes_count": 8,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}

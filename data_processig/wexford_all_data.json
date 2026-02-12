@@ -1,0 +1,35 @@
+{
+  "Co. Wexford": {
+    "county_info": {
+      "name": "Co. Wexford"
+    },
+    "climbing_sites": [
+      {
+        "name": "Rocklands",
+        "page_title": "Rocklands",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Rocklands",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.2605171,
+          "longitude": -8.9181793,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Forth Mountain",
+        "page_title": "Forth_Mountain",
+        "climbing_type": "Quarry",
+        "url": "http://wiki.climbing.ie/index.php?title=Forth_Mountain",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 52.3161705,
+          "longitude": -6.5624567,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

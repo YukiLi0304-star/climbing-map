@@ -1,0 +1,1788 @@
+{
+  "Co. Wicklow": {
+    "county_info": {
+      "name": "Co. Wicklow"
+    },
+    "climbing_sites": [
+      {
+        "name": "Notes on Early Wicklow Climbing",
+        "page_title": "Notes_on_Early_Wicklow_Climbing",
+        "climbing_type": "Quarry",
+        "url": "http://wiki.climbing.ie/index.php?title=Notes_on_Early_Wicklow_Climbing",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Annalecka Buttress",
+        "page_title": "Annalecka_Buttress",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Annalecka_Buttress",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Barnacullian",
+        "page_title": "Barnacullian",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Barnacullian",
+        "routes": [
+          {
+            "name": "1 GORILLAS IN THE MIST",
+            "height": 22,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Nicholas Keegan, Conor O Connor. 11/9/2007",
+            "description": null
+          },
+          {
+            "name": "1a HEATHER HAVEN",
+            "height": 15,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Cleary. 13/9/2009",
+            "description": null
+          },
+          {
+            "name": "1b CHASING THE DRAGON",
+            "height": 55,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Galligan, S. O Hanlon, 29/5/2011. 2nd pitch added 20/4/2013",
+            "description": null
+          },
+          {
+            "name": "2 SLAB MURPHY",
+            "height": 58,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. O Leary, S. O Hanlon. 8/4/2007",
+            "description": null
+          },
+          {
+            "name": "2a LAURA",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Cleary, D. McKeown. 13/9/2009",
+            "description": null
+          },
+          {
+            "name": "2b WALK ON HOT COALS",
+            "height": 16,
+            "difficulty": "2B",
+            "overall_grade": "2B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Galligan (top-roped prior to ascent) 31/8/2014",
+            "description": null
+          },
+          {
+            "name": "2c&nbsp; NANNY & GRANDA",
+            "height": 12,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Paul O Brien, Colette Mahon 13/10/2015",
+            "description": null
+          },
+          {
+            "name": "3 SPACEMURPHIE",
+            "height": 22,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. O Leary, S. O Hanlon. 4/6/2006",
+            "description": null
+          }
+        ],
+        "routes_count": 8,
+        "coordinates": {
+          "latitude": 53.0842662,
+          "longitude": -6.3979654,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Barnbawn",
+        "page_title": "Barnbawn",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Barnbawn",
+        "routes": [
+          {
+            "name": "PINE TREE WAY",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall. 1/8/2004",
+            "description": null
+          },
+          {
+            "name": "d)FRAUGHAN CRACK",
+            "height": 10,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T. O'Neill, B.Dolan 20/09/2008",
+            "description": null
+          },
+          {
+            "name": "2 OOH! AAH!",
+            "height": 11,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "THE GHOST OF HOPE AGAIN",
+            "height": 12,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "F. O'Brien, T. O'Brien 14/06/20 Climb the large crack on the right hand side of the short McGrath slab. Achieve the wide ledge and the left leaning finger crack that goes below the large overhang. Climb the smaller overhang to the left of the nose to reach the summit. 4 BLOODY NOSE 13m E1 (5b) C. Murphy 24/9/2003"
+          },
+          {
+            "name": "4 BLOODY NOSE",
+            "height": 13,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C. Murphy 24/9/2003 ",
+            "description": null
+          },
+          {
+            "name": "5 LINEKER",
+            "height": 13,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "E. Hackett, B. Hannon, 23/3/1991.",
+            "description": null
+          },
+          {
+            "name": "6 LE TAUREAU BRUN DE COOLEY",
+            "height": 13,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "L. Convery, B. Norton, 2/2/1991.",
+            "description": null
+          },
+          {
+            "name": "7 AN GRIANÁN",
+            "height": 13,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "8 THE SAW DOCTORS",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, L. Convery, 23/3/1991.",
+            "description": null
+          },
+          {
+            "name": "ORANGE PEEL",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Craig, S. Daly, January 2009.",
+            "description": null
+          },
+          {
+            "name": "9 BONSAI",
+            "height": 16,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, L. Convery, 26/1/1991.",
+            "description": null
+          },
+          {
+            "name": "10 SCUD GUYS DIE YOUNG",
+            "height": 18,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, L. Convery, 2/2/1991.",
+            "description": null
+          },
+          {
+            "name": "11 BUACHAILLÍ BÁNA",
+            "height": 18,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, L. Convery, 26/1/1991.",
+            "description": null
+          },
+          {
+            "name": "12 SWING LOWE",
+            "height": 12,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "L. Convery, G. Moss, 19/1/1991.",
+            "description": null
+          },
+          {
+            "name": "THE EDGE ROUTE",
+            "height": 12,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T. O'Neill, B.Dolan 20/09/2008",
+            "description": null
+          },
+          {
+            "name": "13 SADDAM'S RIB",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, E. Hackett, B. Hannon, 23/3/1991.",
+            "description": null
+          },
+          {
+            "name": "14 EYE OF THE NEEDLE",
+            "height": 23,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "B. Hannon, E. Hackett, 23/3/1991.",
+            "description": null
+          },
+          {
+            "name": "15 SIR WALTER RALEIGH",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, L. Convery, 23/3/1991.",
+            "description": null
+          },
+          {
+            "name": "16 DAMP START CRACK",
+            "height": 14,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "B. Hannon, B. Norton, 2/2/1991.",
+            "description": null
+          },
+          {
+            "name": "17 BARNSTORMERS",
+            "height": 13,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, E. Hackett, B. Hannon, 23/3/1991.",
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 52.971663,
+          "longitude": -6.1959322,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Bell Rock - Avoca",
+        "page_title": "Bell_Rock_-_Avoca",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Bell_Rock_-_Avoca",
+        "routes": [
+          {
+            "name": "<i>BUCKAROO</i>- F6C",
+            "height": 20,
+            "difficulty": "F6C",
+            "overall_grade": "F6C",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "<i>AFTER THOUGHT</i>- 7b??",
+            "height": 20,
+            "difficulty": "7B",
+            "overall_grade": "7B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Open project. Left up the groove to good under clings, then a series of powerful moves up the right hand wall leads to an easier but bouldery top out directly over the last bolt (don’t chicken out sideways!). Brilliant climbing. 5 m left, some hand lines start. For the following routes it is advisable to gear up here, but you can squeeze into some (awkward) corners higher up. Carefully scramble up leftwards to the base of the main wall along the hand lines. In the middle of this is: A MANS BEST "
+          },
+          {
+            "name": "A MANS BEST FRIEND- 6b.",
+            "height": 15,
+            "difficulty": "6B",
+            "overall_grade": "6B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Diagonal leftward line up the middle of the overhung wall. Don’t forget to enjoy the views from the top. Sustained. As you lower off the previous route, you can swing left to a set of anchors about half way up the wall. The climbing to these is powerful and nice, but the rock is pretty dubious to hold a bolt, its probably better left as a top rope route……..? *RUBIK’S GROOVE- 6b. 15m Perhaps the route of the crag. As you round the arete on the left of the wall, a series of short grooves lead to t"
+          },
+          {
+            "name": "7a",
+            "height": 7,
+            "difficulty": "7A",
+            "overall_grade": "7A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "As you lower off the previous route, you can swing left to a set of anchors about half way up the wall. The climbing to these is powerful and nice, but the rock is pretty dubious to hold a bolt, its probably better left as a top rope route……..? *RUBIK’S GROOVE- 6b. 15m Perhaps the route of the crag. As you round the arete on the left of the wall, a series of short grooves lead to the top. The very first one gives brilliant climbing up and right, meeting the arete at about half height. Funky/obsc"
+          },
+          {
+            "name": "<i>RUBIK’S GROOVE</i>- 6b.",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Perhaps the route of the crag. As you round the arete on the left of the wall, a series of short grooves lead to the top. The very first one gives brilliant climbing up and right, meeting the arete at about half height. Funky/obscure climbing. GROOVY TUESDAY- 5+ 12m The second groove gives nice climbing up into a corner, surmount this crux leftward and weave to the top anchors as for ‘Rubiks’. If you continue up and left you will see the last clean looking line, which has a set of anchors at the"
+          }
+        ],
+        "routes_count": 5,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "The Bishop - Dunran",
+        "page_title": "The_Bishop_-_Dunran",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=The_Bishop_-_Dunran",
+        "routes": [
+          {
+            "name": "1 SLEEPY HOLLOW &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 27,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "B. Walker, D. Mitchell, 26/8/1972.",
+            "description": null
+          },
+          {
+            "name": "2 THE ACTRESS &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 27,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Climb the slightly groovy wall to the overhang and up this to the top. C. Torrans, C. Sheridan. 3 THE PULPIT* &nbsp;&nbsp;&nbsp;&nbsp;25m&nbsp;&nbsp;&nbsp;&nbsp;VS&nbsp;&nbsp;&nbsp;&nbsp;(4c) Climb the wall just left of the block. C. Torrans, C. Sheridan. 4 DIET OF WORMS*&nbsp;&nbsp;&nbsp;&nbsp;25m&nbsp;&nbsp;&nbsp;&nbsp;E1&nbsp;&nbsp;&nbsp;&nbsp;(5b) Climb the wall right of the block. C. Torrans, C. Sheridan. 5 SALVATION* &nbsp;&nbsp;&nbsp;&nbsp;25m&nbsp;&nbsp;&nbsp;&nbsp;E1&nbsp;&nbsp;&nbsp;&n"
+          },
+          {
+            "name": "3 THE PULPIT* &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Climb the wall just left of the block. C. Torrans, C. Sheridan. 4 DIET OF WORMS*&nbsp;&nbsp;&nbsp;&nbsp;25m&nbsp;&nbsp;&nbsp;&nbsp;E1&nbsp;&nbsp;&nbsp;&nbsp;(5b) Climb the wall right of the block. C. Torrans, C. Sheridan. 5 SALVATION* &nbsp;&nbsp;&nbsp;&nbsp;25m&nbsp;&nbsp;&nbsp;&nbsp;E1&nbsp;&nbsp;&nbsp;&nbsp;(5b) Climb the wall direct. C. Torrans, C. Sheridan. 6 PURGATORY &nbsp;&nbsp;&nbsp;&nbsp;30m &nbsp;&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;(4a) Start on a ledge below the crack 1. 27m C"
+          },
+          {
+            "name": "5 SALVATION*  &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 25,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Climb the wall direct. C. Torrans, C. Sheridan. 6 PURGATORY &nbsp;&nbsp;&nbsp;&nbsp;30m &nbsp;&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;(4a) Start on a ledge below the crack 1. 27m Climb up to the foot of the crack and then traverse left along the ledge. Go up right of the rib for about 5m until it is possible to move left onto the crest of the rib. Continue up flaky slabs left of the rib and up to the overhang. Swing left over the shoulder and up broken rock. 2. 3m To the top as for Sleepy Hol"
+          },
+          {
+            "name": "6 PURGATORY &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 30,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Old IMC, probably 1942",
+            "description": null
+          },
+          {
+            "name": "8 LUTHER &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "9 THE CONFESSIONAL &nbsp;&nbsp;&nbsp;&nbsp;10m &nbsp;&nbsp;&nbsp;&nbsp;VS&nbsp;&nbsp;&nbsp;&nbsp;(4b) Start as for Purgatory. Pull up right into the foot of the diedre. Climb mainly on small holds on the right wall to the top. Very sustained climbing. I. Masterson, J. Lynam, 19/6/1972."
+          }
+        ],
+        "routes_count": 6,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Bonfire Buttress",
+        "page_title": "Bonfire_Buttress",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Bonfire_Buttress",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Bray Head",
+        "page_title": "Bray_Head",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=Bray_Head",
+        "routes": [
+          {
+            "name": "Winkle-picker.",
+            "height": 19,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, T. Forde, 2/11/1975",
+            "description": null
+          },
+          {
+            "name": "Cockle. &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 18,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Scallop** &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 15,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G.Moss, T. Forde, 8/11/1975.",
+            "description": null
+          },
+          {
+            "name": "LOBSTER &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 13,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T. Forde, G. Moss, 31/8/1976.",
+            "description": null
+          },
+          {
+            "name": "PUFFIN* &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 18,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, T. Forde, 12/10/1974.",
+            "description": null
+          },
+          {
+            "name": "Carraigeen* &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 18,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, T. Forde, 8/3/1975.",
+            "description": null
+          },
+          {
+            "name": "Thoughts from the Glans.",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Tracey, July, 1992.",
+            "description": null
+          },
+          {
+            "name": "Barnacle* &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 12,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, T. Forde, 12/10/1974.",
+            "description": null
+          },
+          {
+            "name": "Crab. &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 12,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Black-bottom &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, T. Forde, 15/3/1975",
+            "description": null
+          },
+          {
+            "name": "Camán. &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 28,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Note This climb has recently, and unnecessarily, been equipped with numerous pitons. How long they will last in the salt-laden atmosphere remains to be seen. Start from the Slipway, at the foot of a narrow, curving slab with a deep crack in the overlap on its right. 1. 18m Climb the slab (a runner on the curve of the crack will prevent the rope from becoming jammed in the crack) and the corner above, to a block belay below the Crow's Nest, as for Tough Soot. 2 10m Climb the thin crack just left "
+          },
+          {
+            "name": "Cricklewood** &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 28,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, T. Clancy, 21/7/1974",
+            "description": null
+          },
+          {
+            "name": "Razorbill &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 28,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, T. Forde, 12/10/1974.",
+            "description": null
+          },
+          {
+            "name": "Airy Edge*&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 18,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Old I.M.C. circa 1942.",
+            "description": null
+          },
+          {
+            "name": "Fat Crack. &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 18,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Jack Spratt. &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, T. Forde, 9/11/1974",
+            "description": null
+          },
+          {
+            "name": "LEAN CRACK",
+            "height": 14,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Pleasant climbing on small holds, with good protection. Start 2m in from the right edge, below the obvious crack. Some difficult moves lead to better holds, step left near the top to finish up the crack. Old I.M.C. circa. 1942. )"
+          },
+          {
+            "name": "Shaft** &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Moss, T. Forde, 9/10/1976.",
+            "description": null
+          }
+        ],
+        "routes_count": 18,
+        "coordinates": {
+          "latitude": 53.1904724,
+          "longitude": -6.0837452,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Carrick Mountain",
+        "page_title": "Carrick_Mountain",
+        "climbing_type": "Quarry",
+        "url": "http://wiki.climbing.ie/index.php?title=Carrick_Mountain",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 52.9835126,
+          "longitude": -6.1654555,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Carrigshouk",
+        "page_title": "Carrigshouk",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Carrigshouk",
+        "routes": [
+          {
+            "name": "2  HIGHER CALLING*&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 10,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, 17/6/2005.",
+            "description": null
+          },
+          {
+            "name": "3  NEW FACES   &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall 27/6/2005",
+            "description": null
+          },
+          {
+            "name": "4 CLOSE ENCOUNTER &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 14,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H. Hebblethwaite, P. Keane, 17/6/2005",
+            "description": null
+          },
+          {
+            "name": "5 RANDOM EVENTS&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 17,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall 20/6/2005",
+            "description": null
+          },
+          {
+            "name": "6 COUNTRY ROAD*&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 50,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall 13/6/2005",
+            "description": null
+          },
+          {
+            "name": "7 TRAVELLER'S JOY*&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 33,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall 13/6/2005",
+            "description": null
+          },
+          {
+            "name": "8 FLIGHT OF FANCY**&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 33,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, 13/8/2006 **",
+            "description": null
+          },
+          {
+            "name": "THE HILLS HAVE EYES**&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 33,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall 13/6/2005",
+            "description": null
+          },
+          {
+            "name": "10 JOY ZIPPER*&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 33,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, P. O Leary, J. Aitken, 7/8/2005",
+            "description": null
+          },
+          {
+            "name": "11 TIME'S ARROW*&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 33,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall 19/6/2005",
+            "description": null
+          },
+          {
+            "name": "12 LIGHT FANTASTIC* &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 33,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall 27/6/2005",
+            "description": null
+          },
+          {
+            "name": "13 ARABY**&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 33,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall 27/6/2005",
+            "description": null
+          },
+          {
+            "name": "14 WINGS OF DESIRE*&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 18,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, 13/8/2005",
+            "description": null
+          },
+          {
+            "name": "15 DIVIDED FEARS*&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 8,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Z. Wang, R. Duggan, 27/2/2011",
+            "description": null
+          },
+          {
+            "name": "16 PASSOVER &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 35,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, 22/6/2005",
+            "description": null
+          },
+          {
+            "name": "17 IN TRANSIT&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 9,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons 26/6/2005",
+            "description": null
+          },
+          {
+            "name": "OUTTA CONTROL &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 10,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall 11/7/2005",
+            "description": null
+          },
+          {
+            "name": "18 LUCKY FOR SOME*&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 14,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, 30/7/2006",
+            "description": null
+          },
+          {
+            "name": "19 SNATCH &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 13,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall, 8/9/2006**",
+            "description": null
+          },
+          {
+            "name": "21 LATE DEPARTURE*&nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 23,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall 3/10/2005",
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.0860508,
+          "longitude": -6.3622124,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Cloghoge",
+        "page_title": "Cloghoge",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Cloghoge",
+        "routes": [
+          {
+            "name": "R. Browner, M. Duffy",
+            "height": 8,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "R. Browner, M. Duffy,",
+            "height": 8,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 53.1156167,
+          "longitude": -6.2744869,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Glendalough",
+        "page_title": "Glendalough",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Glendalough",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.012,
+          "longitude": -6.355,
+          "source": "manual"
+        }
+      },
+      {
+        "name": "Glenmalure",
+        "page_title": "Glenmalure",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Glenmalure",
+        "routes": [
+          {
+            "name": "CAUGHT IN THE ACT",
+            "height": 42,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Start just to the right of the nest below a V-notch in the roof. Climb with difficulty onto the obvious nose. Move steeply right to the base of leftward-trending slabs. Follow the slabs to a perch immediately beneath the roof. Climb the overhang by moving horizontally left and then up on good holds and jams in a very exposed position. Step right and then continue, trending leftwards, up the face to the top.",
+            "description": null
+          },
+          {
+            "name": "FROM THE RIVER",
+            "height": 12,
+            "difficulty": "6A",
+            "overall_grade": "6A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R. Duggan 11/11/2023",
+            "description": null
+          },
+          {
+            "name": "LE BUET",
+            "height": 12,
+            "difficulty": "6B",
+            "overall_grade": "6B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T. O'Connell 11/11/2023",
+            "description": null
+          },
+          {
+            "name": "TO THE SEA",
+            "height": 15,
+            "difficulty": "6C",
+            "overall_grade": "6C",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R. Duggan 11/11/2023",
+            "description": null
+          },
+          {
+            "name": "RIGHT OF RETURN",
+            "height": 12,
+            "difficulty": "7A",
+            "overall_grade": "7A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Ayton, C. Orr  19 / 5 / 2024",
+            "description": null
+          },
+          {
+            "name": "BATTLE HOST",
+            "height": 20,
+            "difficulty": "E6",
+            "overall_grade": "E6",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Ayton, C. Harney Ayton - April 2025",
+            "description": null
+          },
+          {
+            "name": "STRONGHOLD",
+            "height": 20,
+            "difficulty": "7C",
+            "overall_grade": "7C",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Lower arete and face to steep featured crack direct. Hard boulder crux at 6th. 3.V STRONGHOLD ARETE ** 20m 7b Avoid the hard climbing on Stronghold by escaping right at the 6th to the Arete. Follow this on good holds to re-join Stronghold above it’s stopper crux. 4. POTENTIAL LINE Left gully slab and face. Easy moves, bold positions, always wet - 5. HALBERD ** 18m E4 6a Climb the obvious overhanging Arete forming the right-hand side of the gully. Starting on the right, weaving left briefly befor"
+          },
+          {
+            "name": "V STRONGHOLD ARETE",
+            "height": 20,
+            "difficulty": "7B",
+            "overall_grade": "7B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Avoid the hard climbing on Stronghold by escaping right at the 6th to the Arete. Follow this on good holds to re-join Stronghold above it’s stopper crux. 4. POTENTIAL LINE Left gully slab and face. Easy moves, bold positions, always wet - 5. HALBERD ** 18m E4 6a Climb the obvious overhanging Arete forming the right-hand side of the gully. Starting on the right, weaving left briefly before transitioning right again and enjoying some great positions high up. Finish direct trusting to slopers, gran"
+          },
+          {
+            "name": "HALBERD",
+            "height": 18,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Ayton, C. Harney Ayton - Sept 2023",
+            "description": null
+          },
+          {
+            "name": "PATRIOT",
+            "height": 18,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Ayton, C. Harney Ayton - Sept 2023",
+            "description": null
+          },
+          {
+            "name": "AMBUSH",
+            "height": 19,
+            "difficulty": "E5",
+            "overall_grade": "E5",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Ayton, C. Harney Ayton - Sept 2023",
+            "description": null
+          },
+          {
+            "name": "A. REFUGE",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "B. ROWAN TREE 12mVS C. BACK FIRE 12m HVS"
+          },
+          {
+            "name": "C. BACK FIRE",
+            "height": 12,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": null
+          },
+          {
+            "name": "D. PIKED",
+            "height": 12,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": null
+          }
+        ],
+        "routes_count": 14,
+        "coordinates": {
+          "latitude": 52.9576993,
+          "longitude": -6.3539662,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Great Sugar Loaf",
+        "page_title": "Great_Sugar_Loaf",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Great_Sugar_Loaf",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Green Lizard",
+        "page_title": "Green_Lizard",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Green_Lizard",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Hollywood",
+        "page_title": "Hollywood",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Hollywood",
+        "routes": [
+          {
+            "name": "BANDICOOT &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 9,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, C. Lyons, F. Lyons, 31/5/1992.&nbsp;&nbsp;&nbsp;&nbsp;",
+            "description": null
+          },
+          {
+            "name": "EGG TIMER &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 9,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Ó Connor, J. Hastings, April 1984",
+            "description": null
+          },
+          {
+            "name": "FAST MOVER &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 35,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, J. Byrne, 10/10/1992",
+            "description": null
+          },
+          {
+            "name": "FOXY LADY* &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Hastings,  D. Ó Connor, May 1984",
+            "description": null
+          },
+          {
+            "name": "SARACEN &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Hastings,  D. Ó Connor, April 1984",
+            "description": null
+          },
+          {
+            "name": "HOOF-HEARTED &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Hastings, D. Ó Connor, May 1984",
+            "description": null
+          },
+          {
+            "name": "PERSEVERANCE &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Bergin, 1983",
+            "description": null
+          },
+          {
+            "name": "SKYWALKER* &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 21,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Ó Connor, J. Hastings, May 1984",
+            "description": null
+          },
+          {
+            "name": "PIGS IN SPACE &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 22,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Hastings, D. Ó Connor, April 1984",
+            "description": null
+          }
+        ],
+        "routes_count": 9,
+        "coordinates": {
+          "latitude": 53.092046,
+          "longitude": -6.597554,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Lough Bray",
+        "page_title": "Lough_Bray",
+        "climbing_type": "Quarry",
+        "url": "http://wiki.climbing.ie/index.php?title=Lough_Bray",
+        "routes": [
+          {
+            "name": "1 CHIMINEY CRICKET",
+            "height": 9,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Cleary, E. Cannon, D. Mckeown. 27/2/2010",
+            "description": null
+          },
+          {
+            "name": "2 CHIMNEY SWEEP",
+            "height": 15,
+            "difficulty": "MS",
+            "overall_grade": "MS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Mckeown, M. Cleary. 7/3/2010",
+            "description": null
+          },
+          {
+            "name": "3 WHERE EAGLES DARE",
+            "height": 8,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Cleary, D. Mckeown. 7/3/2010",
+            "description": null
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 53.1841955,
+          "longitude": -6.2990364,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Lough Dan",
+        "page_title": "Lough_Dan",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Lough_Dan",
+        "routes": [
+          {
+            "name": "CHUCKLING PIG",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S.R. Young, D. Walsh, 5/5/1974.",
+            "description": null
+          },
+          {
+            "name": "THE CIRCUS ANIMALS' DESERTION",
+            "height": 12,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C. O Cofaigh, J. Lyons, 2/9/1990.",
+            "description": null
+          },
+          {
+            "name": "EXILES",
+            "height": 12,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H. Hebblethwaite, Summer 1994.",
+            "description": null
+          },
+          {
+            "name": "HAT TRICK",
+            "height": 26,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S.R. Young, D. Walsh, 5/5/1974.",
+            "description": null
+          },
+          {
+            "name": "EXCITABLE BOY",
+            "height": 15,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. O Sullivan, J. Dugdale, 26/8/1990.",
+            "description": null
+          },
+          {
+            "name": "LITTLE OAK CRACK",
+            "height": 15,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall, 6/8/1989.(First recorded ascent – names of earlier ascensionists uncertain).",
+            "description": null
+          },
+          {
+            "name": "LITTLE OAK DIRECT",
+            "height": 15,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R. Browner, Summer 1996.",
+            "description": null
+          },
+          {
+            "name": "SURFS UP",
+            "height": 15,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. O Sullivan, H. Hebblethwaite, 26/8/1990.",
+            "description": null
+          },
+          {
+            "name": "SQUALL",
+            "height": 15,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T. Burke, J. Stark, 26/8/1990.",
+            "description": null
+          },
+          {
+            "name": "JET STREAM",
+            "height": 15,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Price, H. Hebblethwaite, 1985.",
+            "description": null
+          },
+          {
+            "name": "LIGHTNING CRACK",
+            "height": 15,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H. Hebblethwaite, J. Price, 1985.",
+            "description": null
+          },
+          {
+            "name": "ARCHAOS",
+            "height": 18,
+            "difficulty": "E6",
+            "overall_grade": "E6",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. O Sullivan, J. Dugdale, (Redpoint ascent) 31/8/1990.",
+            "description": null
+          },
+          {
+            "name": "STORM CLOUD",
+            "height": 16,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T. Burke, 27/8/1990.",
+            "description": null
+          },
+          {
+            "name": "SIDEWINDER",
+            "height": 35,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. O Sullivan, J. Armstrong, October 1984.",
+            "description": null
+          },
+          {
+            "name": "DECEPTION",
+            "height": 30,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. O Sullivan, J. Armstrong, October 1984.",
+            "description": null
+          },
+          {
+            "name": "DUPLICITY",
+            "height": 35,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T. Burke, J. Lyons, 26/8/1990.",
+            "description": null
+          },
+          {
+            "name": "TOMAHAWK",
+            "height": 35,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, C. O Cofaigh, 2/9/1990.",
+            "description": null
+          },
+          {
+            "name": "DRAGONFLY",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, D. Wall, 18/7/2004.",
+            "description": null
+          },
+          {
+            "name": "HEATHER BEE",
+            "height": 15,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, 22/5/1994.",
+            "description": null
+          },
+          {
+            "name": "OASIS",
+            "height": 17,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Lyons, 22/5/1994.",
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.0694913,
+          "longitude": -6.2790824,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Lough Nahanagan",
+        "page_title": "Lough_Nahanagan",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Lough_Nahanagan",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.0307181,
+          "longitude": -6.3913994,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Lover's Leap - Enniskerry",
+        "page_title": "Lover%27s_Leap_-_Enniskerry",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Lover%27s_Leap_-_Enniskerry",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.1842565,
+          "longitude": -6.1534644,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Luggala",
+        "page_title": "Luggala",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Luggala",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.1050891,
+          "longitude": -6.2836108,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Mall Hill",
+        "page_title": "Mall_Hill",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Mall_Hill",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.0448281,
+          "longitude": -6.3425644,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Tonduff/Raven's Glen",
+        "page_title": "Tonduff/Raven%27s_Glen",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Tonduff/Raven%27s_Glen",
+        "routes": [
+          {
+            "name": "Johnny's Undoing &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Climb the mouth of the narrow cave (Can be started up the white face at about 5b) and then make tricky moves to the tree traverse right to the heather ledge and finish up the small wall to grapple through the heather.(The plan was to use the tree to climb the blank headwall above but the tree was deemed too fragile) . D.Smyth D.Flanagan Spring '00 The Largest piece of rock in Tonduff. It probably has the most worthwhile routes as well. 2. Yellow Man &nbsp;&nbsp;&nbsp;&nbsp;9m&nbsp;&nbsp;&nbsp;&n"
+          },
+          {
+            "name": "Yellow Man  &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 9,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Starts at the obvious crack on the left hand side and then traverses left when it gets steep. D.Flanagan D.Smyth April'00 3. Glendale Boulevard &nbsp;&nbsp;&nbsp;&nbsp;15m&nbsp;&nbsp;&nbsp;&nbsp; VS Start at a small spike use this to get established on the rock then step left continue up till a steeping where you head diagonally right until below the roof (crux). Finish up the trees in the corner (or left of the roof) D.Flanagan K.Byrne Summer '99 4. Kevin's Chimney &nbsp;&nbsp;&nbsp;&nbsp;5m&nb"
+          },
+          {
+            "name": "Glendale Boulevard  &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start at a small spike use this to get established on the rock then step left continue up till a steeping where you head diagonally right until below the roof (crux). Finish up the trees in the corner (or left of the roof) D.Flanagan K.Byrne Summer '99 4. Kevin's Chimney &nbsp;&nbsp;&nbsp;&nbsp;5m&nbsp;&nbsp;&nbsp;&nbsp; VDIFF The obvious chimmeny (and corner above??) K.Byrne Summer '99 This 2 tiered slab is all friction and not much gear. There is no good belays on the grass in the middle addin"
+          },
+          {
+            "name": "Kevin's Chimney &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 5,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "The obvious chimmeny (and corner above??) K.Byrne Summer '99 This 2 tiered slab is all friction and not much gear. There is no good belays on the grass in the middle adding to the interest for some routes. 5. The Dodgy Bunter &nbsp;&nbsp;&nbsp;&nbsp;8m&nbsp;&nbsp;&nbsp;&nbsp; HS (A0) Start below a crack in the middle of the lower slab make difficult moves or use aid to get established ,follow the crack to where it steepens then traverse right until it is possible to grapple on to the heather. D."
+          },
+          {
+            "name": "The Dodgy Bunter &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 8,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start below a crack in the middle of the lower slab make difficult moves or use aid to get established ,follow the crack to where it steepens then traverse right until it is possible to grapple on to the heather. D.Flanagan (with aid to start) seconded by Peter Tom McMahon (free) 6. Project &nbsp;&nbsp;&nbsp;&nbsp;5m&nbsp;&nbsp;&nbsp;&nbsp; ? Climb the hanging crack with difficult moves on the lip. 7. A Tribe Called Quest &nbsp;&nbsp;&nbsp;&nbsp;12m&nbsp;&nbsp;&nbsp;&nbsp; S Start at the center "
+          },
+          {
+            "name": "A Tribe Called Quest &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start at the center of the slab below the main crack arrange crap gear then step left and pad to the top. 8. Crudley &nbsp;&nbsp;&nbsp;&nbsp;10m&nbsp;&nbsp;&nbsp;&nbsp; HS Takes the middle crack just to the right of center of the upper slab through the steepening D.Smyth D.Flanagan Spring '00"
+          },
+          {
+            "name": "Crudley &nbsp;&nbsp;&nbsp;&nbsp;",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Takes the middle crack just to the right of center of the upper slab through the steepening D.Smyth D.Flanagan Spring '00"
+          }
+        ],
+        "routes_count": 7,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Rocky Valley",
+        "page_title": "Rocky_Valley",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Rocky_Valley",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.1702157,
+          "longitude": -6.141528,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Wicklow Head",
+        "page_title": "Wicklow_Head",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Wicklow_Head",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 52.9654909,
+          "longitude": -5.9977772,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Wicklow Winter Climbs",
+        "page_title": "Wicklow_Winter_Climbs",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Wicklow_Winter_Climbs",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Irish Climbing Wiki",
+        "page_title": "Irish_Climbing_Wiki",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Irish_Climbing_Wiki",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Recent changes",
+        "page_title": "Special:RecentChanges",
+        "climbing_type": "Unknown",
+        "url": "http://wiki.climbing.ie/index.php?title=Special:RecentChanges",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
+        "name": "What links here",
+        "page_title": "Special:WhatLinksHere/Irish_Climbing_Wiki",
+        "climbing_type": "Unknown",
+        "url": "http://wiki.climbing.ie/index.php?title=Special:WhatLinksHere/Irish_Climbing_Wiki",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
+        "name": "Related changes",
+        "page_title": "Special:RecentChangesLinked/Irish_Climbing_Wiki",
+        "climbing_type": "Unknown",
+        "url": "http://wiki.climbing.ie/index.php?title=Special:RecentChangesLinked/Irish_Climbing_Wiki",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
+        "name": "Permanent link",
+        "page_title": "Irish_Climbing_Wiki",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Irish_Climbing_Wiki&oldid=4991",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Privacy policy",
+        "page_title": "Irish_Climbers_Route_Database:Privacy_policy",
+        "climbing_type": "Unknown",
+        "url": "http://wiki.climbing.ie/index.php?title=Irish_Climbers_Route_Database:Privacy_policy",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
+        "name": "About Irish Climbing Wiki",
+        "page_title": "Irish_Climbers_Route_Database:About",
+        "climbing_type": "Unknown",
+        "url": "http://wiki.climbing.ie/index.php?title=Irish_Climbers_Route_Database:About",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": null,
+          "longitude": null
+        }
+      },
+      {
+        "name": "Disclaimers",
+        "page_title": "Irish_Climbers_Route_Database:General_disclaimer",
+        "climbing_type": "Unknown",
+        "url": "http://wiki.climbing.ie/index.php?title=Irish_Climbers_Route_Database:General_disclaimer",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": null,
+          "longitude": null
+        }
+      }
+    ]
+  }
+}

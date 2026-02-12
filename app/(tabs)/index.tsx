@@ -18,13 +18,13 @@ import {
 export default function HomeScreen() {
   const router = useRouter(); 
 
-  const { allSites, loading, countyOptions, clusterOptions } =
+  const { allSites, loading, countyOptions, difficultyOptions } =
     useClimbingSites();
 
   const [searchText, setSearchText] = useState('');
-  const [selectedCounty, setSelectedCounty] = useState<string>('全部');
-  const [selectedCluster, setSelectedCluster] =
-    useState<number | null>(null);
+  const [selectedCounty, setSelectedCounty] = useState<string>('ALL');
+  const [selectedDifficulty, setSelectedDifficulty] = useState<string | null>(null);
+  
   const [selectedSite, setSelectedSite] =
     useState<ClimbingSite | null>(null);
   const [showCountyDropdown, setShowCountyDropdown] = useState(false);
@@ -42,12 +42,19 @@ export default function HomeScreen() {
     const q = searchText.trim().toLowerCase();
 
     return allSites.filter((site) => {
-      if (selectedCounty !== '全部' && site.countyName !== selectedCounty) {
+      if (selectedCounty !== 'ALL' && site.countyName !== selectedCounty) {
         return false;
       }
 
-      if (selectedCluster !== null && site.cluster_id !== selectedCluster) {
-        return false;
+     
+
+      if (selectedDifficulty) {
+        const hasRouteWithDifficulty = (site.routes || []).some(
+          (route) => route.difficulty === selectedDifficulty
+        );
+        if (!hasRouteWithDifficulty) {
+          return false;
+        }
       }
 
       if (q) {
@@ -67,7 +74,7 @@ export default function HomeScreen() {
 
       return true;
     });
-  }, [allSites, searchText, selectedCounty, selectedCluster]);
+  }, [allSites, searchText, selectedCounty, selectedDifficulty]);
 
   
    
@@ -150,8 +157,9 @@ export default function HomeScreen() {
     setSearchText('');
   };
 
-  
   const handleSelectCounty = (county: string) => {
+    console.log('选择了郡:', county);
+    
     setSelectedCounty(county);
     setShowCountyDropdown(false);
 
@@ -166,17 +174,43 @@ export default function HomeScreen() {
       return;
     }
 
-    const sitesInCounty = allSites.filter(
-      (s) => s.countyName === county && s.coordinates
-    );
+    
+    const sitesInCounty = allSites.filter(s => {
+      if (!s.coordinates || !s.countyName) return false;
+      
+      
+      const selectedCountyClean = county.replace('Co. ', '').trim();
+      const siteCountyClean = s.countyName.replace('Co. ', '').trim();
+      
+      return siteCountyClean === selectedCountyClean;
+    });
+
+    console.log(`找到 ${sitesInCounty.length} 个站点在 ${county}`);
 
     if (sitesInCounty.length > 0) {
-      const region = computeRegionForSites(sitesInCounty);
-      if (region) {
-        setFocusRegion(region);
-      }
       
-      setSelectedSite(sitesInCounty[0]);
+      const firstSite = sitesInCounty[0];
+      setSelectedSite(firstSite);
+      
+      
+      setFocusRegion({
+        latitude: firstSite.coordinates!.latitude,
+        longitude: firstSite.coordinates!.longitude,
+        latitudeDelta: 1,  
+        longitudeDelta: 1,
+      });
+      
+      console.log(`跳转到: ${firstSite.name}`, firstSite.coordinates);
+    } else {
+      
+      console.log(`${county} 没有找到站点`);
+      setSelectedSite(null);
+      setFocusRegion({
+        latitude: 53.1424,
+        longitude: -7.6921,
+        latitudeDelta: 4,
+        longitudeDelta: 4,
+      });
     }
   };
 
@@ -198,9 +232,12 @@ export default function HomeScreen() {
         selectedCounty={selectedCounty}
         onSelectCounty={handleSelectCounty}
         countyOptions={countyOptions}
-        selectedCluster={selectedCluster}
-        onSelectCluster={setSelectedCluster}
-        clusterOptions={clusterOptions}
+       
+        
+        selectedDifficulty={selectedDifficulty}
+        onSelectDifficulty={setSelectedDifficulty}
+        difficultyOptions={difficultyOptions}
+        
         suggestedSites={suggestedSites}
         onSelectSite={focusOnSite}
         showCountyDropdown={showCountyDropdown}
@@ -220,7 +257,7 @@ export default function HomeScreen() {
       {/* 底部信息条 */}
       <View style={styles.infoBar}>
         <Text style={styles.infoText}>
-          🧗 Currently showing {filteredSites.length} climbing points(A total of{' '}
+            Currently showing {filteredSites.length} climbing points(A total of{' '}
           {allSites.length})
         </Text>
       </View>

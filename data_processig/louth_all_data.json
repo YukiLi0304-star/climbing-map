@@ -1,0 +1,250 @@
+{
+  "Co. Louth": {
+    "county_info": {
+      "name": "Co. Louth"
+    },
+    "climbing_sites": [
+      {
+        "name": "Slievenaglogh",
+        "page_title": "Slievenaglogh",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Slievenaglogh",
+        "routes": [
+          {
+            "name": "CASEY JONES",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea, M. Rea & K. Lindsay April 1990",
+            "description": null
+          },
+          {
+            "name": "BIG RIVER",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea & K. Lindsay August 1991",
+            "description": null
+          },
+          {
+            "name": "SWEET JAM",
+            "height": 15,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea & K. Lindsay August 1991",
+            "description": null
+          },
+          {
+            "name": "SEAN'S S****Y SHORT ROPE",
+            "height": 14,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Mc Donnell & C. Fowler August 2003",
+            "description": null
+          },
+          {
+            "name": "WINTERLAND",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea & K. Lindsay August 1991",
+            "description": null
+          },
+          {
+            "name": "GREEN SLAB",
+            "height": 18,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea & M. Rea September 1989",
+            "description": null
+          },
+          {
+            "name": "EROS",
+            "height": 18,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea & M. Rea September 1989",
+            "description": null
+          },
+          {
+            "name": "QUIVER",
+            "height": 18,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea & M. Rea September 1989",
+            "description": null
+          },
+          {
+            "name": "THE ARROW",
+            "height": 18,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea & M. Rea September 1989",
+            "description": null
+          },
+          {
+            "name": "ROBIN HOOD",
+            "height": 18,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "L. Shaw & E. Farnworth July 2003",
+            "description": null
+          },
+          {
+            "name": "RAINMAKER",
+            "height": 18,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea, M. Rea & K. Lindsay April 1991",
+            "description": null
+          },
+          {
+            "name": "LULLABY",
+            "height": 20,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea, M. Rea & K. Lindsay April 1990",
+            "description": null
+          },
+          {
+            "name": "BIG SUR",
+            "height": 18,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea & K. Lindsay August 1991",
+            "description": null
+          },
+          {
+            "name": "TRICK OR TREAT",
+            "height": 18,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Rea & I. Rea August 1991",
+            "description": null
+          },
+          {
+            "name": "TOMMY THE BIKES CHRISTMAS CLUB IS NOW OPEN",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Mc Donnell & L. Shaw August 2003",
+            "description": null
+          },
+          {
+            "name": "DON'T FORGET YOUR PICKAXE",
+            "height": 12,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Mc Donnell & L. Shaw August 2003",
+            "description": null
+          },
+          {
+            "name": "ROTATION, ROTATION, ROTATION",
+            "height": 11,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "L. Shaw (Solo) Sept 2003",
+            "description": null
+          },
+          {
+            "name": "KIDNEY FAILURE",
+            "height": 12,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. Hynes & L. Shaw May 2003",
+            "description": null
+          },
+          {
+            "name": "LADS IN OZ",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Mc Donnell & L. Shaw May 2003",
+            "description": null
+          },
+          {
+            "name": "IN BOOTS, PLEASE",
+            "height": 13,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "L. Shaw (Solo) Sept 2003",
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.0139718,
+          "longitude": -6.2634097,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Long Woman's Grave, Cooleys - The Thing In The Forest",
+        "page_title": "Long_Woman%27s_Grave,_Cooleys_-_The_Thing_In_The_Forest",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Long_Woman%27s_Grave,_Cooleys_-_The_Thing_In_The_Forest",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Clogherhead",
+        "page_title": "Clogherhead",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Clogherhead",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.7917202,
+          "longitude": -6.2390693,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

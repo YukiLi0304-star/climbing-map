@@ -1,16 +1,62 @@
 
-import { Stack, useLocalSearchParams } from 'expo-router';
-import React from 'react';
+import LogClimbingModal from '@/components/LogClimbingModal';
+import { useClimbingLog } from '@/hooks/use-climbing-log';
+import { useClimbingSites } from '@/hooks/use-climbing-sites';
+import { useRouteFavorites } from '@/hooks/use-route-favorites';
+import { Ionicons } from '@expo/vector-icons';
+import { useFocusEffect, useLocalSearchParams, useRouter } from 'expo-router';
+import React, { useCallback, useState } from 'react';
 import { Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { useClimbingSites } from '../../hooks/use-climbing-sites';
 
 export default function SpotDetails() {
   const { name } = useLocalSearchParams();
+  const router = useRouter();
   const { allSites } = useClimbingSites();
-  
-  
   const decodedName = typeof name === 'string' ? decodeURIComponent(name) : '';
   const site = allSites.find(s => s.name === decodedName);
+  const { isFavorite, toggleFavorite } = useRouteFavorites();
+  const { hasClimbedRoute, loadLogs } = useClimbingLog(); 
+  const [showLogModal, setShowLogModal] = useState(false);
+  const [selectedRoute, setSelectedRoute] = useState<{
+    siteName: string;
+    routeName: string;
+    routeGrade?: string;
+  } | null>(null);
+  const [refreshTrigger, setRefreshTrigger] = useState(0); 
+
+  
+  const handleLogSaved = useCallback(() => {
+    console.log('SpotDetails: Log saved, refreshing data...');
+    
+    loadLogs();
+    
+    setRefreshTrigger(prev => prev + 1);
+  }, [loadLogs]);
+
+  
+  useFocusEffect(
+    useCallback(() => {
+      console.log('SpotDetails: Page focused, checking logs');
+      
+      loadLogs();
+      
+      return () => {
+        console.log('SpotDetails: Page unfocused');
+      };
+    }, [loadLogs])
+  );
+
+  
+  React.useEffect(() => {
+    console.log(`SpotDetails render #${refreshTrigger}`);
+    if (site) {
+      console.log(`Checking ${site.routes?.length || 0} routes:`);
+      site.routes?.forEach((route, index) => {
+        const hasClimbed = hasClimbedRoute(site.name, route.name);
+        console.log(`  ${index + 1}. ${route.name}: ${hasClimbed ? 'YES' : 'NO'}`);
+      });
+    }
+  }, [site, hasClimbedRoute, refreshTrigger]);
 
   const handleOpenWiki = () => {
     if (site?.url) {
@@ -21,45 +67,35 @@ export default function SpotDetails() {
   if (!site) {
     return (
       <View style={styles.container}>
-        <Text>攀岩点未找到: {decodedName}</Text>
+        <Text>Climbing spot not found: {decodedName}</Text>
       </View>
     );
   }
 
   return (
-    <>
-      <Stack.Screen 
-        options={{ 
-          title: decodedName.length > 20 ? `${decodedName.substring(0, 20)}...` : decodedName
-        }} 
-      />
+    <View style={{ flex: 1 }}>
+      <View style={styles.customNavBar}>
+        <TouchableOpacity 
+          style={styles.navBackButton}
+          onPress={() => router.back()}
+        >
+          <Ionicons name="arrow-back" size={24} color="#007AFF" />
+          <Text style={styles.navBackText}>Back</Text>
+        </TouchableOpacity>
+      </View>
       
       <ScrollView style={styles.container}>
-        {/* 头部信息 */}
         <View style={styles.header}>
           <Text style={styles.title}>{site.name}</Text>
           
           {site.countyName && (
             <Text style={styles.county}>County: {site.countyName}</Text>
           )}
-          {/*
-          {site.climbing_type && (
-            <View style={[
-              styles.typeBadge,
-              { backgroundColor: getPinColor(site.climbing_type) }
-            ]}>
-              <Text style={styles.typeText}>{site.climbing_type}</Text>
-            </View>
-          )}
-          */}
+          
           <Text style={styles.routesCount}>
             {site.routes_count || site.routes?.length || 0} climbing routes
           </Text>
-          {/*
-          {site.cluster_label && (
-            <Text style={styles.clusterLabel}>Style: {site.cluster_label}</Text>
-          )}
-            */}
+          
           {site.url && (
             <TouchableOpacity style={styles.wikiButton} onPress={handleOpenWiki}>
               <Text style={styles.wikiButtonText}>View the Wiki page</Text>
@@ -67,65 +103,116 @@ export default function SpotDetails() {
           )}
         </View>
 
-        {/* 线路列表 */}
         <View style={styles.routesSection}>
           <Text style={styles.sectionTitle}>Climbing Routes</Text>
           
-          {(site.routes || []).map((route, index) => (
-            <View key={index} style={styles.routeCard}>
-              <View style={styles.routeHeader}>
-                <Text style={styles.routeName}>{route.name}</Text>
-                {route.difficulty && (
-                  <View style={[
-                    styles.difficultyBadge,
-                    { backgroundColor: getDifficultyColor(route.difficulty) }
-                  ]}>
-                    <Text style={styles.difficultyText}>{route.difficulty}</Text>
+          {(site.routes || []).map((route, index) => {
+            
+            const hasClimbed = hasClimbedRoute(site.name, route.name);
+            
+            return (
+              <View key={index} style={styles.routeCard}>
+                <View style={styles.routeHeader}>
+                  <Text style={styles.routeName}>{route.name}</Text>
+                  {route.difficulty && (
+                    <View style={[
+                      styles.difficultyBadge,
+                      { backgroundColor: getDifficultyColor(route.difficulty) }
+                    ]}>
+                      <Text style={styles.difficultyText}>{route.difficulty}</Text>
+                    </View>
+                  )}
+                </View>
+
+                <View style={styles.routeDetails}>
+                  {route.height && (
+                    <Text style={styles.detail}>Height: {route.height}m</Text>
+                  )}
+                  
+                  {route.technical_grade && (
+                    <Text style={styles.detail}>technical grade: {route.technical_grade}</Text>
+                  )}
+                  
+                  {route.overall_grade && route.overall_grade !== route.difficulty && (
+                    <Text style={styles.detail}>overall grade: {route.overall_grade}</Text>
+                  )}
+
+                  {route.first_ascent && (
+                    <Text style={styles.firstAscent}>recorder: {route.first_ascent}</Text>
+                  )}
+                </View>
+
+                {route.description && (
+                  <Text style={styles.description}>{route.description}</Text>
+                )}
+
+                {route.sub_routes && route.sub_routes.length > 0 && (
+                  <View style={styles.subRoutes}>
+                    <Text style={styles.subRoutesTitle}>sub-routes:</Text>
+                    {route.sub_routes.map((subRoute, subIndex) => (
+                      <View key={subIndex} style={styles.subRoute}>
+                        <Text style={styles.subRouteName}>{subRoute.name}</Text>
+                        {subRoute.difficulty && (
+                          <Text style={styles.subRouteDifficulty}>{subRoute.difficulty}</Text>
+                        )}
+                      </View>
+                    ))}
                   </View>
                 )}
-              </View>
-
-              <View style={styles.routeDetails}>
-                {route.height && (
-                  <Text style={styles.detail}>Height: {route.height}m</Text>
-                )}
                 
-                {route.technical_grade && (
-                  <Text style={styles.detail}>technical grade: {route.technical_grade}</Text>
-                )}
-                
-                {route.overall_grade && route.overall_grade !== route.difficulty && (
-                  <Text style={styles.detail}>overall grade: {route.overall_grade}</Text>
-                )}
+                <TouchableOpacity 
+                  onPress={() => {
+                    console.log(`Opening log form for ${route.name}`);
+                    setSelectedRoute({
+                      siteName: site.name,
+                      routeName: route.name,
+                      routeGrade: route.difficulty,
+                    });
+                    setShowLogModal(true);
+                  }}
+                  style={styles.logButtonRight}
+                >
+                  <Ionicons 
+                    name={hasClimbed ? "checkmark-circle" : "bookmark-outline"} 
+                    size={20} 
+                    color={hasClimbed ? "#4CAF50" : "#666"} 
+                  />
+                </TouchableOpacity>
 
-                {route.first_ascent && (
-                  <Text style={styles.firstAscent}>recorder: {route.first_ascent}</Text>
-                )}
+                <TouchableOpacity 
+                  onPress={() => toggleFavorite(
+                    site.name, 
+                    route.name, 
+                    route.difficulty,
+                    site.url
+                  )}
+                  style={styles.favoriteButtonRight}
+                  hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+                >
+                  <Ionicons 
+                    name={isFavorite(site.name, route.name) ? "star" : "star-outline"} 
+                    size={20} 
+                    color={isFavorite(site.name, route.name) ? "#FFD700" : "#C0C0C0"} 
+                  />
+                </TouchableOpacity>
               </View>
-
-              {route.description && (
-                <Text style={styles.description}>{route.description}</Text>
-              )}
-
-              {/* 子路线 */}
-              {route.sub_routes && route.sub_routes.length > 0 && (
-                <View style={styles.subRoutes}>
-                  <Text style={styles.subRoutesTitle}>sub-routes:</Text>
-                  {route.sub_routes.map((subRoute, subIndex) => (
-                    <View key={subIndex} style={styles.subRoute}>
-                      <Text style={styles.subRouteName}>{subRoute.name}</Text>
-                      {subRoute.difficulty && (
-                        <Text style={styles.subRouteDifficulty}>{subRoute.difficulty}</Text>
-                      )}
-                    </View>
-                  ))}
-                </View>
-              )}
-            </View>
-          ))}
+            );
+          })}
         </View>
       </ScrollView>
-    </>
+
+      {showLogModal && selectedRoute && (
+        <LogClimbingModal
+          visible={showLogModal}
+          onClose={() => {
+            setShowLogModal(false);
+            setSelectedRoute(null);
+          }}
+          route={selectedRoute}
+          onLogSaved={handleLogSaved} 
+        />
+      )}
+    </View>
   );
 }
 
@@ -145,25 +232,51 @@ const getPinColor = (climbingType?: string): string => {
 };
 
 const getDifficultyColor = (difficulty: string): string => {
-  const colors: { [key: string]: string } = {
-    'D': '#4CAF50',    
-    'VD': '#8BC34A',   
-    'S': '#FFC107',    
-    'HS': '#FF9800',   
-    'VS': '#FF5722',   
-    'HVS': '#E91E63',  
-    'E1': '#9C27B0',   
-    'E2': '#673AB7',   
-    'E3': '#3F51B5',   
-  };
+  const diff = difficulty.toLowerCase();
+
+  if (diff.includes('hvs')) return '#E91E63';
+  if (diff.includes('vs')) return '#FF5722';
+  if (diff.includes('hs')) return '#FF9800';
   
-  return colors[difficulty] || '#757575'; 
+  if (diff.includes('e3')) return '#3F51B5';
+  if (diff.includes('e2')) return '#673AB7';
+  if (diff.includes('e1')) return '#9C27B0';
+  if (diff.includes('vd')) return '#8BC34A';
+  if (diff.includes('d')) return '#4CAF50';
+  
+  if (/^s\b/.test(diff) || /\bs\b/.test(diff)) {
+    return '#FFC107';
+  }
+  
+  return '#757575';
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#f5f5f5',
+  },
+  customNavBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingTop: 50,
+    paddingBottom: 12,
+    paddingHorizontal: 16,
+    backgroundColor: 'white',
+    borderBottomWidth: 1,
+    borderBottomColor: '#e0e0e0',
+  },
+  navBackButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 4,
+  },
+  navBackText: {
+    marginLeft: 4,
+    fontSize: 16,
+    color: '#007AFF',
+    fontWeight: '500',
   },
   header: {
     backgroundColor: 'white',
@@ -227,6 +340,7 @@ const styles = StyleSheet.create({
   routeCard: {
     backgroundColor: 'white',
     padding: 16,
+    paddingBottom: 40,
     borderRadius: 12,
     marginBottom: 12,
     shadowColor: '#000',
@@ -234,6 +348,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 3,
+    position: 'relative',
   },
   routeHeader: {
     flexDirection: 'row',
@@ -259,6 +374,20 @@ const styles = StyleSheet.create({
     color: 'white',
     fontWeight: 'bold',
     fontSize: 12,
+  },
+  routeActions: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  favoriteButton: {
+    padding: 4,
+  },
+  favoriteButtonRight: {
+    position: 'absolute',
+    bottom: 8,
+    right: 12,
+    padding: 8,
   },
   routeDetails: {
     marginBottom: 12,
@@ -310,6 +439,28 @@ const styles = StyleSheet.create({
   subRouteDifficulty: {
     fontSize: 12,
     color: '#888',
+    fontWeight: '500',
+  },
+  logButtonRight: {
+    position: 'absolute',
+    bottom: 8,
+    right: 50,
+    padding: 8,
+  },
+    refreshButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#f0f7ff',
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 20,
+    alignSelf: 'flex-start',
+    marginBottom: 12,
+  },
+  refreshButtonText: {
+    marginLeft: 6,
+    color: '#007AFF',
+    fontSize: 14,
     fontWeight: '500',
   },
 });

@@ -1,0 +1,1607 @@
+{
+  "Co. Kerry": {
+    "county_info": {
+      "name": "Co. Kerry"
+    },
+    "climbing_sites": [
+      {
+        "name": "Ceann Bhaile Dháith / Ballydavid Head",
+        "page_title": "Ceann_Bhaile_Dh%C3%A1ith_/_Ballydavid_Head",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Ceann_Bhaile_Dh%C3%A1ith_/_Ballydavid_Head",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Brandon East Buttress",
+        "page_title": "Brandon_East_Buttress",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Brandon_East_Buttress",
+        "routes": [
+          {
+            "name": "Place of Penance",
+            "height": 165,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start: the climb is situated just L of the centre of the buttress, starting at the obvious gully. 1/. 27m VD Climb gully to belay on large ledge on R. 2/. 20m HS Climb up to reach large crack (protection good). Belay at top of crack on small ledge. 3/. 13m VS L-hand wall can be wet. Climb up to crack. Climb crack, using flake on L-hand wall to lay-back. Belay on grass ledge. Point of aid used due to slippery conditions. 4/. 20m S From belay climb crack slightly to the R, to reach the large grass"
+          },
+          {
+            "name": "1/.",
+            "height": 27,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "2/. 20m HS Climb up to reach large crack (protection good). Belay at top of crack on small ledge. 3/. 13m VS L-hand wall can be wet. Climb up to crack. Climb crack, using flake on L-hand wall to lay-back. Belay on grass ledge. Point of aid used due to slippery conditions. 4/. 20m S From belay climb crack slightly to the R, to reach the large grass terrace. 5/. 42m HS The top half of the buttress is divided by a large gully. Just L of the gully and slightly R of large crack, climb arete on delica"
+          },
+          {
+            "name": "2/.",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "3/. 13m VS L-hand wall can be wet. Climb up to crack. Climb crack, using flake on L-hand wall to lay-back. Belay on grass ledge. Point of aid used due to slippery conditions. 4/. 20m S From belay climb crack slightly to the R, to reach the large grass terrace. 5/. 42m HS The top half of the buttress is divided by a large gully. Just L of the gully and slightly R of large crack, climb arete on delicate holds to reach overhang. Turn overhang on R to belay at grass ledge facing gully. 6/. 42m HS Cl"
+          },
+          {
+            "name": "4/.",
+            "height": 20,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "5/. 42m HS The top half of the buttress is divided by a large gully. Just L of the gully and slightly R of large crack, climb arete on delicate holds to reach overhang. Turn overhang on R to belay at grass ledge facing gully. 6/. 42m HS Climb crack in corner. Continue on, to climb three short walls that are split by cracks (protection good). Alpine style climbing for 135m. Continue on to the Cnoc Bréanainn Summit. M. Barry, P. Quinn (alternate leads). July 1983"
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "An Charraig Ard",
+        "page_title": "An_Charraig_Ard",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=An_Charraig_Ard",
+        "routes": [
+          {
+            "name": "Dance on a Volcano",
+            "height": 40,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T. McQueen, A. Lyttle. 25th August 1983.",
+            "description": null
+          },
+          {
+            "name": "Squonk",
+            "height": 35,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T. McQueen 25th August 1983.",
+            "description": null
+          },
+          {
+            "name": "Skome",
+            "height": 30,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T. McQueen, A. Lyttle 25th August 1983.",
+            "description": null
+          },
+          {
+            "name": "Nodding Dog",
+            "height": 30,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Indirect Route",
+            "height": 50,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Geologists Hammer",
+            "height": 30,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T. McQueen, S. King. June 1982.",
+            "description": null
+          },
+          {
+            "name": "Scare",
+            "height": 35,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T. McQueen 24th August, 1983.",
+            "description": null
+          }
+        ],
+        "routes_count": 7,
+        "coordinates": {
+          "latitude": 54.0639368,
+          "longitude": -8.2521476,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Com an Lochaigh",
+        "page_title": "Com_an_Lochaigh",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Com_an_Lochaigh",
+        "routes": [
+          {
+            "name": "An Cúinne, VD,",
+            "height": 7,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "L. Gallagher, 5/2020",
+            "description": null
+          },
+          {
+            "name": "Méara Bochta, S,",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "L. Gallagher, C. Belton, 5/2021",
+            "description": null
+          },
+          {
+            "name": "Dohjongg, VS 4b,",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. McFadden, C. Watson, 5/2021",
+            "description": null
+          },
+          {
+            "name": "Naoi Méar, HS,",
+            "height": 14,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. McFadden, 5/2021",
+            "description": null
+          },
+          {
+            "name": "Crann Pianmhar, VD,",
+            "height": 6,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. McFadden, 5/2021",
+            "description": null
+          },
+          {
+            "name": "Tús Nua, E2 5c,",
+            "height": 12,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R. Creagh, D. Dineen, 03/03/2013",
+            "description": null
+          },
+          {
+            "name": "An Balla Beag, HVS 5a,",
+            "height": 12,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R. Creagh, J. Eldred, 02/11/2015",
+            "description": null
+          },
+          {
+            "name": "Cuimilt, VS 4c,",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R. Creagh, D. Dineen, 03/03/2013",
+            "description": null
+          },
+          {
+            "name": "An Tine, E2 5b,",
+            "height": 12,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R. Creagh, E. Kennedy, 18/03/2016 ",
+            "description": null
+          },
+          {
+            "name": "Mo Chéad Uair, HS,",
+            "height": 8,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C. Belton, P. McFadden, 5/2021",
+            "description": null
+          },
+          {
+            "name": "Tarrtháil Alphonse, VS 4c,",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. McFadden, C. Belton, 5/2021",
+            "description": null
+          }
+        ],
+        "routes_count": 11,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "An Dún Mór / Dunmore Head",
+        "page_title": "An_D%C3%BAn_M%C3%B3r_/_Dunmore_Head",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=An_D%C3%BAn_M%C3%B3r_/_Dunmore_Head",
+        "routes": [
+          {
+            "name": "Initiation",
+            "height": 13,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Barry, P J Quirke 1980.",
+            "description": null
+          },
+          {
+            "name": "Haemmorrhage Heights",
+            "height": 18,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Barry, P. Quinn April 1983",
+            "description": null
+          },
+          {
+            "name": "Terra Infirma",
+            "height": 23,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Barry, P. Quinn  April 1983.",
+            "description": null
+          },
+          {
+            "name": "Start",
+            "height": 3,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Barry, P Quinn August 1982",
+            "description": null
+          },
+          {
+            "name": "PJ's Flight",
+            "height": 13,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Barry, P J Quirke   1980",
+            "description": null
+          },
+          {
+            "name": "Seal Sights",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Barry, P. Quinn   August 1982",
+            "description": null
+          },
+          {
+            "name": "Moon Dance",
+            "height": 13,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Barry, P Quinn August 1982",
+            "description": null
+          },
+          {
+            "name": "Zipper",
+            "height": 15,
+            "difficulty": "MS",
+            "overall_grade": "MS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Pat's Hat",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "M. Barry, P. Quinn. 5m L of 'Zipper' climb corner to overhanging roof, traverse R under overhang to out on 'Zipper'. M. Barry, P J Quirke 1980."
+          },
+          {
+            "name": "Horace",
+            "height": 15,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Barry, P J Quirke   1980.",
+            "description": null
+          },
+          {
+            "name": "Pinch",
+            "height": 16,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Barry, P J Quirke   1980.",
+            "description": null
+          },
+          {
+            "name": "Adrian's Wall",
+            "height": 23,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. Quinn, A. Devlin  1981.",
+            "description": null
+          }
+        ],
+        "routes_count": 12,
+        "coordinates": {
+          "latitude": 52.1086466,
+          "longitude": -10.4796422,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Dún Séanna / Dunshean Head",
+        "page_title": "D%C3%BAn_S%C3%A9anna_/_Dunshean_Head",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=D%C3%BAn_S%C3%A9anna_/_Dunshean_Head",
+        "routes": [
+          {
+            "name": "DELIVERANCE",
+            "height": 27,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "DELIVERANCE 27m VS 4cM. Barry, A. Devlin, 4.84Start: 2m left of Banana Split. Climb the left diagonal crack to beneath the overhang. Turn the overhang by traversing right around it. Continue upwards at the side of the overhang to the top. HOT CHOCOLATE 27m E1 5bDave Mc Bride, Denis Tangney, 2005Start as for Deliverence.Instead of following diagonal crack of Deliverance take a straight line to the top."
+          },
+          {
+            "name": "A.C.S.",
+            "height": 40,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "On the main wall there are two obvious crack lines. The left hand crack is Giraffe. Uncle Alister and Aunt Hanna both start in the right crack. UNCLE ALISTER 40m HVS 5aM. Barry, T. Hacken, 8.85Climb the right hand crack with the large recess. The quality of the rock gets poorer near the top. AUNT HANNA 40m E1 5bM. Barry, A. Devlin, 10.85Start: Climb Uncle Alister to the recess. Hand traverse left for 2m to a large pocket. From here climb directly upwards, following a series of small vertical cra"
+          },
+          {
+            "name": "AUNT HANNA",
+            "height": 40,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "COISCÉIM      40m    HVS 5a",
+            "description": null
+          },
+          {
+            "name": "start's about",
+            "height": 1,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "THE RAZOR'S EDGE 30m VS 4cM. Barry, P. Quinn, T. Macken, 7.84The route follows the sharp spectacularly exposed arête on the West side of the Needle. Start: Move along the South wall on a small ledge to the base of the arête. Belay here, or climb the short wall to a small platform and belay from there to reduce rope drag. Climb from the platform diagonally rightward to gain the arête. Climb this to the top. Beware of loose rock near the summit. The small spires further out from the Needle present"
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Glanteenassig forest",
+        "page_title": "Glanteenassig_forest",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Glanteenassig_forest",
+        "routes": [
+          {
+            "name": "Dig it? 1 E2 5b",
+            "height": 15,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Great climbing. Takes the line up the gently overhanging arete on the left side of the tall part of the crag. Start just to the right of a grassy step. Climb up to reach a right trending crackline. Follow this crack to a footledge, arrange gear, then climb up and left on a series of slopers and crimps (bold) to where the arete kicks back and gear can be placed. Climb this to the top. Crag is so named as it lies facing a stream seperating two large pools. When facing away from the crag, the numbe"
+          },
+          {
+            "name": "Chicken and Waffles 1 HS 4b",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Is this a ledge? 1 VS/HVS 4c 10m (J. Hale, K. Mc Donnell & C. Ó Liatháin (Ground up)) June 18 2011",
+            "description": null
+          },
+          {
+            "name": "Is this a ledge? 1 VS/HVS 4c",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Halfling 1 E5 6C (B. Hall, H. Wallace) March 16th 2015",
+            "description": null
+          },
+          {
+            "name": "Deja Vu Gully 1 HS",
+            "height": 120,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Left of center you see a diagonal break tending to the right and crossing all rocky bands, this is the gully. Haul yourself up the very steep slope to the base of the rock face. From here proceed to the base of the gully. Pitch 1. Its best to set up a belay here, as a slip of the first rocky step will send you tumbling till you hit the lake. Climb up this step (Diff 5m) till you reach the second obstacle. Belay. Pitch 2. Stay to the right of a big (wet) boulder blocking your way (S 5m). Not many"
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 52.2043354,
+          "longitude": -10.0448224,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "An Blascaod Mór / Great Blasket Island",
+        "page_title": "An_Blascaod_M%C3%B3r_/_Great_Blasket_Island",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=An_Blascaod_M%C3%B3r_/_Great_Blasket_Island",
+        "routes": [
+          {
+            "name": "Sanity Clause",
+            "height": 26,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. O'Riordan, J. Domoney   1/6/1982. (New Climbs 1982)",
+            "description": null
+          },
+          {
+            "name": "Sandman Slab",
+            "height": 15,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. O'Connell. E. O'Flynn 1982.(New Climbs 1982)",
+            "description": null
+          },
+          {
+            "name": "An Clochán",
+            "height": 15,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "T Owens T Daly 15/6/81 A pleasant layback and an exposed finish. Start; on large ledge 6 m from base of crag and in the very back of Chimney Scoop. Follow edge of obvious flake to left end of a ledge. Continue up corner above to a good stance. C. Torrans, S. Reidy. June 1984.(New Climbs 1984)"
+          },
+          {
+            "name": "Deora na Maighdine",
+            "height": 20,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P Stronach K Higgins 15/6/81 Start; at the sea level ledge 4 m right of ‘The Low Lintel’ and below an overhanging corner. Climb up to corner on small positive holds past a large band of quartz with large crystals to a ledge. Move slightly left and up a small crack and corner to top ledge. Good protection throughout. Fliuchras 25m VS 4c P Stronach K Higgins 15/6/81 A route worth doing – looks a bit improbable, but is all there. This route takes the line straight up the middle of the protruding sl"
+          },
+          {
+            "name": "Start; at the sea level ledge",
+            "height": 4,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Fliuchras",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P Stronach K Higgins 15/6/81 A route worth doing – looks a bit improbable, but is all there. This route takes the line straight up the middle of the protruding slab on the right hand side of Chimney Scoop. Start; from the sea-level ledge climb straight up the slab to a small overhang above the quartz vein. Climb the overhang and continue up the steeper slab above to bulge. Continue over bulge {crux} and up slab using small holds and crack. Move left on the ledge above and continue up crack to to"
+          },
+          {
+            "name": "Ceann Dubh",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "K Higgins P Stronach 15/6/81 Start; 3 m left of the right hand boundary of Chimney Scoop and beneath the protruding slab. The overhang above is split by a corner. Climb the slab and corner to the top. A good way of reaching Chimney Scoop from Black Wall. Start; at the extreme left end of the sea ledge below Black Wall is a wide shallow chimney. Climb the back wall of the chimney. A short walk along the top of ‘Ceann Dubh’, ‘Fliuchras’, ‘Deora na Maighdine’ and ‘The Low Lintel’ allows a descent o"
+          },
+          {
+            "name": "Slí Amach",
+            "height": 5,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "A good way of reaching Chimney Scoop from Black Wall. Start; at the extreme left end of the sea ledge below Black Wall is a wide shallow chimney. Climb the back wall of the chimney. A short walk along the top of ‘Ceann Dubh’, ‘Fliuchras’, ‘Deora na Maighdine’ and ‘The Low Lintel’ allows a descent of the lower section of ‘An Clochán’. An Capall Glas 20m HS P O'Leary E Smith 15/6/81 An attractive line. Start; as for ‘Slí Amach’. Climb the corner that forms the left boundary of Black Wall where it "
+          },
+          {
+            "name": "An Capall Glas",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P O'Leary E Smith 15/6/81 An attractive line. Start; as for ‘Slí Amach’. Climb the corner that forms the left boundary of Black Wall where it meets a leaning buttress. C. Torrans, S. McCauley June 1984 (New Climbs 1984)"
+          },
+          {
+            "name": "Faoi Dheire",
+            "height": 40,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "T Daly P Stronach 17/6/81 A pleasant route making a line linking the two obvious recesses. Start; outside the first recess and climb arête on the left hand side of corner until the second recess is reached. Climb the obvious corner above this to top. The top of this climb is a little loose, as is most of the top of Black Wall. Protection pretty good. C. Torrans, June 1984 (New Climbs 1984)"
+          },
+          {
+            "name": "Tobar na Sidhe",
+            "height": 40,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P Stronach J Domoney 16/6/81 This route takes a line straight up from about 6 m left of ‘Scoilt Linda’ and about 3 m left of the grey-green slab on which ‘Ceathru’ runs. Start; from the main sea-level ledge. Climb up to a small overhang in wall right of a quartz vein. Continue up two parallel s-shaped cracks to top. Protection fair. C Torrans P Stronach 18/6/81 This route takes an obvious line straight up the grey-green slab on the right -hand side of the Black Wall and just left of ‘Scoilt Lind"
+          },
+          {
+            "name": "Ceathru",
+            "height": 40,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "C Torrans P Stronach 18/6/81 This route takes an obvious line straight up the grey-green slab on the right -hand side of the Black Wall and just left of ‘Scoilt Linda’. Start; at the bottom of the Slab and climb it straight up it to top. Protection good. Scoilt Linda 35m VD L McGee E Smith (alt leads) 14/6/81 A Classic. Good protection in the crack. Start; at the base of the crack dividing The Slab and the Black Wall. 1. 15m Climb the crack to a good stance on a pillar in the crack. 2. 20m Climb"
+          },
+          {
+            "name": "Scoilt Linda",
+            "height": 35,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "L McGee E Smith (alt leads) 14/6/81 A Classic. Good protection in the crack. Start; at the base of the crack dividing The Slab and the Black Wall. 1. 15m Climb the crack to a good stance on a pillar in the crack. 2. 20m Climb the crack above to the top. Fiche Bliain ag Fás 35m E1 5b R Dean P Stronach J Domoney 16/6/81 Small wires and good eyesight to arrange protection. Start; below the zig-zag break. Climb this to a flake above and on the right, then delicately up the slab on small secure holds"
+          },
+          {
+            "name": "Fiche Bliain ag Fás",
+            "height": 35,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R Dean P Stronach J Domoney 16/6/81 Small wires and good eyesight to arrange protection. Start; below the zig-zag break. Climb this to a flake above and on the right, then delicately up the slab on small secure holds. (Good small wires.) R Dean P Stronach 18/6/81 Start; 2 m right of 'Fiche Bliain ag Fás'. The climb continues parallel to 'Fiche Bliain ag Fás' passing 2 m left of a short overhung leftward facing corner at mid height, the line of 'An t-Oileánach'. to gain a weak break above a faint"
+          },
+          {
+            "name": "Peig",
+            "height": 35,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R Dean P Stronach 18/6/81 Start; 2 m right of 'Fiche Bliain ag Fás'. The climb continues parallel to 'Fiche Bliain ag Fás' passing 2 m left of a short overhung leftward facing corner at mid height, the line of 'An t-Oileánach'. to gain a weak break above a faint overhang. Up this to deep crack and the top. An t-Oileánach 30m VS 4c P Stronach K Higgins 14/6/81 A real gem of a climb. Well protected and producing a fine position. This route runs straight up the middle of the main slab breaking thro"
+          },
+          {
+            "name": "An t-Oileánach",
+            "height": 30,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P Stronach K Higgins 14/6/81 A real gem of a climb. Well protected and producing a fine position. This route runs straight up the middle of the main slab breaking through the overhanging corner which is at mid height. Start; directly below the overhanging corner. Climb a thin crack past the stepped ledge to the overhang. Climb this stepping right on the slab above. Continue up rightward-trending break above. An Béal Bocht 30m E1 5b C Torrans J Domoney 18/6/81 Scarce protection. The route is appr"
+          },
+          {
+            "name": "An Béal Bocht",
+            "height": 30,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "C Torrans J Domoney 18/6/81 Scarce protection. The route is approximately 2 m left of the corner on ‘Slí na Firine’. Start; up easy slabs to small overhang. Climb this by undercuts to small edge (5a). Climb straight right wards to pale patch of rock on thin holds (5b). Move up on good small finger holds to the top. Slí na Firine 30m S K Higgins P Stronach 13/6/81 Varied with slab climbing and a corner requiring small wires for protection. Start; just left of the first corner right of the zig-zag"
+          },
+          {
+            "name": "Scarce protection. The route is approximately",
+            "height": 2,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Slí na Firine",
+            "height": 30,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "K Higgins P Stronach 13/6/81 Varied with slab climbing and a corner requiring small wires for protection. Start; just left of the first corner right of the zig-zag break followed by ‘Fiche Bliain ag Fás’. The climb can easily be split into 2 pitches, the top one harder and requiring small wires for protection. Bóthar an Aimhleasa 25m S J O'Dwyer T Daly 13/6/81 The route is easily identified from the diagram and may be split into 2 pitches at the half way ledge. The top pitch is harder requiring "
+          },
+          {
+            "name": "Bóthar an Aimhleasa",
+            "height": 25,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "J O'Dwyer T Daly 13/6/81 The route is easily identified from the diagram and may be split into 2 pitches at the half way ledge. The top pitch is harder requiring small wires for protection. Neamhurchoideas 15m VD E Smyth P Cashin 13/6/81 A good climb breaking easily through an overhang near the top after pleasant slab and crack climbing. An Céad Faoistin 15m S A short slab finished by a hard move to a good handhold. Poor protection. P Maher P Oman 14/6/81 V Hynes A Weber 14/6/81 Both routes prov"
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "An Sás / Sauce Creek",
+        "page_title": "An_S%C3%A1s_/_Sauce_Creek",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=An_S%C3%A1s_/_Sauce_Creek",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Ceann Sibéal",
+        "page_title": "Ceann_Sib%C3%A9al",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Ceann_Sib%C3%A9al",
+        "routes": [
+          {
+            "name": "Arabia Deserta",
+            "height": 100,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "This climb takes the most obvious line up the slab, a crack-line running straight up the L-hand (east) side, to mid-height, and then diagonally R-wards across the slab to finish on a grassy rake. The start of the climb is reached by scrambling down onto a grassy rake on the west side of the slab, and abseiling down for three rope lengths to large ledges at the bottom. The top abseil rope should probably be left in situ for a secure belay for the final pitch. 1/. 40m 4b Climb the crack for 40m to"
+          },
+          {
+            "name": "1/.",
+            "height": 40,
+            "difficulty": "4B",
+            "overall_grade": "4B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. Gallwey, E. Hernstadt (alternate leads). May 1986",
+            "description": null
+          },
+          {
+            "name": "3/.",
+            "height": 20,
+            "difficulty": "4C",
+            "overall_grade": "4C",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. Gallwey, E. Hernstadt (alternate leads). May 1986",
+            "description": null
+          },
+          {
+            "name": "Yer Little Man*  VS 4bl",
+            "height": 180,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "First Recorded Ascent: Colin Struthers, Dave Ormerod, Ginny Douglas and Matty Kemo 22/Aug/2024.",
+            "description": null
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 52.1831917,
+          "longitude": -10.4658272,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Binn Diarmada",
+        "page_title": "Binn_Diarmada",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Binn_Diarmada",
+        "routes": [
+          {
+            "name": "Crooked Sister",
+            "height": 50,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. Gallwey, J. Bergin June 1993",
+            "description": null
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 52.2074423,
+          "longitude": -10.4093742,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Ballyheigue",
+        "page_title": "Ballyheigue",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Ballyheigue",
+        "routes": [
+          {
+            "name": "\"STEPOVER\"           S",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Ger Cronin              Solo                   11/5/2014",
+            "description": null
+          },
+          {
+            "name": "\"THE THUNDER ROLLS\"  S",
+            "height": 16,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Ger Cronin              Solo                   11/5/2014",
+            "description": null
+          },
+          {
+            "name": "\" WONDERWALL\"        S",
+            "height": 16,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Ger Cronin              Solo                   11/5/2014",
+            "description": null
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 52.3892873,
+          "longitude": -9.8352402,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Black Valley",
+        "page_title": "Black_Valley",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Black_Valley",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 51.9058439,
+          "longitude": -9.7407094,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Coomachuillin",
+        "page_title": "Coomachuillin",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Coomachuillin",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Cuas Croom",
+        "page_title": "Cuas_Croom",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Cuas_Croom",
+        "routes": [
+          {
+            "name": "Sir Cam-A-Lot  VD",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "2.Self Locate  VD 10m D.Gaughran, T.Orr 1990",
+            "description": null
+          },
+          {
+            "name": "Self Locate  VD",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "3.Gnarly Wave Dude  VD 10m D.Gaughran, T.Orr 1990",
+            "description": null
+          },
+          {
+            "name": "Gnarly Wave Dude  VD",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "4.The Zimmerframer  VD 10m D.Gaughran, T.Orr 1990",
+            "description": null
+          },
+          {
+            "name": "The Zimmerframer  VD",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "4.5The Day I Met Darragh   S, 4a, 10m, Donie Mulcahy, Dan Daly 18/8/2016.",
+            "description": null
+          },
+          {
+            "name": "5The Day I Met Darragh   S, 4a,",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "5.Get The Box Out  D 10m D.Gaughran, T.Orr 1990",
+            "description": null
+          },
+          {
+            "name": "Get The Box Out  D",
+            "height": 10,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 6,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Gap Of Dunloe",
+        "page_title": "Gap_Of_Dunloe",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Gap_Of_Dunloe",
+        "routes": [
+          {
+            "name": "GUINEVERE, THE WATERY TART",
+            "height": 15,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "B. Hall, D. Dowling March 2012",
+            "description": null
+          },
+          {
+            "name": "1:CUFF'S CRAP",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M Shea, P. Cuff . Summer 1985",
+            "description": null
+          },
+          {
+            "name": "2:THE BLACK STUFF",
+            "height": 15,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. Stack, I. Counihan. 21/10/90 The obvious line to the right of Cuff's Crap. Climb on good holds to a small overhang, surmount this and move slightly right, then climb over a bulge on the corner to the top 3:MOONDANCE * 15m VS 4c D. Tagney, A. Forde. 12/10/94 Start 1m right of The Black Stuff under a small white-stained overhang. Climb straight to the ledge, then up and step onto a small ledge. Move up and right to the top. VARIATION: Instead of moving right continue up the left-facing corner ("
+          },
+          {
+            "name": "3:MOONDANCE",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "D. Tagney, A. Forde. 12/10/94 Start 1m right of The Black Stuff under a small white-stained overhang. Climb straight to the ledge, then up and step onto a small ledge. Move up and right to the top. VARIATION: Instead of moving right continue up the left-facing corner (VS 4c). 4:SEAN NÓS * 15m HVS 5a M Shea, C. Corrigan. Summer '90 Start under a square block (about 3m up). Climb over this and continue straight up to the ledge. Finish as for Miss Piggy. 5:THE GREAT WAR * 15m HVS/E1 5a R. Stack, G."
+          },
+          {
+            "name": "4:SEAN NÓS",
+            "height": 15,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "M Shea, C. Corrigan. Summer '90 Start under a square block (about 3m up). Climb over this and continue straight up to the ledge. Finish as for Miss Piggy. 5:THE GREAT WAR * 15m HVS/E1 5a R. Stack, G.Stack. 11/11/90 Start 1m left of the arete left of Miss Piggy. Climb to the overhang (good wire around corner on right) and straight to the top. 6:MISS PIGGY 17m VS 4c R. Stack, Rob Stack July '89 and re-climbed August '91 after removal of large blocks Climb the obvious corner (left of Titanic) to th"
+          },
+          {
+            "name": "5:THE GREAT WAR",
+            "height": 15,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. Stack, G.Stack. 11/11/90 Start 1m left of the arete left of Miss Piggy. Climb to the overhang (good wire around corner on right) and straight to the top. 6:MISS PIGGY 17m VS 4c R. Stack, Rob Stack July '89 and re-climbed August '91 after removal of large blocks Climb the obvious corner (left of Titanic) to the ledge, then traverse left for 1.5m and climb the obvious crack to the top. ARACHNOPHOBIA 12m HVS 5b B. McSweeney, E. Kennedy, O. O’Regan 3/8/03 Start 0.5m (!) left of The Revolution Has"
+          },
+          {
+            "name": "6:MISS PIGGY",
+            "height": 17,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. Stack, Rob Stack July '89 and re-climbed August '91 after removal of large blocks Climb the obvious corner (left of Titanic) to the ledge, then traverse left for 1.5m and climb the obvious crack to the top. ARACHNOPHOBIA 12m HVS 5b B. McSweeney, E. Kennedy, O. O’Regan 3/8/03 Start 0.5m (!) left of The Revolution Has Begun and go up to groove. Then onto good jug. Mantleshelf onto the crux move (crimp) and then work towards tree on horizontal cracks. Break onto arete. Poor gear on top section b"
+          },
+          {
+            "name": "ARACHNOPHOBIA",
+            "height": 12,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "B. McSweeney, E. Kennedy, O. O’Regan 3/8/03 Start 0.5m (!) left of The Revolution Has Begun and go up to groove. Then onto good jug. Mantleshelf onto the crux move (crimp) and then work towards tree on horizontal cracks. Break onto arete. Poor gear on top section but good at bottom, mostly friends. 7:THE REVOLUTION HAS BEGUN 12m HVS 5a/E1 5b D. O’Toole 27/10/01 Boulder start off the horizontal crack. Reach diagonally up left to a horizontal hold, then straight to top via good crimps. Protection "
+          },
+          {
+            "name": "7:THE REVOLUTION HAS BEGUN",
+            "height": 12,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M Shea, P. Cuff. Summer 1985",
+            "description": null
+          },
+          {
+            "name": "8:TITANIC",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M Shea, P. Cuff. Summer 1985",
+            "description": null
+          },
+          {
+            "name": "9:THE PRODIGAL SON",
+            "height": 10,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. Stack, P. Costelloe. 15/9/91. Climb the thin line 2-3m to the right of Titanic. This buttress is situated directly above Black Stream Bridge on the east side of the valley. Walk 100m past the bridge to two small quarried areas on the left hand side of the road, from here head straight up to the crag. It can be quite exposed to wind, which is good if the midges are out, but bad if it‟s cold. The crag dries quickly after rain and seepage isn‟t a problem on most routes. West facing; a good spot "
+          },
+          {
+            "name": "APRIL SUNSHINE",
+            "height": 15,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Ger Cronin    solo       14/4/2014",
+            "description": null
+          },
+          {
+            "name": "1:THE EGO HAS LANDED",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "A.Forde, I.Counihan. 15/9/90 Arete above a large ledge on the extreme left of the buttress. Protection is sparse. 2:FIRST COME FIRST SERVED * 15m VS 4b T. Long, D. Mulcahy. 6/4/95 Climb the line between The Ego Has Landed and Agent Orange. Climb directly up to the crackline and continue straight up to the top. 3:AGENT ORANGE 15m HS 4b I.Counihan, A.Forde. 15/9/90 Large crack and corner on the left hand side of the buttress. FULCRUM 20m HVS 5a R. Stack, C. Cudden, A. Forde 15/5/93 This route is b"
+          },
+          {
+            "name": "2:FIRST COME FIRST SERVED",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "T. Long, D. Mulcahy. 6/4/95 Climb the line between The Ego Has Landed and Agent Orange. Climb directly up to the crackline and continue straight up to the top. 3:AGENT ORANGE 15m HS 4b I.Counihan, A.Forde. 15/9/90 Large crack and corner on the left hand side of the buttress. FULCRUM 20m HVS 5a R. Stack, C. Cudden, A. Forde 15/5/93 This route is between 3 and 4. Climb up to a ledge (overhanging) and then up the left side of the face above to another ledge. Continue up existing over a small overha"
+          },
+          {
+            "name": "3:AGENT ORANGE",
+            "height": 15,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "I.Counihan, A.Forde. 15/9/90 Large crack and corner on the left hand side of the buttress. FULCRUM 20m HVS 5a R. Stack, C. Cudden, A. Forde 15/5/93 This route is between 3 and 4. Climb up to a ledge (overhanging) and then up the left side of the face above to another ledge. Continue up existing over a small overhang at the top. 4:PRIVATE INVESTIGATIONS * 20m VS 4c C. Moriarty, M. Shea. August '86 Climb up left of the overhang to gain a ledge. From the ledge step right and climb up to another led"
+          },
+          {
+            "name": "FULCRUM",
+            "height": 20,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. Stack, C. Cudden, A. Forde 15/5/93 This route is between 3 and 4. Climb up to a ledge (overhanging) and then up the left side of the face above to another ledge. Continue up existing over a small overhang at the top. 4:PRIVATE INVESTIGATIONS * 20m VS 4c C. Moriarty, M. Shea. August '86 Climb up left of the overhang to gain a ledge. From the ledge step right and climb up to another ledge. Veer left at the blank face and climb over a small overhang near the top. 5:LJUBLJANA ** 20m E1 5c R. Stac"
+          },
+          {
+            "name": "4:PRIVATE INVESTIGATIONS",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "C. Moriarty, M. Shea. August '86 Climb up left of the overhang to gain a ledge. From the ledge step right and climb up to another ledge. Veer left at the blank face and climb over a small overhang near the top. 5:LJUBLJANA ** 20m E1 5c R. Stack, B. Forde. 3/8/91 Start to the right of Private Investigations, climb the face onto the ledge, climb over the obvious protruding spike and then over the overhang and continue straight to the top. 6:DISCO LEGS ** 20m E3 5c P. Hoy 4/9/99 (climbed past crux "
+          },
+          {
+            "name": "5:LJUBLJANA",
+            "height": 20,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. Stack, B. Forde. 3/8/91 Start to the right of Private Investigations, climb the face onto the ledge, climb over the obvious protruding spike and then over the overhang and continue straight to the top. 6:DISCO LEGS ** 20m E3 5c P. Hoy 4/9/99 (climbed past crux previously but was unclaimed) Between B5 and B6, straight to roof, pocket, sidepull (not the loose one on the left), direct to top past sloping breaks. Finish up the crack of Raven. Pumpy but protection is good. 7:RAVEN ** 20m VS 4b C. "
+          },
+          {
+            "name": "6:DISCO LEGS",
+            "height": 20,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P. Hoy 4/9/99 (climbed past crux previously but was unclaimed) Between B5 and B6, straight to roof, pocket, sidepull (not the loose one on the left), direct to top past sloping breaks. Finish up the crack of Raven. Pumpy but protection is good. 7:RAVEN ** 20m VS 4b C. Moriarty, K.Tarrant. 1985"
+          },
+          {
+            "name": "7:RAVEN",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C. Moriarty, K.Tarrant. 1985",
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 51.9943895,
+          "longitude": -9.6442886,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Glanearagh south",
+        "page_title": "Glanearagh_south",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Glanearagh_south",
+        "routes": [
+          {
+            "name": "Swell Pickings, E1 5c,",
+            "height": 15,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R. Doody, J. Hussey, 07/08/2016",
+            "description": null
+          },
+          {
+            "name": "2, Corners of the Mind, VS 4c,",
+            "height": 30,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J.Hussey, M.Finn, 07/05/2017",
+            "description": null
+          },
+          {
+            "name": "Dumbledore’s Army, VS 4c,",
+            "height": 25,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J.Hussey, R. Doody, 07/08/2016",
+            "description": null
+          },
+          {
+            "name": "Overhung HVS 5b,",
+            "height": 15,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "N. Moriarty, J.Hussey, 18/06/2017",
+            "description": null
+          },
+          {
+            "name": "Go west don’t go east HVS 5a,",
+            "height": 15,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J.Hussey, N. Moriarty, 18/06/2017",
+            "description": null
+          },
+          {
+            "name": "An mhéar bheag E1 5c,",
+            "height": 15,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "N. Moriarty, J.Hussey, 18/06/2017",
+            "description": null
+          },
+          {
+            "name": "The Swiss Machine, VS 4b,",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J.Hussey, M. Finn,  07/05/2017",
+            "description": null
+          },
+          {
+            "name": "Barnacles.jpg E1 5c,",
+            "height": 15,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "N. Moriarty, J.Hussey, 18/06/2017",
+            "description": null
+          },
+          {
+            "name": "Thou shalt not covet thy neighbours crack HVS 5a,",
+            "height": 15,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J.Hussey, M. Finn, 07/05/2017",
+            "description": null
+          },
+          {
+            "name": "Wedding Spoiler HS 4b,",
+            "height": 15,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Finn, J.Hussey,  07/05/2017",
+            "description": null
+          },
+          {
+            "name": "Blood Crack E1 5c,",
+            "height": 15,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J.Hussey, N. Moriarty, 18/06/2017",
+            "description": null
+          },
+          {
+            "name": ".Holy Shit.jpg, E1 5a,",
+            "height": 15,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "N. Moriarty, J.Hussey, 18/06/2017",
+            "description": null
+          },
+          {
+            "name": "Body Jam VS 4c,",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J.Hussey, M. Finn, 07/05/2017",
+            "description": null
+          }
+        ],
+        "routes_count": 13,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Illaunnaweelaun",
+        "page_title": "Illaunnaweelaun",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Illaunnaweelaun",
+        "routes": [
+          {
+            "name": "The Ripple Effect (HVS 4c,",
+            "height": 8,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "J. Healy, R. Creagh, 06/06/13 Start at a rock pool under a small overlap. Climb up to the left end of the overlap and over this to a good hold in the slab. From here move slightly right and up to a short crack to finish. Gear is poor for the crux sections. 2. Left Crack (V. Diff, 8m) J. Healy, R. Creagh, 06/06/13 Climb the left hand of the obvious cracks from directly beneath it. 3. Oystercatcher (Severe, 8m) R. Creagh, J. Healy, 06/06/13 Climb the middle crack which starts at 2/3rd height. It m"
+          },
+          {
+            "name": "Trasna an Falla Dubh  (VS 4b,",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. Creagh, J. Healy, 06/06/13 Opposite Humpty Dumpty is a short black wall. This fun little route takes the higher rising crack starting from a short right-facing corner on the left of the wall. Well protected but make sure you keep the gear coming as you're never very far from the ground! A taller, west facing wall which tops out near the high point of the island. Commitment Issues (E1 5c, 22m) R. Creagh, J. Healy, 06/06/13 Abseil in from a block in a little dip at the top of the route. Climb t"
+          },
+          {
+            "name": "Commitment Issues  (E1 5c,",
+            "height": 22,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. Creagh, J. Healy, 06/06/13 Abseil in from a block in a little dip at the top of the route. Climb the chimney passing wedged blocks on your right. Take a moment to arrange protection and psyche yourself up for the overhanging exit groove."
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 51.7472872,
+          "longitude": -10.1019771,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Kerry Head",
+        "page_title": "Kerry_Head",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Kerry_Head",
+        "routes": [
+          {
+            "name": "PILFFILFIZZ!",
+            "height": 6,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "B Walsh, M O'Meara Start one metre left of corner on some loose blocks below a thin crack. RED CRACK 5m Diff J. Bergin (solo) This short route takes the clean vertical corner/crack to the north-northeast of the corner of the cliff proper. J. Bergin, L. Storey. May 2011"
+          },
+          {
+            "name": "COCO",
+            "height": 8,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Bergin, L. Storey.  May 2011",
+            "description": null
+          },
+          {
+            "name": "TRIXIE",
+            "height": 8,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Bergin, L. Storey.  May 2011",
+            "description": null
+          },
+          {
+            "name": "SNAIL",
+            "height": 9,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "B. Walsh, not seconded, June 2015",
+            "description": null
+          },
+          {
+            "name": "NASLI",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Bergin, L. Storey.  May 2011",
+            "description": null
+          },
+          {
+            "name": "PLUTO",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Bergin, L. Storey.  May 2011",
+            "description": null
+          },
+          {
+            "name": "A GENTLE SQUEEZE",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "D. Lenihan, S. Strain 12/8/17 This route starts about 10 meters right of pluto, just left of dangling jane, line is straight up, protection is good."
+          }
+        ],
+        "routes_count": 7,
+        "coordinates": {
+          "latitude": 52.4155355,
+          "longitude": -9.9453934,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Lamb's Head",
+        "page_title": "Lamb%27s_Head",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Lamb%27s_Head",
+        "routes": [
+          {
+            "name": "Pippin",
+            "height": 27,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Merry 30m Diff ",
+            "description": null
+          },
+          {
+            "name": "Merry",
+            "height": 30,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Tim's refusal 45m S",
+            "description": null
+          },
+          {
+            "name": "Tim's refusal",
+            "height": 45,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Innominate 45m V.S.",
+            "description": null
+          },
+          {
+            "name": "Innominate",
+            "height": 45,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Follow \"Tim's Refusal\" to stance. Surmount the vertical rib on the left of the stance, Traverse left until crack is gained and climb the crack to the top. This is the next zawn. No Climbs On the Kenmare side of the zawn is a steep cliff Just above water level. Here is Weetabix 21m V.DiffJ Lynam, D. Mitchell, B. Kinsella. June 1972Climb down an easy slab at the south end of the cliff and walk north beneath a steep wall. Just beyond the wall is a steep narrow slab. Start at its foot and climb the "
+          },
+          {
+            "name": "Free the people",
+            "height": 30,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Just by the crack which gives access to the Cuas there is a break in the cliff which gives a narrow way to the top. This weakness can be clearly seen from the base of the white slab. Sloth 20m HSS.Harris, G. Moyces, June 1972"
+          },
+          {
+            "name": "Sloth",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Sloth Arete 20m Severe",
+            "description": null
+          },
+          {
+            "name": "Sloth Arete",
+            "height": 20,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Peg Diversion 20m Mod",
+            "description": null
+          }
+        ],
+        "routes_count": 7,
+        "coordinates": {
+          "latitude": 51.7378866,
+          "longitude": -10.1311507,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Loo Bridge",
+        "page_title": "Loo_Bridge",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Loo_Bridge",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 51.9773074,
+          "longitude": -9.331594,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Lough Coumeenoughter",
+        "page_title": "Lough_Coumeenoughter",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Lough_Coumeenoughter",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 52.1840711,
+          "longitude": -10.223119,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Maghancoosaun",
+        "page_title": "Maghancoosaun",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Maghancoosaun",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 52.0189304,
+          "longitude": -9.8024368,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Winter Climbing around Carrauntoohil",
+        "page_title": "Winter_Climbing_around_Carrauntoohil",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Winter_Climbing_around_Carrauntoohil",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "Co. Kilkenny": {
+    "county_info": {
+      "name": "Co. Kilkenny"
+    },
+    "climbing_sites": [
+      {
+        "name": "Ballykeefe Quarry",
+        "page_title": "Ballykeefe_Quarry",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Ballykeefe_Quarry",
+        "routes": [
+          {
+            "name": "Sylvester",
+            "height": 9,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Aristotle 9m HS 4bG. Fogg. May '99.1m right of Sylvester. Up centre of upper wall. Good protection. Bill and Ben 9m S 4aG. Fogg. May '99.1.5m right of Sylvester. Follow crack from ground-level. Go straight up or take the right-hand fork at top. Good protection. Grod 9m VD T.Sommerville and A.O'SullivanBad protection on easy climbing, good protection on harder climbing. Start in the middle between Bill and Oggy, go up the broken face, there is a trapped block about 1/3 the way up you can wrap a s"
+          },
+          {
+            "name": "GTX",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Lolos  grade??",
+            "description": null
+          },
+          {
+            "name": "Rugrats",
+            "height": 13,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Between Rugrats and Jim Crack, there is a selection of possibilities at VD. Jim Crack 13m VDG. Fogg. '99.15m right of Rugrats. Follow crack to top. Very well protected Between Jim Crack and Crooked Crack, there is a selection of unprotected slab-climbing at about Severe. Intifada 15m 4a (glue ins) The unprotected slab immediately left of crooked crack has been equipped and goes at 4a. Perfect for a first lead. Crooked Crack 15m VDTyndall. 80's.1m left of the corner. Follow crack to top. Good pro"
+          },
+          {
+            "name": "Jim Crack",
+            "height": 13,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Between Jim Crack and Crooked Crack, there is a selection of unprotected slab-climbing at about Severe. Intifada 15m 4a (glue ins) The unprotected slab immediately left of crooked crack has been equipped and goes at 4a. Perfect for a first lead. Crooked Crack 15m VDTyndall. 80's.1m left of the corner. Follow crack to top. Good protection. First Corner 15m VDTyndall. 80's.Follow arête to top. When Entrance Wall ends you go around the corner and there is a small length of crag before you get to th"
+          },
+          {
+            "name": "Intifada",
+            "height": 15,
+            "difficulty": "4A",
+            "overall_grade": "4A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "The unprotected slab immediately left of crooked crack has been equipped and goes at 4a. Perfect for a first lead. Crooked Crack 15m VDTyndall. 80's.1m left of the corner. Follow crack to top. Good protection. First Corner 15m VDTyndall. 80's.Follow arête to top. When Entrance Wall ends you go around the corner and there is a small length of crag before you get to the main face of Pigs Wall. Cliffhanger 15m HVS 5aG. Fogg, N. Eager. 15/4/99Scramble easily up the left hand side of the slope then f"
+          },
+          {
+            "name": "Kevin's Corner Direct F6a+",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Miss Piggy F6b+\t15m",
+            "description": null
+          },
+          {
+            "name": "Paradise Crack",
+            "height": 7,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Slab Direct 7m HS 4aB. Dunne, N.Mahon. 80'sClimb the centre of the slab. No protection. Slab RHS 7m HS 4aN. Mahon, B. Dunne. 80's.Climb the right-hand side of the slab. No protection. Shadrach 7m HVS 5aThe first drill-mark to the right of the slab. No protection. Meshach 7m HVS 5aG. Fogg (Solo). 26/9/99.The second drill-mark almost 1m right of Shadrach. No protection. Abednego 7m HVS 5aG. Fogg (Solo). 26/9/99.The third drill-mark, about 0.5m right of Meshach. No protection. Dented Ego 7m HS 4b26"
+          },
+          {
+            "name": "Slab Direct",
+            "height": 7,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Slab RHS 7m HS 4aN. Mahon, B. Dunne. 80's.Climb the right-hand side of the slab. No protection. Shadrach 7m HVS 5aThe first drill-mark to the right of the slab. No protection. Meshach 7m HVS 5aG. Fogg (Solo). 26/9/99.The second drill-mark almost 1m right of Shadrach. No protection. Abednego 7m HVS 5aG. Fogg (Solo). 26/9/99.The third drill-mark, about 0.5m right of Meshach. No protection. Dented Ego 7m HS 4b26/9/99.Climb to the white corner at 3m and up. [http://wiki.climbing.ie/index.php/Ballyke"
+          },
+          {
+            "name": "Shadrach",
+            "height": 7,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Meshach 7m HVS 5aG. Fogg (Solo). 26/9/99.The second drill-mark almost 1m right of Shadrach. No protection. Abednego 7m HVS 5aG. Fogg (Solo). 26/9/99.The third drill-mark, about 0.5m right of Meshach. No protection. Dented Ego 7m HS 4b26/9/99.Climb to the white corner at 3m and up. [http://wiki.climbing.ie/index.php/Ballykeefe_Quarry#New_Bolts New Bolts:] Now has an additional bolt for a total of 2 bolts. No bolts were placed on the top section of the route as this can be adequately protected by "
+          },
+          {
+            "name": "Dented Ego",
+            "height": 7,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "[http://wiki.climbing.ie/index.php/Ballykeefe_Quarry#New_Bolts New Bolts:] Now has an additional bolt for a total of 2 bolts. No bolts were placed on the top section of the route as this can be adequately protected by traditional gear placement. Nailbreaker 7m HS 4bN. Mahon, B.Dunne. 80's.1m right of Dented Ego. Climb to dark corner (bolt) then up. Bishop's Nose 7m S 4aB. Dunne, N. Mahon. 80's.2m right of Nailbreaker. Climb the nose at 3m and up. No protection. [http://wiki.climbing.ie/index.php"
+          },
+          {
+            "name": "Clover",
+            "height": 7,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "The Pooka 7m 6a1m left of Lady Jane. Climb the blank section between the drill-mark on left and the thin crack on right using side-pulls (poor wire in crack). Mantelshelf the ledge above and easily up. Lady Jane 7m HVS 5aA quarry classic. Follow the cleaned crack (wire and piton protection). Although short, this is an interesting route which can be climbed by different techniques and may be found to be more difficult than it appears. Disc 7m 6a+Start at ground level just right of Lady Jane. Go s"
+          },
+          {
+            "name": "Disc",
+            "height": 7,
+            "difficulty": "6A",
+            "overall_grade": "6A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Push Your Granny 7m HS 4cJust left of Spreadeagle. Follow the right-trending drill-mark. Two bolts. [http://wiki.climbing.ie/index.php/Ballykeefe_Quarry#New_Bolts New Bolts:] Now has 2 additional bolts for a total of 4 bolts. Spreadeagle 7m 6bAn early test-piece. Start directly below drill-mark in shallow scoop. Work your way up by bridging. (3 bolts). Well protected. This route combines nicely with Widowmaker. Cut the Tree 7m HS 4bN. Mahon, B. Dunne. 80's.Left of bush, past small overhang. Sall"
+          },
+          {
+            "name": "Cut the Tree",
+            "height": 7,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Sally Crack 20m S 4aN. Mahon, B. Dunne. 80's.2m right of Cut the Tree. Past bush at 3m to mid-section and continue to top if desired. Plenty of protection but beware of loose rock. Ascent Route 14m DT. Brophy, M. Manning, 80's.Over clay-parting at ground-level and up ramp, then up left behind detached boulder. Traverse left to mid-section, making airy step-across on way. This is the section of rock above Main Terrace. You can get to it via absail from above (dont leave the path blocked) or from "
+          },
+          {
+            "name": "Sally Crack Upper",
+            "height": 7,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Widowmaker 7m HVS 5bT. Brophy. 90'sEasily up to top of boulder, then up the centre of the blank left-facing face. Protection in the horizontal parting. It is possible to traverse across from the Main Terrace to the Upper Terrace but it is not to be recommended as a slip here would be serious. It is just as simple to go along the top as ascent and descent to both terraces is easy. Stone Pony 6b+G Fogg H Fogg 2003Just right of the ascent route. Up the middle of the blank section. No bridging [obvi"
+          }
+        ],
+        "routes_count": 14,
+        "coordinates": {
+          "latitude": 52.6095264,
+          "longitude": -7.3994769,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Knockdrinna",
+        "page_title": "Knockdrinna",
+        "climbing_type": "Sport Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Knockdrinna",
+        "routes": [
+          {
+            "name": "Salt Peanuts    F7a+",
+            "height": 7,
+            "difficulty": "F7A",
+            "overall_grade": "F7A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Seek and Destroy F6a",
+            "height": 6,
+            "difficulty": "F6A",
+            "overall_grade": "F6A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Tide's Out\t4c/5a",
+            "height": 6,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "N. Eager solo 2003",
+            "description": null
+          },
+          {
+            "name": "West Fork\tF6a+",
+            "height": 6,
+            "difficulty": "F6A",
+            "overall_grade": "F6A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Boppit Extreme\tF6b+",
+            "height": 6,
+            "difficulty": "F6B",
+            "overall_grade": "F6B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "5(a). breakeven F6b+",
+            "height": 6,
+            "difficulty": "F6B",
+            "overall_grade": "F6B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Twayblade\t F6a",
+            "height": 6,
+            "difficulty": "F6A",
+            "overall_grade": "F6A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "unknown\t F6a",
+            "height": 12,
+            "difficulty": "F6A",
+            "overall_grade": "F6A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Slack in Da System \t 7a+",
+            "height": 15,
+            "difficulty": "7A",
+            "overall_grade": "7A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "The line of glue ins immediately left of 6a crack line. Make an awkward mantel up to under cling rail rising leftwards. Climb series of undercut crimps on this up to the break. Crux is a throw into the break and up to the anchor. stretch armstrong 7b 14m Start four meters right of bolt bandits, follow ledges up to an undercut, a big move leads into sustained climbing to the lower off. H. Hennessy 3/10/2021￼"
+          },
+          {
+            "name": "stretch armstrong\t7b",
+            "height": 14,
+            "difficulty": "7B",
+            "overall_grade": "7B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy 3/10/2021￼",
+            "description": null
+          },
+          {
+            "name": ". Bolt bandits \tF7b",
+            "height": 14,
+            "difficulty": "F7B",
+            "overall_grade": "F7B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Hugh's Route\tF7b+",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "",
+            "description": null
+          },
+          {
+            "name": "Omaha Beach\tF6c+",
+            "height": 15,
+            "difficulty": "F6C",
+            "overall_grade": "F6C",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Draighean Dubh\tF7c",
+            "height": 12,
+            "difficulty": "F7C",
+            "overall_grade": "F7C",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Fist Full of Steel\tF7a",
+            "height": 8,
+            "difficulty": "F7A",
+            "overall_grade": "F7A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "La Mussara beg\tF6a+",
+            "height": 15,
+            "difficulty": "F6A",
+            "overall_grade": "F6A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Slimline\tF5+",
+            "height": 15,
+            "difficulty": "F5",
+            "overall_grade": "F5",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Otherside\tF6c",
+            "height": 15,
+            "difficulty": "F6C",
+            "overall_grade": "F6C",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Gates of Eden\tF6b",
+            "height": 15,
+            "difficulty": "F6B",
+            "overall_grade": "F6B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Wasteland        F6a+",
+            "height": 12,
+            "difficulty": "F6A",
+            "overall_grade": "F6A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 52.4992355,
+          "longitude": -7.2394776,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

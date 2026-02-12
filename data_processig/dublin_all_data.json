@@ -1,0 +1,289 @@
+{
+  "Co. Dublin": {
+    "county_info": {
+      "name": "Co. Dublin"
+    },
+    "climbing_sites": [
+      {
+        "name": "Bullock Harbour",
+        "page_title": "Bullock_Harbour",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Bullock_Harbour",
+        "routes": [
+          {
+            "name": "NORTH WEST GROUP OF CLIMBS (all 4 to",
+            "height": 6,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "SOUTH EAST GROUP OF CLIMBS (9 to",
+            "height": 14,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 53.2848787,
+          "longitude": -6.1070919,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Dalkey Quarry",
+        "page_title": "Dalkey_Quarry",
+        "climbing_type": "Quarry",
+        "url": "http://wiki.climbing.ie/index.php?title=Dalkey_Quarry",
+        "routes": [
+          {
+            "name": "UP A GUM TREE",
+            "height": 22,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "POOHS CORNER",
+            "height": 22,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 53.270971,
+          "longitude": -6.1067128,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Howth Head",
+        "page_title": "Howth_Head",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=Howth_Head",
+        "routes": [
+          {
+            "name": "Midshift Madness (S 4a)",
+            "height": 23,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Starts three meters to the left of \"The Gabhar\", once the first ledge is reached trend left until the steeper slab is reached. Climb left side of the slab to a ledge, move up the groove to the right of the arete. The Gabhar (S 4a) 22m Starts on the right side of \"middle yurt\" just to the right of the rhododendron tree growing at the base, climb the obvious gully to the first ledge, then continue up the gully towards the crux where the face steepens before another ledge, from the ledge tend right"
+          },
+          {
+            "name": "Captain Planet (VS 4c)",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Sharran’s Craic (VS 4c) 24m",
+            "description": null
+          },
+          {
+            "name": "Ramp Up (V Diff.",
+            "height": 12,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Ireland's Eye",
+        "page_title": "Ireland%27s_Eye",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Ireland%27s_Eye",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.4057034,
+          "longitude": -6.0642652,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "The Scalp",
+        "page_title": "The_Scalp",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=The_Scalp",
+        "routes": [
+          {
+            "name": "Flake Route",
+            "height": 12,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Safety Second",
+            "height": 6,
+            "difficulty": "6A",
+            "overall_grade": "6A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "D. Flanagan 07/12/14 Follow the line of least resistance up the middle of the south facing wall. A highball boulder problem rather than a route. Go straight up broken rock, and then pull up over a bulge to reach a ledge. Traverse R. into the crack (this is the reverse of Flake Route traverse) and finish as Crack Direct. From the top of Quartz Crag, walk south descending a few feet along the base of a very broken rock wall. At the far end of this, about level with the middle of Quartz Crag, there"
+          },
+          {
+            "name": "Harold's Cross",
+            "height": 7,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "First ascent: H. Johnson, E. Bottomley, Margaret and J. Walsh, J. Roy, 1st March 1958. (H.J. wrote \"The word ‘Cross’ denotes affliction and penance rather than anger! I was on my knees half the time!\")",
+            "description": null
+          },
+          {
+            "name": "Mona's Route",
+            "height": 7,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Charlie McCormack, Moira Laracy, H.Johnson, 1957",
+            "description": null
+          },
+          {
+            "name": "North West Face",
+            "height": 7,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start: At the foot of the pinnacle, just above two flakes. Climb to a small ledge 2.54 m. (the original description carefully specifies 8ft. 4 ins!) from the ground (strenuous and off-balance). Balance delicately on the ledge, feeling to the L. for a crack which provides a much-needed side pull. Jug handles above lead to a strenuous finish. Right Hand Route 7m Diff H. Johnson, E.Bottomley, Margaret Walsh, 1st March 1958"
+          },
+          {
+            "name": "Tree Chimney",
+            "height": 26,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H. Johnson, Pat MacMahon, C. McCormack, 12th March 1958",
+            "description": null
+          },
+          {
+            "name": "Steep Slab",
+            "height": 38,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H. Johnson & party, 1925 ",
+            "description": null
+          },
+          {
+            "name": "Conifer Crack",
+            "height": 6,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Winter Solstice",
+            "height": 24,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Diamond Flake",
+            "height": 11,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Walsh Rarebit",
+            "height": 17,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H. Johnson, H., P., and J. Walsh, C. McCormack, George Strunz, 22nd March 1958. ",
+            "description": null
+          },
+          {
+            "name": "March Hare",
+            "height": 18,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "L. Convery, J. Lynam (leads shared), March 1976. ",
+            "description": null
+          },
+          {
+            "name": "Path of Hands",
+            "height": 9,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Ayton, B. Hall, J. Hale, I. Burnell March 2013",
+            "description": null
+          },
+          {
+            "name": "Scalped",
+            "height": 9,
+            "difficulty": "E5",
+            "overall_grade": "E5",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "B. Hall, D. Ayton January 2013",
+            "description": null
+          }
+        ],
+        "routes_count": 14,
+        "coordinates": {
+          "latitude": 53.2190706,
+          "longitude": -6.1809883,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}
