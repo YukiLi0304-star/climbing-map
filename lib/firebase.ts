@@ -7,8 +7,8 @@ const firebaseConfig = {
   appId: "1:547895468610:web:0a3c1c8b7d132a968dc3db"
 };
 
-
 let firebaseAuth: any = null;
+let firebaseFirestore: any = null;  
 
 export const getFirebaseAuth = async (): Promise<any> => {
   if (firebaseAuth) {
@@ -18,7 +18,6 @@ export const getFirebaseAuth = async (): Promise<any> => {
   console.log('Loading Firebase...');
   
   try {
-    
     const firebase = await import('firebase/compat/app');
     await import('firebase/compat/auth');
     
@@ -36,13 +35,14 @@ export const getFirebaseAuth = async (): Promise<any> => {
     console.error('Firebase compat mode failed:', error.message);
     
     try {
-      
       console.log('Trying Firebase Lite...');
       const { initializeApp } = await import('firebase/app');
       const { getAuth } = await import('firebase/auth');
+      const { getFirestore } = await import('firebase/firestore');  
       
       const app = initializeApp(firebaseConfig);
       firebaseAuth = getAuth(app);
+      firebaseFirestore = getFirestore(app);  
       console.log('Firebase Lite initialized');
       
       return firebaseAuth;
@@ -50,12 +50,35 @@ export const getFirebaseAuth = async (): Promise<any> => {
     } catch (liteError: any) {
       console.error('Firebase Lite also failed:', liteError.message);
       
-      
       console.log('Falling back to mock Firebase');
       firebaseAuth = createMockAuth();
       return firebaseAuth;
     }
   }
+};
+
+export const getFirebaseFirestore = async (): Promise<any> => {
+  
+  if (firebaseFirestore) {
+    return firebaseFirestore;
+  }
+  
+  
+  await getFirebaseAuth();
+  
+  
+  if (!firebaseFirestore) {
+    try {
+      const firebase = await import('firebase/compat/app');
+      await import('firebase/compat/firestore');  
+      firebaseFirestore = firebase.default.firestore();
+      console.log('Firestore initialized (compat mode)');
+    } catch (e) {
+      console.error('Firestore compat failed:', e);
+    }
+  }
+  
+  return firebaseFirestore;
 };
 
 function createMockAuth() {
@@ -98,3 +121,15 @@ function createMockAuth() {
     }
   };
 }
+
+
+export const getMockFirestore = () => {
+  return {
+    collection: () => ({
+      doc: () => ({
+        set: async () => {},
+        delete: async () => {},
+      }),
+    }),
+  };
+};
