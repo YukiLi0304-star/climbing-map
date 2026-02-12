@@ -23,9 +23,9 @@ const TYPE_COLORS = {
 
 const getPinColorByType = (site: ClimbingSite): string => {
   
-  const type = (site.type || '').toLowerCase();
+  const type = (site.type || site.climbing_type || '').toLowerCase();
   
-  if (type.includes('sea') || type.includes('tidal')) return TYPE_COLORS.sea;
+  if (type.includes('sea cliff') || type.includes('tidal')) return TYPE_COLORS.sea;
   if (type.includes('sport') || type.includes('bolt')) return TYPE_COLORS.sport;
   if (type.includes('boulder')) return TYPE_COLORS.boulder;
   if (type.includes('quarry')) return TYPE_COLORS.quarry;
@@ -51,15 +51,28 @@ export const ClimbingMap: React.FC<Props> = ({
     longitudeDelta: 4,
   });
 
-  useEffect(() => {
-    if (!focusRegion || !mapRef.current) return;
-    mapRef.current.animateToRegion(focusRegion, 500);
-    setRegion(focusRegion);
-  }, [focusRegion]);
+useEffect(() => {
+  console.log('focusRegion 变化了:', focusRegion);
+  
+  if (!focusRegion || !mapRef.current) {
+    console.log('缺少 focusRegion 或 mapRef');
+    return;
+  }
+  
+  console.log('执行地图跳转到:', focusRegion);
+  
+  setTimeout(() => {
+    if (mapRef.current) {
+      mapRef.current.animateToRegion(focusRegion, 500);
+      setRegion(focusRegion);
+      console.log('地图跳转完成');
+    }
+  }, 100);
+}, [focusRegion]);
 
   
   const handleCalloutPress = (site: ClimbingSite) => {
-    console.log('📍 Callout 被点击:', site.name);
+    console.log('Callout 被点击:', site.name);
     router.push(`/spot-details/${encodeURIComponent(site.name)}`);
   };
 
@@ -72,7 +85,7 @@ export const ClimbingMap: React.FC<Props> = ({
         onRegionChangeComplete={setRegion}
         showsUserLocation={true}
         showsCompass={true}
-        showsScale={true}
+        showsScale={true} 
       >
         {sites.map((site, index) => {
           if (!site.coordinates) return null;
@@ -83,12 +96,13 @@ export const ClimbingMap: React.FC<Props> = ({
 
           return (
             <Marker
-              key={site.id || `${site.name}_${index}`}
+              key={`${site.id || site.name}_${Math.random()}`}
               coordinate={site.coordinates}
               title={site.name}
               description={`${routesCount} 条攀岩线路`}
               pinColor={isSelected ? '#FF5722' : getPinColorByType(site)}
               onPress={() => onSelectSite(site)}
+              tracksViewChanges={true}
             >
               <Callout tooltip onPress={() => handleCalloutPress(site)}>
                 <TouchableOpacity style={styles.calloutContainer} activeOpacity={0.7}>
@@ -117,7 +131,7 @@ export const ClimbingMap: React.FC<Props> = ({
                   )}
 
                   <Text style={styles.calloutLink}>
-                    👉 Tap to view details
+                    more details
                   </Text>
                 </TouchableOpacity>
               </Callout>
@@ -129,7 +143,7 @@ export const ClimbingMap: React.FC<Props> = ({
       {/* 地图图例 */}
             {/* 地图图例 - 更新为显示岩场类型 */}
       <View style={styles.legend}>
-        <Text style={styles.legendTitle}>岩场类型 (Crag Type)</Text>
+        <Text style={styles.legendTitle}>Crag Type</Text>
         
         <View style={styles.legendRow}>
           <View style={styles.legendItem}>
@@ -208,7 +222,7 @@ const styles = StyleSheet.create({
   
   legend: {
     position: 'absolute',
-    bottom: 70,
+    bottom: 40,
     right: 10,
     backgroundColor: 'rgba(255, 255, 255, 0.95)',
     padding: 10,

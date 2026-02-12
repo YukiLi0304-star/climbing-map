@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {
   Pressable,
@@ -8,7 +7,7 @@ import {
   TextInput,
   View,
 } from 'react-native';
-import { ClimbingSite, ClusterOption } from '../hooks/use-climbing-sites';
+import { ClimbingSite } from '../hooks/use-climbing-sites';
 
 type Props = {
   searchText: string;
@@ -18,9 +17,11 @@ type Props = {
   onSelectCounty: (county: string) => void;
   countyOptions: string[];
 
-  selectedCluster: number | null;
-  onSelectCluster: (id: number | null) => void;
-  clusterOptions: ClusterOption[];
+ 
+
+  selectedDifficulty: string | null;
+  onSelectDifficulty: (difficulty: string | null) => void;
+  difficultyOptions: { id: string | null; label: string }[];
 
   suggestedSites: ClimbingSite[];
   onSelectSite: (site: ClimbingSite) => void;
@@ -35,9 +36,10 @@ export const SearchPanel: React.FC<Props> = ({
   selectedCounty,
   onSelectCounty,
   countyOptions,
-  selectedCluster,
-  onSelectCluster,
-  clusterOptions,
+ 
+  selectedDifficulty,
+  onSelectDifficulty,
+  difficultyOptions,
   suggestedSites,
   onSelectSite,
   showCountyDropdown,
@@ -71,52 +73,66 @@ export const SearchPanel: React.FC<Props> = ({
         {/* 搜索联想结果 */}
         {suggestedSites.length > 0 && (
           <View style={styles.suggestionBox}>
-            {suggestedSites.map((site) => (
-              <Pressable
-                key={site.id || site.name}
-                style={styles.suggestionItem}
-                onPress={() => onSelectSite(site)}
-              >
-                <Text style={styles.suggestionTitle}>{site.name}</Text>
-                <Text style={styles.suggestionSubtitle}>
-                  {site.countyName ?? ''}
-                </Text>
-              </Pressable>
-            ))}
+            <ScrollView 
+              showsVerticalScrollIndicator={true}
+              nestedScrollEnabled={true}
+              style={{ maxHeight: 220 }}
+            >
+              {suggestedSites.map((site) => (
+                <Pressable
+                  key={`${site.id || site.name}_${Math.random()}`}
+                  style={styles.suggestionItem}
+                  onPress={() => onSelectSite(site)}
+                >
+                  <Text style={styles.suggestionTitle}>{site.name}</Text>
+                  <Text style={styles.suggestionSubtitle}>
+                    {site.countyName ?? ''}
+                  </Text>
+                </Pressable>
+              ))}
+            </ScrollView>
           </View>
         )}
-
-        {/* 风格（cluster）筛选标签 */}
-        <ScrollView
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          style={styles.filterRow}
-        >
-          {clusterOptions.map((opt) => {
-            const active = opt.id === selectedCluster;
-            return (
-              <Pressable
-                key={opt.id === null ? 'all' : opt.id.toString()}
-                onPress={() => onSelectCluster(opt.id)}
-                style={[styles.filterChip, active && styles.filterChipActive]}
-              >
-                <Text
+        {/* 难度筛选标签 */}
+        <View style={styles.filterSection}>
+          <ScrollView
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            style={styles.filterRow}
+          >
+            {difficultyOptions.map((opt) => {
+              const active = opt.id === selectedDifficulty;
+              return (
+                <Pressable
+                  key={opt.id === null ? 'all-diff' : opt.id}
+                  onPress={() => onSelectDifficulty(opt.id)}
                   style={[
-                    styles.filterChipText,
-                    active && styles.filterChipTextActive,
+                    styles.filterChip,
+                    active && styles.filterChipActive,
                   ]}
                 >
-                  {opt.label}
-                </Text>
-              </Pressable>
-            );
-          })}
-        </ScrollView>
+                  <Text
+                    style={[
+                      styles.filterChipText,
+                      active && styles.filterChipTextActive,
+                    ]}
+                  >
+                    {opt.label}
+                  </Text>
+                </Pressable>
+              );
+            })}
+          </ScrollView>
+        </View>
       </View>
 
       {/* 郡下拉列表（铺在搜索面板下面） */}
       {showCountyDropdown && (
-        <View style={styles.dropdownList}>
+        <ScrollView 
+          style={styles.dropdownList}
+          showsVerticalScrollIndicator={true}
+          nestedScrollEnabled={true}
+        >
           {countyOptions.map((county) => (
             <Pressable
               key={county}
@@ -130,7 +146,7 @@ export const SearchPanel: React.FC<Props> = ({
               </Text>
             </Pressable>
           ))}
-        </View>
+        </ScrollView>
       )}
     </View>
   );
@@ -139,7 +155,7 @@ export const SearchPanel: React.FC<Props> = ({
 const styles = StyleSheet.create({
   wrapper: {
     position: 'absolute',
-    top: 30,
+    top: 50,
     left: 8,
     right: 8,
     zIndex: 10,
@@ -183,12 +199,17 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   suggestionBox: {
-    marginTop: 4,
-    borderRadius: 8,
+    position: 'absolute',
+    top: 50,
+    left: 0,
+    right: 0,
+    maxHeight: 220,
     backgroundColor: '#fff',
     borderWidth: 1,
     borderColor: '#eee',
-    maxHeight: 140,
+    borderRadius: 8,
+    zIndex: 20,
+    elevation: 5,
   },
   suggestionItem: {
     paddingHorizontal: 8,
@@ -229,14 +250,17 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontWeight: '600',
   },
+  filterSection: {
+    marginTop: 8,
+  },
   dropdownList: {
     marginTop: 4,
-    borderRadius: 8,
+    maxHeight: 180,
     backgroundColor: '#fff',
     borderWidth: 1,
     borderColor: '#eee',
-    maxHeight: 220,
-  },
+    borderRadius: 8,
+},
   dropdownItem: {
     paddingHorizontal: 10,
     paddingVertical: 8,

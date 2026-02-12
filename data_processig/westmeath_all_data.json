@@ -1,0 +1,187 @@
+{
+  "Co. Westmeath": {
+    "county_info": {
+      "name": "Co. Westmeath"
+    },
+    "climbing_sites": [
+      {
+        "name": "Fore",
+        "page_title": "Fore",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Fore",
+        "routes": [
+          {
+            "name": "Anchorite's Cell",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H. Hennessy, C. Seery 8/8/2010",
+            "description": null
+          },
+          {
+            "name": "Foreplay",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy 3/5/2010",
+            "description": null
+          },
+          {
+            "name": "3'n'4(Fore)",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.O'Reilly, R.Lynch 2-6-2017",
+            "description": null
+          },
+          {
+            "name": "Wholly",
+            "height": 12,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.O'Reilly, R.Lynch 22-5-2017",
+            "description": null
+          },
+          {
+            "name": "A bit Presumptuous",
+            "height": 12,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "R.Lynch, R.O'Reilly 8-6-2017",
+            "description": null
+          },
+          {
+            "name": "Ancient Brambles Arête",
+            "height": 12,
+            "difficulty": "3C",
+            "overall_grade": "3C",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Start at the right end of the crag, 10M right of Salvage, and climb the Arête to a top pillar that can be slung. The Arête becomes more obvious as it's climbed. Tree chain anchor installed in 2024.",
+            "description": null
+          }
+        ],
+        "routes_count": 6,
+        "coordinates": {
+          "latitude": 53.6805181,
+          "longitude": -7.2263083,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Rock of Curry",
+        "page_title": "Rock_of_Curry",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Rock_of_Curry",
+        "routes": [
+          {
+            "name": "<b>1.Bombay Brambles</b> VS 4c",
+            "height": 30,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "B.Seery, H.Hennessy 9/5/2010",
+            "description": null
+          },
+          {
+            "name": "<p><b>2.Billy Goat's Gruff</b> E1 5a",
+            "height": 30,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J.Redmond, D.Carolan 9/5/2010",
+            "description": null
+          },
+          {
+            "name": "<b>3.Decs route</b> HS 4b",
+            "height": 30,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D.Carolan, J.Redmond 9/5/2010",
+            "description": null
+          },
+          {
+            "name": "</p><p><b>4.bird of prey</b> HS 4b",
+            "height": 30,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy,B.Seery 9/5/2010",
+            "description": null
+          },
+          {
+            "name": "<p><b>6.into the wild</b> VS 4c",
+            "height": 30,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy 8/5/2010",
+            "description": null
+          },
+          {
+            "name": "<p><b>7.gerrys route 1</b> E2 5c",
+            "height": 25,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Fogg, C. Ennis,H.Hennessy 22/1/2011  Onsight",
+            "description": null
+          },
+          {
+            "name": "<p><b>8.gerrys route 2</b> E1 5b",
+            "height": 25,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G.Fogg,H.Hennessy,C.Ennis 22/1/2011  Onsight",
+            "description": null
+          },
+          {
+            "name": "<p><b>9.august rush</b> HS 4b",
+            "height": 30,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy,C.Seery 8/8/2010",
+            "description": null
+          },
+          {
+            "name": "<p><b>10. korma</b> HVS 5a",
+            "height": 18,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H.Hennessy,C.Ennis,G.fogg 22/1/2011",
+            "description": null
+          }
+        ],
+        "routes_count": 9,
+        "coordinates": {
+          "latitude": 53.7318226,
+          "longitude": -7.3274957,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

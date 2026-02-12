@@ -1,0 +1,63 @@
+{
+  "Co. Tipperary": {
+    "county_info": {
+      "name": "Co. Tipperary"
+    },
+    "climbing_sites": [
+      {
+        "name": "Devil's bit",
+        "page_title": "Devil%27s_bit",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Devil%27s_bit",
+        "routes": [
+          {
+            "name": "The Dragon VS 4c",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "2. Toasty Warm HVS 5a 13m",
+            "description": null
+          },
+          {
+            "name": "Lost VS 4c",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "4. Aneurysm E1 5b 17m",
+            "description": null
+          },
+          {
+            "name": "Disarm HS 4b",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "3. Low Light V.Diff 10m",
+            "description": null
+          },
+          {
+            "name": "Setting Forth S 4a",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "7. Far Behind VS 4c 8m",
+            "description": null
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 52.821385,
+          "longitude": -7.9146414,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

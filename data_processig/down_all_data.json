@@ -1,0 +1,1511 @@
+{
+  "Co. Down": {
+    "county_info": {
+      "name": "Co. Down"
+    },
+    "climbing_sites": [
+      {
+        "name": "Alnadue Quarry",
+        "page_title": "Alnadue_Quarry",
+        "climbing_type": "Quarry",
+        "url": "http://wiki.climbing.ie/index.php?title=Alnadue_Quarry",
+        "routes": [
+          {
+            "name": "2 Corner",
+            "height": 12,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "5 Common Arete 12m M. On Right wall at Castlewellan Quarry 8 Shaft Climb 15m M. On Right wall at Castlewellan Quarry 1 4b 2 5a 3 5c 4 6a+ 5 5c 6 6a 7 5a 8a 6a 8b 6a+ 9 6a+ 10 6b 11 5b 12 5c 13 5b 14 5c 15 5a 16 4c 17 4b 18 3c"
+          },
+          {
+            "name": "4 Traverse",
+            "height": 14,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "5 Common Arete 12m M. On Right wall at Castlewellan Quarry 8 Shaft Climb 15m M. On Right wall at Castlewellan Quarry 1 4b 2 5a 3 5c 4 6a+ 5 5c 6 6a 7 5a 8a 6a 8b 6a+ 9 6a+ 10 6b 11 5b 12 5c 13 5b 14 5c 15 5a 16 4c 17 4b 18 3c"
+          },
+          {
+            "name": "5 Common Arete",
+            "height": 12,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "6 HS",
+            "height": 15,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "8 Shaft Climb 15m M. On Right wall at Castlewellan Quarry 1 4b 2 5a 3 5c 4 6a+ 5 5c 6 6a 7 5a 8a 6a 8b 6a+ 9 6a+ 10 6b 11 5b 12 5c 13 5b 14 5c 15 5a 16 4c 17 4b 18 3c"
+          },
+          {
+            "name": "7 VS",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "8 Shaft Climb 15m M. On Right wall at Castlewellan Quarry 1 4b 2 5a 3 5c 4 6a+ 5 5c 6 6a 7 5a 8a 6a 8b 6a+ 9 6a+ 10 6b 11 5b 12 5c 13 5b 14 5c 15 5a 16 4c 17 4b 18 3c"
+          },
+          {
+            "name": "8 Shaft Climb",
+            "height": 15,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 6,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Annalong Buttress",
+        "page_title": "Annalong_Buttress",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Annalong_Buttress",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.1740219,
+          "longitude": -5.9360668,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Ben Crom",
+        "page_title": "Ben_Crom",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Ben_Crom",
+        "routes": [
+          {
+            "name": "Golden Gate",
+            "height": 40,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Destined to become a classic, low in the grade. Start below a small overhang just left of Restless Eyes. Climb directly up via flakey fault/crack to ledges below a grassy depression. Up right for a few meters to flakes and to a good footledge. Traverse right and up crack to right facing corner. Up this to its top and exit left. Directly up to grass ledge and then a short wall to top. Good stake belay, though a good belay can be taken on the grass ledge. Restless Eyes *** 40m E2 5b G. Murray, M. "
+          },
+          {
+            "name": "Eurus",
+            "height": 30,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Kevin Kilroy, Conor McNamara, 14/Aug/2024.",
+            "description": null
+          },
+          {
+            "name": "Eyes Wide Shut",
+            "height": 30,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Kevin Kilroy, Jordan Ramsey MacSweeney, 13/Sep/2024.",
+            "description": null
+          },
+          {
+            "name": "Jessica Rabbit",
+            "height": 15,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I Rea, P Holmes, E Cooper,  2003.",
+            "description": null
+          },
+          {
+            "name": "Raindogs",
+            "height": 15,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Zig Zag 18m S 3c The climb follows the left-hand major crack in the wall, gaining it from the right. Travelling Rabbi 15m HS 4b A. Whitcroft, P. Williamson. 14/6/86. Follow faint crack lines between the two major grooves/cracks on the wall. Cinnamon Girl * 15m VS 4c A. Whitcroft, P. Williamson. 28/6/86. Right of the second major groove/crack. A faint line leads to pronounced impending crack at top. Straight up to base of this crack and then move right onto the wall on breaks. Grass Harp 15m VS 4"
+          },
+          {
+            "name": "Roadside Rabbit",
+            "height": 12,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start - right of Texaco Gasoline. Climb layback flake/crack to gain crack up wall. Finish straight up. The Bakers 15m VD W. Withers, D. Bruce. Start - at the base of a rib split by a crack to the right of Grass Harp. The route follows this. Common One 15m HVS 5a G. Murray. 8/89. Disappointing as the short crux is avoidable by the grass ledge. Climb the rib and wall just right of The Bakers, passing a grass ledge on the right, and finish easily to the top. Below and right of The Bakers, is anothe"
+          },
+          {
+            "name": "Crawl This",
+            "height": 8,
+            "difficulty": "E5",
+            "overall_grade": "E5",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Eddie Cooper, Ali Moles, 2003.",
+            "description": null
+          },
+          {
+            "name": "Crawl That",
+            "height": 8,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Eddie Cooper, Martin Manson, 2003.",
+            "description": null
+          },
+          {
+            "name": "Crawly Crack Crawl",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "At small buttress known as The Crawl Wall. Line follows the cracked wall/corner. Crawly Wall Crawl 8m VS 4c A nice little route spilt slightly by the horrible gorse. Follow the crack near the left arete. Life in Sport E2 6a E Cooper, M McNaught, 2002."
+          },
+          {
+            "name": "Crawly Wall Crawl",
+            "height": 8,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "A nice little route spilt slightly by the horrible gorse. Follow the crack near the left arete. Life in Sport E2 6a E Cooper, M McNaught, 2002."
+          },
+          {
+            "name": "Life",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Follow the crack near the left arete. Life in Sport E2 6a E Cooper, M McNaught, 2002."
+          },
+          {
+            "name": "Ride with the Nazgul",
+            "height": 16,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Niall Burns, Alex Hazael, Josh Flanagan, 22/Oct/2023.",
+            "description": null
+          },
+          {
+            "name": "Apricity <small>",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Shane Murphy, Niall Burns, 21/Oct/2023.",
+            "description": null
+          },
+          {
+            "name": "Tombstone",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Niall Burns, Ian Rea, 14/Oct/2023.",
+            "description": null
+          },
+          {
+            "name": "Stonewall Jackson <small>",
+            "height": 10,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Niall Burns, 12/Oct/2023.",
+            "description": null
+          },
+          {
+            "name": "Storm <small>",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Niall Burns, Ian Rea,14/Oct/2023.",
+            "description": null
+          },
+          {
+            "name": "Oakenshield <small>",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Niall Burns, Ian Rea, 14/Oct/2023.",
+            "description": null
+          },
+          {
+            "name": "Balin's Groove",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Niall Burns, Ian Rea, 14/Oct/2023.",
+            "description": null
+          }
+        ],
+        "routes_count": 18,
+        "coordinates": {
+          "latitude": 54.1663008,
+          "longitude": -5.9905747,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Bearnagh Slabs",
+        "page_title": "Bearnagh_Slabs",
+        "climbing_type": "Quarry",
+        "url": "http://wiki.climbing.ie/index.php?title=Bearnagh_Slabs",
+        "routes": [
+          {
+            "name": "Grand Central",
+            "height": 70,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Grand Central ** 70m VD One of the best longer excursions in the Mournes. Start - 6m right of Crooked Chimney at a large grass ledge directly below a large overhang at the top of the slabs.1) 25m Climb easily up slabs to grass ledge. From its base up left trending groove to join right-trending groove leading to a belay.2) 10m Climb up a groove directly behind belay for 3m then traverse up left along a faint groove and up to the grass ledge shared with Crooked Chimney.3) 10m Step down and climb t"
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 54.1863124,
+          "longitude": -5.9935106,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Bearnagh Tors",
+        "page_title": "Bearnagh_Tors",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Bearnagh_Tors",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Binnian Lough Buttress",
+        "page_title": "Binnian_Lough_Buttress",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Binnian_Lough_Buttress",
+        "routes": [
+          {
+            "name": "Blue Jay",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "I. Rea, M. Rea. 6/91. Start at the left-hand side of the crag below a right pointing detached flake. Climb up and around its right-hand side and finish up the blocky wall above. Different Drum 10m HVS 5a I. Rea, M. Rea. 6/91. Climb the steep and open groove/wall 3m right of Blue Jay direct on good positive holds. The next two routes are about 3m on past the steep central section with a grassy base with a left facing flake 2m up. I. Rea, M. Rea. 6/91. Start on ledges below and left of the flake M"
+          },
+          {
+            "name": "Different Drum",
+            "height": 10,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "I. Rea, M. Rea. 6/91. Climb the steep and open groove/wall 3m right of Blue Jay direct on good positive holds. The next two routes are about 3m on past the steep central section with a grassy base with a left facing flake 2m up. I. Rea, M. Rea. 6/91. Start on ledges below and left of the flake Move right towards the flake. Get to the ledge above on its left side before moving left for 1m and finishing straight up. Big Sky 13m El 5b I. Rea, M. Rea. 6/91. Start as for Rio. But go straight up on th"
+          },
+          {
+            "name": "Rio",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "I. Rea, M. Rea. 6/91. Start on ledges below and left of the flake Move right towards the flake. Get to the ledge above on its left side before moving left for 1m and finishing straight up. Big Sky 13m El 5b I. Rea, M. Rea. 6/91. Start as for Rio. But go straight up on the horizontal breaks past a large right-pointing flake and finish up the shallow corner on the left. Photon 11m E2 5c I. Rea, M. Rea. 6/91. Start at the left trending seam/edge 3m right of Rio. Up onto ledge, move right and onto a"
+          },
+          {
+            "name": "Big Sky",
+            "height": 13,
+            "difficulty": "5B",
+            "overall_grade": "5B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "I. Rea, M. Rea. 6/91. Start as for Rio. But go straight up on the horizontal breaks past a large right-pointing flake and finish up the shallow corner on the left. Photon 11m E2 5c I. Rea, M. Rea. 6/91. Start at the left trending seam/edge 3m right of Rio. Up onto ledge, move right and onto another ledge. Using a small nubbin delicately up the wall to the flake. Coyote 10m VS 4c I. Rea, M. Rea. 6/91. Start 3m right of Photon at a vertical crack. Follow this to a ledge and follow the seam running"
+          },
+          {
+            "name": "Photon",
+            "height": 11,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "I. Rea, M. Rea. 6/91. Start at the left trending seam/edge 3m right of Rio. Up onto ledge, move right and onto another ledge. Using a small nubbin delicately up the wall to the flake. Coyote 10m VS 4c I. Rea, M. Rea. 6/91. Start 3m right of Photon at a vertical crack. Follow this to a ledge and follow the seam running off left. Missouri Breaks 10m HVS 5a I. Rea, M. Rea. 6/91. Start 2m right again of Coyote. Stand on a small foot ledge just above the ground (awkward). Now traverse left and up to "
+          },
+          {
+            "name": "Coyote",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "I. Rea, M. Rea. 6/91. Start 3m right of Photon at a vertical crack. Follow this to a ledge and follow the seam running off left. Missouri Breaks 10m HVS 5a I. Rea, M. Rea. 6/91. Start 2m right again of Coyote. Stand on a small foot ledge just above the ground (awkward). Now traverse left and up to gain the edge of a flake. Pull out right to a ledge and finish directly up a wall above. Directly above Blue Lough Buttress and below Binnian Lough Crag is a large 'A' shaped slab which has two excelle"
+          },
+          {
+            "name": "Missouri Breaks",
+            "height": 10,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "I. Rea, M. Rea. 6/91. Start 2m right again of Coyote. Stand on a small foot ledge just above the ground (awkward). Now traverse left and up to gain the edge of a flake. Pull out right to a ledge and finish directly up a wall above. Directly above Blue Lough Buttress and below Binnian Lough Crag is a large 'A' shaped slab which has two excellent beginners routes, one of which had been done before though never recorded. A higher standard route has since been added. Untold Tales E3 6a/6b ** 15m J.O"
+          },
+          {
+            "name": "Untold Tales E3 6a/6b",
+            "height": 15,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "J.Orr J.Parr 2/11/08 Start below leftward pointing flakes at lowest point on the wall. Climb to and past these flakes to reach a small sloping ledge. Step right to good foothold and make a strenuous move on to the ledge to reach sloping break. Make moves through the breaks to reach good holds at top. The Fred Beckey Direct * 70m VD M. Rea, I. Rea. 23/9/90. 1) 40m. Climb clean slabby rib directly up the middle of the slab, keeping to the edge the whole way up. Belay on spike. 2) 30m Step left acr"
+          },
+          {
+            "name": "Family Favourites",
+            "height": 70,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 9,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Binnian Tors",
+        "page_title": "Binnian_Tors",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Binnian_Tors",
+        "routes": [
+          {
+            "name": "Brimstone",
+            "height": 30,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "D. Parkinson, C. Boyd. 1/2/59. A nice little route. Climb the arrowhead flake and finish up easy rock above. The Last Laugh 30m HS G. Murray (Solo). 5/91. Climb the flake, 2m right of Brimstone, to a groove at 2m, on the right. Up the groove and slab above to a horizontal crack and move left to finish. Come Uppance 18m VD J. Forsythe, D. Carson, T. Maguire. 10/6/79. This takes a prominent, dark, shallow, flaky groove just around to the right from Brimstone. B. Lane, J. Anderson. 16/4/69. A poor "
+          },
+          {
+            "name": "Come Uppance",
+            "height": 18,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "J. Forsythe, D. Carson, T. Maguire. 10/6/79. This takes a prominent, dark, shallow, flaky groove just around to the right from Brimstone. B. Lane, J. Anderson. 16/4/69. A poor route with a fair amount of vegetation. Up the grassy cracks a few metres left of the clean slab (of Pete's Delight). Either climb straight up the curving bulge (HS) or move right and then up to a grass ledge and finish as for Standing Stone Chimney. The large clean slab just to the left of the jumbled blocks has the follo"
+          },
+          {
+            "name": "Bandage",
+            "height": 37,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "B. Lane, J. Anderson. 16/4/69. A poor route with a fair amount of vegetation. Up the grassy cracks a few metres left of the clean slab (of Pete's Delight). Either climb straight up the curving bulge (HS) or move right and then up to a grass ledge and finish as for Standing Stone Chimney. The large clean slab just to the left of the jumbled blocks has the following two routes - A Walk in the Clouds * 25m E3 5c G. Murray and party. 8/6/96. A serious proposition with no protection using friction an"
+          },
+          {
+            "name": "A Walk in the Clouds",
+            "height": 25,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "G. Murray and party. 8/6/96. A serious proposition with no protection using friction and tiny friable edges - the holds are a lottery! Climb up on big pockets moving left to a horizontal break. Then directly up the steep white slab above keeping left at the top. Pete's Delight * 25m HVS 4c P. Coakley, I. Rea. (Solo). 15/5/82. Interesting slab climbing but devoid of protection. As for the previous route to horizontal break but step right and make thin moves up a very shallow groove. Just above an"
+          },
+          {
+            "name": "Pete's Delight",
+            "height": 25,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P. Coakley, I. Rea. (Solo). 15/5/82. Interesting slab climbing but devoid of protection. As for the previous route to horizontal break but step right and make thin moves up a very shallow groove. Just above an inverted flake move right to a small corner, climb up to a ledge and continue up a corner with a pillar/spike to the top. Standing Stone Chimney 46m VD M. McMurray, T. Nevin. 10/52. A fairly demanding but short initial pitch leads to a long ambulatory second with possible variations.1) 9m "
+          },
+          {
+            "name": "Savage Skies",
+            "height": 31,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "G. Murray, B. James. 16/9/95. This route takes the line of scoops and small pockets directly above the belay ledge on pitch 1 of Standing Stone Chimney with a short but intimidating crux. Make a hard pull off ledge to reach pocket and scoop, followed by a difficult step to reach higher pockets and flake above. Climb the easy groove above to belay. Tart * 33m HVS 4c D. Rankin. 18/8/73. This route takes the steep hanging slab above the ledge on The Wart which is not totally unprotected but tread w"
+          },
+          {
+            "name": "Tart",
+            "height": 33,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Savage Skies * 31m E3 6a G. Murray, B. James. 16/9/95. This route takes the line of scoops and small pockets directly above the belay ledge on pitch 1 of Standing Stone Chimney with a short but intimidating crux. Make a hard pull off ledge to reach pocket and scoop, followed by a difficult step to reach higher pockets and flake above. Climb the easy groove above to belay. Tart * 33m HVS 4c D. Rankin. 18/8/73. This route takes the steep hanging slab above the ledge on The Wart which is not totall"
+          },
+          {
+            "name": "Dart",
+            "height": 33,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "D. Rankin. 18/8/73. As for The Wart to the ledge and continue right around the corner and climb a short diedre/crack that splits the left-hand arete of Pochle Perilous to the top of large flake. Ascend the go-ey slab above to finish just left of Pochle Perilous. Phart * 33m HVS 5b P. Wright, R. Bankhead, P. Turley. 4/82 Only a direct start to Dart, but worthwhile with a well protected crux. Start on the right-hand side of the grassy bay. Climb the jug-handle crack and swing onto slab. Up this an"
+          },
+          {
+            "name": "Phart",
+            "height": 33,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P. Wright, R. Bankhead, P. Turley. 4/82 Only a direct start to Dart, but worthwhile with a well protected crux. Start on the right-hand side of the grassy bay. Climb the jug-handle crack and swing onto slab. Up this and traverse left to the ledge below the steep right-trending finger crack. Climb this (crux) to the top of the flake and finish up the go-ey slab, as for Dart. Pochle Perilous ** 43m HS 4b W. A. Robertson, K. W. W. Double. /51. An obligatory Mourne classic but the difficulties are u"
+          },
+          {
+            "name": "Pochle Perilous",
+            "height": 43,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "W. A. Robertson, K. W. W. Double. /51. An obligatory Mourne classic but the difficulties are unfortunately short lived. The main feature of the climb is the large white diedre at the lower end of the West Face.1) 18m Up cracks on the lower plinth to base of the diedre. Belay on right.2) 25m Delectably climb the diedre to the top. Beloisen Variation An easier finish can be made just below the top by stepping right and surmounting the overhanging lip.Variation Climb On a Thin Shadow * E3 5c P. Har"
+          },
+          {
+            "name": "Esoteric",
+            "height": 30,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "G. Murray, T. Mercer. 18/5/95. Start at pocked/quartz crack right of Pochle Perilous. Easily to large block just right of the base of the diedre of Pochle Perilous (possible belay). Climb the slab on the right to bulging wall which is climbed left of a groove and continue up slab easily to the top. The remainder of the south face right of this is rather broken and routes may be found anywhere and few difficulties are encountered. However at the right-hand end where the south and east sides meet "
+          },
+          {
+            "name": "Spiny Norman",
+            "height": 12,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "D. Stelfox, H. McKee, N. Stevenson. 6/76. Up the wall just left of a block by a dubious hold (crux) and finish easily straight up. The east side of South Tor is characterised by three rounded mini-buttresses which gradually rise in stature as one goes right. The first, left-hand mini-buttress gives a clean VD climb with ample holds, resting ledges and possible variations. The right edge, just before the grassy gully forms a blunt rib. The Big Hype 14m HVS 5a G. Murray (Solo). 5/91. An eliminate "
+          },
+          {
+            "name": "Prayer",
+            "height": 18,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "J. Anderson, P. S. Moynihan. 16/4/69. An athletic start followed by tricky finesse. Start at the left-hand end of the middle mini-buttress. Swing up a short steep wall to a shelf. Traverse diagonally right under a second overhanging wall and delicately take twin grooves and onto the top. Ne Obliviscaris * 30m VD J. Anderson, J. Challenor. 1/3/58. A fine little route, with satisfying but disjointed pitches.1) 12m Climb the obvious open groove, to the right of Prayer, to a slab.2) 18m From below t"
+          },
+          {
+            "name": "Ne Obliviscaris",
+            "height": 30,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "J. Anderson, J. Challenor. 1/3/58. A fine little route, with satisfying but disjointed pitches.1) 12m Climb the obvious open groove, to the right of Prayer, to a slab.2) 18m From below twin grooves (of Prayer) move right up a short ramp and continue traversing right, moving up at a gap, to just above a large grass ledge. A short but pleasant crack/groove now leads left to the top. The recess between the second and third outcrops provides Direct Route 25m M (J. R. White and party. 10/52.) but has"
+          },
+          {
+            "name": "Wild Trails",
+            "height": 27,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "G. Murray (Solo). 7/91. Start at the base of the above mentioned left-facing corner. Up corner 3m and step delicately right onto edge and follow blunt arete to big slabby ledge. Step left around the edge and climb the thin crack in the wall to the top. Step and Lep * 27m VD M. McMurray, B. White. 10/52. 1) 18m Climb up to prominent grass ledge on the right side of the left arete, via flakes. Move up the left-slanting crack using a rocking hold, to the large ledge in the rocky bay above. 2) 9m St"
+          },
+          {
+            "name": "Step and Lep",
+            "height": 27,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "M. McMurray, B. White. 10/52. 1) 18m Climb up to prominent grass ledge on the right side of the left arete, via flakes. Move up the left-slanting crack using a rocking hold, to the large ledge in the rocky bay above. 2) 9m Straight up the groove in the corner, or better, left up the pocked groove, right onto a flake and then straight up the slab just left of the corner.Variation a) S 1) Work up the left-facing corner which gives a cleaner start. 2) Continue left along pocked groove to finish del"
+          },
+          {
+            "name": "Van Torso",
+            "height": 27,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P. Gribbon and Party. Really only a dirty first pitch to Step and Lep. Follow the double cracks slanting up diagonally left from the large grass ledge in the middle of the outcrop to the large ledge in the rocky bay. Finish as for Step and Lep.Variation S 1) Climb directly up using flakes to the left-hand side of the double cracks A few metres right of Van Torso is a dirty open groove. Pocahontas * 24m VS 4c I. Rea, M. Rea. 14/2/87. Although the crux is low down it has an uncanny air of unsettli"
+          },
+          {
+            "name": "Pocahontas",
+            "height": 24,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "I. Rea, M. Rea. 14/2/87. Although the crux is low down it has an uncanny air of unsettling most leaders. Start at the base of this dirty groove. Up to and climb the layback in the arete left of this dirty groove finishing directly up the crack in the middle of the upper slab. R. Cole, L. Carew. 17/8/69. Climb the A-shaped slab right of the dirty groove (or up the dirty groove) and then move left onto an easy-angled slab. Climb the crack left of the niche which bulges at the start. Grot and Groov"
+          },
+          {
+            "name": "Riot",
+            "height": 24,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. Cole, L. Carew. 17/8/69. Climb the A-shaped slab right of the dirty groove (or up the dirty groove) and then move left onto an easy-angled slab. Climb the crack left of the niche which bulges at the start. Grot and Groove * 24m S 3c K. W. W. Double, T. Nevin. 11/52. A highly enjoyable little outing.1) 14m Climb the deep groove at the right-hand side of the outcrop, just behind a jumble of boulders. Belay in a secure niche below an overhang.2) 10m Either exit out left and step back right and f"
+          },
+          {
+            "name": "Grot and Groove",
+            "height": 24,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "K. W. W. Double, T. Nevin. 11/52. A highly enjoyable little outing.1) 14m Climb the deep groove at the right-hand side of the outcrop, just behind a jumble of boulders. Belay in a secure niche below an overhang.2) 10m Either exit out left and step back right and follow thin groove to the top or gain the groove directly by stepping off huge block (harder). Olympia 20m S 3c I. Rea, R. Bankhead. 31/8/96. Start 2m right of Grot and Groove on top of boulders. Follow a line of holds on the slab and ga"
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Blue Lough Buttress",
+        "page_title": "Blue_Lough_Buttress",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Blue_Lough_Buttress",
+        "routes": [
+          {
+            "name": "Damocles",
+            "height": 30,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P. Gribbon and Party. 2/56. Start at the very left-hand end of the crag is a steep gully. Climb mainly on the left wall. Banner * 55m VS (4b) M. Curran, J. Forsythe. 12/7/83. Start at the left-hand end of the crag about 10m right of a small rowan tree and below a detached triangular flake.1) 30m Go up to ledge level with the top of the flake. Make a difficult mantle up or, easier, move right 1 m to just above a grass ledge and make a difficult step up to easier ground. A very long traverse now l"
+          },
+          {
+            "name": "Banner",
+            "height": 55,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "M. Curran, J. Forsythe. 12/7/83. Start at the left-hand end of the crag about 10m right of a small rowan tree and below a detached triangular flake.1) 30m Go up to ledge level with the top of the flake. Make a difficult mantle up or, easier, move right 1 m to just above a grass ledge and make a difficult step up to easier ground. A very long traverse now leads up and left to good grassy belay ledges below and left of the vertical crack splitting the upper wall.2) 25m Climb the diagonal flake cra"
+          },
+          {
+            "name": "Pinnacle Gully",
+            "height": 40,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "(H. C. Elliott, M. McMurray. 1/19/56.) is a chossy route up the obvious gully that splits the upper crag roughly in two. Bottleneck 52m S (4a)J. Forsythe, M. Curran. 3/6/79.Start this takes the obvious curving crack on the right wall of Pinnacle Gully and is rather scruffy.1) 45m Climb the crack (crux at 25m) and continue up to a grass ledge with bushes overlooking the gully. Traverse right below this along grass ledge to the base of a chimney crack, best seen from the ground.2) 7m Mantelshelf o"
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 54.1540434,
+          "longitude": -5.9725411,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Buzzard's Roost",
+        "page_title": "Buzzard%27s_Roost",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Buzzard%27s_Roost",
+        "routes": [
+          {
+            "name": "Genesis",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Gordon's 10m VS (4c)J. Harrup, E. Johnston. 5/7/85.Climb wide, blocky groove turning overhang on the left. Sustained. 2m right of Gordon's are two steep parallel cracks above a large boulder. Cream of the Barley 13m HVS (5a)J. Harrup, E. Johnston. 20/7/85.The left-hand crack past loose block and small overhang. Joint Effort 13m HVS (5a)E. Johnston, J. Harrup. 27/7/85.The right-hand crack, wall and overhang. Bacardi * 15m E1 (5c)J. Harrup, E. Johnston. 27/7/85.Obvious shallow corner in the middle"
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 54.1570292,
+          "longitude": -5.9795946,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Chimney Rock Mountain",
+        "page_title": "Chimney_Rock_Mountain",
+        "climbing_type": "Quarry",
+        "url": "http://wiki.climbing.ie/index.php?title=Chimney_Rock_Mountain",
+        "routes": [
+          {
+            "name": "Catwalk",
+            "height": 30,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "S. J. Crymble, W. Jenkins. 29/8/65 Start - on old slabs left of main quarry. Climb crack and move right diagonally to finish. Disappointment 30m S 4a S. J. Crymble, W. Jenkins. 29/8/65 Start - in the corner left of newer main slab. Move up right across slabs to finish up generally greasy terraced wall. M.O.T. 115m E1 4b, 4b, 5b R. Young, P. Hargreaves. 24/7/96. The whole route is poorly protected with virtually no gear in any of the pitches or for the belays - the only good runner is on the thir"
+          },
+          {
+            "name": "Disappointment",
+            "height": 30,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "S. J. Crymble, W. Jenkins. 29/8/65 Start - in the corner left of newer main slab. Move up right across slabs to finish up generally greasy terraced wall. M.O.T. 115m E1 4b, 4b, 5b R. Young, P. Hargreaves. 24/7/96. The whole route is poorly protected with virtually no gear in any of the pitches or for the belays - the only good runner is on the third pitch - but don't let this put you off. Start - in the middle of the main face just to the right of the bottom series of overlaps. 1) 45m Climb up t"
+          },
+          {
+            "name": "M.O.T.",
+            "height": 115,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. Young, P. Hargreaves. 24/7/96. The whole route is poorly protected with virtually no gear in any of the pitches or for the belays - the only good runner is on the third pitch - but don't let this put you off. Start - in the middle of the main face just to the right of the bottom series of overlaps. 1) 45m Climb up the middle of the face trending slightly left to cross the second band of overlaps at an obvious weakness (slightly broken looking rock with a small corner/groove rising up from the"
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Doan",
+        "page_title": "Doan",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Doan",
+        "routes": [
+          {
+            "name": "Practice Crack",
+            "height": 10,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 54.1684708,
+          "longitude": -6.0066791,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Douglas Crag",
+        "page_title": "Douglas_Crag",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Douglas_Crag",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.1504666,
+          "longitude": -5.9664438,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Eagle Mountain",
+        "page_title": "Eagle_Mountain",
+        "climbing_type": "Quarry",
+        "url": "http://wiki.climbing.ie/index.php?title=Eagle_Mountain",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.1407812,
+          "longitude": -6.095877,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Eagle Rocks",
+        "page_title": "Eagle_Rocks",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Eagle_Rocks",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Hare's Castle",
+        "page_title": "Hare%27s_Castle",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Hare%27s_Castle",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Hen Mountain",
+        "page_title": "Hen_Mountain",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Hen_Mountain",
+        "routes": [
+          {
+            "name": "Jump Route",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Escalator * 15m DThe obvious leftward-trending line of large knobbles. Escalator Direc 15m S 4aFirst few moves as for Escalator, then climb a more vertical weakness in the rock. Just right of Escalator Direct is a short boulder problem (5b) which directly gains the large pock mark at 3m, then up and right to block. Test Pilot E5 6b/cEddie Cooper, Ali Moles Sept. 03Climb flake left of The Drain, place good runners before making tricky moves over the bulge and up the slab above. More difficult for"
+          },
+          {
+            "name": "Escalator",
+            "height": 15,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Escalator * 15m DThe obvious leftward-trending line of large knobbles. Escalator Direc 15m S 4aFirst few moves as for Escalator, then climb a more vertical weakness in the rock. Just right of Escalator Direct is a short boulder problem (5b) which directly gains the large pock mark at 3m, then up and right to block. Test Pilot E5 6b/cEddie Cooper, Ali Moles Sept. 03Climb flake left of The Drain, place good runners before making tricky moves over the bulge and up the slab above. More difficult for"
+          },
+          {
+            "name": "East Arete",
+            "height": 15,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "East Arete * 15m MA nice climb on sound clean rock. Up the broad rib facing Summit Tor. To the left of the Main Summit Tor is a small buttress with two obvious breaks running across it. 73 Main Street 10m El 5cG. Murray, R. Bankhead. 5/88.Start - at the slabby nose just left of where the lower break reaches the ground. Climb nose to break, step left and up wall above. Little One 10m E1 5c)G. Murray. 6/95.Start - just right of the obvious nose at wide crack. Climb up the wall right of the rib to "
+          },
+          {
+            "name": "Ancientcy",
+            "height": 15,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Modernity * 18m VDP. Gribbon, B. White, D. Sloan. 21/3/54.Start - 5m right of Ancientcy. Climb up a curved layback to the shelf where the white nose is climbed. Touchdown 12m E1 5cG. Murray, B. James. 23/8/95.The words job and squeeze spring to mind. Start - between Modernity and Superbowl below a thin groove. Up this thin groove to stand on horizontal break (difficult). On up the wall on small holds and the white nose above. Superbowl * 12m HVS 5aG. Murray, C. Cartwright. 3/10/86.A fine, though"
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 54.1823192,
+          "longitude": -6.09336,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Little Binnian",
+        "page_title": "Little_Binnian",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Little_Binnian",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Lower Cove",
+        "page_title": "Lower_Cove",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Lower_Cove",
+        "routes": [
+          {
+            "name": "Half Corner",
+            "height": 18,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. Cole. M. Smith. 4/12/78. Although short, sustained and awkward. Start 1 m left of the left-hand side of the above mentioned archway. Climb the wall and crack to the underside of the archway. Move up and left round a roof to the top a ledge and continue easily to the top. The arete 2m left of Half Corner gives a short problem, Munching Mandy S (4a) (W. Poots, A. Walker 11/9/88.) on the overhanging nose. Just right of the archway is a short steep wall with a crackline at either end, the one on "
+          },
+          {
+            "name": "Kram",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. Cole. M. Smith. 30/3/79. A short crux but steep climbing on good holds. Start at a point between the two cracklines in the centre of the wall. Climb the wall to a bulge, surmount this (crux) and climb the blocky wall above. Variation Left-hand Finish VS (4c) M. Smith. R. Cole. 7/6/80. Up the wall to bulge but traverse to the left-hand crack and pull over the top (loose flake). Kissing Kerry 25m VS (4c)W. Poots, A. Walker. 11/9/88. Start at the base of right-hand crackline below the overhang. "
+          },
+          {
+            "name": "Kissing Kerry",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start at the base of right-hand crackline below the overhang. Surmount the overhang to reach a large ledge. Climb the crack until it fades in a bulge at half-height. A high reach right allows further progress. Two rather average routes have been squeezed into the wall right of this. They are Reeling Rosie VS (W. Poots, A. Walker. 11/9/88.) and climbs the blunt arete 2m right of Kissing Kerry and Not the Sea VS (K. Lindsay et al. 9/6/90.) which takes wall behind the small holly tree and traverse "
+          },
+          {
+            "name": "New Decayed",
+            "height": 27,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "B. White, J. Challenor, R. Nickels. 9/1/60. Start in the middle of the next section of wall that lies to the right of the Kram face, and just left of First Corner Gully. Ascend to a large platform. Climb the wall above (steep) and exit to the left passing an ancient peg. Left Arete 12m E2 5c C. Torrans, D. O'Sullivan. 7/11/87.Follows the left arete of First Corner Gully and the climbing is more imaginative than the name suggests. Climb crack in gully wall. Swing left and mantelshelf up onto ledg"
+          },
+          {
+            "name": "Left Arete",
+            "height": 12,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "C. Torrans, D. O'Sullivan. 7/11/87.Follows the left arete of First Corner Gully and the climbing is more imaginative than the name suggests. Climb crack in gully wall. Swing left and mantelshelf up onto ledge. Climb the wall just left of arete finishing up short crack. The first three climbs start up on the right-hand side of First Corner Gully. Tyro 18m VDB. White and Party.Takes the groove and chimney half way up the right-hand wall. North Wall * 30m S (3c)An exploratory-type route taking a me"
+          }
+        ],
+        "routes_count": 5,
+        "coordinates": {
+          "latitude": 51.6842478,
+          "longitude": -8.4911367,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Meelmore",
+        "page_title": "Meelmore",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Meelmore",
+        "routes": [
+          {
+            "name": "Queasy",
+            "height": 25,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "T. Hawkins, D. Mageean. 14/10/87. Start - 2m left of Quasimodo. Attack slab using pock, then move up to 'loose' boulder, which is passed on its left side. Continue up cracks to the top. Quasimodo 25m S 4a D. Mageean, T. Hawkins. 14/10/87. Start - at the north end of the face. Move up steep slab, on good holds to large shelf. From right-hand end of shelf move up shallow crack (delicate and poorly protected) to overhang surmount on dodgy flake and follow right edge and crack system to top."
+          },
+          {
+            "name": "Quasimodo",
+            "height": 25,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "D. Mageean, T. Hawkins. 14/10/87. Start - at the north end of the face. Move up steep slab, on good holds to large shelf. From right-hand end of shelf move up shallow crack (delicate and poorly protected) to overhang surmount on dodgy flake and follow right edge and crack system to top."
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 54.2017188,
+          "longitude": -6.0262517,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Percy Bysshe",
+        "page_title": "Percy_Bysshe",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Percy_Bysshe",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Pigeon Rock",
+        "page_title": "Pigeon_Rock",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Pigeon_Rock",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.3033657,
+          "longitude": -10.0068132,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Slieve Beg",
+        "page_title": "Slieve_Beg",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Slieve_Beg",
+        "routes": [
+          {
+            "name": "Devil's Advocate",
+            "height": 32,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Coal-Dust Corner 32m VS (4b)S. Mcllwaine, 8. Stewart, D. Colley. 28/9/85. Muff Diver 32m VS (4c)P. Holmes, K Quinn. 26/5/81. Big Muff 32m VS (4b)P. Holmes, K Quinn. 26/5/81. Polo 27m DM. Curran, R. Curran. 4/72.This climb takes the larger corner on dirty rock just right of the four corners. Sledge 28m E1 (5b)J. McKenzie, P. McHugh. 8/75.Interesting climbing spoilt by the crumbly start and is tough for the grade. Start at the battered ramp just below Polo. Follow right trending line on friable ro"
+          },
+          {
+            "name": "Coal-Dust Corner",
+            "height": 32,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Muff Diver 32m VS (4c)P. Holmes, K Quinn. 26/5/81. Big Muff 32m VS (4b)P. Holmes, K Quinn. 26/5/81. Polo 27m DM. Curran, R. Curran. 4/72.This climb takes the larger corner on dirty rock just right of the four corners. Sledge 28m E1 (5b)J. McKenzie, P. McHugh. 8/75.Interesting climbing spoilt by the crumbly start and is tough for the grade. Start at the battered ramp just below Polo. Follow right trending line on friable rock to triangular niche at base of a vertical diedre. Gain the diedre above"
+          },
+          {
+            "name": "Muff Diver",
+            "height": 32,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Big Muff 32m VS (4b)P. Holmes, K Quinn. 26/5/81. Polo 27m DM. Curran, R. Curran. 4/72.This climb takes the larger corner on dirty rock just right of the four corners. Sledge 28m E1 (5b)J. McKenzie, P. McHugh. 8/75.Interesting climbing spoilt by the crumbly start and is tough for the grade. Start at the battered ramp just below Polo. Follow right trending line on friable rock to triangular niche at base of a vertical diedre. Gain the diedre above the bulge by a strenuous move that leads more easi"
+          },
+          {
+            "name": "Big Muff",
+            "height": 32,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Polo 27m DM. Curran, R. Curran. 4/72.This climb takes the larger corner on dirty rock just right of the four corners. Sledge 28m E1 (5b)J. McKenzie, P. McHugh. 8/75.Interesting climbing spoilt by the crumbly start and is tough for the grade. Start at the battered ramp just below Polo. Follow right trending line on friable rock to triangular niche at base of a vertical diedre. Gain the diedre above the bulge by a strenuous move that leads more easily to the top. Fingertip Connection * 30m E2 (5c)"
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 54.1799064,
+          "longitude": -5.9476756,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Slieve Commedagh",
+        "page_title": "Slieve_Commedagh",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Slieve_Commedagh",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.1888532,
+          "longitude": -5.9385756,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Slievemageogh",
+        "page_title": "Slievemageogh",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Slievemageogh",
+        "routes": [
+          {
+            "name": "Something Will Turn Up Severe 4a",
+            "height": 14,
+            "difficulty": "4A",
+            "overall_grade": "4A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Start below a large left facing flake towards the right-hand end of the West facing side of the small outcrop at 266216.  Climb on positive holds and edges towards a good ledge below a small protruding triangular roof. Pass roof on left (crux) to finish on top of outcrop.",
+            "description": null
+          },
+          {
+            "name": "No Rest for the Humble VS 4c",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "S. Black, V.Adamson 12/6/21 Start about 3m left of Something Will Turn Up. Climb slabby rock to a good ledge below a short blank face at approximately half-height. Use good purchase on top of blank face to assist strenuous move to top of blank face (crux). Finish climbing on delicate moves to the top. Don’t Call Me Daisy Severe 4b 14m S. Black, V.Adamson 12/6/21 Start about 1 m left of No Rest for the Humble. Climb on slab and good holds to gain a narrow heathery ledge. Climb pockmarked rock bef"
+          },
+          {
+            "name": "Don’t Call Me Daisy Severe 4b",
+            "height": 14,
+            "difficulty": "4B",
+            "overall_grade": "4B",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "S. Black, V.Adamson 12/6/21 Start about 1 m left of No Rest for the Humble. Climb on slab and good holds to gain a narrow heathery ledge. Climb pockmarked rock before stepping left to use a wide crack to finish."
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Slieve Muck",
+        "page_title": "Slieve_Muck",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Slieve_Muck",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.158047,
+          "longitude": -6.0395985,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Slieve Lamagan",
+        "page_title": "Slieve_Lamagan",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Slieve_Lamagan",
+        "routes": [
+          {
+            "name": "1\tFM",
+            "height": 162,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. R. Johnston and Party 20/6/48. A classic route with many variants. Start in an open, rubble strewn and gravel filled bay at the lowest point of the continuous slabs, below a white slab. 1) 35m Climb the white slab and up the edge of the rib on the right Belay at a small ledge. 2) 43m From left-hand side of ledge move up to a small overlap and the slab above more or less direct to good belays below obvious steep band. 3) 14m The 'mauvais pas'. Up into a comer and step left onto a sloping ledge"
+          },
+          {
+            "name": "2 Arcadia",
+            "height": 135,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "I Rea M Rea, R Bankhead 28/8/95 A number of previously climbed but unrecorded variations plus new climbing have been combined to produce a very worthwhile route which is low in the grade. 1) 35m As for FM. 2) 35m From the belay climb the right -hand crack then layback up a very slim slab on the right-hand edge. Friction up the black slab to the base of a rightward curving arch. Up arch to its apex over awkward inverted V bulge at apex. Move left to belay below the mauvais pas of FM. 3) 50m Move "
+          },
+          {
+            "name": "4 Cherchez-La",
+            "height": 92,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P Gribbon M McMurray 27/6/54 Start about 50m right of FM at a small sandy patch of ground beneath short wall. 1) 29m Up wall and climb the bulge (care with loose flakes) and continue up the right-hand edge of the slabs. 2) 34m Climb slabs to a steep prow split by a crack. Climb the comer on the left of the prow (crux) to a spacious belay. 3) 21 m climb up to a dark chimney Ascend this to make an airy step left onto slab climb the crack and finish up arête on left. Variation Girdle Traverse 44m S"
+          },
+          {
+            "name": "Variation Girdle Traverse",
+            "height": 44,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Immediately above the 'mauvais pas' on FM, traverse right for Sm, step down and continue right across slab to overhang (possible belay). Climb the overhang to join Pitch 3 of Cherchez-La. 5 Upper FM 102m VD R. R. Johnston Solo 2./5/48. This route is situated on a large slab 60m north-east from the top of FM. Climb the slab using various cracks and grooves to reach the top wall. Almost any line can be taken at the same grade. Climb the short overhanging wall at the top. This is a series of walls "
+          },
+          {
+            "name": "5 Upper FM",
+            "height": 102,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. R. Johnston Solo 2./5/48. This route is situated on a large slab 60m north-east from the top of FM. Climb the slab using various cracks and grooves to reach the top wall. Almost any line can be taken at the same grade. Climb the short overhanging wall at the top. This is a series of walls and chimneys on the Eastern side of Lamagan just above and left of Lower Cove. The main buttress has the largest chimney. 6 Santa's Retreat l5m S 4a J. Keers. 6/8/88. Climb the first obvious wet chimney to t"
+          },
+          {
+            "name": "6 Santa's Retreat l",
+            "height": 5,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "J. Keers. 6/8/88. Climb the first obvious wet chimney to the left of the main face. 7 Apple Tree 10m HS 4b T Johnston, I. Kcers. 6/8/88. Climb the large groove and blocks 10m right of the previous route. The following two routes are on the main buttress: T Johnston, J Keers. 6/8/88. Follow a large groove up the left-hand side of the main face. Climb the face when the comer runs out. T Johnston, J. Keers (Top-roped prior to ascent). 8/88. Start 2m from left-hand edge. Use a small flake at 2m (cru"
+          },
+          {
+            "name": "7 Apple Tree",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "T Johnston, I. Kcers. 6/8/88. Climb the large groove and blocks 10m right of the previous route. The following two routes are on the main buttress: T Johnston, J Keers. 6/8/88. Follow a large groove up the left-hand side of the main face. Climb the face when the comer runs out. T Johnston, J. Keers (Top-roped prior to ascent). 8/88. Start 2m from left-hand edge. Use a small flake at 2m (crux). Continue on right trending flakes to a roof and exit at the right hand edge of roof. A direct start at "
+          },
+          {
+            "name": "9 Line",
+            "height": 18,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "T Johnston, J. Keers (Top-roped prior to ascent). 8/88. Start 2m from left-hand edge. Use a small flake at 2m (crux). Continue on right trending flakes to a roof and exit at the right hand edge of roof. A direct start at H VS 4c can be climbed on the right-hand side. 20m right of C Line are two prominent grooves. 10 Warm Up Wash Out 10m HVS 5a The crux is at the exit of the crack. 11 Anne Tree 10m S 4a T Johnston 6/8/88 Routes have been claimed on the small buttress about 200m left and above the"
+          },
+          {
+            "name": "10 Warm Up Wash Out",
+            "height": 10,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "The crux is at the exit of the crack. 11 Anne Tree 10m S 4a T Johnston 6/8/88 Routes have been claimed on the small buttress about 200m left and above the main buttress. High up on the Western side of Lamagan is a large slab split into two sections. Although disappointingly featureless the described routes follow the most prominent lines. The following two routes are on the right-hand slab. 12 The Bubble Reputation 30m VDI Rea, M. Rea. 30/6/92.Start at the base of slab. Follow wavy seams up and "
+          },
+          {
+            "name": "11 Anne Tree",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "T Johnston 6/8/88 Routes have been claimed on the small buttress about 200m left and above the main buttress. High up on the Western side of Lamagan is a large slab split into two sections. Although disappointingly featureless the described routes follow the most prominent lines. The following two routes are on the right-hand slab. 12 The Bubble Reputation 30m VDI Rea, M. Rea. 30/6/92.Start at the base of slab. Follow wavy seams up and then out right to a shallow left trending scoop. Climb up th"
+          },
+          {
+            "name": "14 Listed",
+            "height": 60,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "A. Blair, 28/Sep/2022.",
+            "description": null
+          },
+          {
+            "name": "17 Not Listed",
+            "height": 48,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "A. Blair, 02/Oct/2022.",
+            "description": null
+          }
+        ],
+        "routes_count": 12,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Slievenaglogh Buttress",
+        "page_title": "Slievenaglogh_Buttress",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Slievenaglogh_Buttress",
+        "routes": [
+          {
+            "name": "El Paso",
+            "height": 15,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "P. Robinson, G. Henry, G. Watts. 10/92. Climb the groove line just to the left of the step. Whisper End 15m HVS 5a G. Henry, P. Robinson, G. Watts. 10/92. Climb the groove mid-way between the left end of the buttress and the step. The next two routes described below are located on the Main Face. Its a 5a Mantle Into Heaven Brother 36m HVS 5a S. McIlwaine, B. Stewart. 29/6/86. Takes a corner at the left-hand side of the Main Face, 1) 12m Climb a prominent flake/crack below overhangs until possibl"
+          },
+          {
+            "name": "Whisper End",
+            "height": 15,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "G. Henry, P. Robinson, G. Watts. 10/92. Climb the groove mid-way between the left end of the buttress and the step. The next two routes described below are located on the Main Face. Its a 5a Mantle Into Heaven Brother 36m HVS 5a S. McIlwaine, B. Stewart. 29/6/86. Takes a corner at the left-hand side of the Main Face, 1) 12m Climb a prominent flake/crack below overhangs until possible to move out left onto large ledge at foot of corner. 2) 24m Climb corner via a series of small ledges to bottom o"
+          },
+          {
+            "name": "Its a 5a Mantle Into Heaven Brother",
+            "height": 36,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "S. McIlwaine, B. Stewart. 29/6/86. Takes a corner at the left-hand side of the Main Face, 1) 12m Climb a prominent flake/crack below overhangs until possible to move out left onto large ledge at foot of corner. 2) 24m Climb corner via a series of small ledges to bottom of overhang. Climb overhang to top. Macho Man 37m VS 4c R. McKee, D. Kirkwood. 17/4/79. Start - as for Its a 5a Mantle Into Heaven Brother. Start up the flake crack to overhang. Through this to patch of heather. Continue to where "
+          },
+          {
+            "name": "Macho Man",
+            "height": 37,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "R. McKee, D. Kirkwood. 17/4/79. Start - as for Its a 5a Mantle Into Heaven Brother. Start up the flake crack to overhang. Through this to patch of heather. Continue to where crack becomes green and up to 'sentry box'. Bridge up and exit up crack on left. The following routes are best approached by an abseil down the left-hand corner of the central bay. This corner could be climbed at D/VD. Bogey-Man 30m HS 4a D. Mageean, M. Caffery. 25/5/92. Start - 3m right of left-hand wall. Up a thin crack in"
+          },
+          {
+            "name": "Bogey-Man",
+            "height": 30,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "D. Mageean, M. Caffery. 25/5/92. Start - 3m right of left-hand wall. Up a thin crack into a corner system. Surmount the overhang on right-hand side and continue up crack (crux). Vice-Man 25m HS 4a D. Mageean, M. Caffery. 25/5/92. Start - in central bay 7m right of abseil corner. Climb central crack just right of overhang on good holds to bulge at 15m and finish in upper crack of Bogey-Man. Bolt-Man 30m HVS 4c D. Mageean, M. Caffery. 25/5/92. Climb the obvious right-hand corner of central bay. Fr"
+          },
+          {
+            "name": "Vice-Man",
+            "height": 25,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "D. Mageean, M. Caffery. 25/5/92. Start - in central bay 7m right of abseil corner. Climb central crack just right of overhang on good holds to bulge at 15m and finish in upper crack of Bogey-Man. Bolt-Man 30m HVS 4c D. Mageean, M. Caffery. 25/5/92. Climb the obvious right-hand corner of central bay. Free-Fall 30m HS 4b A. Chambers, N. Anderson. 20/4/94. This route starts in this area? but as yet there is no match between the rock and the features described. Climb series of blocks and up into nic"
+          },
+          {
+            "name": "Bolt-Man",
+            "height": 30,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "D. Mageean, M. Caffery. 25/5/92. Climb the obvious right-hand corner of central bay. Free-Fall 30m HS 4b A. Chambers, N. Anderson. 20/4/94. This route starts in this area? but as yet there is no match between the rock and the features described. Climb series of blocks and up into niche. Move awkwardly out left and continue up flutes to top. There are a further four routes (D - VD) on the smaller crags to the right. J301238 On the eastern-facing bluffs of Slievenaglogh a few routes have been clim"
+          },
+          {
+            "name": "Free-Fall",
+            "height": 30,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "A. Chambers, N. Anderson. 20/4/94. This route starts in this area? but as yet there is no match between the rock and the features described. Climb series of blocks and up into niche. Move awkwardly out left and continue up flutes to top. There are a further four routes (D - VD) on the smaller crags to the right. J301238 On the eastern-facing bluffs of Slievenaglogh a few routes have been climbed on some of the broken crags and although the area is neither popular nor the climbing particularly at"
+          },
+          {
+            "name": "Indecision",
+            "height": 20,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "K. O'Hara, S. J. Ferris. 28/3/97. Start - at the lowest point of the wall. Follow blind cracks on the right of the slab to a small overhang at half height. Surmount the overhang and continue up crack to top. Belay on large boulders. Man of Sorrows 20m E1 5b S. J. Ferris, K. O'Hara. 28/3/97. Start - in the open book corner left of the obvious nose. Climb the corner for a few metres then swing right onto the wall to avoid the triangular overhang. Move back left directly above the overhang and clim"
+          },
+          {
+            "name": "Man of Sorrows",
+            "height": 20,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "S. J. Ferris, K. O'Hara. 28/3/97. Start - in the open book corner left of the obvious nose. Climb the corner for a few metres then swing right onto the wall to avoid the triangular overhang. Move back left directly above the overhang and climb the shallow chimney into the diedre above."
+          }
+        ],
+        "routes_count": 10,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Spellack",
+        "page_title": "Spellack",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Spellack",
+        "routes": [
+          {
+            "name": "Shadow",
+            "height": 30,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Half Baked 30m E1 5cP.Swail, A.Marshall 11/6/06Start 1m left of Leeward. Make bouldery moves off the ground to a rest where gear can be arranged. Pull through small overlap and climb right handside of the arete to belay as for Leeward. Leeward * 30m VS 4cR. Greene, T. Ryan, J. McKenzie. 5/75.Start - 6m left of Cabin Cruise. Climb directly over the overhang and follow grooves to the top, keeping to the right of the edge. Ariel * 30m HVS 5aI. Rea, I. Dillon. 15/5/92.Tough for the grade but excelle"
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 54.1977796,
+          "longitude": -5.9900298,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Upper Cove",
+        "page_title": "Upper_Cove",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Upper_Cove",
+        "routes": [
+          {
+            "name": "Trichotomy",
+            "height": 45,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "This is a small square buttress with a distinctive 'A' shaped recess and lies to the left of E Buttress. There is a small buttress up the gully separating E and F Buttress's. Juniper Ridge 50m VDJ. Forsythe. M. Forsythe, R. Cole. 2/5/86.1)20m Take a line of ledges from the bottom right to the top left. 2) 30m Follow ridge artificially to top. 2) The short wall to the right of the `A shaped recess provides the following four entertaining routes: The Geek 16m VS (4c)l. Rea, R. Bankhead, D. Crawley"
+          },
+          {
+            "name": "Sullivan",
+            "height": 15,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Gilbert 15m S (3c)J. Forsythe, M. Curran. 20/3/82.Takes the left-hand diedre. More Letters than Moves 15m S (3c) M. McNiff, V. McCartney. 15/4/89. The arete immediately left of Gilbert. K BUTTRESS K Buttress is the long, normally wet, buttress left again which dries after a good spell but is prone to seepage. For the route below gain the spacious grassy platform on the right­hand side of the buttress below the steep wall. High Sierra ** 30m E2 (5c)I. Rea. M. Rea, P. Wells. 3/5/97.Start below the"
+          },
+          {
+            "name": "Gilbert",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "More Letters than Moves 15m S (3c) M. McNiff, V. McCartney. 15/4/89. The arete immediately left of Gilbert. K BUTTRESS K Buttress is the long, normally wet, buttress left again which dries after a good spell but is prone to seepage. For the route below gain the spacious grassy platform on the right­hand side of the buttress below the steep wall. High Sierra ** 30m E2 (5c)I. Rea. M. Rea, P. Wells. 3/5/97.Start below the right-hand side of the long, slim, elongated overhang which is about 4m above"
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 54.1726842,
+          "longitude": -5.9507071,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Unnamed Tor",
+        "page_title": "Unnamed_Tor",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Unnamed_Tor",
+        "routes": [
+          {
+            "name": "Training Day Severe 4a",
+            "height": 25,
+            "difficulty": "4A",
+            "overall_grade": "4A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "S. Black, V. Adamson 17/4/21 Start at the south-facing edge of the tor. Climb into a shallow groove, then follow the corner up to a sloping ledge. Take an obvious crack line ahead, making a long reach to a good hold to gain passage to the top. The Man in the Mirror V.Diff 30m S. Black, V. Adamson 17/4/21 Start 7 m left of Training Day. Climb slab into corner in the shadow of an overhanging block. Pass overhang on left and trend right to finish up the sloping ramp. Stevie says it’s Easy. Diff 30m"
+          },
+          {
+            "name": "Stevie says it’s Easy. Diff",
+            "height": 30,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "S. Black, V. Adamson 17/4/21 Start 8 m left of Man in the Mirror. Climb up to left-facing flake edges and follow a line of edges to finish in a shallow corner."
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}

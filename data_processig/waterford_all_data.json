@@ -1,0 +1,911 @@
+{
+  "Co. Waterford": {
+    "county_info": {
+      "name": "Co. Waterford"
+    },
+    "climbing_sites": [
+      {
+        "name": "Ardmore Head",
+        "page_title": "Ardmore_Head",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Ardmore_Head",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 51.9474255,
+          "longitude": -7.7069765,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Ballinaclough",
+        "page_title": "Ballinaclough",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Ballinaclough",
+        "routes": [
+          {
+            "name": "6: GULLY",
+            "height": 12,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "6a: GULLY Alternative finish 12m S Finish direct through broken overlap. There is a smaller crag located to the east 150 meters away from the main crag. Carpe Diem 8m D Climb up the obvious crack on the right hand side of the slab, good protection Shane Kelly, Lee O' Brien 14/01/2012"
+          },
+          {
+            "name": "6a: GULLY Alternative finish",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Carpe Diem 8m D Climb up the obvious crack on the right hand side of the slab, good protection Shane Kelly, Lee O' Brien 14/01/2012",
+            "description": null
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 52.8317854,
+          "longitude": -8.1702785,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Bunmahon",
+        "page_title": "Bunmahon",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=Bunmahon",
+        "routes": [
+          {
+            "name": "VOYAGERS",
+            "height": 24,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "F. Nugent, M. Daly, 20th July 1986",
+            "description": null
+          },
+          {
+            "name": "LOT'S ESCAPE",
+            "height": 11,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M. Daly, F Nugent, 6th July 1986",
+            "description": null
+          },
+          {
+            "name": "GAVIN'S DELIGHT",
+            "height": 30,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "F Nugent, M Daly, 5th July, 1986",
+            "description": null
+          },
+          {
+            "name": "LOT'S DESIRE",
+            "height": 25,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M Daly, F. Nugent, 6th July 1986",
+            "description": null
+          },
+          {
+            "name": "MASTER MCGRATH'S WATERLOO",
+            "height": 26,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M Daly, F Nugent, 20 July 1986",
+            "description": null
+          },
+          {
+            "name": "THE MORESBY WRECK",
+            "height": 27,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M Daly, P Daly, 7th July 1985",
+            "description": null
+          },
+          {
+            "name": "COBWEB CORNER",
+            "height": 26,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M Daly, P Daly, 31st August, 1984",
+            "description": null
+          },
+          {
+            "name": "BOOK OF WISDOM",
+            "height": 20,
+            "difficulty": "M",
+            "overall_grade": "M",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T Pfeifer, B McConnell, 1st September 2011",
+            "description": null
+          },
+          {
+            "name": "OUTSIDE TRACK",
+            "height": 14,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "F Nugent, M Daly, 6th July, 1986",
+            "description": null
+          },
+          {
+            "name": "PAT'S ROUTE",
+            "height": 18,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P Daly, M Daly, 7th July 1984",
+            "description": null
+          },
+          {
+            "name": "UNKNOWN ROUTE",
+            "height": 18,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "B McHugh, M Daly, 1984",
+            "description": null
+          },
+          {
+            "name": "FIST FULL OF DYNAMITE",
+            "height": 17,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M Daly, B McHugh, 10 August, 1984",
+            "description": null
+          },
+          {
+            "name": "FLAKE CLIMB",
+            "height": 13,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M Daly, B McHugh, 11th August, 1984",
+            "description": null
+          },
+          {
+            "name": "BAZZUKA",
+            "height": 13,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "B McHugh, M Daly, 11th August, 1984",
+            "description": null
+          },
+          {
+            "name": "LEMY MARTIN",
+            "height": 17,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "M Daly, F Nugent, 2nd November 1986",
+            "description": null
+          },
+          {
+            "name": "CARRICK-ON-KELLY",
+            "height": 20,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "F Nugent, M Daly, 2nd November 1986",
+            "description": null
+          }
+        ],
+        "routes_count": 16,
+        "coordinates": {
+          "latitude": 52.1398615,
+          "longitude": -7.3708525,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Coumshingaun",
+        "page_title": "Coumshingaun",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Coumshingaun",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 52.2497539,
+          "longitude": -7.5222964,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Crotty's",
+        "page_title": "Crotty%27s_Rock",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Crotty%27s_Rock",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 52.2612897,
+          "longitude": -7.5213819,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Fauscoum",
+        "page_title": "Fauscoum",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Fauscoum",
+        "routes": [
+          {
+            "name": "PADDY'S CABBAGE",
+            "height": 16,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J Bergin, M Keenleyside. August 1995",
+            "description": null
+          },
+          {
+            "name": "RIVERDANCE",
+            "height": 16,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J Bergin, M Keenleyside. August 1995",
+            "description": null
+          },
+          {
+            "name": "FOOLS AND HORSES",
+            "height": 16,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J Bergin, M Keenleyside. June 1995",
+            "description": null
+          },
+          {
+            "name": "BACK TO SCHOOL",
+            "height": 16,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J Bergin, M Keenleyside. August 1995",
+            "description": null
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 52.2458784,
+          "longitude": -7.5368255,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Foill An Priosun",
+        "page_title": "Foill_An_Priosun",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Foill_An_Priosun",
+        "routes": [
+          {
+            "name": "THE GREAT ESCAPE",
+            "height": 80,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Opposite the South-facing cliffs, is an arete. Despite its somewhat unprepossessing appearance, this provides a delightful and satisfying outing of five 10 - 15m pitches. Each pitch presents a different challenge and each is fully worthy of its grade. The frequent belays offer repeated opportunities to savour the view and the experience and to light up [smokers only]. 1. Start at the RHS of the arete. Climb the jamming crack and wind leftwards under the overhang into a groove. Belay under the ov"
+          },
+          {
+            "name": "RANDOM FITS o' DAFFIN",
+            "height": 30,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "This is the corner, just to the right of Maastricht Groove, that marks the boundary between the South-facing and East-facing sections of the cliff. Approach: As for Greeted by Ants . Clip the peg and continue, with more protection, past Maastricht Groove to gain the corner. 1. 15m 5a Bridge up the corner. At the overhanging blocks, make a move to gain the arete and continue to belay above. 2. 15m 5a Go up, past the next ledge and more easily, until confronted by the huge blocks that bar the way."
+          },
+          {
+            "name": "MAASTRICHT GROOVE",
+            "height": 40,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J Bergin, M Keenleyside, June 1996",
+            "description": null
+          },
+          {
+            "name": "GREETED BY ANTS",
+            "height": 45,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G.Fogg, H.Fogg, B. Dunne\t16/9/2001\tonsight.",
+            "description": null
+          },
+          {
+            "name": "SKILLIGOLEE",
+            "height": 30,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G Fogg, H Fogg     8/6/2007       onsight.",
+            "description": null
+          },
+          {
+            "name": "SHAK",
+            "height": 45,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J Bergin, S Gallwey, 28th. August, 1989",
+            "description": null
+          },
+          {
+            "name": "THUNDER ON THE MOUNTAIN",
+            "height": 50,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G Fogg  H Fogg  H Fogg \t9/9/2006\tonsight",
+            "description": null
+          },
+          {
+            "name": "THE WILD SIDE",
+            "height": 35,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G Fogg, H Fogg H Fogg\t29/4/2007\tonsight.",
+            "description": null
+          },
+          {
+            "name": "BLACK OUT",
+            "height": 55,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start approx. 5m left of Thunder on the Mountain. Pitch 1 25m 5b Ascend creaky flakes to left-slanting shallow corner and follow this to harder exit left to belay ledge at holly tree. Pitch 2 12m 5b Climb crack and slab in exposed position with minimal protection to next belay. Pitch 3 15m 5a To top. H Hennessy, T Krol 17/3/09 onsight. From higher up the gully Getting back down from these climbs is quite complex and a little bit magical. Head down the most southerly of the east facing part of th"
+          },
+          {
+            "name": "Pitch 3",
+            "height": 15,
+            "difficulty": "5A",
+            "overall_grade": "5A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "H Hennessy, T Krol 17/3/09 onsight. From higher up the gully Getting back down from these climbs is quite complex and a little bit magical. Head down the most southerly of the east facing part of the cliff. Keep right [looking out] and down-climb easy rock onto a ledge above a hole in the terrace below. The left end of this ledge leads to the terrace. Pass the aforementioned hole [which can be taken but involves a drop at the bottom] and descend the amazing little gully beyond which twists aroun"
+          },
+          {
+            "name": "THE OLD RUGGED CROSS",
+            "height": 65,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "This follows the sharp-edged left-facing flake crack that starts at 5m and continues to belay at holly tree [shared belay with 'Black Out']. Start 5m right of 'Echo Crack', directly below right-hand side of big overhang high up. 2. 15m From the belay, step down and make a thin traverse [5b] of the break to the delightful 5a crack which leads to the ledge at the left-hand side of the overhang. This ledge is shared with 'Echo Crack' and 'Jailbreak'. 3. 25m 5a As for 'Echo Crack' : Up crack, traver"
+          },
+          {
+            "name": "ECHO CRACK",
+            "height": 50,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Fogg [1],  M. Walsh [2],  Hh Fogg  24/9/2011    Onsight.    One rest for cleaning on pitch 1.",
+            "description": null
+          },
+          {
+            "name": "JAILBREAK",
+            "height": 60,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Fogg [1],  M. Walsh [2],  Hh Fogg  24/9/2011    Onsight.    One rest for cleaning on pitch 1.",
+            "description": null
+          },
+          {
+            "name": "DROP LEFT",
+            "height": 30,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "From the start of Running on Empty, make exposed moves to gain the arête. Follow this and the crack to the ledge. P Britton, C Ennis 17/3/09 onsight. RUNNING ON EMPTY 35m E1 5b Climb the right-facing corner to the first overhang [nose), move right under this and up to second overhang [eye-socket], right under this and up to terrace. Good protection. J Bergin, M Lyng 12/9/1996"
+          },
+          {
+            "name": "RUNNING ON EMPTY",
+            "height": 35,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J Bergin, M Lyng\t12/9/1996",
+            "description": null
+          },
+          {
+            "name": "PIPER'S GROOVE",
+            "height": 30,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "When Ronnie Wathen climbed this in 1957, it was thought to be the hardest route in the country.  It was repeated by Emmet Goulding in 1959.   It received its third ascent (in all probability) 18th June 2021.   If Quartz Gully is Glendalough’s ‘time-tunnel to the Classic era’, this the Comeragh’s time-tunnel.  Modern grading is not well-adapted to this sort of route, but it’s no pushover.",
+            "description": null
+          },
+          {
+            "name": "BRIAN'S SLAB",
+            "height": 30,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G Fogg H Fogg S. Gallwey\t21/4/2007,",
+            "description": null
+          },
+          {
+            "name": "PARCHMAN GROOVES",
+            "height": 35,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "These are major features, easily seen on approach (in fact, clearly marked, although not named, on the topo for the East- facing cliff). The lower groove leads to the Northern termination of the lower ‘prison’ terrace (although the terrace does continue, past the groove, to Crosseyed and Painless bay). The upper groove is an obvious open-book feature, capped, precariously, by a large block, that leads to the upper prison terrace. 1. 20 4c Enter the gully and bridge up the groove. At threequarter"
+          },
+          {
+            "name": "OLD DOG",
+            "height": 14,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G.Fogg, H.Fogg 28/8/2004 onsight.",
+            "description": null
+          },
+          {
+            "name": "ECO VANDAL",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G.Fogg H.Fogg H.Fogg N.Walls 5/9/2004",
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Helvick Head",
+        "page_title": "Helvick_Head",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=Helvick_Head",
+        "routes": [
+          {
+            "name": "Lèse-Majesté   S",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Gerry Galligan, Colm Peppard  10 Aug 2021.",
+            "description": null
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 52.0529912,
+          "longitude": -7.5365353,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Mahon Valley",
+        "page_title": "Mahon_Valley",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Mahon_Valley",
+        "routes": [
+          {
+            "name": "YERR OWN ARE THE WORST",
+            "height": 10,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Visible from the car park, starting from the ledge, above an undercut section, this crack slants to the right before tracking back left and up. Start: up the rough edge of the flake. Interest is maintained to the top. G. Fogg, J. Bergin 6/7/2022 On sight."
+          },
+          {
+            "name": "Sunday’s Joy – Severe,",
+            "height": 18,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Jerzy G. , Marzena R.,  24.08.2025",
+            "description": null
+          },
+          {
+            "name": "CALLUNA",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Bergin, M. Lyng, 5. 9. 1996",
+            "description": null
+          },
+          {
+            "name": "AN GIORRA MAOL",
+            "height": 8,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J Bergin, J Hennessey, June 1990",
+            "description": null
+          },
+          {
+            "name": "PHLOGISTON",
+            "height": 8,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Fogg,  J. Butler   6/7/2022  On sight.",
+            "description": null
+          },
+          {
+            "name": "LEFT HAND CRACK",
+            "height": 8,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J Bergin, J Hennessey, June 1990",
+            "description": null
+          },
+          {
+            "name": "CENTRE CRACK",
+            "height": 10,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J. Bergin, A. Widger, 25th May 1990",
+            "description": null
+          },
+          {
+            "name": "RIGHT HAND CRACK",
+            "height": 8,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. Gallwey, J. Bergin, Sept 1989",
+            "description": null
+          },
+          {
+            "name": "ANCIENT RAIN",
+            "height": 65,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S Gallwey, J Bergin, June 1991",
+            "description": null
+          },
+          {
+            "name": "HAPPY CRACK",
+            "height": 20,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H. Fogg, G. Fogg  16/9/2014.  On sight.",
+            "description": null
+          },
+          {
+            "name": "6 HISSING SID",
+            "height": 40,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. Gallwey, O. Jacob, W. Lee, October 1981",
+            "description": null
+          },
+          {
+            "name": "7 SALAMANDER",
+            "height": 42,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "O. Jacob, S. Gallwey, W. Lee, October 1981",
+            "description": null
+          },
+          {
+            "name": "8 DERANGED COUSINS",
+            "height": 45,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. Gallwey, E. Hernstadt, May 1987",
+            "description": null
+          },
+          {
+            "name": "9 THE LISTING ATTIC",
+            "height": 45,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. Gallwey, E. Hernstadt, (alternate leads) May 1987",
+            "description": null
+          },
+          {
+            "name": "9a Dave The Rave",
+            "height": 45,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "D. Keane, P. Flynn,  April 2014",
+            "description": null
+          },
+          {
+            "name": "10 IOMAIRE NA CAORTHAN",
+            "height": 53,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J Bergin, A Widger, May 1990",
+            "description": null
+          },
+          {
+            "name": "MENE",
+            "height": 26,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G. Fogg, M. Griffin  12th November 2024  On sight.",
+            "description": null
+          },
+          {
+            "name": "TEKEL",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G.Fogg, M. Griffin  12th November 2024  On sight.",
+            "description": null
+          },
+          {
+            "name": "ASYLUM SEEKING",
+            "height": 15,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "The corner to the left of Political World J Bergin, M Lyng POLITICAL WORLD 15m S 4a J Bergin, S Gallwey, 22 April, 1990"
+          },
+          {
+            "name": "POLITICAL WORLD",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J Bergin, S Gallwey, 22 April, 1990",
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 52.2306551,
+          "longitude": -7.5503834,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Coum Tay",
+        "page_title": "Coum_Tay",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Coum_Tay",
+        "routes": [
+          {
+            "name": "THE DARK CLEFT",
+            "height": 45,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G Fogg H Fogg 7/6/2013 Onsight.",
+            "description": null
+          },
+          {
+            "name": "STEGOSAURUS",
+            "height": 45,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H Fogg G Fogg 7/6/2013 Onsight.",
+            "description": null
+          },
+          {
+            "name": "THE COLOUR OF DEER GRASS",
+            "height": 85,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "[H Fogg 1]  G Fogg 2  14/9/2013  Onsight.",
+            "description": null
+          },
+          {
+            "name": "CRYSTAL-CLEAR",
+            "height": 60,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "[H Fogg 1]  G Fogg 2  14/9/2013  Onsight.",
+            "description": null
+          },
+          {
+            "name": "ROUTE ONE",
+            "height": 55,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G Fogg, H Fogg [one rock shoe, one wellie] Onsight. 20/4/2013",
+            "description": null
+          },
+          {
+            "name": "NUNC DIMITTIS",
+            "height": 60,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "G Fogg[1], H Fogg[2] 9/6/2013 Onsight.",
+            "description": null
+          },
+          {
+            "name": "URBS FORTITUDINIS",
+            "height": 95,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H Fogg [1], G Fogg [2] 5/5/2013 Onsight.",
+            "description": null
+          },
+          {
+            "name": "The MIDDLE WAY",
+            "height": 45,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "H Fogg, G Fogg 28/9/2013  Onsight.",
+            "description": null
+          },
+          {
+            "name": "SOLIDAGO",
+            "height": 80,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "To the right of the flat section carrying Urbs Fortidudinis, the face is distinguished by three overhangs: the largest and lowest at about 3m. The route starts at the centre of this overhang and goes straight up. As seems to be the norm for Coum Tay, the first pitch is a lot steeper, harder and longer than it appears from below. 1 30m 5b Summon the resolve to surmount the overhang, being prepared for limited welcome above although rock is reassuringly sound. Comfort and enjoyment increase with h"
+          },
+          {
+            "name": "THE EYE OF THE NEEDLE",
+            "height": 40,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "This is on the upper tier, 50m to the right of Solidago. 50m right of Solidago, before the cliff face recedes back, there are two parallel lines. This is the left hand one: a sharp vee groove guarded by a diamond-shaped overhanging block. Start at a narrow rock ledge. Ascend steep vegetation to start of crack. The first awkward bulge is tackled straight-on. At the overhang [crux],take the direct approach [i.e. on right side] to gain the secure comfort of the groove above. On the first ascent,loo"
+          },
+          {
+            "name": "LENTICULAR CLOUDS",
+            "height": 90,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Location: Below the Main Cliff, mid-way between the scree cone of Main Central Gully and that of The Dark Cleft, is the scree cone of Chock Stone Gully. Start up this. Lenticular Clouds is the cleft that goes a good way up through the solid rock band to the left before closing. From a distance,the cleft could be mistaken for a jamming crack; from closer, it can be seen to be off-width. In wet weather only, the line boasts a waterfall but is normally quite dry. 1. 45m 4c. Climb to the left of the"
+          },
+          {
+            "name": "NED’S LEGACY",
+            "height": 130,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C Ennis[1], P Britton[2] 21/7/2013 Onsight.",
+            "description": null
+          }
+        ],
+        "routes_count": 12,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Nire Valley",
+        "page_title": "Nire_Valley",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Nire_Valley",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 52.263965,
+          "longitude": -7.6202376,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

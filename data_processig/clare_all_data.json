@@ -1,0 +1,1424 @@
+{
+  "Co. Clare": {
+    "county_info": {
+      "name": "Co. Clare"
+    },
+    "climbing_sites": [
+      {
+        "name": "Ailladie",
+        "page_title": "Ailladie",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=Ailladie",
+        "routes": [
+          {
+            "name": "Lazy day",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Starts to the left of CRIPPLE. Perfect route for beginners who want to improve their abilities in leading and placing gear Gear used&nbsp;: micro nuts jammed into thin cracks. CRIPPLE 10m VS 4c T. Ryan (solo), 27/11/77 The smooth area of rock left of Pink Cleft ends at a broken crack. Just right of this there is a short diagonal leftward-trending flake crack near the ground. Climb directly up the wall just right of this. LUGER 10m VS 5b T. Ryan, 27/11/77. About 11m left of Pink Cleft there is a "
+          },
+          {
+            "name": "PINK CLEFT",
+            "height": 10,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "LUGER 10m VS 5b T. Ryan, 27/11/77. About 11m left of Pink Cleft there is a small overhang at about 2.5m. Climb the overhang, trending left to a handhold. Now trend right to the top. YING YANG 10m HVS 5bK. Higgs, T. Ryan, 27/11/77.Start on a boulder 5m left of Pink Cleft below a steep wall with patches of yellow lichen. Climb steeply to a horizontal crack, gain a higher horizontal crack and up to a groove. Continue more easily to the top. DODO 10m HVS 5aK. Higgs, T. Ryan, 27/11/77.Start on the fi"
+          },
+          {
+            "name": "GALLIPOLI",
+            "height": 35,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "THIN ICE ** 30m E3 6a ",
+            "description": null
+          },
+          {
+            "name": "THE COLD WAR",
+            "height": 30,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "THE COLD WAR ** 30m E3 5c E. Cooper, S. McCrory, A. Moles, 10/6/88 . 151 The Wound That Never Heals 152 Splash Down]] THE VEIN E7 6c Andy Long, Ben Bransby 04/08/04 Belay as for Reprieve.Traverse out left along obvious break/ramp. Sort gear then up crack for a way (crucial rp2 -always wanted to say that!!). Hard moves get you to the 1st break and some good gear. Push on up past more breaks with a nice move on the slab to finish. REPRIEVE 40m E2 5c K. Murphy, T. Ryan, 29/4/84 The route takes a co"
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 53.0704666,
+          "longitude": -9.3584066,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Ailladie DWS Routes",
+        "page_title": "Ailladie_DWS_Routes",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Ailladie_DWS_Routes",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Aill na Cronain",
+        "page_title": "Aill_na_Cronain",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Aill_na_Cronain",
+        "routes": [
+          {
+            "name": "SKULL'S EAR",
+            "height": 20,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "BUTTERFLY 16m HSD. McMahon, D. Doyle, 30/4/83.6m right of Skull Buttress under the appropriately shaped skyline. Gain the obvious fault line to finish (crux) between the wings. SKULLDUGGERY 8m SD. Doyle, D. McMahon, 30/4/83.The obvious south-facing chimney in the wall 100m right of Skull Buttress. Pleasant. About 50m back from the top of Skull Buttress, at the next scarp line, is Falla Uachtarach with the following routes. SANTA's LIST 10m S David Brady, Darragh Heneghan, 4/3/2016.20m left of DO"
+          },
+          {
+            "name": "ST MUNCHIN'S BREAKFAST",
+            "height": 11,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Audrey O'Toole, 8/9/2023.",
+            "description": null
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Aillnagapple",
+        "page_title": "Aillnagapple",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Aillnagapple",
+        "routes": [
+          {
+            "name": "Twinkletows",
+            "height": 15,
+            "difficulty": "MS",
+            "overall_grade": "MS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Cruel Summer",
+            "height": 15,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Audrey O'Toole, 9/8/2024.",
+            "description": null
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Aran Islands",
+        "page_title": "Aran_Islands",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=Aran_Islands",
+        "routes": [
+          {
+            "name": "LIGHT IN A SHADOW",
+            "height": 23,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "This route is located on the prominent arête about 50 m to the left from first (from NE) big boulder on the non-tidal platform. Climb the arête to the big ledge (no-hand-rest), from here climb straight up a crack to the top. NORTH SIDE CORNER 23m S 4a In the corner about 50 m to the left from first (from NE) big boulder on the non-tidal platform, 5 m to the right from LIGHT IN A SHADOW. Climb the corner to the big ledge, from here climb left side of the corner to the top. Some loos rocks in the "
+          },
+          {
+            "name": "NORTH SIDE CORNER",
+            "height": 23,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "In the corner about 50 m to the left from first (from NE) big boulder on the non-tidal platform, 5 m to the right from LIGHT IN A SHADOW. Climb the corner to the big ledge, from here climb left side of the corner to the top. Some loos rocks in the corner. The cliff rises from a sea-level ledge system and the obvious features are two grey square-cut corners with overhanging starts at the right-hand end of the ledge. There is one recorded route on a small cliff in this area at the western corner o"
+          },
+          {
+            "name": "WILD WEST",
+            "height": 19,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "From the boulder travers left over the arête and climb the face on the left side of arte to the top. On the face to the right from the corner are 3 vertical cracks, the route take the line through the middle one. Some sharp rock. Next route start at a boulders at the east end of the ledge. GRUTS 18m E5 6a/b C. Waddy, 26/9/86. This was an on sight ascent using unspecified aid. Start at a pile of boulders 3m right of the left-hand corner. Move up and left into the corner using loose jugs. Climb th"
+          },
+          {
+            "name": "SPIKY",
+            "height": 18,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "On the face to the right from the corner are 3 vertical cracks, the route take the line through the middle one. Some sharp rock. Next route start at a boulders at the east end of the ledge. GRUTS 18m E5 6a/b C. Waddy, 26/9/86. This was an on sight ascent using unspecified aid. Start at a pile of boulders 3m right of the left-hand corner. Move up and left into the corner using loose jugs. Climb the corner with increasing difficulty until it splits into three at a small roof. Using underclings mov"
+          },
+          {
+            "name": "GRUTS",
+            "height": 18,
+            "difficulty": "E5",
+            "overall_grade": "E5",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "C. Waddy, 26/9/86. This was an on sight ascent using unspecified aid. Start at a pile of boulders 3m right of the left-hand corner. Move up and left into the corner using loose jugs. Climb the corner with increasing difficulty until it splits into three at a small roof. Using underclings move strenuously through a loose section to below a left-hand slim groove which is followed to the top. Approximately 0.5 km west of Scailp Na bPlatai. A 300m length of cliff with ledge beneath it. Nothing recor"
+          },
+          {
+            "name": "<span style=\"color:red\">EQUINOX",
+            "height": 46,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "C. Waddy (solo), 22/9/86. An escape route but worthwhile. Start beneath the big corner/chimney system down and left of An Clochair. (1) 33m Climb up the slabby left wall of the corner, keeping close into the corner itself, to the ledges. (2) 13m Climb blocks into the chimney on the right and enter this, taking the easiest line to emerge at the top. DOPPLEGANGER *** 49m E2/3 5c,5b C. Waddy, T. Kelcey, 25/9/86. A good exposed route but escapable between pitches. Crawl 7m left to the end of the roo"
+          },
+          {
+            "name": "<span style=\"color:red\">DOPPLEGANGER",
+            "height": 49,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "C. Waddy, T. Kelcey, 25/9/86. A good exposed route but escapable between pitches. Crawl 7m left to the end of the roof-capped ledge. Belay. (1) 38m Climb straight up to a break beneath the main roof (crux - serious). Traverse left into the main corner line where the overhangs end (possible belay). Climb the corner until 3m below the capping roof. Traverse left to the arete and move up to a ledge below the short continuation corner which leads to a spacious ledge. Care must be taken to avoid rope"
+          },
+          {
+            "name": "FACE TO THE WIND",
+            "height": 49,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "C. Waddy, T. Kelcey, 27/9/86. A very exposed and interesting climb up the left arete of the wall. High in its grade. Start from the pedestal 4m left of the obvious thin crack taken by Back To The Sun. (1) 18m Climb directly up the wall (a number 2 RP is the first protection at 8m). Trend left into a break which leads horizontally left to join the arete above a bulge. Climb the left-hand side of the arete to a ledge. (2) 9m Pull through the roof above via a crack and stand up in the break. Traver"
+          },
+          {
+            "name": "BACK TO THE SUN",
+            "height": 42,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Climbed in one pitch by Kevin Power in 2006 at E4 6a.",
+            "description": null
+          },
+          {
+            "name": "THE FISTYMAN",
+            "height": 49,
+            "difficulty": "E3",
+            "overall_grade": "E3",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "C. Waddy, T. Kelcey, 25/9/86. The right-hand line through the roofs and the wide crack above. (1) 37m Traverse right for 10m from the pedestal to the easy crack which leads to a ledge below the roof. Step right and follow the crack through the roof, then trend left into a short steep hanging groove. The block at the top of the groove is detached but seems safe. (2) 12m Jam the widening crack to the top. Scrambling to the bottom of An Clochair leads to a curving ledge system under monstrously ove"
+          },
+          {
+            "name": "RIDE THE SNAKE",
+            "height": 88,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "T Foord-Kelcey (led pitch 1 and 2), C Waddy (led pitch 3) 27/9/1986",
+            "description": null
+          },
+          {
+            "name": "UNNAMED",
+            "height": 65,
+            "difficulty": "E5",
+            "overall_grade": "E5",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "C. Waddy , J. Biddle, 1990.",
+            "description": null
+          },
+          {
+            "name": "THE RHYTHMS OF THE SEA",
+            "height": 35,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "B. Molyneaux, P. Cobb, G. Whittaker, R. Spillet, 14/7/92. The route follows the big leaning brown groove to the right of the steep grey of the abseil line. Start up the calcite crack/seam up past several overlaps and ledges to reach a good ledge. Above the groove steepens and blanks out. Move left and up into a smaller groove which is followed to a good break (crux). Swing back right to regain the main groove which is followed to the top, moving slightly right to avoid an unstable finish. Protec"
+          },
+          {
+            "name": "MIDGE",
+            "height": 6,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J Hawkins, T Fritzsche, 21/9/1994.",
+            "description": null
+          },
+          {
+            "name": "THUG TIME",
+            "height": 13,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "G. Whittaker (solo), 14/7/92. Check out the grade. The route climbs the undercut right-hand arete of Pool Wall by making a very strenuous move up on sidepulls to gain the horizontal break above. Swing left then, using underclings in the break, move up to a good hold on the arete. Finish easily. WELL HUNG 13m HS 5a Start 3m right of Thug Time below a thin vertical crack, which splits a ledge at 2.5m. A hard boulder start gains the ledge. Finish easily to the top. Height is an advantage. TIME TO S"
+          },
+          {
+            "name": "WELL HUNG",
+            "height": 13,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start 3m right of Thug Time below a thin vertical crack, which splits a ledge at 2.5m. A hard boulder start gains the ledge. Finish easily to the top. Height is an advantage. TIME TO SWIM 10m HS 4c 4m right from undercut arête (the place where was THUG TIME) just south-west of the poll, the route start at the right hand end of the roof and below left hand end of small ledge at 3m height. A very strenuous move to the ledge on the right, finish easily with very good protection. Zoltan 13m E2 5c Th"
+          },
+          {
+            "name": "TIME TO SWIM",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "4m right from undercut arête (the place where was THUG TIME) just south-west of the poll, the route start at the right hand end of the roof and below left hand end of small ledge at 3m height. A very strenuous move to the ledge on the right, finish easily with very good protection. Zoltan 13m E2 5c This takes the clean undercut wall with two horizontal breaks which is capped by a friable looking overhang located around 50m right of Well Start 4m to the right of the sharp vertical crack. Pull str"
+          },
+          {
+            "name": "Zoltan",
+            "height": 13,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "This takes the clean undercut wall with two horizontal breaks which is capped by a friable looking overhang located around 50m right of Well Start 4m to the right of the sharp vertical crack. Pull strenuously on crimps to reach the ﬁrst horizontal break and become established on small edges for feet, from here move directly up to the next break (medium wires and small friend). Trend slightly left and then cautiously back rightwards to ﬁnish through the overhang. Repulsion 13m E1 5b Start in the "
+          },
+          {
+            "name": "Repulsion",
+            "height": 13,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Start in the corner immediately to the right of Zoltan. An awkward start sees one standing the corner (good wires above). Reach out to the arête and swing out left and compose yourself on the horizontal breaks while placing gear (tricky). Continue to the top then marvel at your seconds hatred for the route. Hands Solo 14m E2 5c Climbs the direct line up the undercut clean vertical wall located in a recessed area in the middle of the crag. A short campus board session and a heel-hook sees you est"
+          },
+          {
+            "name": "Hands Solo",
+            "height": 14,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Climbs the direct line up the undercut clean vertical wall located in a recessed area in the middle of the crag. A short campus board session and a heel-hook sees you established on the wall. From here climb on, trending slightly leftwards, along an obvious line of weakness using ﬂat edges. Nuala's cousin 14m HS Start as for Nuala, with your feet on the boulder move into the left corner then straight up. Start at an undercut wall supported by a slightly protruding chest height bolder. Scramble o"
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.1203518,
+          "longitude": -9.7056319,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Ballyryan",
+        "page_title": "Ballyryan",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Ballyryan",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.0662411,
+          "longitude": -9.358418,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Ballynahown",
+        "page_title": "Ballynahown",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Ballynahown",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.2663252,
+          "longitude": -8.6225668,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Ceann Capaill",
+        "page_title": "Ceann_Capaill",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=Ceann_Capaill",
+        "routes": [
+          {
+            "name": "MUSSELS ABOUT",
+            "height": 10,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "GET HAPPY",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea, I. Dillon, May 1991.",
+            "description": null
+          },
+          {
+            "name": "SLIM JIM",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Dillon, I. Rea, May 1991.",
+            "description": null
+          },
+          {
+            "name": "BAD RIP",
+            "height": 10,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea, I. Dillon, May 1991.",
+            "description": null
+          },
+          {
+            "name": "PINS AND NEEDLES",
+            "height": 14,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea, I. Dillon, May 1991.",
+            "description": null
+          },
+          {
+            "name": "HURTS SO GOOD",
+            "height": 13,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea, I. Dillon, May 1991.",
+            "description": null
+          },
+          {
+            "name": "STREAMS OF WHISKEY",
+            "height": 11,
+            "difficulty": "E2",
+            "overall_grade": "E2",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "T. Taylor, M. Flannery, 31/8/94. The line directly up the centre of the wall between Hurts So Good and Stormy Monday. Fine technical climbing on small positive sharp holds. STORMY MONDAY 10m E1 5b I. Rea, I. Dillon, May 1991."
+          },
+          {
+            "name": "STORMY MONDAY",
+            "height": 10,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea, I. Dillon, May 1991.",
+            "description": null
+          },
+          {
+            "name": "THE WEB",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Dillon, I. Rea, May 1991.",
+            "description": null
+          },
+          {
+            "name": "CRAWLERS",
+            "height": 8,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Dillon, I. Rea, May 1991.",
+            "description": null
+          },
+          {
+            "name": "SPIRALS",
+            "height": 12,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Dillon, I. Rea, May 1991.",
+            "description": null
+          },
+          {
+            "name": "QUICKSTEP",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Dillon, I. Rea, May 1991.",
+            "description": null
+          },
+          {
+            "name": "THE DIVER",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea, I. Dillon, May 1991.",
+            "description": null
+          },
+          {
+            "name": "THE QUICKENING",
+            "height": 12,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Dillon, I. Rea, May 1991.",
+            "description": null
+          },
+          {
+            "name": "ANACONDA",
+            "height": 11,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Dillon, I. Rea, May 1991.",
+            "description": null
+          },
+          {
+            "name": "BARNACLE BILL",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Dillon, I. Rea, May 1991.",
+            "description": null
+          },
+          {
+            "name": "JUST BEGINNING",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Dillon, I. Rea, May 1991.",
+            "description": null
+          },
+          {
+            "name": "EASILY PLEASED",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea, I. Dillon, May 1991.",
+            "description": null
+          },
+          {
+            "name": "VENUS",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea, I. Dillon, May 1991.",
+            "description": null
+          },
+          {
+            "name": "DOG ROUGH",
+            "height": 14,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "I. Rea, I. Dillon, May 1991.",
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Cliffs Of Moher",
+        "page_title": "Cliffs_Of_Moher",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Cliffs_Of_Moher",
+        "routes": [
+          {
+            "name": "O BRIEN'S DIRECT",
+            "height": 321,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "S. Sustad, M. Fowler (alternate leads) May 1990.",
+            "description": null
+          },
+          {
+            "name": "RAZORBILLS DEN",
+            "height": 25,
+            "difficulty": "4A",
+            "overall_grade": "4A",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "J.O'Sullivan, P. Stritch, May 2017.",
+            "description": null
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 52.9595342,
+          "longitude": -9.4440647,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Croagh North/Rathborney Valley",
+        "page_title": "Croagh_North/Rathborney_Valley",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Croagh_North/Rathborney_Valley",
+        "routes": [
+          {
+            "name": "Duty Calls",
+            "height": 13,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Gerry Galligan, 23/8/2014 {ground up with rests}.",
+            "description": null
+          },
+          {
+            "name": "4 Bill MacSway",
+            "height": 13,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Identified by the obvious ledge and left facing corner at half height. Start on small block under vertical wall with disjointed slab to right with hand hold. Up to ledge 4b/4c (abandoned nest) under fantastic corner. Climb the corner good gear to top. 5 Dirty Thirty 13m VD Conor Warner, Barry Watts, 19/1/04.Start to the right of Bill MacSway up to grass ledge to steep short wall, up to another ledge under steep wall. Up wall to top. Cry Freedom 16m VS 4c Barry Watts Gerry Galligan, 19th July 201"
+          },
+          {
+            "name": "Cry Freedom",
+            "height": 16,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts Gerry Galligan, 19th July 2014 {ground up with rests}.",
+            "description": null
+          },
+          {
+            "name": "Dear Mr. Fantasy",
+            "height": 12,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Gerry Galligan, Barry Watts, 19th July 2014.",
+            "description": null
+          },
+          {
+            "name": "Choss Garden",
+            "height": 12,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Malcolm O'Beirn, Niall McCurry, July 2007.",
+            "description": null
+          },
+          {
+            "name": "19 Just Giza",
+            "height": 12,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Jindra Kaplicka, Barry Watts, Gerry Galligan, 8th July 2012.",
+            "description": null
+          },
+          {
+            "name": "Night Moves to Cairo",
+            "height": 12,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "22 Lovely Luxor 10m HS 4b ",
+            "description": null
+          },
+          {
+            "name": "Dea-Sceal S 4a",
+            "height": 7,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Dusty Rhodes S 4a 8m TBCShort grove in left side of middle bay. Enjoyable. Arawisha S 4a 8m TBCStart in corner from block and work out right over slight bulge to top in right bay. Enjoyable. Note: X=possible new route. THE SPHINX/Hanging Rock 2"
+          },
+          {
+            "name": "Dusty Rhodes S 4a",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "Arawisha S 4a 8m TBCStart in corner from block and work out right over slight bulge to top in right bay. Enjoyable. Note: X=possible new route. THE SPHINX/Hanging Rock 2"
+          }
+        ],
+        "routes_count": 9,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Doolin",
+        "page_title": "Doolin",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=Doolin",
+        "routes": [
+          {
+            "name": "SHAM ROCK",
+            "height": 15,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. Daly, P. McGrath, 1980.",
+            "description": null
+          },
+          {
+            "name": "BATTLE OF THE BULGE",
+            "height": 20,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. McGrath, P. Daly, 1986.",
+            "description": null
+          },
+          {
+            "name": "BART SIMPSON",
+            "height": 20,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "B. Rusek, P. Daly, E. Duggan, C. Baxter. August 2004.",
+            "description": null
+          },
+          {
+            "name": "500px|centerTHE GREAT LOBSTER PLOT",
+            "height": 30,
+            "difficulty": "E6",
+            "overall_grade": "E6",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "<span style=\"color:green\">THE GREAT CRACK OF DOOLIN",
+            "height": 40,
+            "difficulty": "E4",
+            "overall_grade": "E4",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "A Wainright, G. Smith (alternate leads), 1993.",
+            "description": null
+          },
+          {
+            "name": "BLACK PRINCE",
+            "height": 30,
+            "difficulty": "E1",
+            "overall_grade": "E1",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "B. McHugh, P. McGrath, 1986.",
+            "description": null
+          },
+          {
+            "name": "ONE WING BANDIT",
+            "height": 15,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. Daly, P. McGrath, 1980.",
+            "description": null
+          },
+          {
+            "name": "WINGER",
+            "height": 25,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. McGrath, 1986.",
+            "description": null
+          },
+          {
+            "name": "K KORNER",
+            "height": 25,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "P. Daly, P. McGrath, 1980.",
+            "description": null
+          }
+        ],
+        "routes_count": 9,
+        "coordinates": {
+          "latitude": 53.0163287,
+          "longitude": -9.3776097,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Eagles Rock",
+        "page_title": "Eagles_Rock",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Eagles_Rock",
+        "routes": [
+          {
+            "name": "GOLLUM",
+            "height": 20,
+            "difficulty": "MS",
+            "overall_grade": "MS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 54.3959652,
+          "longitude": -8.3035704,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Fanore More",
+        "page_title": "Fanore",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Fanore",
+        "routes": [
+          {
+            "name": "ICEBURGER * (1)",
+            "height": 14,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 3/9/2023.",
+            "description": null
+          },
+          {
+            "name": "CHOCK A LOT * (2)",
+            "height": 14,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 3/9/2023.",
+            "description": null
+          },
+          {
+            "name": "SPRINKLES (3)",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 3/9/2023.",
+            "description": null
+          },
+          {
+            "name": "I SCREAM (4)",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 3/9/2023.",
+            "description": null
+          },
+          {
+            "name": "COHEN (5)",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 3/9/2023.",
+            "description": null
+          },
+          {
+            "name": "SLACK TIDE",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 16/4/2023.",
+            "description": null
+          },
+          {
+            "name": "BAYWATCH",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 2/4/2023.",
+            "description": null
+          },
+          {
+            "name": "THE HOFF",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 2/4/2023.",
+            "description": null
+          },
+          {
+            "name": "THE WALRUS",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Conor Warner, Barry Watts, 2/4/2023.",
+            "description": null
+          },
+          {
+            "name": "BEACH BUM",
+            "height": 10,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 2/4/2023.",
+            "description": null
+          },
+          {
+            "name": "CRUISE LINER",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 16/4/2023.",
+            "description": null
+          }
+        ],
+        "routes_count": 11,
+        "coordinates": {
+          "latitude": 53.1164816,
+          "longitude": -9.2840825,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Loop Head",
+        "page_title": "Loop_Head",
+        "climbing_type": "Sea Cliff",
+        "url": "http://wiki.climbing.ie/index.php?title=Loop_Head",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 52.5595239,
+          "longitude": -9.9381113,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Moneen",
+        "page_title": "Moneen",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Moneen",
+        "routes": [
+          {
+            "name": "Jubilee Street",
+            "height": 8,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Skeleton Tree 8m D",
+            "description": null
+          },
+          {
+            "name": "Skeleton Tree",
+            "height": 8,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "Carnage",
+            "height": 8,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Distant Sky 8m D",
+            "description": null
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 54.2139506,
+          "longitude": -8.0137944,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Mullach Mor",
+        "page_title": "Mullach_Mor",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Mullach_Mor",
+        "routes": [
+          {
+            "name": "HEIDI'S BIT ON THE SIDE",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Jana Mannion, Barry Watts, 23rd March 2025.",
+            "description": null
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 53.8100577,
+          "longitude": -6.9532655,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Murroughkilly",
+        "page_title": "Murroughkilly",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Murroughkilly",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Sliabh Rua",
+        "page_title": "Slieve_Rua",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Slieve_Rua",
+        "routes": [
+          {
+            "name": "Climb the crack",
+            "height": 2,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Audrey O'Toole, Barry Watts, Brandon O'Toole, 15th April 2021.",
+            "description": null
+          },
+          {
+            "name": "ROCKALANCHE",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Audrey O'Toole, Barry Watts,  22nd April 2021.",
+            "description": null
+          },
+          {
+            "name": "BLOCK OFF",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Cormac Flynn, Andy Wonnacott,  24th July 2025.",
+            "description": null
+          },
+          {
+            "name": "BOFEY QUINN'S ARETE",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Brandon O'Toole, Audrey O'Toole, 27/5/2023.",
+            "description": null
+          },
+          {
+            "name": "LET'S CRUMBLE",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "About 20 metres to the right there is a hand crack with a dead bush at three-quarters height. Climb the crack treating the rock either side of it with care. CLEAN SLAB 10m DFirst ascent David Walsh, Paddy O'Brien, 4/8/2022."
+          },
+          {
+            "name": "CLEAN SLAB",
+            "height": 10,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": null
+          },
+          {
+            "name": "PATRICK",
+            "height": 10,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Paddy O'Brien, David Walsh, 4/8/2022.",
+            "description": null
+          }
+        ],
+        "routes_count": 7,
+        "coordinates": {
+          "latitude": 53.2672675,
+          "longitude": -6.2208447,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Oughtdarra",
+        "page_title": "Oughtdarra",
+        "climbing_type": "Bouldering",
+        "url": "http://wiki.climbing.ie/index.php?title=Oughtdarra",
+        "routes": [
+          {
+            "name": "YOU'RE KIDDING ME?",
+            "height": 10,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Audrey O'Toole, Brandon O'Toole, 31/8/2024.",
+            "description": null
+          },
+          {
+            "name": "BEST MAN'S BOOGIE",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "A. Mockler, S. Byrne, 9th July 2022.",
+            "description": null
+          },
+          {
+            "name": "MIDNIGHT GROOVER",
+            "height": 20,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner,  6th June 2021.",
+            "description": null
+          },
+          {
+            "name": "BIGOTS IN BUDAPEST",
+            "height": 20,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 13th June 2021.",
+            "description": null
+          },
+          {
+            "name": "CITY OF ASHES",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Audrey O'Toole, Barry Watts, 5th June 2021.",
+            "description": null
+          },
+          {
+            "name": "CITY OF BONES",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Audrey O'Toole, 5th June 2021.",
+            "description": null
+          },
+          {
+            "name": "SHADOW HUNTERS",
+            "height": 20,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Audrey O'Toole, 1st May 2021.",
+            "description": null
+          },
+          {
+            "name": "CITY OF GLASS",
+            "height": 20,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 26th March 2022.",
+            "description": null
+          },
+          {
+            "name": "GRISHA",
+            "height": 20,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, David Brosnan, 12th June 2021.",
+            "description": null
+          },
+          {
+            "name": "ROIGHT SAYS FIACHRA",
+            "height": 8,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "JAVELIN",
+            "height": 16,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Conor Warner, Barry Watts, 26th March 2022.",
+            "description": null
+          },
+          {
+            "name": "BONZI",
+            "height": 12,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "MARIUPOL",
+            "height": 11,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "180            11m               VD",
+            "description": null
+          },
+          {
+            "name": "KYIV",
+            "height": 10,
+            "difficulty": "HS",
+            "overall_grade": "HS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Conor Warner, 6th March 2022.",
+            "description": null
+          },
+          {
+            "name": "FINNBHEAR",
+            "height": 10,
+            "difficulty": "HVS",
+            "overall_grade": "HVS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "David Fahey, Niall O Tuathail, 8th July 2022.",
+            "description": null
+          },
+          {
+            "name": "STONE PASTURES",
+            "height": 8,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Sile Daly, Barry Watts, 28 September 2025.",
+            "description": null
+          },
+          {
+            "name": "POUNDED KNEE",
+            "height": 8,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          },
+          {
+            "name": "WOUNDED GHEE",
+            "height": 8,
+            "difficulty": "VS",
+            "overall_grade": "VS",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Sile Daly, Barry Watts, 28 September 2025.",
+            "description": null
+          },
+          {
+            "name": "ROOM OF DOOM",
+            "height": 8,
+            "difficulty": "VD",
+            "overall_grade": "VD",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Barry Watts, Sile Daly, 28 September 2025.",
+            "description": null
+          },
+          {
+            "name": "CHIMNEY OF DOOM",
+            "height": 8,
+            "difficulty": "D",
+            "overall_grade": "D",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "Unknown",
+            "description": "No description available"
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.0621822,
+          "longitude": -9.340978,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Scailp Na Seisri",
+        "page_title": "Scailp_Na_Seisri",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Scailp_Na_Seisri",
+        "routes": [
+          {
+            "name": "TOPCAT",
+            "height": 8,
+            "difficulty": "S",
+            "overall_grade": "S",
+            "technical_grade": null,
+            "sub_routes": [],
+            "first_ascent": "DR TEETH AND THE ELECTRIC MAYHEM 10m VD ",
+            "description": null
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Turloughmore",
+        "page_title": "Turloughmore",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Turloughmore",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.3766239,
+          "longitude": -8.8704482,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "Co. Derry": {
+    "county_info": {
+      "name": "Co. Derry"
+    },
+    "climbing_sites": [
+      {
+        "name": "Sperrin Mountains",
+        "page_title": "Sperrin_Mountains",
+        "climbing_type": "Trad Climbing",
+        "url": "http://wiki.climbing.ie/index.php?title=Sperrin_Mountains",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}
