@@ -1,8 +1,8 @@
-
 import { useRouter } from 'expo-router';
 import React, { useMemo, useState } from 'react';
 import {
   ActivityIndicator,
+  StatusBar,
   StyleSheet,
   Text,
   View,
@@ -16,20 +16,26 @@ import {
 } from '../../hooks/use-climbing-sites';
 
 export default function HomeScreen() {
-  const router = useRouter(); 
+  const router = useRouter();
 
-  const { allSites, loading, countyOptions, difficultyOptions } =
+  const { allSites, loading, countyOptions, difficultyOptions, climbingTypeOptions } =
     useClimbingSites();
 
+  // ===== 筛选条件状态 =====
   const [searchText, setSearchText] = useState('');
-  const [selectedCounty, setSelectedCounty] = useState<string>('ALL');
+  const [selectedCounty, setSelectedCounty] = useState<string>('全部');
+  const [selectedClimbingType, setSelectedClimbingType] = useState<string>('all');
   const [selectedDifficulty, setSelectedDifficulty] = useState<string | null>(null);
   
-  const [selectedSite, setSelectedSite] =
-    useState<ClimbingSite | null>(null);
-  const [showCountyDropdown, setShowCountyDropdown] = useState(false);
-
+  // ===== 选中项状态 =====
+  const [selectedSite, setSelectedSite] = useState<ClimbingSite | null>(null);
   
+  // ===== 下拉菜单状态 =====
+  const [showCountyDropdown, setShowCountyDropdown] = useState(false);
+  const [showTypeDropdown, setShowTypeDropdown] = useState(false);
+  const [showDifficultyDropdown, setShowDifficultyDropdown] = useState(false);
+  
+  // ===== 地图区域状态 =====
   const [focusRegion, setFocusRegion] = useState<Region | null>({
     latitude: 53.1424,
     longitude: -7.6921,
@@ -37,17 +43,27 @@ export default function HomeScreen() {
     longitudeDelta: 4,
   });
 
-  
+  // ===== 筛选逻辑 =====
   const filteredSites = useMemo(() => {
     const q = searchText.trim().toLowerCase();
 
     return allSites.filter((site) => {
-      if (selectedCounty !== 'ALL' && site.countyName !== selectedCounty) {
+      // 郡筛选
+      if (selectedCounty !== '全部' && site.countyName !== selectedCounty) {
         return false;
       }
 
-     
+      // 攀岩类型筛选
+      if (selectedClimbingType !== 'all') {
+        const siteType = (site.climbing_type || site.type || '').toLowerCase();
+        const filterType = selectedClimbingType.toLowerCase();
+        
+        if (!siteType.includes(filterType)) {
+          return false;
+        }
+      }
 
+      // 难度筛选
       if (selectedDifficulty) {
         const hasRouteWithDifficulty = (site.routes || []).some(
           (route) => route.difficulty === selectedDifficulty
@@ -57,12 +73,11 @@ export default function HomeScreen() {
         }
       }
 
+      // 搜索文本筛选
       if (q) {
-        const inCounty =
-          (site.countyName || '').toLowerCase().includes(q);
+        const inCounty = (site.countyName || '').toLowerCase().includes(q);
         const inName = site.name.toLowerCase().includes(q);
-        const inCluster =
-          (site.cluster_label || '').toLowerCase().includes(q);
+        const inCluster = (site.cluster_label || '').toLowerCase().includes(q);
         const inRoutes = (site.routes || []).some((r) =>
           r.name.toLowerCase().includes(q)
         );
@@ -74,21 +89,19 @@ export default function HomeScreen() {
 
       return true;
     });
-  }, [allSites, searchText, selectedCounty, selectedDifficulty]);
+  }, [allSites, searchText, selectedCounty, selectedClimbingType, selectedDifficulty]);
 
-  
-   
+  // ===== 搜索联想 - 实时响应 =====
   const suggestedSites = useMemo(() => {
     const q = searchText.trim().toLowerCase();
-    if (!q) return [];
+    if (!q || q.length < 1) return []; // 输入一个字母就开始联想
 
     const result: ClimbingSite[] = [];
     for (const site of allSites) {
       if (!site.coordinates) continue;
 
       const nameMatch = site.name.toLowerCase().includes(q);
-      const countyMatch =
-        (site.countyName || '').toLowerCase().includes(q);
+      const countyMatch = (site.countyName || '').toLowerCase().includes(q);
 
       if (nameMatch || countyMatch) {
         result.push(site);
@@ -98,7 +111,7 @@ export default function HomeScreen() {
     return result;
   }, [searchText, allSites]);
 
-  
+  // ===== 计算区域范围 =====
   const computeRegionForSites = (sites: ClimbingSite[]): Region | null => {
     const coords = sites
       .filter((s) => s.coordinates)
@@ -123,7 +136,6 @@ export default function HomeScreen() {
     const spanLat = maxLat - minLat;
     const spanLng = maxLng - minLng;
 
-    
     const latitudeDelta = Math.max(spanLat * 1.4, 0.2);
     const longitudeDelta = Math.max(spanLng * 1.4, 0.2);
 
@@ -135,16 +147,21 @@ export default function HomeScreen() {
     };
   };
 
-  
+  // ===== 关闭所有下拉菜单 =====
+  const closeAllDropdowns = () => {
+    setShowCountyDropdown(false);
+    setShowTypeDropdown(false);
+    setShowDifficultyDropdown(false);
+  };
+
+  // ===== 点击标记或选择联想结果：跳转到该站点 =====
   const focusOnSite = (site: ClimbingSite) => {
     setSelectedSite(site);
-
-    if (site.countyName) {
-      setSelectedCounty(site.countyName);
-    }
+    
+    // 关闭所有下拉菜单
+    closeAllDropdowns();
 
     if (site.coordinates) {
-      
       setFocusRegion({
         latitude: site.coordinates.latitude,
         longitude: site.coordinates.longitude,
@@ -153,10 +170,11 @@ export default function HomeScreen() {
       });
     }
 
-    
+    // 清空搜索框
     setSearchText('');
   };
 
+  // ===== 选择郡：只移动地图 =====
   const handleSelectCounty = (county: string) => {
     console.log('选择了郡:', county);
     
@@ -164,7 +182,6 @@ export default function HomeScreen() {
     setShowCountyDropdown(false);
 
     if (county === '全部') {
-      setSelectedSite(null);
       setFocusRegion({
         latitude: 53.1424,
         longitude: -7.6921,
@@ -174,90 +191,117 @@ export default function HomeScreen() {
       return;
     }
 
-    
     const sitesInCounty = allSites.filter(s => {
       if (!s.coordinates || !s.countyName) return false;
-      
-      
-      const selectedCountyClean = county.replace('Co. ', '').trim();
-      const siteCountyClean = s.countyName.replace('Co. ', '').trim();
-      
-      return siteCountyClean === selectedCountyClean;
+      return s.countyName === county;
     });
 
-    console.log(`找到 ${sitesInCounty.length} 个站点在 ${county}`);
-
     if (sitesInCounty.length > 0) {
-      
-      const firstSite = sitesInCounty[0];
-      setSelectedSite(firstSite);
-      
-      
-      setFocusRegion({
-        latitude: firstSite.coordinates!.latitude,
-        longitude: firstSite.coordinates!.longitude,
-        latitudeDelta: 1,  
-        longitudeDelta: 1,
-      });
-      
-      console.log(`跳转到: ${firstSite.name}`, firstSite.coordinates);
-    } else {
-      
-      console.log(`${county} 没有找到站点`);
-      setSelectedSite(null);
-      setFocusRegion({
-        latitude: 53.1424,
-        longitude: -7.6921,
-        latitudeDelta: 4,
-        longitudeDelta: 4,
-      });
+      const region = computeRegionForSites(sitesInCounty);
+      if (region) {
+        setFocusRegion(region);
+      }
     }
+  };
+
+  // ===== 选择攀岩类型 =====
+  const handleSelectClimbingType = (type: string) => {
+    setSelectedClimbingType(type);
+    setShowTypeDropdown(false);
+  };
+
+  // ===== 选择难度 =====
+  const handleSelectDifficulty = (difficulty: string | null) => {
+    setSelectedDifficulty(difficulty);
+    setShowDifficultyDropdown(false);
+  };
+
+  // ===== 切换郡下拉菜单 =====
+  const toggleCountyDropdown = () => {
+    setShowCountyDropdown(!showCountyDropdown);
+    setShowTypeDropdown(false);
+    setShowDifficultyDropdown(false);
+  };
+
+  // ===== 切换类型下拉菜单 =====
+  const toggleTypeDropdown = () => {
+    setShowTypeDropdown(!showTypeDropdown);
+    setShowCountyDropdown(false);
+    setShowDifficultyDropdown(false);
+  };
+
+  // ===== 切换难度下拉菜单 =====
+  const toggleDifficultyDropdown = () => {
+    setShowDifficultyDropdown(!showDifficultyDropdown);
+    setShowCountyDropdown(false);
+    setShowTypeDropdown(false);
   };
 
   if (loading) {
     return (
       <View style={styles.loadingContainer}>
-        <ActivityIndicator size="large" />
-        <Text style={styles.loadingText}>loading climbing point data...</Text>
+        <ActivityIndicator size="large" color="#007AFF" />
+        <Text style={styles.loadingText}>Loading climbing point data...</Text>
       </View>
     );
   }
 
   return (
     <View style={styles.container}>
-      {/* 顶部搜索 + 筛选 */}
-      <SearchPanel
-        searchText={searchText}
-        onChangeSearchText={setSearchText}
-        selectedCounty={selectedCounty}
-        onSelectCounty={handleSelectCounty}
-        countyOptions={countyOptions}
-       
-        
-        selectedDifficulty={selectedDifficulty}
-        onSelectDifficulty={setSelectedDifficulty}
-        difficultyOptions={difficultyOptions}
-        
-        suggestedSites={suggestedSites}
-        onSelectSite={focusOnSite}
-        showCountyDropdown={showCountyDropdown}
-        onToggleCountyDropdown={() =>
-          setShowCountyDropdown((prev) => !prev)
-        }
-      />
+      <StatusBar barStyle="dark-content" backgroundColor="#fff" />
+      
+      {/* 地图 - 全屏 */}
+      <View style={styles.mapContainer}>
+        <ClimbingMap
+          sites={filteredSites}
+          selectedSite={selectedSite}
+          onSelectSite={focusOnSite}
+          focusRegion={focusRegion}
+        />
+      </View>
 
-      {/* 地图 */}
-      <ClimbingMap
-        sites={filteredSites}
-        selectedSite={selectedSite}
-        onSelectSite={focusOnSite}
-        focusRegion={focusRegion}
-      />
+      {/* 搜索面板 - 浮动在顶部 */}
+      <View 
+        style={styles.searchPanelWrapper}
+        onStartShouldSetResponder={() => true}
+        onResponderTerminationRequest={() => false}
+      >
+        <SearchPanel
+          // 搜索
+          searchText={searchText}
+          onChangeSearchText={setSearchText}
+          
+          // 郡筛选
+          selectedCounty={selectedCounty}
+          onSelectCounty={handleSelectCounty}
+          countyOptions={countyOptions}
+          showCountyDropdown={showCountyDropdown}
+          onToggleCountyDropdown={toggleCountyDropdown}
+          
+          // 攀岩类型筛选
+          selectedClimbingType={selectedClimbingType}
+          onSelectClimbingType={handleSelectClimbingType}
+          climbingTypeOptions={climbingTypeOptions || []}
+          showTypeDropdown={showTypeDropdown}
+          onToggleTypeDropdown={toggleTypeDropdown}
+          
+          // 难度筛选
+          selectedDifficulty={selectedDifficulty}
+          onSelectDifficulty={handleSelectDifficulty}
+          difficultyOptions={difficultyOptions}
+          showDifficultyDropdown={showDifficultyDropdown}
+          onToggleDifficultyDropdown={toggleDifficultyDropdown}
+          
+          // 搜索联想
+          suggestedSites={suggestedSites}
+          onSelectSite={focusOnSite}
+        />
+      </View>
 
-      {/* 底部信息条 */}
+      {/* 底部信息条 - 原始版本样式 */}
       <View style={styles.infoBar}>
         <Text style={styles.infoText}>
-            Currently showing {filteredSites.length} climbing points(A total of{' '}
+          Currently showing {filteredSites.length} climbing points (A total of{' '}
           {allSites.length})
         </Text>
       </View>
@@ -281,6 +325,19 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#666',
   },
+  mapContainer: {
+    flex: 1,
+    position: 'relative',
+  },
+  searchPanelWrapper: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 10,
+    backgroundColor: 'transparent',
+  },
+  // 原始版本底部信息条样式
   infoBar: {
     position: 'absolute',
     bottom: 0,

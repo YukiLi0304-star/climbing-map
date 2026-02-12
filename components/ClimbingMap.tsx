@@ -5,9 +5,9 @@ import MapView, { Callout, Marker, Region } from 'react-native-maps';
 import { ClimbingSite } from '../hooks/use-climbing-sites';
 
 type Props = {
-  sites: ClimbingSite[];
-  selectedSite: ClimbingSite | null;
-  onSelectSite: (site: ClimbingSite) => void;
+  sites: ClimbingSite[];           
+  selectedSite: ClimbingSite | null;  
+  onSelectSite: (site: ClimbingSite) => void;  
   focusRegion: Region | null;
 };
 
@@ -20,9 +20,7 @@ const TYPE_COLORS = {
   other: '#7DA0CA'      
 };
 
-
 const getPinColorByType = (site: ClimbingSite): string => {
-  
   const type = (site.type || site.climbing_type || '').toLowerCase();
   
   if (type.includes('sea cliff') || type.includes('tidal')) return TYPE_COLORS.sea;
@@ -34,11 +32,10 @@ const getPinColorByType = (site: ClimbingSite): string => {
   return TYPE_COLORS.other; 
 };
 
-
 export const ClimbingMap: React.FC<Props> = ({
-  sites,
-  selectedSite,
-  onSelectSite,
+  sites = [],           
+  selectedSite,    
+  onSelectSite,    
   focusRegion,
 }) => {
   const mapRef = useRef<MapView | null>(null);
@@ -51,25 +48,20 @@ export const ClimbingMap: React.FC<Props> = ({
     longitudeDelta: 4,
   });
 
-useEffect(() => {
-  console.log('focusRegion 变化了:', focusRegion);
-  
-  if (!focusRegion || !mapRef.current) {
-    console.log('缺少 focusRegion 或 mapRef');
-    return;
-  }
-  
-  console.log('执行地图跳转到:', focusRegion);
-  
-  setTimeout(() => {
-    if (mapRef.current) {
-      mapRef.current.animateToRegion(focusRegion, 500);
-      setRegion(focusRegion);
-      console.log('地图跳转完成');
+  useEffect(() => {
+    console.log('focusRegion 变化了:', focusRegion);
+    
+    if (!focusRegion || !mapRef.current) {
+      return;
     }
-  }, 100);
-}, [focusRegion]);
-
+    
+    setTimeout(() => {
+      if (mapRef.current) {
+        mapRef.current.animateToRegion(focusRegion, 500);
+        setRegion(focusRegion);
+      }
+    }, 100);
+  }, [focusRegion]);
   
   const handleCalloutPress = (site: ClimbingSite) => {
     console.log('Callout 被点击:', site.name);
@@ -87,8 +79,9 @@ useEffect(() => {
         showsCompass={true}
         showsScale={true} 
       >
-        {sites.map((site, index) => {
-          if (!site.coordinates) return null;
+        {/* ✅ 添加安全判断 */}
+        {Array.isArray(sites) && sites.map((site, index) => {
+          if (!site?.coordinates) return null;
 
           const routesCount = site.routes_count ?? site.routes?.length ?? 0;
           const firstDifficulty = site.routes && site.routes[0]?.difficulty;
@@ -96,13 +89,16 @@ useEffect(() => {
 
           return (
             <Marker
-              key={`${site.id || site.name}_${Math.random()}`}
+              key={`${site.id || site.name}_${index}`}
               coordinate={site.coordinates}
               title={site.name}
               description={`${routesCount} 条攀岩线路`}
               pinColor={isSelected ? '#FF5722' : getPinColorByType(site)}
-              onPress={() => onSelectSite(site)}
-              tracksViewChanges={true}
+              onPress={() => {
+                console.log('Marker 点击:', site.name);
+                onSelectSite(site);  
+              }}
+              tracksViewChanges={false}
             >
               <Callout tooltip onPress={() => handleCalloutPress(site)}>
                 <TouchableOpacity style={styles.calloutContainer} activeOpacity={0.7}>
@@ -141,7 +137,6 @@ useEffect(() => {
       </MapView>
       
       {/* 地图图例 */}
-            {/* 地图图例 - 更新为显示岩场类型 */}
       <View style={styles.legend}>
         <Text style={styles.legendTitle}>Crag Type</Text>
         
@@ -219,7 +214,6 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     textAlign: 'center',
   },
-  
   legend: {
     position: 'absolute',
     bottom: 40,
