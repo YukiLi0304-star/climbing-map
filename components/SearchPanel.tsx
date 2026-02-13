@@ -66,7 +66,7 @@ export const SearchPanel: React.FC<Props> = ({
         {/* 第一行：搜索框 */}
         <TextInput
           style={styles.searchInput}
-          placeholder="Search by County/Crag Name/Route Name"
+          placeholder="Search by Crag Name"
           placeholderTextColor="#999"
           value={searchText}
           onChangeText={onChangeSearchText}

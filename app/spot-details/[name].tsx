@@ -7,11 +7,13 @@ import { Ionicons } from '@expo/vector-icons';
 import { useFocusEffect, useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useCallback, useState } from 'react';
 import { Linking, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { useOpenMap } from '../../hooks/use-open-map';
 
 export default function SpotDetails() {
   const { name } = useLocalSearchParams();
   const router = useRouter();
   const { allSites } = useClimbingSites();
+  const { openMap } = useOpenMap();
   const decodedName = typeof name === 'string' ? decodeURIComponent(name) : '';
   const site = allSites.find(s => s.name === decodedName);
   const { isFavorite, toggleFavorite } = useRouteFavorites();
@@ -82,6 +84,15 @@ export default function SpotDetails() {
           <Ionicons name="arrow-back" size={24} color="#007AFF" />
           <Text style={styles.navBackText}>Back</Text>
         </TouchableOpacity>
+        {site?.coordinates && (
+            <TouchableOpacity 
+              style={styles.navButton}
+              onPress={() => openMap(site.coordinates!, site.name)}
+            >
+              <Ionicons name="navigate-outline" size={22} color="#007AFF" />
+              <Text style={styles.navButtonText}>Navigate</Text>
+            </TouchableOpacity>
+  )}
       </View>
       
       <ScrollView style={styles.container}>
@@ -459,6 +470,22 @@ const styles = StyleSheet.create({
   },
   refreshButtonText: {
     marginLeft: 6,
+    color: '#007AFF',
+    fontSize: 14,
+    fontWeight: '500',
+  },
+  navButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#f0f7ff',
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#007AFF20',
+  },
+  navButtonText: {
+    marginLeft: 4,
     color: '#007AFF',
     fontSize: 14,
     fontWeight: '500',
