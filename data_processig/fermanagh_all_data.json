@@ -7,7 +7,7 @@
       {
         "name": "Benaughlin",
         "page_title": "Benaughlin",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Benaughlin",
         "routes": [
           {
@@ -31,7 +31,7 @@
       {
         "name": "Crag With A View",
         "page_title": "Crag_With_A_View",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Crag_With_A_View",
         "routes": [
           {
@@ -85,7 +85,7 @@
       {
         "name": "Cuilcagh Gap",
         "page_title": "Cuilcagh_Gap",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Cuilcagh_Gap",
         "routes": [
           {
@@ -159,7 +159,7 @@
       {
         "name": "The Fosstra",
         "page_title": "The_Fosstra",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=The_Fosstra",
         "routes": [
           {
@@ -273,7 +273,7 @@
       {
         "name": "Hanging Rock",
         "page_title": "Hanging_Rock",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Hanging_Rock",
         "routes": [
           {
@@ -327,7 +327,7 @@
       {
         "name": "Knockmore",
         "page_title": "Knockmore",
-        "climbing_type": "Sport Climbing",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Knockmore",
         "routes": [
           {
@@ -371,7 +371,7 @@
       {
         "name": "Monastir Sink",
         "page_title": "Monastir_Sink",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Monastir_Sink",
         "routes": [
           {
@@ -586,7 +586,7 @@
       {
         "name": "Skreen Rock",
         "page_title": "Skreen_Rock",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Skreen_Rock",
         "routes": [
           {
@@ -680,7 +680,7 @@
       {
         "name": "Wheathill Rock",
         "page_title": "Wheathill_Rock",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Wheathill_Rock",
         "routes": [],
         "routes_count": 0,
@@ -693,7 +693,7 @@
       {
         "name": "Coolrakan Quarry",
         "page_title": "Coolrakan_Quarry",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Quarry, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Coolrakan_Quarry",
         "routes": [],
         "routes_count": 0,

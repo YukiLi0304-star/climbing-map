@@ -7,7 +7,7 @@
       {
         "name": "Notes on Early Wicklow Climbing",
         "page_title": "Notes_on_Early_Wicklow_Climbing",
-        "climbing_type": "Quarry",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Notes_on_Early_Wicklow_Climbing",
         "routes": [],
         "routes_count": 0,
@@ -21,7 +21,7 @@
       {
         "name": "Annalecka Buttress",
         "page_title": "Annalecka_Buttress",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Annalecka_Buttress",
         "routes": [],
         "routes_count": 0,
@@ -35,7 +35,7 @@
       {
         "name": "Barnacullian",
         "page_title": "Barnacullian",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Barnacullian",
         "routes": [
           {
@@ -129,7 +129,7 @@
       {
         "name": "Barnbawn",
         "page_title": "Barnbawn",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Barnbawn",
         "routes": [
           {
@@ -343,7 +343,7 @@
       {
         "name": "Bell Rock - Avoca",
         "page_title": "Bell_Rock_-_Avoca",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Inland, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Bell_Rock_-_Avoca",
         "routes": [
           {
@@ -408,7 +408,7 @@
       {
         "name": "The Bishop - Dunran",
         "page_title": "The_Bishop_-_Dunran",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=The_Bishop_-_Dunran",
         "routes": [
           {
@@ -483,7 +483,7 @@
       {
         "name": "Bonfire Buttress",
         "page_title": "Bonfire_Buttress",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Quarry, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Bonfire_Buttress",
         "routes": [],
         "routes_count": 0,
@@ -497,7 +497,7 @@
       {
         "name": "Bray Head",
         "page_title": "Bray_Head",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Bray_Head",
         "routes": [
           {
@@ -691,7 +691,7 @@
       {
         "name": "Carrick Mountain",
         "page_title": "Carrick_Mountain",
-        "climbing_type": "Quarry",
+        "climbing_type": "Quarry, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Carrick_Mountain",
         "routes": [],
         "routes_count": 0,
@@ -704,7 +704,7 @@
       {
         "name": "Carrigshouk",
         "page_title": "Carrigshouk",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Carrigshouk",
         "routes": [
           {
@@ -918,7 +918,7 @@
       {
         "name": "Cloghoge",
         "page_title": "Cloghoge",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Cloghoge",
         "routes": [
           {
@@ -952,7 +952,7 @@
       {
         "name": "Glendalough",
         "page_title": "Glendalough",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Glendalough",
         "routes": [],
         "routes_count": 0,
@@ -965,7 +965,7 @@
       {
         "name": "Glenmalure",
         "page_title": "Glenmalure",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Glenmalure",
         "routes": [
           {
@@ -1119,7 +1119,7 @@
       {
         "name": "Great Sugar Loaf",
         "page_title": "Great_Sugar_Loaf",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Great_Sugar_Loaf",
         "routes": [],
         "routes_count": 0,
@@ -1133,7 +1133,7 @@
       {
         "name": "Green Lizard",
         "page_title": "Green_Lizard",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Green_Lizard",
         "routes": [],
         "routes_count": 0,
@@ -1147,7 +1147,7 @@
       {
         "name": "Hollywood",
         "page_title": "Hollywood",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Hollywood",
         "routes": [
           {
@@ -1251,7 +1251,7 @@
       {
         "name": "Lough Bray",
         "page_title": "Lough_Bray",
-        "climbing_type": "Quarry",
+        "climbing_type": "Quarry, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Lough_Bray",
         "routes": [
           {
@@ -1295,7 +1295,7 @@
       {
         "name": "Lough Dan",
         "page_title": "Lough_Dan",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Lough_Dan",
         "routes": [
           {
@@ -1509,7 +1509,7 @@
       {
         "name": "Lough Nahanagan",
         "page_title": "Lough_Nahanagan",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Inland, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Lough_Nahanagan",
         "routes": [],
         "routes_count": 0,
@@ -1522,7 +1522,7 @@
       {
         "name": "Lover's Leap - Enniskerry",
         "page_title": "Lover%27s_Leap_-_Enniskerry",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Lover%27s_Leap_-_Enniskerry",
         "routes": [],
         "routes_count": 0,
@@ -1535,7 +1535,7 @@
       {
         "name": "Luggala",
         "page_title": "Luggala",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Luggala",
         "routes": [],
         "routes_count": 0,
@@ -1548,7 +1548,7 @@
       {
         "name": "Mall Hill",
         "page_title": "Mall_Hill",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Mall_Hill",
         "routes": [],
         "routes_count": 0,
@@ -1561,7 +1561,7 @@
       {
         "name": "Tonduff/Raven's Glen",
         "page_title": "Tonduff/Raven%27s_Glen",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Tonduff/Raven%27s_Glen",
         "routes": [
           {
@@ -1646,7 +1646,7 @@
       {
         "name": "Rocky Valley",
         "page_title": "Rocky_Valley",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Rocky_Valley",
         "routes": [],
         "routes_count": 0,
@@ -1659,7 +1659,7 @@
       {
         "name": "Wicklow Head",
         "page_title": "Wicklow_Head",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Wicklow_Head",
         "routes": [],
         "routes_count": 0,
@@ -1672,7 +1672,7 @@
       {
         "name": "Wicklow Winter Climbs",
         "page_title": "Wicklow_Winter_Climbs",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Wicklow_Winter_Climbs",
         "routes": [],
         "routes_count": 0,
@@ -1686,7 +1686,7 @@
       {
         "name": "Irish Climbing Wiki",
         "page_title": "Irish_Climbing_Wiki",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Irish_Climbing_Wiki",
         "routes": [],
         "routes_count": 0,
@@ -1700,7 +1700,7 @@
       {
         "name": "Recent changes",
         "page_title": "Special:RecentChanges",
-        "climbing_type": "Unknown",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Special:RecentChanges",
         "routes": [],
         "routes_count": 0,
@@ -1712,7 +1712,7 @@
       {
         "name": "What links here",
         "page_title": "Special:WhatLinksHere/Irish_Climbing_Wiki",
-        "climbing_type": "Unknown",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Special:WhatLinksHere/Irish_Climbing_Wiki",
         "routes": [],
         "routes_count": 0,
@@ -1724,7 +1724,7 @@
       {
         "name": "Related changes",
         "page_title": "Special:RecentChangesLinked/Irish_Climbing_Wiki",
-        "climbing_type": "Unknown",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Special:RecentChangesLinked/Irish_Climbing_Wiki",
         "routes": [],
         "routes_count": 0,
@@ -1736,7 +1736,7 @@
       {
         "name": "Permanent link",
         "page_title": "Irish_Climbing_Wiki",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Irish_Climbing_Wiki&oldid=4991",
         "routes": [],
         "routes_count": 0,
@@ -1750,7 +1750,7 @@
       {
         "name": "Privacy policy",
         "page_title": "Irish_Climbers_Route_Database:Privacy_policy",
-        "climbing_type": "Unknown",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Irish_Climbers_Route_Database:Privacy_policy",
         "routes": [],
         "routes_count": 0,
@@ -1762,7 +1762,7 @@
       {
         "name": "About Irish Climbing Wiki",
         "page_title": "Irish_Climbers_Route_Database:About",
-        "climbing_type": "Unknown",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Irish_Climbers_Route_Database:About",
         "routes": [],
         "routes_count": 0,
@@ -1774,7 +1774,7 @@
       {
         "name": "Disclaimers",
         "page_title": "Irish_Climbers_Route_Database:General_disclaimer",
-        "climbing_type": "Unknown",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Irish_Climbers_Route_Database:General_disclaimer",
         "routes": [],
         "routes_count": 0,

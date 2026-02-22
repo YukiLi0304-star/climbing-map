@@ -7,7 +7,7 @@
       {
         "name": "Alnadue Quarry",
         "page_title": "Alnadue_Quarry",
-        "climbing_type": "Quarry",
+        "climbing_type": "Quarry, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Alnadue_Quarry",
         "routes": [
           {
@@ -82,7 +82,7 @@
       {
         "name": "Annalong Buttress",
         "page_title": "Annalong_Buttress",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Annalong_Buttress",
         "routes": [],
         "routes_count": 0,
@@ -95,7 +95,7 @@
       {
         "name": "Ben Crom",
         "page_title": "Ben_Crom",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Ben_Crom",
         "routes": [
           {
@@ -289,7 +289,7 @@
       {
         "name": "Bearnagh Slabs",
         "page_title": "Bearnagh_Slabs",
-        "climbing_type": "Quarry",
+        "climbing_type": "Quarry, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Bearnagh_Slabs",
         "routes": [
           {
@@ -313,7 +313,7 @@
       {
         "name": "Bearnagh Tors",
         "page_title": "Bearnagh_Tors",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Bearnagh_Tors",
         "routes": [],
         "routes_count": 0,
@@ -327,7 +327,7 @@
       {
         "name": "Binnian Lough Buttress",
         "page_title": "Binnian_Lough_Buttress",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Binnian_Lough_Buttress",
         "routes": [
           {
@@ -432,7 +432,7 @@
       {
         "name": "Binnian Tors",
         "page_title": "Binnian_Tors",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Binnian_Tors",
         "routes": [
           {
@@ -647,7 +647,7 @@
       {
         "name": "Blue Lough Buttress",
         "page_title": "Blue_Lough_Buttress",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Blue_Lough_Buttress",
         "routes": [
           {
@@ -691,7 +691,7 @@
       {
         "name": "Buzzard's Roost",
         "page_title": "Buzzard%27s_Roost",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Buzzard%27s_Roost",
         "routes": [
           {
@@ -715,7 +715,7 @@
       {
         "name": "Chimney Rock Mountain",
         "page_title": "Chimney_Rock_Mountain",
-        "climbing_type": "Quarry",
+        "climbing_type": "Quarry, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Chimney_Rock_Mountain",
         "routes": [
           {
@@ -760,7 +760,7 @@
       {
         "name": "Doan",
         "page_title": "Doan",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Doan",
         "routes": [
           {
@@ -784,7 +784,7 @@
       {
         "name": "Douglas Crag",
         "page_title": "Douglas_Crag",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Douglas_Crag",
         "routes": [],
         "routes_count": 0,
@@ -797,7 +797,7 @@
       {
         "name": "Eagle Mountain",
         "page_title": "Eagle_Mountain",
-        "climbing_type": "Quarry",
+        "climbing_type": "Quarry, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Eagle_Mountain",
         "routes": [],
         "routes_count": 0,
@@ -810,7 +810,7 @@
       {
         "name": "Eagle Rocks",
         "page_title": "Eagle_Rocks",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Eagle_Rocks",
         "routes": [],
         "routes_count": 0,
@@ -824,7 +824,7 @@
       {
         "name": "Hare's Castle",
         "page_title": "Hare%27s_Castle",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Quarry, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Hare%27s_Castle",
         "routes": [],
         "routes_count": 0,
@@ -838,7 +838,7 @@
       {
         "name": "Hen Mountain",
         "page_title": "Hen_Mountain",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Hen_Mountain",
         "routes": [
           {
@@ -892,7 +892,7 @@
       {
         "name": "Little Binnian",
         "page_title": "Little_Binnian",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Little_Binnian",
         "routes": [],
         "routes_count": 0,
@@ -906,7 +906,7 @@
       {
         "name": "Lower Cove",
         "page_title": "Lower_Cove",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Lower_Cove",
         "routes": [
           {
@@ -970,7 +970,7 @@
       {
         "name": "Meelmore",
         "page_title": "Meelmore",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Inland, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Meelmore",
         "routes": [
           {
@@ -1004,7 +1004,7 @@
       {
         "name": "Percy Bysshe",
         "page_title": "Percy_Bysshe",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Inland, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Percy_Bysshe",
         "routes": [],
         "routes_count": 0,
@@ -1018,7 +1018,7 @@
       {
         "name": "Pigeon Rock",
         "page_title": "Pigeon_Rock",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Pigeon_Rock",
         "routes": [],
         "routes_count": 0,
@@ -1031,7 +1031,7 @@
       {
         "name": "Slieve Beg",
         "page_title": "Slieve_Beg",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Slieve_Beg",
         "routes": [
           {
@@ -1085,7 +1085,7 @@
       {
         "name": "Slieve Commedagh",
         "page_title": "Slieve_Commedagh",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Slieve_Commedagh",
         "routes": [],
         "routes_count": 0,
@@ -1098,7 +1098,7 @@
       {
         "name": "Slievemageogh",
         "page_title": "Slievemageogh",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Slievemageogh",
         "routes": [
           {
@@ -1143,7 +1143,7 @@
       {
         "name": "Slieve Muck",
         "page_title": "Slieve_Muck",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Slieve_Muck",
         "routes": [],
         "routes_count": 0,
@@ -1156,7 +1156,7 @@
       {
         "name": "Slieve Lamagan",
         "page_title": "Slieve_Lamagan",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Slieve_Lamagan",
         "routes": [
           {
@@ -1291,7 +1291,7 @@
       {
         "name": "Slievenaglogh Buttress",
         "page_title": "Slievenaglogh_Buttress",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Slievenaglogh_Buttress",
         "routes": [
           {
@@ -1406,7 +1406,7 @@
       {
         "name": "Spellack",
         "page_title": "Spellack",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Spellack",
         "routes": [
           {
@@ -1430,7 +1430,7 @@
       {
         "name": "Upper Cove",
         "page_title": "Upper_Cove",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Upper_Cove",
         "routes": [
           {
@@ -1474,7 +1474,7 @@
       {
         "name": "Unnamed Tor",
         "page_title": "Unnamed_Tor",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Unnamed_Tor",
         "routes": [
           {

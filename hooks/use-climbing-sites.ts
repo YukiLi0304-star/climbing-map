@@ -61,7 +61,8 @@ export type ClimbingSite = {
   cluster_label?: string;      
   type?: string;
   climbing_type?: string;
-  area?: string; 
+  area?: string;
+  types?: string[];
 };
 
 type CountyInfo = {
@@ -134,10 +135,31 @@ export function useClimbingSites() {
           const areaName = site.area || 'Unknown';
           const id = `${countyName}_${areaName}_${site.name}`.replace(/[^a-zA-Z0-9]/g, '_');
           
+          let siteTypes: string[] = [];
+          const climbingType = site.climbing_type || '';
+
+          if (climbingType.includes(',')) {
+            siteTypes = climbingType.split(',').map(t => t.trim());
+          } else {
+            if (climbingType.includes('Sea')) siteTypes.push('Sea Cliff');
+            if (climbingType.includes('Quarry')) siteTypes.push('Quarry');
+            if (climbingType.includes('Mountain')) siteTypes.push('Mountain');
+            if (climbingType.includes('Inland')) siteTypes.push('Inland');
+            if (climbingType.includes('Trad')) siteTypes.push('Trad');
+            if (climbingType.includes('Sport')) siteTypes.push('Sport');
+            if (climbingType.includes('Boulder')) siteTypes.push('Boulder');
+          }
+
+          if (siteTypes.length === 0) {
+            siteTypes = ['Inland', 'Trad'];
+            console.log('  使用默认值:', siteTypes);
+          }
+          
           merged.push({
             ...site,
             id,
             countyName,
+            types: siteTypes,
           });
         }
       });
@@ -149,6 +171,8 @@ export function useClimbingSites() {
   useEffect(() => {
     const loadData = async () => {
       try {
+        await AsyncStorage.removeItem('climbing_sites');
+
         const stored = await AsyncStorage.getItem('climbing_sites');
         
         if (stored) {
@@ -243,7 +267,6 @@ export function useClimbingSites() {
     const set = new Set<string>();
     
     allSites.forEach((site) => {
-      
       const type = site.climbing_type || site.type;
       if (type && type !== 'Unknown') {
         set.add(type);
@@ -285,7 +308,7 @@ export function useClimbingSites() {
     allSites, 
     loading, 
     countyOptions,
-    climbingTypeOptions,  
+    climbingTypeOptions,
     difficultyOptions,
     syncing,        
     refreshFromJson 

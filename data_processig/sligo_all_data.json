@@ -7,7 +7,7 @@
       {
         "name": "Aughris Head",
         "page_title": "Aughris_Head",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Aughris_Head",
         "routes": [
           {
@@ -61,7 +61,7 @@
       {
         "name": "Cooney Rock",
         "page_title": "Cooney_Rock",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Cooney_Rock",
         "routes": [
           {
@@ -175,7 +175,7 @@
       {
         "name": "Doomore Crag",
         "page_title": "Doomore_Crag",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Doomore_Crag",
         "routes": [],
         "routes_count": 0,
@@ -189,7 +189,7 @@
       {
         "name": "Happy Valli",
         "page_title": "Happy_Valli",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Inland, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Happy_Valli",
         "routes": [
           {
@@ -404,7 +404,7 @@
       {
         "name": "Hawk Rock/Cuckoo Buttress",
         "page_title": "Hawk_Rock/Cuckoo_Buttress",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Hawk_Rock/Cuckoo_Buttress",
         "routes": [],
         "routes_count": 0,
@@ -418,7 +418,7 @@
       {
         "name": "Kings Mountain",
         "page_title": "Kings_Mountain",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Kings_Mountain",
         "routes": [
           {
@@ -462,7 +462,7 @@
       {
         "name": "Mullaghmore/Roskeeragh Point",
         "page_title": "Mullaghmore/Roskeeragh_Point",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Mullaghmore/Roskeeragh_Point",
         "routes": [
           {
@@ -677,7 +677,7 @@
       {
         "name": "Scalp na gCapail",
         "page_title": "Scalp_na_gCapail",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Scalp_na_gCapail",
         "routes": [
           {
@@ -892,7 +892,7 @@
       {
         "name": "Slish Wood",
         "page_title": "Slish_Wood",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Slish_Wood",
         "routes": [
           {
@@ -936,7 +936,7 @@
       {
         "name": "Tormore",
         "page_title": "Tormore",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Tormore",
         "routes": [
           {
@@ -1150,7 +1150,7 @@
       {
         "name": "Union Woods",
         "page_title": "Union_Woods",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Union_Woods",
         "routes": [
           {

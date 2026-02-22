@@ -265,35 +265,26 @@ class IrishClimbingRobust:
         }
 
     def _determine_crag_type(self, wikitext):
-        """关键词权重打分法判断类型"""
+
         text_lower = wikitext.lower()
-        scores = {"bouldering": 0, "sea_cliff": 0, "sport_climbing": 0, "quarry": 0}
-
-        if "boulder" in text_lower: scores["bouldering"] += 3
-        if "problem" in text_lower: scores["bouldering"] += 2
-        if "sit start" in text_lower: scores["bouldering"] += 2
-        if "font" in text_lower: scores["bouldering"] += 1
         
-        if "sea cliff" in text_lower: scores["sea_cliff"] += 5
-        if "tidal" in text_lower: scores["sea_cliff"] += 3
-        if "high tide" in text_lower: scores["sea_cliff"] += 2
+        location = 'Inland'
         
-        if "sport climbing" in text_lower: scores["sport_climbing"] += 5
-        if "bolted" in text_lower: scores["sport_climbing"] += 3
-        if "bolts" in text_lower: scores["sport_climbing"] += 2
+        if any(word in text_lower for word in ['sea cliff', 'sea-cliff', 'tidal', 'coastal', 'cliff']):
+            location = 'Sea Cliff'
+        elif any(word in text_lower for word in ['quarry', 'quarries']):
+            location = 'Quarry'
+        elif any(word in text_lower for word in ['mountain', 'hill', 'alpine', 'slieve']):
+            location = 'Mountain'
+
+        style = 'Trad'
         
-        if "quarry" in text_lower: scores["quarry"] += 5
-
-        best_type = max(scores, key=scores.get)
-        max_score = scores[best_type]
-
-        if max_score < 2: return "Trad Climbing"
-        if best_type == "bouldering": return "Bouldering"
-        if best_type == "sea_cliff": return "Sea Cliff"
-        if best_type == "sport_climbing": return "Sport Climbing"
-        if best_type == "quarry": return "Quarry"
-        return "Trad Climbing"
-
+        if any(word in text_lower for word in ['sport', 'bolt', 'bolted', 'clip']):
+            style = 'Sport'
+        elif any(word in text_lower for word in ['boulder', 'problem']):
+            style = 'Boulder'
+        
+        return [location, style]
 
     #def _fetch_coords_from_osm(self, query):
         clean_query = query.replace('_', ' ').strip()
@@ -1461,11 +1452,16 @@ class IrishClimbingRobust:
                 print(f"  正在处理: {site['name']}")
                 page_content = self.get_full_page_content_via_api(site['page_title'])
                 routes = self.get_climbing_routes_from_page(page_content)
+                crag_types = page_content.get('crag_type', ['Inland', 'Trad'])
+                if isinstance(crag_types, list):
+                    climbing_type_str = ', '.join(crag_types)
+                else:
+                    climbing_type_str = crag_types
 
                 site_data = {
                     'name': site['name'], 
                     'page_title': site['page_title'], 
-                    'climbing_type': page_content.get('crag_type', 'Unknown'),
+                    'climbing_type': climbing_type_str,
                     'url': site['url'],
                     'routes': routes, 
                     'routes_count': len(routes),

@@ -7,7 +7,7 @@
       {
         "name": "Adrigole",
         "page_title": "Adrigole",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Adrigole",
         "routes": [
           {
@@ -31,7 +31,7 @@
       {
         "name": "Allihies",
         "page_title": "Allihies",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Allihies",
         "routes": [
           {
@@ -85,7 +85,7 @@
       {
         "name": "Barry's Head",
         "page_title": "Barry%27s_Head",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Barry%27s_Head",
         "routes": [
           {
@@ -299,7 +299,7 @@
       {
         "name": "Beaumont Quarry",
         "page_title": "Beaumont_Quarry",
-        "climbing_type": "Quarry",
+        "climbing_type": "Quarry, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Beaumont_Quarry",
         "routes": [],
         "routes_count": 0,
@@ -313,7 +313,7 @@
       {
         "name": "Black Ball Head",
         "page_title": "Black_Ball_Head",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Black_Ball_Head",
         "routes": [],
         "routes_count": 0,
@@ -326,7 +326,7 @@
       {
         "name": "Cape Clear Island",
         "page_title": "Cape_Clear_Island",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Cape_Clear_Island",
         "routes": [
           {
@@ -440,7 +440,7 @@
       {
         "name": "Castletownroche",
         "page_title": "Castletownroche",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Castletownroche",
         "routes": [
           {
@@ -484,7 +484,7 @@
       {
         "name": "Cumeengadhra",
         "page_title": "Cumeengadhra",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Cumeengadhra",
         "routes": [
           {
@@ -509,7 +509,7 @@
       {
         "name": "Glengarriff",
         "page_title": "Glengarriff",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Glengarriff",
         "routes": [
           {
@@ -533,7 +533,7 @@
       {
         "name": "Gowlbeg Mountain",
         "page_title": "Gowlbeg_Mountain",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Gowlbeg_Mountain",
         "routes": [
           {
@@ -577,7 +577,7 @@
       {
         "name": "Knockadoon Head",
         "page_title": "Knockadoon_Head",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Knockadoon_Head",
         "routes": [
           {
@@ -791,7 +791,7 @@
       {
         "name": "Mizen Head",
         "page_title": "Mizen_Head",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Mizen_Head",
         "routes": [
           {
@@ -825,7 +825,7 @@
       {
         "name": "Old Head Of Kinsale",
         "page_title": "Old_Head_Of_Kinsale",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Old_Head_Of_Kinsale",
         "routes": [
           {
@@ -1039,7 +1039,7 @@
       {
         "name": "Oysterhaven",
         "page_title": "Oysterhaven",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Oysterhaven",
         "routes": [
           {
@@ -1253,7 +1253,7 @@
       {
         "name": "Roberts Cove/Roberts Head",
         "page_title": "Roberts_Cove/Roberts_Head",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Roberts_Cove/Roberts_Head",
         "routes": [
           {
@@ -1338,7 +1338,7 @@
       {
         "name": "Sands Cove",
         "page_title": "Sands_Cove",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Sands_Cove",
         "routes": [],
         "routes_count": 0,
@@ -1351,7 +1351,7 @@
       {
         "name": "Seven Heads",
         "page_title": "Seven_Heads",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Seven_Heads",
         "routes": [
           {
@@ -1445,7 +1445,7 @@
       {
         "name": "Sheeps Head",
         "page_title": "Sheeps_Head",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Sheeps_Head",
         "routes": [
           {
@@ -1530,7 +1530,7 @@
       {
         "name": "Sherkin Island",
         "page_title": "Sherkin_Island",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Sherkin_Island",
         "routes": [
           {
@@ -1564,7 +1564,7 @@
       {
         "name": "Whiteball Head",
         "page_title": "Whiteball_Head",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Whiteball_Head",
         "routes": [
           {

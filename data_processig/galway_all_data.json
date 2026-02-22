@@ -7,7 +7,7 @@
       {
         "name": "Aran Islands",
         "page_title": "Aran_Islands",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Aran_Islands",
         "routes": [
           {
@@ -221,7 +221,7 @@
       {
         "name": "Bencorr",
         "page_title": "Bencorr",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Bencorr",
         "routes": [],
         "routes_count": 0,
@@ -234,7 +234,7 @@
       {
         "name": "Binn Braon",
         "page_title": "Binn_Braon",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Binn_Braon",
         "routes": [],
         "routes_count": 0,
@@ -248,7 +248,7 @@
       {
         "name": "Cnoc Mordáin",
         "page_title": "Cnoc_Mord%C3%A1in",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Cnoc_Mord%C3%A1in",
         "routes": [
           {
@@ -342,7 +342,7 @@
       {
         "name": "Diamond Hill",
         "page_title": "Diamond_Hill",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Diamond_Hill",
         "routes": [
           {
@@ -376,7 +376,7 @@
       {
         "name": "Errisbeg",
         "page_title": "Errisbeg",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Errisbeg",
         "routes": [
           {
@@ -470,7 +470,7 @@
       {
         "name": "Gleann Chochan",
         "page_title": "Gleann_Chochan",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Gleann_Chochan",
         "routes": [
           {
@@ -584,7 +584,7 @@
       {
         "name": "Gleann Eidhneach",
         "page_title": "Gleann_Eighneach",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Gleann_Eighneach",
         "routes": [],
         "routes_count": 0,
@@ -598,7 +598,7 @@
       {
         "name": "Inagh Valley",
         "page_title": "Inagh_Valley",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Inagh_Valley",
         "routes": [
           {
@@ -623,7 +623,7 @@
       {
         "name": "Little Killary",
         "page_title": "Little_Killary",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Little_Killary",
         "routes": [
           {
@@ -827,7 +827,7 @@
       {
         "name": "Maamturks",
         "page_title": "Maamturks",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Maamturks",
         "routes": [
           {
@@ -872,7 +872,7 @@
       {
         "name": "Galway city",
         "page_title": "Galway_city",
-        "climbing_type": "Quarry",
+        "climbing_type": "Quarry, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Galway_city",
         "routes": [],
         "routes_count": 0,

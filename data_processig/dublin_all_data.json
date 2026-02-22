@@ -7,7 +7,7 @@
       {
         "name": "Bullock Harbour",
         "page_title": "Bullock_Harbour",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Inland, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Bullock_Harbour",
         "routes": [
           {
@@ -41,7 +41,7 @@
       {
         "name": "Dalkey Quarry",
         "page_title": "Dalkey_Quarry",
-        "climbing_type": "Quarry",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Dalkey_Quarry",
         "routes": [
           {
@@ -75,7 +75,7 @@
       {
         "name": "Howth Head",
         "page_title": "Howth_Head",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Howth_Head",
         "routes": [
           {
@@ -120,7 +120,7 @@
       {
         "name": "Ireland's Eye",
         "page_title": "Ireland%27s_Eye",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Ireland%27s_Eye",
         "routes": [],
         "routes_count": 0,
@@ -133,7 +133,7 @@
       {
         "name": "The Scalp",
         "page_title": "The_Scalp",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=The_Scalp",
         "routes": [
           {

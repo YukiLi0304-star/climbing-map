@@ -19,9 +19,9 @@ type Props = {
   showCountyDropdown: boolean;
   onToggleCountyDropdown: () => void;
   
-  selectedClimbingType: string;
-  onSelectClimbingType: (type: string) => void;
-  climbingTypeOptions: string[];
+  selectedTypes: string[];
+  onSelectType: (type: string) => void;
+  typeOptions: string[];
   showTypeDropdown: boolean;
   onToggleTypeDropdown: () => void;
   
@@ -45,9 +45,9 @@ export const SearchPanel: React.FC<Props> = ({
   showCountyDropdown,
   onToggleCountyDropdown,
   
-  selectedClimbingType = 'all',
-  onSelectClimbingType,
-  climbingTypeOptions = [],
+  selectedTypes = [],
+  onSelectType,
+  typeOptions = [],
   showTypeDropdown,
   onToggleTypeDropdown,
   
@@ -60,6 +60,12 @@ export const SearchPanel: React.FC<Props> = ({
   suggestedSites = [],
   onSelectSite,
 }) => {
+  const getTypeButtonText = () => {
+    if (selectedTypes.length === 0) return 'All types';
+    if (selectedTypes.length === 1) return selectedTypes[0];
+    return `${selectedTypes.length} types selected`;
+  };
+
   return (
     <View style={styles.wrapper}>
       <View style={styles.searchBar}>
@@ -87,15 +93,13 @@ export const SearchPanel: React.FC<Props> = ({
             <Text style={styles.filterButtonIcon}>▼</Text>
           </Pressable>
 
-          {/* 攀岩类型筛选按钮 */}
+          {/* 类型筛选按钮（多选） */}
           <Pressable
-            style={styles.filterButton}
+            style={[styles.filterButton, selectedTypes.length > 0 && styles.filterButtonActive]}
             onPress={onToggleTypeDropdown}
           >
             <Text style={styles.filterButtonText} numberOfLines={1}>
-              {selectedClimbingType === 'all'
-                ? 'All types'
-                : selectedClimbingType}
+              {getTypeButtonText()}
             </Text>
             <Text style={styles.filterButtonIcon}>▼</Text>
           </Pressable>
@@ -115,7 +119,7 @@ export const SearchPanel: React.FC<Props> = ({
         </View>
       </View>
 
-      {/* 搜索联想结果 - 实时显示，不受下拉菜单影响 */}
+      {/* 搜索联想结果 */}
       {suggestedSites.length > 0 && (
         <View 
           style={styles.suggestionBox}
@@ -192,7 +196,7 @@ export const SearchPanel: React.FC<Props> = ({
         </View>
       )}
 
-      {/* 攀岩类型下拉列表 */}
+      {/* 类型下拉列表（多选） */}
       {showTypeDropdown && (
         <View 
           style={styles.dropdownList}
@@ -206,31 +210,24 @@ export const SearchPanel: React.FC<Props> = ({
             <Pressable
               style={styles.dropdownItem}
               onPress={() => {
-                onSelectClimbingType('all');
-                onToggleTypeDropdown();
+                onSelectType('clear');
               }}
             >
-              <Text style={[
-                styles.dropdownItemText,
-                selectedClimbingType === 'all' && styles.dropdownItemTextActive
-              ]}>
-                All types
-              </Text>
+              <Text style={styles.dropdownItemText}>Clear all</Text>
             </Pressable>
-            {climbingTypeOptions.map((type) => (
+            
+            {/* 类型选项 */}
+            {typeOptions.map((type) => (
               <Pressable
                 key={type}
                 style={styles.dropdownItem}
-                onPress={() => {
-                  onSelectClimbingType(type);
-                  onToggleTypeDropdown();
-                }}
+                onPress={() => onSelectType(type)}
               >
                 <Text style={[
                   styles.dropdownItemText,
-                  selectedClimbingType === type && styles.dropdownItemTextActive
+                  selectedTypes.includes(type) && styles.dropdownItemTextActive
                 ]}>
-                  {type}
+                  {type} {selectedTypes.includes(type) ? ' ✓' : ''}
                 </Text>
               </Pressable>
             ))}
@@ -318,6 +315,10 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#ccc',
     backgroundColor: '#fff',
+  },
+  filterButtonActive: {
+    borderColor: '#007AFF',
+    backgroundColor: '#F0F8FF',
   },
   filterButtonText: {
     fontSize: 12,

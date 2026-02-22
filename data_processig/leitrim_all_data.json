@@ -7,7 +7,7 @@
       {
         "name": "Cloch An tSagairt / Carrignahasta",
         "page_title": "Cloch_An_tSagairt_/_Carrignahasta",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Cloch_An_tSagairt_/_Carrignahasta",
         "routes": [],
         "routes_count": 0,
@@ -20,7 +20,7 @@
       {
         "name": "Cloonty Pruglish",
         "page_title": "Cloonty_Pruglish",
-        "climbing_type": "Quarry",
+        "climbing_type": "Quarry, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Cloonty_Pruglish",
         "routes": [
           {
@@ -85,7 +85,7 @@
       {
         "name": "King's Rock",
         "page_title": "King%27s_Rock",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=King%27s_Rock",
         "routes": [
           {
@@ -140,7 +140,7 @@
       {
         "name": "Mass Rock",
         "page_title": "Mass_Rock",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Mass_Rock",
         "routes": [
           {
@@ -294,7 +294,7 @@
       {
         "name": "The Doons",
         "page_title": "The_Doons",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Inland, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=The_Doons",
         "routes": [
           {
@@ -348,7 +348,7 @@
       {
         "name": "Swiss Valley",
         "page_title": "Swiss_Valley",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Swiss_Valley",
         "routes": [
           {

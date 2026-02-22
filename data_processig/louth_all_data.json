@@ -7,7 +7,7 @@
       {
         "name": "Slievenaglogh",
         "page_title": "Slievenaglogh",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Slievenaglogh",
         "routes": [
           {
@@ -221,7 +221,7 @@
       {
         "name": "Long Woman's Grave, Cooleys - The Thing In The Forest",
         "page_title": "Long_Woman%27s_Grave,_Cooleys_-_The_Thing_In_The_Forest",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Long_Woman%27s_Grave,_Cooleys_-_The_Thing_In_The_Forest",
         "routes": [],
         "routes_count": 0,
@@ -235,7 +235,7 @@
       {
         "name": "Clogherhead",
         "page_title": "Clogherhead",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Clogherhead",
         "routes": [],
         "routes_count": 0,

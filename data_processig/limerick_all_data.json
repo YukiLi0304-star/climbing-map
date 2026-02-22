@@ -7,7 +7,7 @@
       {
         "name": "Knockhourough",
         "page_title": "Knockhourough",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Inland, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Knockhourough",
         "routes": [
           {
@@ -102,7 +102,7 @@
       {
         "name": "Knockroe",
         "page_title": "Knockroe",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Knockroe",
         "routes": [],
         "routes_count": 0,
@@ -115,7 +115,7 @@
       {
         "name": "Lough Gur",
         "page_title": "Lough_Gur",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Lough_Gur",
         "routes": [
           {

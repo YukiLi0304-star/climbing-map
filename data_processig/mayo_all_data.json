@@ -7,7 +7,7 @@
       {
         "name": "Achill",
         "page_title": "Achill",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Achill",
         "routes": [
           {
@@ -221,7 +221,7 @@
       {
         "name": "Achill Atlantic Drive",
         "page_title": "Achill_Atlantic_Drive",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Achill_Atlantic_Drive",
         "routes": [
           {
@@ -256,7 +256,7 @@
       {
         "name": "Achillbeg Island",
         "page_title": "Achillbeg_Island",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Achillbeg_Island",
         "routes": [
           {
@@ -280,7 +280,7 @@
       {
         "name": "Benwee Head",
         "page_title": "Benwee_Head",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Benwee_Head",
         "routes": [
           {
@@ -324,7 +324,7 @@
       {
         "name": "Clare Island",
         "page_title": "Clare_Island",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Clare_Island",
         "routes": [
           {
@@ -378,7 +378,7 @@
       {
         "name": "Coum Gowlaun",
         "page_title": "Coum_Gowlaun",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Coum_Gowlaun",
         "routes": [
           {
@@ -593,7 +593,7 @@
       {
         "name": "Doo Lough",
         "page_title": "Doo_Lough",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Doo_Lough",
         "routes": [
           {
@@ -807,7 +807,7 @@
       {
         "name": "Downpatrick Head",
         "page_title": "Downpatrick_Head",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Downpatrick_Head",
         "routes": [],
         "routes_count": 0,
@@ -820,7 +820,7 @@
       {
         "name": "Glen Loss Point",
         "page_title": "Glen_Loss_Point",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Glen_Loss_Point",
         "routes": [
           {
@@ -985,7 +985,7 @@
       {
         "name": "Inishkea Island",
         "page_title": "Inishkea_Island",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Inishkea_Island",
         "routes": [
           {
@@ -1001,15 +1001,15 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 54.1139484,
-          "longitude": -10.2249109,
+          "latitude": 54.1139791,
+          "longitude": -10.2249469,
           "source": "osm_search"
         }
       },
       {
         "name": "Iorras - Ceann an Eannaigh",
         "page_title": "Iorras_-_Ceann_an_Eannaigh",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Iorras_-_Ceann_an_Eannaigh",
         "routes": [
           {
@@ -1124,7 +1124,7 @@
       {
         "name": "Iorras - Doonamo Point",
         "page_title": "Iorras_-_Doonamo_Point",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Iorras_-_Doonamo_Point",
         "routes": [
           {
@@ -1149,7 +1149,7 @@
       {
         "name": "Iorras - Gleann Lára",
         "page_title": "Iorras_-_Gleann_L%C3%A1ra",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Iorras_-_Gleann_L%C3%A1ra",
         "routes": [
           {
@@ -1224,7 +1224,7 @@
       {
         "name": "Inishturk Island",
         "page_title": "Inishturk_Island",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Inishturk_Island",
         "routes": [
           {
@@ -1298,7 +1298,7 @@
       {
         "name": "Killary Crags",
         "page_title": "Killary_Crags",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Killary_Crags",
         "routes": [
           {
@@ -1513,7 +1513,7 @@
       {
         "name": "Derreennawinshin",
         "page_title": "Derreennawinshin",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Derreennawinshin",
         "routes": [
           {
@@ -1567,7 +1567,7 @@
       {
         "name": "Mweelrea",
         "page_title": "Mweelrea",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Mweelrea",
         "routes": [
           {
@@ -1611,7 +1611,7 @@
       {
         "name": "Mweelrea/ Ben Bury Scrambles",
         "page_title": "Mweelrea/_Ben_Bury_Scrambles",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Mweelrea/_Ben_Bury_Scrambles",
         "routes": [
           {
@@ -1636,7 +1636,7 @@
       {
         "name": "Portacloy",
         "page_title": "Portacloy",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Portacloy",
         "routes": [],
         "routes_count": 0,
@@ -1649,7 +1649,7 @@
       {
         "name": "Porturlin",
         "page_title": "Porturlin",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Porturlin",
         "routes": [
           {
@@ -1673,7 +1673,7 @@
       {
         "name": "Srahnalong Valley / An Scoltach",
         "page_title": "Srahnalong_Valley_/_An_Scoltach",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Srahnalong_Valley_/_An_Scoltach",
         "routes": [
           {
@@ -1698,7 +1698,7 @@
       {
         "name": "Tangincartoor",
         "page_title": "Tangincartoor",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Tangincartoor",
         "routes": [
           {
@@ -1912,7 +1912,7 @@
       {
         "name": "Winter climbing Connemara/South Mayo group",
         "page_title": "Winter_climbing_Connemara/South_Mayo_group",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Winter_climbing_Connemara/South_Mayo_group",
         "routes": [],
         "routes_count": 0,

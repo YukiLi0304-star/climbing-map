@@ -7,7 +7,7 @@
       {
         "name": "Ailladie",
         "page_title": "Ailladie",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Ailladie",
         "routes": [
           {
@@ -61,7 +61,7 @@
       {
         "name": "Ailladie DWS Routes",
         "page_title": "Ailladie_DWS_Routes",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Ailladie_DWS_Routes",
         "routes": [],
         "routes_count": 0,
@@ -75,7 +75,7 @@
       {
         "name": "Aill na Cronain",
         "page_title": "Aill_na_Cronain",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Aill_na_Cronain",
         "routes": [
           {
@@ -110,7 +110,7 @@
       {
         "name": "Aillnagapple",
         "page_title": "Aillnagapple",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Aillnagapple",
         "routes": [
           {
@@ -145,7 +145,7 @@
       {
         "name": "Aran Islands",
         "page_title": "Aran_Islands",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Aran_Islands",
         "routes": [
           {
@@ -359,7 +359,7 @@
       {
         "name": "Ballyryan",
         "page_title": "Ballyryan",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Mountain, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Ballyryan",
         "routes": [],
         "routes_count": 0,
@@ -372,7 +372,7 @@
       {
         "name": "Ballynahown",
         "page_title": "Ballynahown",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Ballynahown",
         "routes": [],
         "routes_count": 0,
@@ -385,7 +385,7 @@
       {
         "name": "Ceann Capaill",
         "page_title": "Ceann_Capaill",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Ceann_Capaill",
         "routes": [
           {
@@ -600,7 +600,7 @@
       {
         "name": "Cliffs Of Moher",
         "page_title": "Cliffs_Of_Moher",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Cliffs_Of_Moher",
         "routes": [
           {
@@ -634,7 +634,7 @@
       {
         "name": "Croagh North/Rathborney Valley",
         "page_title": "Croagh_North/Rathborney_Valley",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Croagh_North/Rathborney_Valley",
         "routes": [
           {
@@ -739,7 +739,7 @@
       {
         "name": "Doolin",
         "page_title": "Doolin",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Doolin",
         "routes": [
           {
@@ -843,7 +843,7 @@
       {
         "name": "Eagles Rock",
         "page_title": "Eagles_Rock",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Eagles_Rock",
         "routes": [
           {
@@ -867,7 +867,7 @@
       {
         "name": "Fanore More",
         "page_title": "Fanore",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Fanore",
         "routes": [
           {
@@ -991,7 +991,7 @@
       {
         "name": "Loop Head",
         "page_title": "Loop_Head",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Loop_Head",
         "routes": [],
         "routes_count": 0,
@@ -1004,7 +1004,7 @@
       {
         "name": "Moneen",
         "page_title": "Moneen",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Moneen",
         "routes": [
           {
@@ -1048,7 +1048,7 @@
       {
         "name": "Mullach Mor",
         "page_title": "Mullach_Mor",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Mullach_Mor",
         "routes": [
           {
@@ -1072,7 +1072,7 @@
       {
         "name": "Murroughkilly",
         "page_title": "Murroughkilly",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Murroughkilly",
         "routes": [],
         "routes_count": 0,
@@ -1086,7 +1086,7 @@
       {
         "name": "Sliabh Rua",
         "page_title": "Slieve_Rua",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Slieve_Rua",
         "routes": [
           {
@@ -1170,7 +1170,7 @@
       {
         "name": "Oughtdarra",
         "page_title": "Oughtdarra",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Oughtdarra",
         "routes": [
           {
@@ -1384,7 +1384,7 @@
       {
         "name": "Scailp Na Seisri",
         "page_title": "Scailp_Na_Seisri",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Scailp_Na_Seisri",
         "routes": [
           {
@@ -1409,7 +1409,7 @@
       {
         "name": "Turloughmore",
         "page_title": "Turloughmore",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Turloughmore",
         "routes": [],
         "routes_count": 0,

@@ -12,24 +12,20 @@ type Props = {
 };
 
 const TYPE_COLORS = {
-  sea: '#4ECDC4',       
-  sport: '#FF6B6B',     
-  boulder: '#45B7D1',   
-  trad: '#96CEB4',      
-  quarry: '#FFE66D',    
-  other: '#7DA0CA'      
+  'Sea Cliff': '#6fb9f2',
+  'Quarry': '#FFE66D',
+  'Mountain': '#9fe8c6',
+  'Inland': '#9ca0e7',
 };
 
 const getPinColorByType = (site: ClimbingSite): string => {
-  const type = (site.type || site.climbing_type || '').toLowerCase();
-  
-  if (type.includes('sea cliff') || type.includes('tidal')) return TYPE_COLORS.sea;
-  if (type.includes('sport') || type.includes('bolt')) return TYPE_COLORS.sport;
-  if (type.includes('boulder')) return TYPE_COLORS.boulder;
-  if (type.includes('quarry')) return TYPE_COLORS.quarry;
-  if (type.includes('trad')) return TYPE_COLORS.trad;
-  
-  return TYPE_COLORS.other; 
+  if (site.types) {
+    if (site.types.includes('Sea Cliff')) return TYPE_COLORS['Sea Cliff'];
+    if (site.types.includes('Quarry')) return TYPE_COLORS['Quarry'];
+    if (site.types.includes('Mountain')) return TYPE_COLORS['Mountain'];
+    if (site.types.includes('Inland')) return TYPE_COLORS['Inland'];
+  }
+  return TYPE_COLORS['Inland'];
 };
 
 export const ClimbingMap: React.FC<Props> = ({
@@ -79,7 +75,7 @@ export const ClimbingMap: React.FC<Props> = ({
         showsCompass={true}
         showsScale={true} 
       >
-        {/* ✅ 添加安全判断 */}
+        
         {Array.isArray(sites) && sites.map((site, index) => {
           if (!site?.coordinates) return null;
 
@@ -93,7 +89,7 @@ export const ClimbingMap: React.FC<Props> = ({
               coordinate={site.coordinates}
               title={site.name}
               description={`${routesCount} 条攀岩线路`}
-              pinColor={isSelected ? '#FF5722' : getPinColorByType(site)}
+              pinColor={isSelected ? '#eb592c' : getPinColorByType(site)}
               onPress={() => {
                 console.log('Marker 点击:', site.name);
                 onSelectSite(site);  
@@ -142,34 +138,23 @@ export const ClimbingMap: React.FC<Props> = ({
         
         <View style={styles.legendRow}>
           <View style={styles.legendItem}>
-            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS.sea}]} />
+            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS['Sea Cliff']}]} />
             <Text style={styles.legendText}>Sea Cliff</Text>
           </View>
           <View style={styles.legendItem}>
-            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS.trad}]} />
-            <Text style={styles.legendText}>Trad</Text>
+            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS['Quarry']}]} />
+            <Text style={styles.legendText}>Quarry</Text>
           </View>
         </View>
         
         <View style={styles.legendRow}>
           <View style={styles.legendItem}>
-            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS.boulder}]} />
-            <Text style={styles.legendText}>Boulder</Text>
-          </View>
-           <View style={styles.legendItem}>
-            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS.sport}]} />
-            <Text style={styles.legendText}>Sport</Text>
-          </View>
-        </View>
-
-        <View style={styles.legendRow}>
-           <View style={styles.legendItem}>
-            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS.quarry}]} />
-            <Text style={styles.legendText}>Quarry</Text>
+            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS['Mountain']}]} />
+            <Text style={styles.legendText}>Mountain</Text>
           </View>
           <View style={styles.legendItem}>
-            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS.other}]} />
-            <Text style={styles.legendText}>Other</Text>
+            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS['Inland']}]} />
+            <Text style={styles.legendText}>Inland</Text>
           </View>
         </View>
       </View>

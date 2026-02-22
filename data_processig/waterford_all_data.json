@@ -7,7 +7,7 @@
       {
         "name": "Ardmore Head",
         "page_title": "Ardmore_Head",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Ardmore_Head",
         "routes": [],
         "routes_count": 0,
@@ -20,7 +20,7 @@
       {
         "name": "Ballinaclough",
         "page_title": "Ballinaclough",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Ballinaclough",
         "routes": [
           {
@@ -54,7 +54,7 @@
       {
         "name": "Bunmahon",
         "page_title": "Bunmahon",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Bunmahon",
         "routes": [
           {
@@ -228,7 +228,7 @@
       {
         "name": "Coumshingaun",
         "page_title": "Coumshingaun",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Coumshingaun",
         "routes": [],
         "routes_count": 0,
@@ -241,7 +241,7 @@
       {
         "name": "Crotty's",
         "page_title": "Crotty%27s_Rock",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Crotty%27s_Rock",
         "routes": [],
         "routes_count": 0,
@@ -254,7 +254,7 @@
       {
         "name": "Fauscoum",
         "page_title": "Fauscoum",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Fauscoum",
         "routes": [
           {
@@ -308,7 +308,7 @@
       {
         "name": "Foill An Priosun",
         "page_title": "Foill_An_Priosun",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Foill_An_Priosun",
         "routes": [
           {
@@ -523,7 +523,7 @@
       {
         "name": "Helvick Head",
         "page_title": "Helvick_Head",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Helvick_Head",
         "routes": [
           {
@@ -547,7 +547,7 @@
       {
         "name": "Mahon Valley",
         "page_title": "Mahon_Valley",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Mahon_Valley",
         "routes": [
           {
@@ -753,15 +753,15 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 52.2306551,
-          "longitude": -7.5503834,
+          "latitude": 52.234084,
+          "longitude": -7.5527891,
           "source": "osm_search"
         }
       },
       {
         "name": "Coum Tay",
         "page_title": "Coum_Tay",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Coum_Tay",
         "routes": [
           {
@@ -896,7 +896,7 @@
       {
         "name": "Nire Valley",
         "page_title": "Nire_Valley",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Nire_Valley",
         "routes": [],
         "routes_count": 0,

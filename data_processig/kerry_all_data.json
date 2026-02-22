@@ -7,7 +7,7 @@
       {
         "name": "Ceann Bhaile Dháith / Ballydavid Head",
         "page_title": "Ceann_Bhaile_Dh%C3%A1ith_/_Ballydavid_Head",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Ceann_Bhaile_Dh%C3%A1ith_/_Ballydavid_Head",
         "routes": [],
         "routes_count": 0,
@@ -21,7 +21,7 @@
       {
         "name": "Brandon East Buttress",
         "page_title": "Brandon_East_Buttress",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Mountain, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Brandon_East_Buttress",
         "routes": [
           {
@@ -76,7 +76,7 @@
       {
         "name": "An Charraig Ard",
         "page_title": "An_Charraig_Ard",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=An_Charraig_Ard",
         "routes": [
           {
@@ -160,7 +160,7 @@
       {
         "name": "Com an Lochaigh",
         "page_title": "Com_an_Lochaigh",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Inland, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Com_an_Lochaigh",
         "routes": [
           {
@@ -285,7 +285,7 @@
       {
         "name": "An Dún Mór / Dunmore Head",
         "page_title": "An_D%C3%BAn_M%C3%B3r_/_Dunmore_Head",
-        "climbing_type": "Sea Cliff",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=An_D%C3%BAn_M%C3%B3r_/_Dunmore_Head",
         "routes": [
           {
@@ -419,7 +419,7 @@
       {
         "name": "Dún Séanna / Dunshean Head",
         "page_title": "D%C3%BAn_S%C3%A9anna_/_Dunshean_Head",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Inland, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=D%C3%BAn_S%C3%A9anna_/_Dunshean_Head",
         "routes": [
           {
@@ -474,7 +474,7 @@
       {
         "name": "Glanteenassig forest",
         "page_title": "Glanteenassig_forest",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Glanteenassig_forest",
         "routes": [
           {
@@ -528,7 +528,7 @@
       {
         "name": "An Blascaod Mór / Great Blasket Island",
         "page_title": "An_Blascaod_M%C3%B3r_/_Great_Blasket_Island",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=An_Blascaod_M%C3%B3r_/_Great_Blasket_Island",
         "routes": [
           {
@@ -743,7 +743,7 @@
       {
         "name": "An Sás / Sauce Creek",
         "page_title": "An_S%C3%A1s_/_Sauce_Creek",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=An_S%C3%A1s_/_Sauce_Creek",
         "routes": [],
         "routes_count": 0,
@@ -757,7 +757,7 @@
       {
         "name": "Ceann Sibéal",
         "page_title": "Ceann_Sib%C3%A9al",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Ceann_Sib%C3%A9al",
         "routes": [
           {
@@ -811,7 +811,7 @@
       {
         "name": "Binn Diarmada",
         "page_title": "Binn_Diarmada",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Binn_Diarmada",
         "routes": [
           {
@@ -835,7 +835,7 @@
       {
         "name": "Ballyheigue",
         "page_title": "Ballyheigue",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Ballyheigue",
         "routes": [
           {
@@ -879,20 +879,20 @@
       {
         "name": "Black Valley",
         "page_title": "Black_Valley",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Black_Valley",
         "routes": [],
         "routes_count": 0,
         "coordinates": {
-          "latitude": 51.9058439,
-          "longitude": -9.7407094,
+          "latitude": 51.9058484,
+          "longitude": -9.7407045,
           "source": "osm_search"
         }
       },
       {
         "name": "Coomachuillin",
         "page_title": "Coomachuillin",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Coomachuillin",
         "routes": [],
         "routes_count": 0,
@@ -906,7 +906,7 @@
       {
         "name": "Cuas Croom",
         "page_title": "Cuas_Croom",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Cuas_Croom",
         "routes": [
           {
@@ -981,7 +981,7 @@
       {
         "name": "Gap Of Dunloe",
         "page_title": "Gap_Of_Dunloe",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Gap_Of_Dunloe",
         "routes": [
           {
@@ -1195,7 +1195,7 @@
       {
         "name": "Glanearagh south",
         "page_title": "Glanearagh_south",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Glanearagh_south",
         "routes": [
           {
@@ -1340,7 +1340,7 @@
       {
         "name": "Illaunnaweelaun",
         "page_title": "Illaunnaweelaun",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Illaunnaweelaun",
         "routes": [
           {
@@ -1384,7 +1384,7 @@
       {
         "name": "Kerry Head",
         "page_title": "Kerry_Head",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Kerry_Head",
         "routes": [
           {
@@ -1468,7 +1468,7 @@
       {
         "name": "Lamb's Head",
         "page_title": "Lamb%27s_Head",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Lamb%27s_Head",
         "routes": [
           {
@@ -1552,7 +1552,7 @@
       {
         "name": "Loo Bridge",
         "page_title": "Loo_Bridge",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Loo_Bridge",
         "routes": [],
         "routes_count": 0,
@@ -1565,7 +1565,7 @@
       {
         "name": "Lough Coumeenoughter",
         "page_title": "Lough_Coumeenoughter",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Lough_Coumeenoughter",
         "routes": [],
         "routes_count": 0,
@@ -1578,7 +1578,7 @@
       {
         "name": "Maghancoosaun",
         "page_title": "Maghancoosaun",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Inland, Boulder",
         "url": "http://wiki.climbing.ie/index.php?title=Maghancoosaun",
         "routes": [],
         "routes_count": 0,
@@ -1591,7 +1591,7 @@
       {
         "name": "Winter Climbing around Carrauntoohil",
         "page_title": "Winter_Climbing_around_Carrauntoohil",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Winter_Climbing_around_Carrauntoohil",
         "routes": [],
         "routes_count": 0,

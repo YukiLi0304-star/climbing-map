@@ -7,7 +7,7 @@
       {
         "name": "Ballygalley Head",
         "page_title": "Ballygalley_Head",
-        "climbing_type": "Quarry",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Ballygalley_Head",
         "routes": [
           {
@@ -221,7 +221,7 @@
       {
         "name": "Fairhead",
         "page_title": "Fairhead",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Fairhead",
         "routes": [
           {
@@ -435,7 +435,7 @@
       {
         "name": "Garron Point",
         "page_title": "Garron_Point",
-        "climbing_type": "Bouldering",
+        "climbing_type": "Sea Cliff, Sport",
         "url": "http://wiki.climbing.ie/index.php?title=Garron_Point",
         "routes": [
           {
@@ -559,7 +559,7 @@
       {
         "name": "Winter Climbing Glenariff",
         "page_title": "Winter_Climbing_Glenariff",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Sea Cliff, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=Winter_Climbing_Glenariff",
         "routes": [
           {
@@ -594,7 +594,7 @@
       {
         "name": "Músaem Uladh",
         "page_title": "M%C3%BAsaem_Uladh",
-        "climbing_type": "Trad Climbing",
+        "climbing_type": "Inland, Trad",
         "url": "http://wiki.climbing.ie/index.php?title=M%C3%BAsaem_Uladh",
         "routes": [
           {
