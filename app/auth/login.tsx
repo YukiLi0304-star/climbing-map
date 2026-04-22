@@ -1,4 +1,7 @@
+import AuroraBackdrop from '@/components/AuroraBackdrop';
+import { ui } from '@/constants/ui';
 import { useAuth } from '@/context/AuthContext';
+import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import {
@@ -6,11 +9,11 @@ import {
   Alert,
   KeyboardAvoidingView,
   Platform,
+  Pressable,
   StyleSheet,
   Text,
   TextInput,
-  TouchableOpacity,
-  View
+  View,
 } from 'react-native';
 
 export default function LoginScreen() {
@@ -18,15 +21,12 @@ export default function LoginScreen() {
   const [password, setPassword] = useState('password123');
   const [isSignUp, setIsSignUp] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  
+
   const router = useRouter();
   const { user, signIn, signUp } = useAuth();
 
-  
   useEffect(() => {
     if (user) {
-      console.log('User is logged in, redirecting to home...');
-      
       router.replace('/(tabs)');
     }
   }, [user, router]);
@@ -38,36 +38,14 @@ export default function LoginScreen() {
     }
 
     setIsLoading(true);
-    
     try {
       if (isSignUp) {
         await signUp(email, password);
-        Alert.alert('Success', 'Account created successfully!');
       } else {
         await signIn(email, password);
-        
       }
-    } catch (error: any) {
-      let message = 'Authentication failed';
-      
-      
-      if (error.code === 'auth/invalid-email') {
-        message = 'Invalid email address';
-      } else if (error.code === 'auth/user-not-found') {
-        message = 'No account found with this email';
-      } else if (error.code === 'auth/wrong-password') {
-        message = 'Incorrect password';
-      } else if (error.code === 'auth/email-already-in-use') {
-        message = 'Email already registered';
-      } else if (error.code === 'auth/weak-password') {
-        message = 'Password must be at least 6 characters';
-      } else if (error.code === 'auth/network-request-failed') {
-        message = 'Network error. Please check your connection';
-      } else {
-        message = error.message || 'Authentication failed';
-      }
-      
-      Alert.alert('Error', message);
+    } catch {
+      Alert.alert('Error', 'Authentication failed');
     } finally {
       setIsLoading(false);
     }
@@ -79,75 +57,89 @@ export default function LoginScreen() {
   };
 
   return (
-    <KeyboardAvoidingView 
+    <KeyboardAvoidingView
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     >
-      <View style={styles.content}>
-        <Text style={styles.title}>Climbing Map</Text>
+      <AuroraBackdrop />
+      <View style={styles.hero}>
+        <Text style={styles.eyebrow}>Irish Climbing Guide</Text>
+        <Text style={styles.title}>IClimbing</Text>
         <Text style={styles.subtitle}>
-          {isSignUp ? 'Create your account' : 'Sign in to continue'}
+          A quieter, cleaner way to explore routes, save favorites, and track your days on rock.
         </Text>
+      </View>
 
-        <View style={styles.form}>
+      <View style={styles.card}>
+        <View style={styles.segment}>
+          <Pressable
+            style={[styles.segmentButton, !isSignUp && styles.segmentButtonActive]}
+            onPress={() => setIsSignUp(false)}
+            disabled={isLoading}
+          >
+            <Text style={[styles.segmentLabel, !isSignUp && styles.segmentLabelActive]}>Sign in</Text>
+          </Pressable>
+          <Pressable
+            style={[styles.segmentButton, isSignUp && styles.segmentButtonActive]}
+            onPress={() => setIsSignUp(true)}
+            disabled={isLoading}
+          >
+            <Text style={[styles.segmentLabel, isSignUp && styles.segmentLabelActive]}>Create account</Text>
+          </Pressable>
+        </View>
+
+        <View style={styles.formGroup}>
+          <Text style={styles.label}>Email</Text>
           <TextInput
             style={styles.input}
-            placeholder="Email address"
+            placeholder="name@example.com"
+            placeholderTextColor={ui.colors.textSoft}
             value={email}
             onChangeText={setEmail}
             autoCapitalize="none"
             keyboardType="email-address"
             editable={!isLoading}
           />
-          
+        </View>
+
+        <View style={styles.formGroup}>
+          <Text style={styles.label}>Password</Text>
           <TextInput
             style={styles.input}
-            placeholder="Password"
+            placeholder="Enter your password"
+            placeholderTextColor={ui.colors.textSoft}
             value={password}
             onChangeText={setPassword}
             secureTextEntry
             editable={!isLoading}
           />
-
-          <TouchableOpacity 
-            style={[styles.button, isLoading && styles.buttonDisabled]}
-            onPress={handleAuth}
-            disabled={isLoading}
-          >
-            {isLoading ? (
-              <ActivityIndicator color="white" />
-            ) : (
-              <Text style={styles.buttonText}>
-                {isSignUp ? 'Create Account' : 'Sign In'}
-              </Text>
-            )}
-          </TouchableOpacity>
-
-          <TouchableOpacity 
-            style={styles.switchButton}
-            onPress={() => setIsSignUp(!isSignUp)}
-            disabled={isLoading}
-          >
-            <Text style={styles.switchText}>
-              {isSignUp 
-                ? 'Already have an account? Sign In' 
-                : 'Need an account? Sign Up'}
-            </Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity 
-            style={styles.testButton}
-            onPress={fillTestCredentials}
-            disabled={isLoading}
-          >
-            <Text style={styles.testText}>Fill test credentials</Text>
-          </TouchableOpacity>
         </View>
 
-        {/* 调试信息 */}
-        <View style={styles.debugBox}>
-          <Text style={styles.debugText}>
-            Current auth status: {user ? `Logged in as ${user.email}` : 'Not logged in'}
+        <Pressable
+          style={[styles.primaryButton, isLoading && styles.primaryButtonDisabled]}
+          onPress={handleAuth}
+          disabled={isLoading}
+        >
+          {isLoading ? (
+            <ActivityIndicator color={ui.colors.white} />
+          ) : (
+            <>
+              <Text style={styles.primaryButtonText}>
+                {isSignUp ? 'Create account' : 'Continue'}
+              </Text>
+              <Ionicons name="arrow-forward" size={18} color={ui.colors.white} />
+            </>
+          )}
+        </Pressable>
+
+        <Pressable style={styles.secondaryButton} onPress={fillTestCredentials} disabled={isLoading}>
+          <Text style={styles.secondaryButtonText}>Use test credentials</Text>
+        </Pressable>
+
+        <View style={styles.statusCard}>
+          <Text style={styles.statusLabel}>Current status</Text>
+          <Text style={styles.statusText}>
+            {user ? `Signed in as ${user.email}` : 'Not signed in'}
           </Text>
         </View>
       </View>
@@ -158,92 +150,139 @@ export default function LoginScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f8f9fa',
+    backgroundColor: ui.colors.background,
+    paddingHorizontal: 22,
+    paddingTop: 72,
+    paddingBottom: 28,
   },
-  content: {
-    flex: 1,
-    justifyContent: 'center',
-    padding: 24,
+  hero: {
+    marginBottom: 28,
+    paddingHorizontal: 4,
+  },
+  eyebrow: {
+    fontSize: 11,
+    letterSpacing: 1.5,
+    textTransform: 'uppercase',
+    color: ui.colors.textSoft,
+    marginBottom: 10,
   },
   title: {
-    fontSize: 36,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    color: '#1a1a1a',
-    marginBottom: 8,
+    fontSize: 44,
+    fontWeight: '800',
+    color: ui.colors.text,
+    letterSpacing: -1.5,
   },
   subtitle: {
+    marginTop: 12,
     fontSize: 16,
-    textAlign: 'center',
-    color: '#666',
-    marginBottom: 40,
+    lineHeight: 24,
+    color: ui.colors.textMuted,
+    maxWidth: 340,
   },
-  form: {
-    backgroundColor: 'white',
-    borderRadius: 16,
-    padding: 24,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 8,
-    elevation: 3,
+  card: {
+    backgroundColor: ui.colors.surfaceGlassStrong,
+    borderRadius: 28,
+    padding: 20,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.36)',
+    ...ui.shadows.card,
+  },
+  segment: {
+    flexDirection: 'row',
+    backgroundColor: 'rgba(104, 64, 178, 0.14)',
+    borderRadius: ui.radii.pill,
+    padding: 4,
+    marginBottom: 20,
+  },
+  segmentButton: {
+    flex: 1,
+    borderRadius: ui.radii.pill,
+    paddingVertical: 12,
+    alignItems: 'center',
+  },
+  segmentButtonActive: {
+    backgroundColor: 'rgba(255,255,255,0.92)',
+    ...ui.shadows.soft,
+  },
+  segmentLabel: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: ui.colors.textSoft,
+  },
+  segmentLabelActive: {
+    color: ui.colors.text,
+  },
+  formGroup: {
+    marginBottom: 14,
+  },
+  label: {
+    fontSize: 12,
+    fontWeight: '700',
+    color: ui.colors.textSoft,
+    letterSpacing: 0.8,
+    textTransform: 'uppercase',
+    marginBottom: 8,
   },
   input: {
     borderWidth: 1,
-    borderColor: '#e0e0e0',
-    borderRadius: 10,
-    padding: 16,
-    fontSize: 16,
-    marginBottom: 16,
-    backgroundColor: '#fafafa',
+    borderColor: 'rgba(188, 163, 255, 0.46)',
+    borderRadius: 18,
+    paddingHorizontal: 16,
+    paddingVertical: 15,
+    fontSize: 15,
+    color: ui.colors.text,
+    backgroundColor: 'rgba(255,255,255,0.74)',
   },
-  button: {
-    backgroundColor: '#007AFF',
-    borderRadius: 10,
-    padding: 18,
-    alignItems: 'center',
+  primaryButton: {
     marginTop: 8,
-  },
-  buttonDisabled: {
-    backgroundColor: '#cccccc',
-  },
-  buttonText: {
-    color: 'white',
-    fontSize: 18,
-    fontWeight: '600',
-  },
-  switchButton: {
-    marginTop: 20,
-    padding: 12,
+    backgroundColor: ui.colors.accentStrong,
+    borderRadius: 18,
+    paddingVertical: 16,
+    paddingHorizontal: 18,
+    flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
   },
-  switchText: {
-    color: '#007AFF',
-    fontSize: 16,
-    fontWeight: '500',
+  primaryButtonDisabled: {
+    opacity: 0.7,
   },
-  testButton: {
-    marginTop: 16,
-    padding: 12,
+  primaryButtonText: {
+    color: ui.colors.white,
+    fontSize: 15,
+    fontWeight: '700',
+  },
+  secondaryButton: {
+    marginTop: 12,
+    borderRadius: 18,
+    borderWidth: 1,
+    borderColor: 'rgba(188, 163, 255, 0.46)',
+    paddingVertical: 15,
     alignItems: 'center',
-    backgroundColor: '#f0f0f0',
-    borderRadius: 8,
+    backgroundColor: 'rgba(255,255,255,0.4)',
   },
-  testText: {
-    color: '#666',
+  secondaryButtonText: {
+    color: ui.colors.accentStrong,
     fontSize: 14,
-    fontStyle: 'italic',
+    fontWeight: '700',
   },
-  debugBox: {
-    marginTop: 20,
-    padding: 12,
-    backgroundColor: '#f0f0f0',
-    borderRadius: 8,
-    alignItems: 'center',
+  statusCard: {
+    marginTop: 18,
+    padding: 14,
+    borderRadius: 18,
+    backgroundColor: 'rgba(109, 57, 219, 0.08)',
+    borderWidth: 1,
+    borderColor: 'rgba(188, 163, 255, 0.4)',
   },
-  debugText: {
-    color: '#666',
-    fontSize: 12,
-    fontFamily: 'monospace',
+  statusLabel: {
+    fontSize: 11,
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    color: ui.colors.textSoft,
+    marginBottom: 4,
+  },
+  statusText: {
+    fontSize: 13,
+    color: ui.colors.textMuted,
   },
 });

@@ -1,69 +1,87 @@
-import { useRouter } from 'expo-router';
 import React, { useMemo, useState } from 'react';
 import {
   ActivityIndicator,
+  Pressable,
   StatusBar,
   StyleSheet,
   Text,
   View,
 } from 'react-native';
 import type { Region } from 'react-native-maps';
+
+import AuroraBackdrop from '../../components/AuroraBackdrop';
 import { ClimbingMap } from '../../components/ClimbingMap';
 import { SearchPanel } from '../../components/SearchPanel';
+import { ui } from '../../constants/ui';
 import {
   ClimbingSite,
   useClimbingSites,
 } from '../../hooks/use-climbing-sites';
 
-export default function HomeScreen() {
-  const router = useRouter();
+const IRELAND_REGION: Region = {
+  latitude: 53.1424,
+  longitude: -7.6921,
+  latitudeDelta: 4,
+  longitudeDelta: 4,
+};
 
-  const { allSites, loading, countyOptions, difficultyOptions } =
+const ALL_COUNTIES = 'All Counties';
+
+export default function HomeScreen() {
+  const { allSites, loading, countyOptions, difficultyOptions, hasUpdate, syncing, syncData } =
     useClimbingSites();
 
   const typeOptions = ['Sea Cliff', 'Quarry', 'Mountain', 'Inland', 'Trad', 'Sport', 'Boulder'];
+  const hotspotOptions = useMemo(() => {
+    const hotspots = new Set<string>();
+    allSites.forEach((site) => {
+      if (site.cluster_name && site.cluster_name !== 'Isolated') {
+        hotspots.add(site.cluster_name);
+      }
+    });
+    return Array.from(hotspots).sort();
+  }, [allSites]);
+
   const [searchText, setSearchText] = useState('');
-  const [selectedCounty, setSelectedCounty] = useState<string>('全部');
+  const [selectedCounty, setSelectedCounty] = useState<string>(ALL_COUNTIES);
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
   const [selectedDifficulty, setSelectedDifficulty] = useState<string | null>(null);
-  
-
   const [selectedSite, setSelectedSite] = useState<ClimbingSite | null>(null);
-  
-
   const [showCountyDropdown, setShowCountyDropdown] = useState(false);
   const [showTypeDropdown, setShowTypeDropdown] = useState(false);
   const [showDifficultyDropdown, setShowDifficultyDropdown] = useState(false);
-  
-
-  const [focusRegion, setFocusRegion] = useState<Region | null>({
-    latitude: 53.1424,
-    longitude: -7.6921,
-    latitudeDelta: 4,
-    longitudeDelta: 4,
-  });
-
+  const [selectedHotspot, setSelectedHotspot] = useState('all');
+  const [showHotspotDropdown, setShowHotspotDropdown] = useState(false);
+  const [showHotspotColors, setShowHotspotColors] = useState(false);
+  const [focusRegion, setFocusRegion] = useState<Region | null>(IRELAND_REGION);
 
   const filteredSites = useMemo(() => {
     const q = searchText.trim().toLowerCase();
 
     return allSites.filter((site) => {
-      
-      if (selectedCounty !== '全部' && site.countyName !== selectedCounty) {
+      const routeCount = site.routes_count ?? site.routes?.length ?? 0;
+      if (routeCount === 0) {
         return false;
       }
-      
+
+      if (site.coordinates) {
+        const { latitude, longitude } = site.coordinates;
+        if (latitude < 51.4 || latitude > 55.4 || longitude < -10.5 || longitude > -5.5) {
+          return false;
+        }
+      }
+
+      if (selectedCounty !== ALL_COUNTIES && site.countyName !== selectedCounty) {
+        return false;
+      }
+
       if (selectedTypes.length > 0) {
-        console.log('检查站点:', site.name);
-        console.log('  站点类型:', site.types);
-        console.log('  需要包含:', selectedTypes);
-        const hasAllTypes = selectedTypes.every(type => 
-          site.types && site.types.includes(type)
+        const hasAllTypes = selectedTypes.every(
+          (type) => site.types && site.types.includes(type)
         );
         if (!hasAllTypes) return false;
       }
 
-      
       if (selectedDifficulty) {
         const hasRouteWithDifficulty = (site.routes || []).some(
           (route) => route.difficulty === selectedDifficulty
@@ -73,13 +91,17 @@ export default function HomeScreen() {
         }
       }
 
-      
+      if (selectedHotspot !== 'all') {
+        const hotspotName = site.cluster_name;
+        if (!hotspotName || hotspotName !== selectedHotspot) return false;
+      }
+
       if (q) {
         const inCounty = (site.countyName || '').toLowerCase().includes(q);
         const inName = site.name.toLowerCase().includes(q);
         const inCluster = (site.cluster_label || '').toLowerCase().includes(q);
-        const inRoutes = (site.routes || []).some((r) =>
-          r.name.toLowerCase().includes(q)
+        const inRoutes = (site.routes || []).some((route) =>
+          route.name.toLowerCase().includes(q)
         );
 
         if (!inCounty && !inName && !inCluster && !inRoutes) {
@@ -89,12 +111,11 @@ export default function HomeScreen() {
 
       return true;
     });
-  }, [allSites, searchText, selectedCounty, selectedTypes, selectedDifficulty]);
+  }, [allSites, searchText, selectedCounty, selectedTypes, selectedDifficulty, selectedHotspot]);
 
-  
   const suggestedSites = useMemo(() => {
     const q = searchText.trim().toLowerCase();
-    if (!q || q.length < 1) return [];
+    if (!q) return [];
 
     const result: ClimbingSite[] = [];
     for (const site of allSites) {
@@ -106,17 +127,14 @@ export default function HomeScreen() {
       if (nameMatch || countyMatch) {
         result.push(site);
       }
+
       if (result.length >= 5) break;
     }
     return result;
   }, [searchText, allSites]);
 
-  
   const computeRegionForSites = (sites: ClimbingSite[]): Region | null => {
-    const coords = sites
-      .filter((s) => s.coordinates)
-      .map((s) => s.coordinates!);
-
+    const coords = sites.filter((site) => site.coordinates).map((site) => site.coordinates!);
     if (!coords.length) return null;
 
     let minLat = coords[0].latitude;
@@ -124,41 +142,30 @@ export default function HomeScreen() {
     let minLng = coords[0].longitude;
     let maxLng = coords[0].longitude;
 
-    coords.forEach((c) => {
-      minLat = Math.min(minLat, c.latitude);
-      maxLat = Math.max(maxLat, c.latitude);
-      minLng = Math.min(minLng, c.longitude);
-      maxLng = Math.max(maxLng, c.longitude);
+    coords.forEach((coord) => {
+      minLat = Math.min(minLat, coord.latitude);
+      maxLat = Math.max(maxLat, coord.latitude);
+      minLng = Math.min(minLng, coord.longitude);
+      maxLng = Math.max(maxLng, coord.longitude);
     });
 
-    const centerLat = (minLat + maxLat) / 2;
-    const centerLng = (minLng + maxLng) / 2;
-    const spanLat = maxLat - minLat;
-    const spanLng = maxLng - minLng;
-
-    const latitudeDelta = Math.max(spanLat * 1.4, 0.2);
-    const longitudeDelta = Math.max(spanLng * 1.4, 0.2);
-
     return {
-      latitude: centerLat,
-      longitude: centerLng,
-      latitudeDelta,
-      longitudeDelta,
+      latitude: (minLat + maxLat) / 2,
+      longitude: (minLng + maxLng) / 2,
+      latitudeDelta: Math.max((maxLat - minLat) * 1.4, 0.2),
+      longitudeDelta: Math.max((maxLng - minLng) * 1.4, 0.2),
     };
   };
 
-  
   const closeAllDropdowns = () => {
     setShowCountyDropdown(false);
     setShowTypeDropdown(false);
     setShowDifficultyDropdown(false);
+    setShowHotspotDropdown(false);
   };
 
-  
   const focusOnSite = (site: ClimbingSite) => {
     setSelectedSite(site);
-    
-  
     closeAllDropdowns();
 
     if (site.coordinates) {
@@ -170,150 +177,159 @@ export default function HomeScreen() {
       });
     }
 
-    
     setSearchText('');
   };
 
-  
   const handleSelectCounty = (county: string) => {
-    console.log('选择了郡:', county);
-    
     setSelectedCounty(county);
     setShowCountyDropdown(false);
 
-    if (county === '全部') {
-      setFocusRegion({
-        latitude: 53.1424,
-        longitude: -7.6921,
-        latitudeDelta: 4,
-        longitudeDelta: 4,
-      });
+    if (county === ALL_COUNTIES) {
+      setFocusRegion(IRELAND_REGION);
       return;
     }
 
-    const sitesInCounty = allSites.filter(s => {
-      if (!s.coordinates || !s.countyName) return false;
-      return s.countyName === county;
+    const sitesInCounty = allSites.filter((site) => {
+      if (!site.coordinates || !site.countyName) return false;
+      return site.countyName === county;
     });
 
-    if (sitesInCounty.length > 0) {
-      const region = computeRegionForSites(sitesInCounty);
-      if (region) {
-        setFocusRegion(region);
-      }
+    const region = computeRegionForSites(sitesInCounty);
+    if (region) {
+      setFocusRegion(region);
     }
   };
 
-  
   const handleSelectType = (type: string) => {
     if (type === 'clear') {
       setSelectedTypes([]);
       setShowTypeDropdown(false);
-    } else {
-      if (selectedTypes.includes(type)) {
-        setSelectedTypes(selectedTypes.filter(t => t !== type));
-      } else {
-        setSelectedTypes([...selectedTypes, type]);
-      }
-      
+      return;
     }
+
+    setSelectedTypes((current) =>
+      current.includes(type) ? current.filter((item) => item !== type) : [...current, type]
+    );
   };
 
-  
   const handleSelectDifficulty = (difficulty: string | null) => {
     setSelectedDifficulty(difficulty);
     setShowDifficultyDropdown(false);
   };
 
-  
   const toggleCountyDropdown = () => {
-    setShowCountyDropdown(!showCountyDropdown);
+    setShowCountyDropdown((current) => !current);
     setShowTypeDropdown(false);
     setShowDifficultyDropdown(false);
+    setShowHotspotDropdown(false);
   };
 
-  
   const toggleTypeDropdown = () => {
-    setShowTypeDropdown(!showTypeDropdown);
+    setShowTypeDropdown((current) => !current);
     setShowCountyDropdown(false);
+    setShowDifficultyDropdown(false);
+    setShowHotspotDropdown(false);
+  };
+
+  const toggleDifficultyDropdown = () => {
+    setShowDifficultyDropdown((current) => !current);
+    setShowCountyDropdown(false);
+    setShowTypeDropdown(false);
+    setShowHotspotDropdown(false);
+  };
+
+  const toggleHotspotDropdown = () => {
+    setShowHotspotDropdown((current) => !current);
+    setShowCountyDropdown(false);
+    setShowTypeDropdown(false);
     setShowDifficultyDropdown(false);
   };
 
-  
-  const toggleDifficultyDropdown = () => {
-    setShowDifficultyDropdown(!showDifficultyDropdown);
-    setShowCountyDropdown(false);
-    setShowTypeDropdown(false);
+  const handleSelectHotspot = (hotspot: string) => {
+    setSelectedHotspot(hotspot);
+    setShowHotspotColors(hotspot !== 'all');
+    setShowHotspotDropdown(false);
+
+    if (hotspot === 'all') {
+      setFocusRegion(IRELAND_REGION);
+      return;
+    }
+
+    const hotspotSites = allSites.filter((site) => site.cluster_name === hotspot);
+    const region = computeRegionForSites(hotspotSites);
+    if (region) {
+      setFocusRegion(region);
+    }
+  };
+
+  const handleSync = async () => {
+    await syncData();
   };
 
   if (loading) {
     return (
       <View style={styles.loadingContainer}>
-        <ActivityIndicator size="large" color="#007AFF" />
-        <Text style={styles.loadingText}>Loading climbing point data...</Text>
+        <ActivityIndicator size="large" color={ui.colors.accent} />
+        <Text style={styles.loadingEyebrow}>Preparing map data</Text>
+        <Text style={styles.loadingText}>Loading climbing sites across Ireland.</Text>
       </View>
     );
   }
 
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="dark-content" backgroundColor="#fff" />
-      
-      {/* 地图 - 全屏 */}
+      <StatusBar barStyle="dark-content" backgroundColor={ui.colors.surface} />
+      <AuroraBackdrop compact />
+
       <View style={styles.mapContainer}>
         <ClimbingMap
+          key={selectedHotspot}
           sites={filteredSites}
           selectedSite={selectedSite}
           onSelectSite={focusOnSite}
           focusRegion={focusRegion}
+          showHotspotColors={showHotspotColors}
         />
       </View>
 
-      {/* 搜索面板 - 浮动在顶部 */}
-      <View 
+      <View
         style={styles.searchPanelWrapper}
         onStartShouldSetResponder={() => true}
         onResponderTerminationRequest={() => false}
       >
         <SearchPanel
-          
           searchText={searchText}
           onChangeSearchText={setSearchText}
-          
-          
           selectedCounty={selectedCounty}
           onSelectCounty={handleSelectCounty}
           countyOptions={countyOptions}
           showCountyDropdown={showCountyDropdown}
           onToggleCountyDropdown={toggleCountyDropdown}
-          
-          
           selectedTypes={selectedTypes}
           onSelectType={handleSelectType}
           typeOptions={typeOptions}
           showTypeDropdown={showTypeDropdown}
           onToggleTypeDropdown={toggleTypeDropdown}
-          
-          
           selectedDifficulty={selectedDifficulty}
           onSelectDifficulty={handleSelectDifficulty}
           difficultyOptions={difficultyOptions}
           showDifficultyDropdown={showDifficultyDropdown}
           onToggleDifficultyDropdown={toggleDifficultyDropdown}
-          
-          
+          selectedHotspot={selectedHotspot}
+          onSelectHotspot={handleSelectHotspot}
+          hotspotOptions={hotspotOptions}
+          showHotspotDropdown={showHotspotDropdown}
+          onToggleHotspotDropdown={toggleHotspotDropdown}
           suggestedSites={suggestedSites}
           onSelectSite={focusOnSite}
         />
       </View>
 
-      {/* 底部信息条 */}
-      <View style={styles.infoBar}>
-        <Text style={styles.infoText}>
-          Currently showing {filteredSites.length} climbing points (A total of{' '}
-          {allSites.length})
-        </Text>
-      </View>
+      <Pressable onPress={handleSync} style={styles.syncButton} disabled={syncing}>
+        <Text style={styles.syncEyebrow}>Data</Text>
+        <Text style={styles.syncButtonText}>{syncing ? 'Syncing...' : 'Sync updates'}</Text>
+        {hasUpdate ? <View style={styles.redDot} /> : null}
+      </Pressable>
     </View>
   );
 }
@@ -321,18 +337,27 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: ui.colors.background,
   },
   loadingContainer: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f5f5f5',
+    backgroundColor: ui.colors.background,
+    paddingHorizontal: 32,
+  },
+  loadingEyebrow: {
+    marginTop: 16,
+    fontSize: 11,
+    letterSpacing: 1.2,
+    textTransform: 'uppercase',
+    color: ui.colors.textSoft,
   },
   loadingText: {
-    marginTop: 12,
-    fontSize: 16,
-    color: '#666',
+    marginTop: 8,
+    fontSize: 15,
+    color: ui.colors.textMuted,
+    textAlign: 'center',
   },
   mapContainer: {
     flex: 1,
@@ -346,18 +371,39 @@ const styles = StyleSheet.create({
     zIndex: 10,
     backgroundColor: 'transparent',
   },
-  infoBar: {
+  syncButton: {
     position: 'absolute',
-    bottom: 0,
-    left: 0,
-    right: 0,
-    paddingHorizontal: 12,
-    paddingVertical: 8,
-    backgroundColor: 'rgba(0,0,0,0.6)',
+    bottom: 28,
+    left: 16,
+    paddingHorizontal: 18,
+    paddingVertical: 12,
+    borderRadius: ui.radii.lg,
+    backgroundColor: 'rgba(64, 33, 118, 0.88)',
+    borderWidth: 1,
+    borderColor: 'rgba(208, 184, 255, 0.45)',
+    zIndex: 20,
+    minWidth: 132,
+    ...ui.shadows.glow,
   },
-  infoText: {
-    color: '#fff',
-    fontSize: 12,
-    textAlign: 'center',
+  syncEyebrow: {
+    fontSize: 10,
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    color: '#d8c4ff',
+    marginBottom: 2,
+  },
+  syncButtonText: {
+    color: ui.colors.white,
+    fontSize: 14,
+    fontWeight: '700',
+  },
+  redDot: {
+    position: 'absolute',
+    top: 10,
+    right: 10,
+    width: 10,
+    height: 10,
+    borderRadius: 5,
+    backgroundColor: '#ff83b1',
   },
 });

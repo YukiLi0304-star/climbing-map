@@ -1,3 +1,4 @@
+import { ui } from '@/constants/ui';
 import { ClimbingLog, useClimbingLog } from '@/hooks/use-climbing-log';
 import { Ionicons } from '@expo/vector-icons';
 import { useIsFocused } from '@react-navigation/native';
@@ -15,52 +16,56 @@ import {
 
 const getStyleColor = (style: string) => {
   switch (style) {
-    case 'Onsight': return '#4CAF50';
-    case 'Redpoint': return '#2196F3';
-    case 'Flash': return '#FF9800';
-    case 'Attempt': return '#F44336';
-    default: return '#757575';
+    case 'Onsight':
+      return '#5f7c64';
+    case 'Redpoint':
+      return '#62758d';
+    case 'Flash':
+      return '#b48c50';
+    case 'Attempt':
+      return '#a36058';
+    default:
+      return '#7a7065';
   }
 };
 
 const getStyleIcon = (style: string) => {
   switch (style) {
-    case 'Onsight': return 'flash';
-    case 'Redpoint': return 'repeat';
-    case 'Flash': return 'eye';
-    case 'Attempt': return 'close-circle';
-    default: return 'help-circle';
+    case 'Onsight':
+      return 'flash';
+    case 'Redpoint':
+      return 'repeat';
+    case 'Flash':
+      return 'eye';
+    case 'Attempt':
+      return 'close-circle';
+    default:
+      return 'help-circle';
   }
 };
 
 export default function ClimbingLogList() {
   const router = useRouter();
-  const { logs, loading, loadLogs, removeLog } = useClimbingLog();
+  const { logs, loadLogs, removeLog } = useClimbingLog();
   const lastRefreshTime = useRef<number>(0);
   const [isRefreshing, setIsRefreshing] = useState(false);
   const isFocused = useIsFocused();
 
-  
   useEffect(() => {
     if (isFocused) {
-
       const now = Date.now();
-      
       if (now - lastRefreshTime.current > 2000) {
         setIsRefreshing(true);
         loadLogs().finally(() => {
           setIsRefreshing(false);
         });
         lastRefreshTime.current = now;
-      } else {
-        console.log('ClimbingLogList: Skipping refresh');
       }
     } else {
       setIsRefreshing(false);
     }
   }, [isFocused, loadLogs]);
 
-  
   const handleRefresh = useCallback(() => {
     setIsRefreshing(true);
     loadLogs().finally(() => {
@@ -69,152 +74,127 @@ export default function ClimbingLogList() {
     lastRefreshTime.current = Date.now();
   }, [loadLogs]);
 
-  
-  const handleDeleteLog = useCallback((log: ClimbingLog) => {
-    Alert.alert(
-      'Delete Log',
-      `Are you sure you want to delete the log for "${log.routeName}"?`,
-      [
+  const handleDeleteLog = useCallback(
+    (log: ClimbingLog) => {
+      Alert.alert('Delete log', `Delete the log for "${log.routeName}"?`, [
         { text: 'Cancel', style: 'cancel' },
-        { 
-          text: 'Delete', 
+        {
+          text: 'Delete',
           style: 'destructive',
-          onPress: () => removeLog(log.id)
+          onPress: () => removeLog(log.id),
         },
-      ]
-    );
-  }, [removeLog]);
+      ]);
+    },
+    [removeLog]
+  );
 
-  
-  const navigateToRouteDetails = useCallback((siteName: string) => {
-    console.log('ClimbingLogList: Navigating to spot details:', siteName);
-    router.push(`/spot-details/${encodeURIComponent(siteName)}`);
-  }, [router]);
+  const navigateToRouteDetails = useCallback(
+    (siteName: string) => {
+      router.push(`/spot-details/${encodeURIComponent(siteName)}`);
+    },
+    [router]
+  );
 
-  
-  const renderLogItem = useCallback(({ item }: { item: ClimbingLog }) => {
-    const date = new Date(item.date);
-    const formattedDate = date.toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-    });
+  const renderLogItem = useCallback(
+    ({ item }: { item: ClimbingLog }) => {
+      const date = new Date(item.date);
+      const formattedDate = date.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      });
 
-    return (
-      <TouchableOpacity
-        style={styles.logItem}
-        onPress={() => navigateToRouteDetails(item.siteName)}
-        activeOpacity={0.7}
-      >
-        {/* 顶部信息行 */}
-        <View style={styles.logHeader}>
-          <View style={styles.dateContainer}>
-            <Ionicons name="calendar-outline" size={16} color="#666" />
-            <Text style={styles.dateText}>{formattedDate}</Text>
-          </View>
-          
-          <View style={[styles.styleBadge, { backgroundColor: getStyleColor(item.climbingStyle) }]}>
-            <Ionicons 
-              name={getStyleIcon(item.climbingStyle) as any} 
-              size={12} 
-              color="white" 
-            />
-            <Text style={styles.styleText}>{item.climbingStyle}</Text>
-          </View>
-        </View>
-
-        {/* 路线信息 */}
-        <View style={styles.routeInfo}>
-          <Text style={styles.routeName} numberOfLines={1}>
-            {item.routeName}
-          </Text>
-          {item.routeGrade && (
-            <View style={styles.gradeBadge}>
-              <Text style={styles.gradeText}>{item.routeGrade}</Text>
-            </View>
-          )}
-        </View>
-        
-        <Text style={styles.siteName} numberOfLines={1}>
-          {item.siteName}
-        </Text>
-
-        {/* 评分 */}
-        <View style={styles.ratingContainer}>
-          {[1, 2, 3].map((star) => (
-            <Ionicons
-              key={star}
-              name={star <= item.rating ? "star" : "star-outline"}
-              size={16}
-              color={star <= item.rating ? "#FFD700" : "#DDDDDD"}
-              style={styles.starIcon}
-            />
-          ))}
-        </View>
-
-        {/* 同伴和备注 */}
-        <View style={styles.detailsContainer}>
-          {item.partner && (
-            <View style={styles.partnerContainer}>
-              <Ionicons name="people-outline" size={14} color="#666" />
-              <Text style={styles.partnerText} numberOfLines={1}>
-                {item.partner}
-              </Text>
-            </View>
-          )}
-          
-          {item.notes && (
-            <Text style={styles.notesText} numberOfLines={2}>
-              {item.notes}
-            </Text>
-          )}
-        </View>
-
-        {/* 删除按钮 */}
+      return (
         <TouchableOpacity
-          style={styles.deleteButton}
-          onPress={(e) => {
-            e.stopPropagation();
-            handleDeleteLog(item);
-          }}
-          hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+          style={styles.logItem}
+          onPress={() => navigateToRouteDetails(item.siteName)}
+          activeOpacity={0.85}
         >
-          <Ionicons name="trash-outline" size={18} color="#FF3B30" />
-        </TouchableOpacity>
-      </TouchableOpacity>
-    );
-  }, [navigateToRouteDetails, handleDeleteLog]);
+          <View style={styles.logHeader}>
+            <View style={styles.dateContainer}>
+              <Ionicons name="calendar-outline" size={14} color={ui.colors.textSoft} />
+              <Text style={styles.dateText}>{formattedDate}</Text>
+            </View>
 
-  
+            <View style={[styles.styleBadge, { backgroundColor: getStyleColor(item.climbingStyle) }]}>
+              <Ionicons name={getStyleIcon(item.climbingStyle) as any} size={12} color={ui.colors.white} />
+              <Text style={styles.styleText}>{item.climbingStyle}</Text>
+            </View>
+          </View>
+
+          <View style={styles.routeInfo}>
+            <Text style={styles.routeName} numberOfLines={1}>
+              {item.routeName}
+            </Text>
+            {item.routeGrade ? (
+              <View style={styles.gradeBadge}>
+                <Text style={styles.gradeText}>{item.routeGrade}</Text>
+              </View>
+            ) : null}
+          </View>
+
+          <Text style={styles.siteName} numberOfLines={1}>
+            {item.siteName}
+          </Text>
+
+          <View style={styles.ratingContainer}>
+            {[1, 2, 3].map((star) => (
+              <Ionicons
+                key={star}
+                name={star <= item.rating ? 'star' : 'star-outline'}
+                size={16}
+                color={star <= item.rating ? ui.colors.gold : '#cfc8bd'}
+                style={styles.starIcon}
+              />
+            ))}
+          </View>
+
+          <View style={styles.detailsContainer}>
+            {item.partner ? (
+              <View style={styles.partnerContainer}>
+                <Ionicons name="people-outline" size={14} color={ui.colors.textSoft} />
+                <Text style={styles.partnerText} numberOfLines={1}>
+                  {item.partner}
+                </Text>
+              </View>
+            ) : null}
+
+            {item.notes ? (
+              <Text style={styles.notesText} numberOfLines={2}>
+                {item.notes}
+              </Text>
+            ) : null}
+          </View>
+
+          <TouchableOpacity
+            style={styles.deleteButton}
+            onPress={(e) => {
+              e.stopPropagation();
+              handleDeleteLog(item);
+            }}
+            hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+          >
+            <Ionicons name="trash-outline" size={18} color={ui.colors.danger} />
+          </TouchableOpacity>
+        </TouchableOpacity>
+      );
+    },
+    [navigateToRouteDetails, handleDeleteLog]
+  );
+
   const renderEmptyState = () => (
     <View style={styles.emptyContainer}>
-      <Ionicons name="book-outline" size={64} color="#CCCCCC" />
+      <View style={styles.emptyIcon}>
+        <Ionicons name="book-outline" size={26} color={ui.colors.textSoft} />
+      </View>
       <Text style={styles.emptyTitle}>No climbing logs yet</Text>
-      <Text style={styles.emptyDescription}>
-        Tap the button on route details
-      </Text>
-      <Text style={styles.emptyDescription}>
-        to record your climbing experience
-      </Text>
-      {/* 添加手动刷新按钮 */}
-      <TouchableOpacity 
-        style={styles.refreshButton}
-        onPress={handleRefresh}
-      >
-        <Ionicons name="refresh" size={20} color="#007AFF" />
+      <Text style={styles.emptyDescription}>Use the route detail screen to record your climbing days.</Text>
+      <TouchableOpacity style={styles.refreshButton} onPress={handleRefresh}>
+        <Ionicons name="refresh" size={18} color={ui.colors.text} />
         <Text style={styles.refreshButtonText}>Refresh</Text>
       </TouchableOpacity>
     </View>
   );
-
-  
-  console.log('ClimbingLogList Debug:', {
-    isFocused,
-    isRefreshing,
-    loading,
-    logsCount: logs.length,
-    lastRefreshTime: lastRefreshTime.current
-  });
 
   return (
     <FlatList
@@ -227,8 +207,8 @@ export default function ClimbingLogList() {
         <RefreshControl
           refreshing={isRefreshing}
           onRefresh={handleRefresh}
-          colors={['#007AFF']}
-          tintColor="#007AFF"
+          colors={[ui.colors.accent]}
+          tintColor={ui.colors.accent}
         />
       }
       ListEmptyComponent={renderEmptyState}
@@ -238,20 +218,18 @@ export default function ClimbingLogList() {
 
 const styles = StyleSheet.create({
   listContainer: {
-    padding: 16,
+    padding: 18,
     flexGrow: 1,
   },
   logItem: {
-    backgroundColor: 'white',
-    borderRadius: 16,
-    padding: 20,
-    marginBottom: 16,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.1,
-    shadowRadius: 8,
-    elevation: 5,
+    backgroundColor: ui.colors.surface,
+    borderRadius: 24,
+    padding: 18,
+    marginBottom: 14,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
     position: 'relative',
+    ...ui.shadows.card,
   },
   logHeader: {
     flexDirection: 'row',
@@ -265,22 +243,22 @@ const styles = StyleSheet.create({
     gap: 6,
   },
   dateText: {
-    fontSize: 14,
-    color: '#666',
-    fontWeight: '500',
+    fontSize: 13,
+    color: ui.colors.textSoft,
+    fontWeight: '600',
   },
   styleBadge: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 4,
     paddingHorizontal: 10,
-    paddingVertical: 5,
-    borderRadius: 20,
+    paddingVertical: 6,
+    borderRadius: ui.radii.pill,
   },
   styleText: {
-    color: 'white',
+    color: ui.colors.white,
     fontSize: 12,
-    fontWeight: '600',
+    fontWeight: '700',
   },
   routeInfo: {
     flexDirection: 'row',
@@ -289,30 +267,30 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   routeName: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    color: '#333',
+    fontSize: 21,
+    fontWeight: '800',
+    color: ui.colors.text,
     flex: 1,
     marginRight: 12,
   },
   gradeBadge: {
-    backgroundColor: '#f0f0f0',
+    backgroundColor: ui.colors.surfaceMuted,
     paddingHorizontal: 10,
     paddingVertical: 6,
-    borderRadius: 8,
-    minWidth: 50,
-    alignItems: 'center',
+    borderRadius: ui.radii.pill,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
   },
   gradeText: {
-    color: '#666',
-    fontSize: 14,
-    fontWeight: 'bold',
+    color: ui.colors.textMuted,
+    fontSize: 12,
+    fontWeight: '700',
   },
   siteName: {
-    fontSize: 15,
-    color: '#007AFF',
-    marginBottom: 12,
-    fontWeight: '500',
+    fontSize: 14,
+    color: ui.colors.textMuted,
+    marginBottom: 10,
+    fontWeight: '600',
   },
   ratingContainer: {
     flexDirection: 'row',
@@ -323,6 +301,7 @@ const styles = StyleSheet.create({
   },
   detailsContainer: {
     gap: 8,
+    paddingRight: 28,
   },
   partnerContainer: {
     flexDirection: 'row',
@@ -331,56 +310,75 @@ const styles = StyleSheet.create({
   },
   partnerText: {
     fontSize: 14,
-    color: '#666',
+    color: ui.colors.textMuted,
     flex: 1,
   },
   notesText: {
     fontSize: 14,
-    color: '#555',
-    lineHeight: 20,
-    paddingTop: 8,
+    color: ui.colors.textMuted,
+    lineHeight: 22,
+    paddingTop: 10,
     borderTopWidth: 1,
-    borderTopColor: '#f0f0f0',
+    borderTopColor: ui.colors.border,
   },
   deleteButton: {
     position: 'absolute',
-    bottom: 25,
+    bottom: 18,
     right: 16,
-    padding: 4,
+    width: 34,
+    height: 34,
+    borderRadius: 17,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: ui.colors.dangerSoft,
+    borderWidth: 1,
+    borderColor: '#e6c5c0',
   },
   emptyContainer: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     padding: 32,
-    minHeight: 400,
+    minHeight: 420,
+  },
+  emptyIcon: {
+    width: 68,
+    height: 68,
+    borderRadius: 34,
+    backgroundColor: ui.colors.surfaceMuted,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: ui.colors.border,
   },
   emptyTitle: {
     fontSize: 18,
-    color: '#999',
-    marginTop: 24,
+    color: ui.colors.text,
+    marginTop: 20,
     marginBottom: 8,
-    fontWeight: '600',
+    fontWeight: '800',
   },
   emptyDescription: {
-    fontSize: 15,
-    color: '#CCC',
+    fontSize: 14,
+    color: ui.colors.textSoft,
     textAlign: 'center',
     lineHeight: 22,
   },
   refreshButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: 24,
-    padding: 12,
-    backgroundColor: '#f0f7ff',
-    borderRadius: 24,
-    paddingHorizontal: 24,
+    marginTop: 20,
+    paddingVertical: 12,
+    paddingHorizontal: 18,
+    backgroundColor: ui.colors.surface,
+    borderRadius: 18,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
   },
   refreshButtonText: {
     marginLeft: 8,
-    color: '#007AFF',
-    fontWeight: '500',
-    fontSize: 16,
+    color: ui.colors.text,
+    fontWeight: '700',
+    fontSize: 14,
   },
 });

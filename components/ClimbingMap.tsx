@@ -2,41 +2,57 @@ import { useRouter } from 'expo-router';
 import React, { useEffect, useRef, useState } from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import MapView, { Callout, Marker, Region } from 'react-native-maps';
+
+import { ui } from '@/constants/ui';
 import { ClimbingSite } from '../hooks/use-climbing-sites';
 
 type Props = {
-  sites: ClimbingSite[];           
-  selectedSite: ClimbingSite | null;  
-  onSelectSite: (site: ClimbingSite) => void;  
+  sites: ClimbingSite[];
+  selectedSite: ClimbingSite | null;
+  onSelectSite: (site: ClimbingSite) => void;
   focusRegion: Region | null;
+  showHotspotColors?: boolean;
 };
 
 const TYPE_COLORS = {
-  'Sea Cliff': '#6fb9f2',
-  'Quarry': '#FFE66D',
-  'Mountain': '#9fe8c6',
-  'Inland': '#9ca0e7',
+  'Sea Cliff': '#85b8ec',
+  Quarry: '#f6e04d',
+  Mountain: '#91d9a6',
+  Inland: '#c6bce9',
 };
 
-const getPinColorByType = (site: ClimbingSite): string => {
+const HOTSPOT_COLORS: { [key: number]: string } = {
+  0: '#f5f364',
+  1: '#82dfc6',
+  2: '#78bef7',
+  3: '#45d258',
+  4: '#f5bc4a',
+};
+
+const getPinColor = (site: ClimbingSite, showHotspotColors: boolean): string => {
+  if (showHotspotColors && site.cluster_id !== undefined && site.cluster_id !== null && site.cluster_id !== -1) {
+    return HOTSPOT_COLORS[site.cluster_id] || '#7a8795';
+  }
+
   if (site.types) {
     if (site.types.includes('Sea Cliff')) return TYPE_COLORS['Sea Cliff'];
-    if (site.types.includes('Quarry')) return TYPE_COLORS['Quarry'];
-    if (site.types.includes('Mountain')) return TYPE_COLORS['Mountain'];
-    if (site.types.includes('Inland')) return TYPE_COLORS['Inland'];
+    if (site.types.includes('Quarry')) return TYPE_COLORS.Quarry;
+    if (site.types.includes('Mountain')) return TYPE_COLORS.Mountain;
+    if (site.types.includes('Inland')) return TYPE_COLORS.Inland;
   }
-  return TYPE_COLORS['Inland'];
+
+  return TYPE_COLORS.Inland;
 };
 
 export const ClimbingMap: React.FC<Props> = ({
-  sites = [],           
-  selectedSite,    
-  onSelectSite,    
+  sites = [],
+  selectedSite,
+  onSelectSite,
   focusRegion,
+  showHotspotColors = false,
 }) => {
   const mapRef = useRef<MapView | null>(null);
   const router = useRouter();
-
   const [region, setRegion] = useState<Region>({
     latitude: 53.1424,
     longitude: -7.6921,
@@ -45,22 +61,21 @@ export const ClimbingMap: React.FC<Props> = ({
   });
 
   useEffect(() => {
-    console.log('focusRegion 变化了:', focusRegion);
-    
     if (!focusRegion || !mapRef.current) {
       return;
     }
-    
-    setTimeout(() => {
+
+    const timer = setTimeout(() => {
       if (mapRef.current) {
-        mapRef.current.animateToRegion(focusRegion, 500);
+        mapRef.current.animateToRegion(focusRegion, 450);
         setRegion(focusRegion);
       }
     }, 100);
+
+    return () => clearTimeout(timer);
   }, [focusRegion]);
-  
+
   const handleCalloutPress = (site: ClimbingSite) => {
-    console.log('Callout 被点击:', site.name);
     router.push(`/spot-details/${encodeURIComponent(site.name)}`);
   };
 
@@ -71,89 +86,70 @@ export const ClimbingMap: React.FC<Props> = ({
         style={styles.map}
         region={region}
         onRegionChangeComplete={setRegion}
-        showsUserLocation={true}
-        showsCompass={true}
-        showsScale={true} 
+        showsUserLocation
+        showsCompass
+        showsScale
       >
-        
-        {Array.isArray(sites) && sites.map((site, index) => {
-          if (!site?.coordinates) return null;
+        {Array.isArray(sites) &&
+          sites.map((site, index) => {
+            if (!site?.coordinates) return null;
 
-          const routesCount = site.routes_count ?? site.routes?.length ?? 0;
-          const firstDifficulty = site.routes && site.routes[0]?.difficulty;
-          const isSelected = !!selectedSite && selectedSite.id === site.id;
+            const routesCount = site.routes_count ?? site.routes?.length ?? 0;
+            const firstDifficulty = site.routes && site.routes[0]?.difficulty;
+            const isSelected = !!selectedSite && selectedSite.id === site.id;
 
-          return (
-            <Marker
-              key={`${site.id || site.name}_${index}`}
-              coordinate={site.coordinates}
-              title={site.name}
-              description={`${routesCount} 条攀岩线路`}
-              pinColor={isSelected ? '#eb592c' : getPinColorByType(site)}
-              onPress={() => {
-                console.log('Marker 点击:', site.name);
-                onSelectSite(site);  
-              }}
-              tracksViewChanges={false}
-            >
-              <Callout tooltip onPress={() => handleCalloutPress(site)}>
-                <TouchableOpacity style={styles.calloutContainer} activeOpacity={0.7}>
-                  <Text style={styles.calloutTitle}>{site.name}</Text>
-
-                  {site.countyName && (
-                    <Text style={styles.calloutDescription}>
-                      County: {site.countyName}
-                    </Text>
-                  )}
-
-                  <Text style={styles.calloutDescription}>
-                    Routes: {routesCount}
-                  </Text>
-
-                  {firstDifficulty && (
-                    <Text style={styles.calloutDescription}>
-                      Difficulty: {firstDifficulty}
-                    </Text>
-                  )}
-
-                  {site.cluster_label && (
-                    <Text style={styles.calloutDescription}>
-                      Style: {site.cluster_label}
-                    </Text>
-                  )}
-
-                  <Text style={styles.calloutLink}>
-                    more details
-                  </Text>
-                </TouchableOpacity>
-              </Callout>
-            </Marker>
-          );
-        })}
+            return (
+              <Marker
+                key={`${site.id || site.name}_${index}`}
+                coordinate={site.coordinates}
+                title={site.name}
+                description={`${routesCount} routes`}
+                pinColor={isSelected ? ui.colors.accentStrong : getPinColor(site, showHotspotColors)}
+                onPress={() => onSelectSite(site)}
+                tracksViewChanges={false}
+                style={styles.marker}
+              >
+                <Callout tooltip onPress={() => handleCalloutPress(site)}>
+                  <TouchableOpacity style={styles.calloutContainer} activeOpacity={0.88}>
+                    <Text style={styles.calloutTitle}>{site.name}</Text>
+                    {site.countyName ? (
+                      <Text style={styles.calloutMeta}>County: {site.countyName}</Text>
+                    ) : null}
+                    <Text style={styles.calloutMeta}>Routes: {routesCount}</Text>
+                    {firstDifficulty ? (
+                      <Text style={styles.calloutMeta}>Grade: {firstDifficulty}</Text>
+                    ) : null}
+                    {site.cluster_label ? (
+                      <Text style={styles.calloutMeta}>Style: {site.cluster_label}</Text>
+                    ) : null}
+                    <Text style={styles.calloutLink}>Open details</Text>
+                  </TouchableOpacity>
+                </Callout>
+              </Marker>
+            );
+          })}
       </MapView>
-      
-      {/* 地图图例 */}
+
       <View style={styles.legend}>
-        <Text style={styles.legendTitle}>Crag Type</Text>
-        
+        <Text style={styles.legendEyebrow}>Map key</Text>
+        <Text style={styles.legendTitle}>Crag Types</Text>
         <View style={styles.legendRow}>
           <View style={styles.legendItem}>
-            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS['Sea Cliff']}]} />
+            <View style={[styles.legendColor, { backgroundColor: TYPE_COLORS['Sea Cliff'] }]} />
             <Text style={styles.legendText}>Sea Cliff</Text>
           </View>
           <View style={styles.legendItem}>
-            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS['Quarry']}]} />
+            <View style={[styles.legendColor, { backgroundColor: TYPE_COLORS.Quarry }]} />
             <Text style={styles.legendText}>Quarry</Text>
           </View>
         </View>
-        
         <View style={styles.legendRow}>
           <View style={styles.legendItem}>
-            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS['Mountain']}]} />
+            <View style={[styles.legendColor, { backgroundColor: TYPE_COLORS.Mountain }]} />
             <Text style={styles.legendText}>Mountain</Text>
           </View>
           <View style={styles.legendItem}>
-            <View style={[styles.legendColor, {backgroundColor: TYPE_COLORS['Inland']}]} />
+            <View style={[styles.legendColor, { backgroundColor: TYPE_COLORS.Inland }]} />
             <Text style={styles.legendText}>Inland</Text>
           </View>
         </View>
@@ -170,72 +166,80 @@ const styles = StyleSheet.create({
   map: {
     flex: 1,
   },
+  marker: {
+    zIndex: 1,
+  },
   calloutContainer: {
-    backgroundColor: 'white',
-    padding: 12,
-    borderRadius: 8,
-    maxWidth: 220,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
+    backgroundColor: 'rgba(255,255,255,0.96)',
+    padding: 14,
+    borderRadius: 18,
+    maxWidth: 240,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
+    ...ui.shadows.card,
   },
   calloutTitle: {
-    fontWeight: 'bold',
-    fontSize: 14,
-    marginBottom: 4,
-    color: '#333',
+    fontWeight: '700',
+    fontSize: 15,
+    marginBottom: 6,
+    color: ui.colors.text,
   },
-  calloutDescription: {
+  calloutMeta: {
     fontSize: 12,
-    color: '#555',
-    marginBottom: 2,
+    color: ui.colors.textMuted,
+    marginBottom: 3,
   },
   calloutLink: {
-    marginTop: 8,
+    marginTop: 10,
     fontSize: 12,
-    color: '#007AFF',
-    fontWeight: '600',
-    textAlign: 'center',
+    color: ui.colors.accent,
+    fontWeight: '700',
+    textTransform: 'uppercase',
+    letterSpacing: 0.8,
   },
   legend: {
     position: 'absolute',
-    bottom: 40,
-    right: 10,
-    backgroundColor: 'rgba(255, 255, 255, 0.95)',
-    padding: 10,
-    borderRadius: 8,
+    bottom: 26,
+    right: 16,
+    backgroundColor: 'rgba(255,255,255,0.22)',
+    padding: 14,
+    borderRadius: 18,
     borderWidth: 1,
-    borderColor: '#ddd',
-    maxWidth: 180,
-    zIndex: 1,
+    borderColor: 'rgba(255,255,255,0.34)',
+    minWidth: 176,
+    ...ui.shadows.glow,
+  },
+  legendEyebrow: {
+    fontSize: 10,
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    color: ui.colors.textSoft,
+    marginBottom: 4,
   },
   legendTitle: {
-    fontSize: 12,
-    fontWeight: 'bold',
-    marginBottom: 6,
-    color: '#333',
+    fontSize: 14,
+    fontWeight: '700',
+    marginBottom: 10,
+    color: ui.colors.text,
   },
   legendRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 4,
+    marginBottom: 6,
   },
   legendItem: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginRight: 8,
-    marginBottom: 4,
+    minWidth: 74,
   },
   legendColor: {
-    width: 12,
-    height: 12,
-    borderRadius: 6,
-    marginRight: 4,
+    width: 10,
+    height: 10,
+    borderRadius: 5,
+    marginRight: 6,
   },
   legendText: {
-    fontSize: 10,
-    color: '#333',
+    fontSize: 11,
+    color: ui.colors.textMuted,
   },
 });

@@ -1,5 +1,8 @@
+import { ui } from '@/constants/ui';
 import { useClimbingLog } from '@/hooks/use-climbing-log';
+import { getFirebaseAuth } from '@/lib/firebase';
 import { Ionicons } from '@expo/vector-icons';
+import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import {
   Alert,
@@ -11,7 +14,6 @@ import {
   View,
 } from 'react-native';
 
-
 const CLIMBING_STYLES = [
   { label: 'Onsight', value: 'Onsight' },
   { label: 'Redpoint', value: 'Redpoint' },
@@ -19,11 +21,10 @@ const CLIMBING_STYLES = [
   { label: 'Attempt', value: 'Attempt' },
 ] as const;
 
-
 const RATING_LABELS = {
   1: 'Not good',
   2: 'Good',
-  3: 'Excellent!'
+  3: 'Excellent',
 };
 
 interface LogClimbingFormProps {
@@ -38,32 +39,42 @@ interface LogClimbingFormProps {
 
 export default function LogClimbingForm({ route, onClose, onSuccess }: LogClimbingFormProps) {
   const { addLog } = useClimbingLog();
-  
-  
-  const [date, setDate] = useState(() => {
-    
-    const today = new Date();
-    return today.toISOString().split('T')[0];
-  });
+  const router = useRouter();
+
+  const [date, setDate] = useState(() => new Date().toISOString().split('T')[0]);
   const [climbingStyle, setClimbingStyle] = useState<typeof CLIMBING_STYLES[number]['value']>('Onsight');
   const [rating, setRating] = useState<1 | 2 | 3>(3);
   const [partner, setPartner] = useState('');
   const [notes, setNotes] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
-
-  
   const [showDatePicker, setShowDatePicker] = useState(false);
 
   const handleSubmit = async () => {
+    const auth = await getFirebaseAuth();
+    if (!auth.currentUser) {
+      Alert.alert('Login Required', 'Please log in to record your climb', [
+        {
+          text: 'Login',
+          onPress: () => {
+            onClose();
+            setTimeout(() => {
+              router.push('/auth/login');
+            }, 300);
+          },
+        },
+        { text: 'Cancel' },
+      ]);
+      return;
+    }
+
     if (!date) {
       Alert.alert('Info', 'Please select a climb date');
       return;
     }
 
-    
     const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
     if (!dateRegex.test(date)) {
-      Alert.alert('Info', 'Please use correct date format: YYYY-MM-DD');
+      Alert.alert('Info', 'Please use the format YYYY-MM-DD');
       return;
     }
 
@@ -101,57 +112,45 @@ export default function LogClimbingForm({ route, onClose, onSuccess }: LogClimbi
 
   return (
     <View style={styles.container}>
-      {/* Custom navigation bar */}
       <View style={styles.customNavBar}>
-        <TouchableOpacity 
-          style={styles.navBackButton}
-          onPress={onClose}
-          disabled={isSubmitting}
-        >
-          <Ionicons name="arrow-back" size={24} color="#007AFF" />
+        <TouchableOpacity style={styles.navBackButton} onPress={onClose} disabled={isSubmitting}>
+          <Ionicons name="arrow-back" size={20} color={ui.colors.text} />
           <Text style={styles.navBackText}>Back</Text>
         </TouchableOpacity>
-        
+
         <Text style={styles.navTitle} numberOfLines={1}>
-          Log Climb
+          Log climb
         </Text>
-        <View style={{ width: 60, height: 1 }} />
+        <View style={styles.navSpacer} />
       </View>
 
-      <ScrollView 
+      <ScrollView
         style={styles.scrollView}
         contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
       >
-        {/* Route info card */}
         <View style={styles.routeCard}>
+          <Text style={styles.eyebrow}>Selected route</Text>
           <View style={styles.routeHeader}>
             <Text style={styles.routeName} numberOfLines={2}>
               {route.routeName}
             </Text>
-            {route.routeGrade && (
+            {route.routeGrade ? (
               <View style={styles.gradeBadge}>
                 <Text style={styles.gradeText}>{route.routeGrade}</Text>
               </View>
-            )}
+            ) : null}
           </View>
           <Text style={styles.siteName} numberOfLines={1}>
             {route.siteName}
           </Text>
-          <View style={styles.routeDivider} />
-          <Text style={styles.routeHint}>
-            Log your ascent of this route
-          </Text>
+          <Text style={styles.routeHint}>Capture the day while the details are still fresh.</Text>
         </View>
 
-        {/* Form area */}
         <View style={styles.formCard}>
-          {/* Date selection */}
           <View style={styles.formGroup}>
-            <Text style={styles.label}>
-              Climb Date <Text style={styles.required}>*</Text>
-            </Text>
-            <TouchableOpacity 
+            <Text style={styles.label}>Climb date *</Text>
+            <TouchableOpacity
               style={styles.dateButton}
               onPress={() => setShowDatePicker(true)}
               disabled={isSubmitting}
@@ -161,22 +160,21 @@ export default function LogClimbingForm({ route, onClose, onSuccess }: LogClimbi
                   year: 'numeric',
                   month: 'long',
                   day: 'numeric',
-                  weekday: 'long'
+                  weekday: 'long',
                 })}
               </Text>
-              <Ionicons name="calendar-outline" size={20} color="#666" />
+              <Ionicons name="calendar-outline" size={18} color={ui.colors.textMuted} />
             </TouchableOpacity>
-            
-            {/* Simple date input (hidden) */}
-            {showDatePicker && (
+
+            {showDatePicker ? (
               <View style={styles.dateInputContainer}>
-                <Text style={styles.dateInputLabel}>Enter date (YYYY-MM-DD):</Text>
+                <Text style={styles.dateInputLabel}>Enter date as YYYY-MM-DD</Text>
                 <TextInput
                   style={styles.dateInput}
                   value={date}
                   onChangeText={setDate}
                   placeholder="2024-01-20"
-                  placeholderTextColor="#999"
+                  placeholderTextColor={ui.colors.textSoft}
                   keyboardType="numbers-and-punctuation"
                   editable={!isSubmitting}
                 />
@@ -185,15 +183,14 @@ export default function LogClimbingForm({ route, onClose, onSuccess }: LogClimbi
                   onPress={() => setShowDatePicker(false)}
                   disabled={isSubmitting}
                 >
-                  <Text style={styles.dateInputButtonText}>OK</Text>
+                  <Text style={styles.dateInputButtonText}>Done</Text>
                 </TouchableOpacity>
               </View>
-            )}
+            ) : null}
           </View>
 
-          {/* Climbing style */}
           <View style={styles.formGroup}>
-            <Text style={styles.label}>Climbing Style</Text>
+            <Text style={styles.label}>Climbing style</Text>
             <View style={styles.styleOptions}>
               {CLIMBING_STYLES.map((style) => (
                 <TouchableOpacity
@@ -219,7 +216,6 @@ export default function LogClimbingForm({ route, onClose, onSuccess }: LogClimbi
             </View>
           </View>
 
-          {/* Rating */}
           <View style={styles.formGroup}>
             <Text style={styles.label}>Rating</Text>
             <View style={styles.ratingContainer}>
@@ -231,62 +227,51 @@ export default function LogClimbingForm({ route, onClose, onSuccess }: LogClimbi
                   disabled={isSubmitting}
                 >
                   <Ionicons
-                    name={star <= rating ? "star" : "star-outline"}
-                    size={36}
-                    color={star <= rating ? "#FFD700" : "#DDDDDD"}
+                    name={star <= rating ? 'star' : 'star-outline'}
+                    size={34}
+                    color={star <= rating ? ui.colors.gold : '#cfc8bd'}
                   />
                 </TouchableOpacity>
               ))}
             </View>
-            <Text style={styles.ratingHint}>
-              {RATING_LABELS[rating]}
-            </Text>
+            <Text style={styles.ratingHint}>{RATING_LABELS[rating]}</Text>
           </View>
 
-          {/* Partner */}
           <View style={styles.formGroup}>
-            <Text style={styles.label}>Partner (optional)</Text>
+            <Text style={styles.label}>Partner</Text>
             <TextInput
               style={[styles.input, isSubmitting && styles.disabledInput]}
               value={partner}
               onChangeText={setPartner}
-              placeholder="Who did you climb with?"
-              placeholderTextColor="#999"
+              placeholder="Who were you climbing with?"
+              placeholderTextColor={ui.colors.textSoft}
               editable={!isSubmitting}
             />
           </View>
 
-          {/* Notes */}
           <View style={styles.formGroup}>
-            <Text style={styles.label}>Notes (optional)</Text>
+            <Text style={styles.label}>Notes</Text>
             <TextInput
               style={[styles.input, styles.textArea, isSubmitting && styles.disabledInput]}
               value={notes}
               onChangeText={setNotes}
-              placeholder="Share your experience, challenges, fun facts..."
-              placeholderTextColor="#999"
+              placeholder="Conditions, beta, gear notes, or a quick memory from the day"
+              placeholderTextColor={ui.colors.textSoft}
               multiline
-              numberOfLines={4}
+              numberOfLines={5}
               textAlignVertical="top"
               editable={!isSubmitting}
             />
-            <Text style={styles.notesHint}>
-              Max 500 characters ({notes.length}/500)
-            </Text>
+            <Text style={styles.notesHint}>Max 500 characters ({notes.length}/500)</Text>
           </View>
         </View>
 
-        {/* Submit button */}
-        <TouchableOpacity 
+        <TouchableOpacity
           style={[styles.submitButton, isSubmitting && styles.submitButtonDisabled]}
           onPress={handleSubmit}
           disabled={isSubmitting}
         >
-          {isSubmitting ? (
-            <Text style={styles.submitButtonText}>Saving...</Text>
-          ) : (
-            <Text style={styles.submitButtonText}>Save Log</Text>
-          )}
+          <Text style={styles.submitButtonText}>{isSubmitting ? 'Saving...' : 'Save log'}</Text>
         </TouchableOpacity>
 
         <View style={styles.spacer} />
@@ -298,59 +283,61 @@ export default function LogClimbingForm({ route, onClose, onSuccess }: LogClimbi
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f5f5',
+    backgroundColor: ui.colors.background,
   },
   customNavBar: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingTop: 50, 
+    paddingTop: 52,
     paddingBottom: 16,
-    paddingHorizontal: 16,
-    backgroundColor: 'white',
+    paddingHorizontal: 18,
+    backgroundColor: ui.colors.surface,
     borderBottomWidth: 1,
-    borderBottomColor: '#e0e0e0',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 3,
-    elevation: 4,
+    borderBottomColor: ui.colors.border,
   },
   navBackButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    padding: 4,
+    gap: 6,
   },
   navBackText: {
-    marginLeft: 4,
-    fontSize: 16,
-    color: '#007AFF',
-    fontWeight: '500',
+    fontSize: 14,
+    color: ui.colors.text,
+    fontWeight: '700',
   },
   navTitle: {
     fontSize: 18,
-    fontWeight: '600',
-    color: '#333',
+    fontWeight: '800',
+    color: ui.colors.text,
     flex: 1,
     textAlign: 'center',
     marginHorizontal: 12,
+  },
+  navSpacer: {
+    width: 56,
   },
   scrollView: {
     flex: 1,
   },
   scrollContent: {
-    padding: 16,
+    padding: 18,
   },
   routeCard: {
-    backgroundColor: 'white',
-    borderRadius: 12,
+    backgroundColor: ui.colors.surface,
+    borderRadius: 26,
     padding: 20,
-    marginBottom: 20,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
+    marginBottom: 16,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
+    ...ui.shadows.card,
+  },
+  eyebrow: {
+    fontSize: 11,
+    letterSpacing: 1.4,
+    textTransform: 'uppercase',
+    color: ui.colors.textSoft,
+    marginBottom: 8,
   },
   routeHeader: {
     flexDirection: 'row',
@@ -359,202 +346,190 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   routeName: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    color: '#333',
+    fontSize: 22,
+    fontWeight: '800',
+    color: ui.colors.text,
     flex: 1,
     marginRight: 12,
-    lineHeight: 24,
+    lineHeight: 28,
   },
   gradeBadge: {
-    backgroundColor: '#007AFF',
+    backgroundColor: ui.colors.accentSoft,
     paddingHorizontal: 10,
     paddingVertical: 6,
-    borderRadius: 8,
+    borderRadius: ui.radii.pill,
     minWidth: 50,
     alignItems: 'center',
   },
   gradeText: {
-    color: 'white',
-    fontWeight: 'bold',
-    fontSize: 14,
+    color: ui.colors.accent,
+    fontWeight: '800',
+    fontSize: 13,
   },
   siteName: {
-    fontSize: 15,
-    color: '#666',
-    marginBottom: 16,
-  },
-  routeDivider: {
-    height: 1,
-    backgroundColor: '#f0f0f0',
+    fontSize: 14,
+    color: ui.colors.textMuted,
     marginBottom: 12,
   },
   routeHint: {
     fontSize: 14,
-    color: '#888',
-    fontStyle: 'italic',
+    color: ui.colors.textSoft,
+    lineHeight: 21,
   },
   formCard: {
-    backgroundColor: 'white',
-    borderRadius: 12,
+    backgroundColor: ui.colors.surface,
+    borderRadius: 26,
     padding: 20,
-    marginBottom: 20,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    elevation: 3,
+    marginBottom: 16,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
+    ...ui.shadows.soft,
   },
   formGroup: {
-    marginBottom: 24,
+    marginBottom: 22,
   },
   label: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#333',
+    fontSize: 12,
+    fontWeight: '700',
+    color: ui.colors.textSoft,
+    letterSpacing: 0.8,
+    textTransform: 'uppercase',
     marginBottom: 8,
-  },
-  required: {
-    color: '#FF3B30',
   },
   dateButton: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: 16,
-    backgroundColor: '#f8f9fa',
-    borderRadius: 10,
-    borderWidth: 1.5,
-    borderColor: '#e0e0e0',
+    paddingHorizontal: 16,
+    paddingVertical: 15,
+    backgroundColor: ui.colors.surfaceMuted,
+    borderRadius: 18,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
   },
   dateText: {
-    fontSize: 16,
-    color: '#333',
-    fontWeight: '500',
+    fontSize: 15,
+    color: ui.colors.text,
+    fontWeight: '600',
+    flex: 1,
+    marginRight: 10,
   },
   dateInputContainer: {
     marginTop: 12,
-    padding: 16,
-    backgroundColor: '#f8f9fa',
-    borderRadius: 10,
-    borderWidth: 1.5,
-    borderColor: '#e0e0e0',
+    padding: 14,
+    backgroundColor: ui.colors.surfaceMuted,
+    borderRadius: 18,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
   },
   dateInputLabel: {
-    fontSize: 14,
-    color: '#666',
+    fontSize: 13,
+    color: ui.colors.textMuted,
     marginBottom: 8,
-    fontWeight: '500',
+    fontWeight: '600',
   },
   dateInput: {
-    padding: 12,
-    backgroundColor: 'white',
-    borderRadius: 8,
+    padding: 14,
+    backgroundColor: ui.colors.white,
+    borderRadius: 16,
     borderWidth: 1,
-    borderColor: '#ddd',
-    fontSize: 16,
-    color: '#333',
-    marginBottom: 12,
+    borderColor: ui.colors.border,
+    fontSize: 15,
+    color: ui.colors.text,
+    marginBottom: 10,
     textAlign: 'center',
   },
   dateInputButton: {
-    backgroundColor: '#007AFF',
+    backgroundColor: ui.colors.text,
     padding: 12,
-    borderRadius: 8,
+    borderRadius: 16,
     alignItems: 'center',
   },
   dateInputButtonText: {
-    color: 'white',
-    fontSize: 16,
-    fontWeight: '600',
+    color: ui.colors.white,
+    fontSize: 14,
+    fontWeight: '700',
   },
   styleOptions: {
     gap: 10,
   },
   styleOption: {
-    padding: 16,
-    backgroundColor: '#f8f9fa',
-    borderRadius: 10,
-    borderWidth: 1.5,
-    borderColor: '#e0e0e0',
+    padding: 15,
+    backgroundColor: ui.colors.surfaceMuted,
+    borderRadius: 18,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
   },
   styleOptionSelected: {
-    backgroundColor: '#007AFF',
-    borderColor: '#007AFF',
+    backgroundColor: ui.colors.text,
+    borderColor: ui.colors.text,
   },
   styleOptionText: {
-    fontSize: 15,
-    color: '#666',
+    fontSize: 14,
+    color: ui.colors.textMuted,
     textAlign: 'center',
-    fontWeight: '500',
-  },
-  styleOptionTextSelected: {
-    color: 'white',
     fontWeight: '600',
   },
+  styleOptionTextSelected: {
+    color: ui.colors.white,
+  },
   disabledOption: {
-    opacity: 0.6,
+    opacity: 0.65,
   },
   ratingContainer: {
     flexDirection: 'row',
     justifyContent: 'center',
-    gap: 24,
-    marginVertical: 12,
+    gap: 18,
+    marginVertical: 8,
   },
   starButton: {
     padding: 8,
   },
   ratingHint: {
     textAlign: 'center',
-    fontSize: 15,
-    color: '#666',
+    fontSize: 14,
+    color: ui.colors.textMuted,
     marginTop: 4,
-    fontWeight: '500',
+    fontWeight: '600',
   },
   input: {
-    padding: 16,
-    backgroundColor: '#f8f9fa',
-    borderRadius: 10,
-    borderWidth: 1.5,
-    borderColor: '#e0e0e0',
-    fontSize: 16,
-    color: '#333',
+    paddingHorizontal: 16,
+    paddingVertical: 15,
+    backgroundColor: ui.colors.white,
+    borderRadius: 18,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
+    fontSize: 15,
+    color: ui.colors.text,
   },
   disabledInput: {
-    opacity: 0.6,
+    opacity: 0.65,
   },
   textArea: {
     minHeight: 120,
-    textAlignVertical: 'top',
     lineHeight: 22,
   },
   notesHint: {
-    fontSize: 13,
-    color: '#999',
-    marginTop: 6,
+    fontSize: 12,
+    color: ui.colors.textSoft,
+    marginTop: 8,
     textAlign: 'right',
   },
   submitButton: {
-    backgroundColor: '#007AFF',
-    padding: 18,
-    borderRadius: 12,
+    backgroundColor: ui.colors.text,
+    paddingVertical: 17,
+    borderRadius: 20,
     alignItems: 'center',
-    shadowColor: '#007AFF',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
-    shadowRadius: 8,
-    elevation: 5,
   },
   submitButtonDisabled: {
-    backgroundColor: '#8E8E93',
-    shadowOpacity: 0.1,
+    opacity: 0.7,
   },
   submitButtonText: {
-    color: 'white',
-    fontSize: 18,
-    fontWeight: 'bold',
+    color: ui.colors.white,
+    fontSize: 16,
+    fontWeight: '800',
   },
   spacer: {
-    height: 40,
+    height: 32,
   },
 });

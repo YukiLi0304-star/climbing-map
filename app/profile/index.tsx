@@ -1,7 +1,13 @@
+import AuroraBackdrop from '@/components/AuroraBackdrop';
+import { ui } from '@/constants/ui';
 import { useAuth } from '@/context/AuthContext';
+import { useClimbingLog } from '@/hooks/use-climbing-log';
+import { useRouteFavorites } from '@/hooks/use-route-favorites';
+import { getFirebaseAuth, getFirebaseFirestore } from '@/lib/firebase';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
-import React from 'react';
+import { collection, getDocs, query, where } from 'firebase/firestore';
+import React, { useCallback, useEffect, useState } from 'react';
 import {
   ScrollView,
   StyleSheet,
@@ -12,200 +18,207 @@ import {
 
 export default function ProfileHome() {
   const router = useRouter();
-  const { user, logout } = useAuth(); 
+  const { user, logout } = useAuth();
+  const [isAdmin, setIsAdmin] = useState(false);
 
-  
+  const { favorites } = useRouteFavorites();
+  const { logs } = useClimbingLog();
+
+  const favoriteCount = favorites?.length || 0;
+  const logCount = logs?.length || 0;
+  const spotsCount = logs ? new Set(logs.map((log) => log.siteName)).size : 0;
+  const daysCount = logs ? new Set(logs.map((log) => log.date)).size : 0;
+
+  const checkAdminStatus = useCallback(async () => {
+    if (!user) {
+      setIsAdmin(false);
+      return;
+    }
+
+    try {
+      const auth = await getFirebaseAuth();
+      const currentUser = auth.currentUser;
+      if (currentUser) {
+        const firestore = await getFirebaseFirestore();
+        const userQuery = query(collection(firestore, 'user'), where('uid', '==', currentUser.uid));
+        const snapshot = await getDocs(userQuery);
+        if (!snapshot.empty) {
+          const data = snapshot.docs[0].data();
+          if (data.isAdmin === true) {
+            setIsAdmin(true);
+          }
+        }
+      }
+    } catch (error) {
+      console.error('Check admin failed:', error);
+    }
+  }, [user]);
+
+  useEffect(() => {
+    checkAdminStatus();
+  }, [checkAdminStatus]);
+
   const functionCards = [
     {
       id: 'favorites',
       title: 'My Favorites',
-      description: 'View and manage your saved climbing routes',
-      icon: 'star' as const,
+      description: 'Saved routes you want to revisit quickly.',
+      icon: 'star-outline' as const,
       route: '/profile/favorites',
-      color: '#FFD700',
     },
     {
       id: 'climbing-log',
       title: 'Climbing Log',
-      description: 'Record and review your climbing experiences',
-      icon: 'book' as const,
+      description: 'Personal records, partners, ratings, and notes.',
+      icon: 'book-outline' as const,
       route: '/profile/climbing-log',
-      color: '#4CAF50',
     },
   ];
 
-  
   const handleCardPress = (route: string) => {
     if (!user) {
-      
       alert('Please sign in to access this feature');
       return;
     }
     router.push(route as any);
   };
 
-  
   const handleLogout = async () => {
     try {
       await logout();
-      
     } catch (error) {
       console.error('Logout error:', error);
       alert('Failed to sign out. Please try again.');
     }
   };
 
-  
   const handleSignIn = () => {
     router.push('/auth/login' as any);
   };
 
   return (
-    <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
-      {/* 用户信息区域 - 显示真实用户信息 */}
-      <View style={styles.userSection}>
-        <View style={styles.avatarContainer}>
-          <Ionicons 
-            name={user ? "person-circle" : "person-circle-outline"} 
-            size={80} 
-            color={user ? "#007AFF" : "#CCCCCC"} 
-          />
+    <ScrollView style={styles.container} contentContainerStyle={styles.content} showsVerticalScrollIndicator={false}>
+      <AuroraBackdrop compact />
+      <View style={styles.heroCard}>
+        <View style={styles.heroTopRow}>
+          <View style={styles.avatar}>
+            <Ionicons
+              name={user ? 'person' : 'person-outline'}
+              size={28}
+              color={user ? ui.colors.text : ui.colors.textSoft}
+            />
+          </View>
+          <View style={styles.heroMeta}>
+            <Text style={styles.eyebrow}>Profile</Text>
+            <Text style={styles.userName}>
+              {user ? user.email?.split('@')[0] || 'Climber' : 'Guest climber'}
+            </Text>
+            <Text style={styles.userBio}>
+              {user ? 'Keep your routes, notes, and progress close.' : 'Sign in to unlock your saved routes and climbing history.'}
+            </Text>
+          </View>
         </View>
-        
+
         {user ? (
           <>
-            <Text style={styles.userName}>
-              {user.email?.split('@')[0] || 'Climber'}
-            </Text>
             <Text style={styles.userEmail}>{user.email}</Text>
-            <Text style={styles.userBio}>Ready for your next climb!</Text>
-            
-            {/* 退出按钮 */}
-            <TouchableOpacity 
-              style={styles.logoutButton} 
-              onPress={handleLogout}
-            >
-              <Ionicons name="log-out-outline" size={18} color="#FF3B30" />
-              <Text style={styles.logoutText}>Sign Out</Text>
+            <TouchableOpacity style={styles.ghostButton} onPress={handleLogout}>
+              <Ionicons name="log-out-outline" size={16} color={ui.colors.danger} />
+              <Text style={styles.ghostButtonDangerText}>Sign out</Text>
             </TouchableOpacity>
           </>
         ) : (
-          <>
-            <Text style={styles.userName}>Welcome Climber!</Text>
-            <Text style={styles.userBio}>Sign in to access all features</Text>
-            
-            {/* 登录/注册按钮 */}
-            <TouchableOpacity 
-              style={styles.signInButton} 
-              onPress={handleSignIn}
-            >
-              <Ionicons name="log-in-outline" size={18} color="#007AFF" />
-              <Text style={styles.signInText}>Sign In / Sign Up</Text>
-            </TouchableOpacity>
-          </>
+          <TouchableOpacity style={styles.primaryButton} onPress={handleSignIn}>
+            <Ionicons name="log-in-outline" size={16} color={ui.colors.white} />
+            <Text style={styles.primaryButtonText}>Sign in or create an account</Text>
+          </TouchableOpacity>
         )}
       </View>
 
-      {/* 功能卡片区域 - 根据登录状态调整 */}
-      <View style={styles.cardsSection}>
-        <Text style={styles.sectionTitle}>My Features</Text>
-        
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>Your tools</Text>
         {functionCards.map((card) => (
           <TouchableOpacity
             key={card.id}
-            style={[
-              styles.card,
-              !user && styles.cardDisabled  
-            ]}
+            style={[styles.rowCard, !user && styles.rowCardDisabled]}
             onPress={() => handleCardPress(card.route)}
-            activeOpacity={user ? 0.7 : 1}
-            disabled={!user} 
+            activeOpacity={user ? 0.8 : 1}
+            disabled={!user}
           >
-            <View style={[styles.cardIconContainer, { 
-              backgroundColor: `${card.color}${user ? '20' : '10'}` 
-            }]}>
-              <Ionicons 
-                name={card.icon} 
-                size={28} 
-                color={user ? card.color : '#CCCCCC'} 
-              />
+            <View style={styles.rowIcon}>
+              <Ionicons name={card.icon} size={20} color={ui.colors.text} />
             </View>
-            
-            <View style={styles.cardContent}>
-              <Text style={[
-                styles.cardTitle,
-                !user && styles.textDisabled  
-              ]}>
-                {card.title}
-              </Text>
-              <Text style={[
-                styles.cardDescription,
-                !user && styles.textDisabled
-              ]}>
-                {user ? card.description : 'Sign in to access this feature'}
+            <View style={styles.rowContent}>
+              <Text style={styles.rowTitle}>{card.title}</Text>
+              <Text style={styles.rowDescription}>
+                {user ? card.description : 'Sign in to access this feature.'}
               </Text>
             </View>
-            
-            <Ionicons 
-              name="chevron-forward" 
-              size={24} 
-              color={user ? "#CCCCCC" : "#EEEEEE"} 
-            />
+            <Ionicons name="chevron-forward" size={18} color={ui.colors.textSoft} />
           </TouchableOpacity>
         ))}
       </View>
 
-      {/* 统计信息 - 根据登录状态显示 */}
-      <View style={styles.statsSection}>
-        <Text style={styles.sectionTitle}>Climbing Stats</Text>
-        <View style={styles.statsGrid}>
-          <View style={styles.statItem}>
-            <Text style={styles.statValue}>
-              {user ? '0' : '--'}
-            </Text>
-            <Text style={styles.statLabel}>Favorite Routes</Text>
-          </View>
-          <View style={styles.statItem}>
-            <Text style={styles.statValue}>
-              {user ? '0' : '--'}
-            </Text>
-            <Text style={styles.statLabel}>Climbing Logs</Text>
-          </View>
-          <View style={styles.statItem}>
-            <Text style={styles.statValue}>
-              {user ? '0' : '--'}
-            </Text>
-            <Text style={styles.statLabel}>Climbing Spots</Text>
-          </View>
-          <View style={styles.statItem}>
-            <Text style={styles.statValue}>
-              {user ? '0' : '--'}
-            </Text>
-            <Text style={styles.statLabel}>Climbing Days</Text>
-          </View>
+      {isAdmin ? (
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Admin</Text>
+          <TouchableOpacity style={styles.rowCard} onPress={() => router.push('/admin/review')}>
+            <View style={styles.rowIcon}>
+              <Ionicons name="shield-checkmark-outline" size={20} color={ui.colors.text} />
+            </View>
+            <View style={styles.rowContent}>
+              <Text style={styles.rowTitle}>Review edits</Text>
+              <Text style={styles.rowDescription}>Approve or reject submitted route changes.</Text>
+            </View>
+            <Ionicons name="chevron-forward" size={18} color={ui.colors.textSoft} />
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.rowCard} onPress={() => router.push('/admin/approved')}>
+            <View style={styles.rowIcon}>
+              <Ionicons name="checkmark-done-circle-outline" size={20} color={ui.colors.text} />
+            </View>
+            <View style={styles.rowContent}>
+              <Text style={styles.rowTitle}>Approved routes</Text>
+              <Text style={styles.rowDescription}>View approved entries and remove outdated ones.</Text>
+            </View>
+            <Ionicons name="chevron-forward" size={18} color={ui.colors.textSoft} />
+          </TouchableOpacity>
         </View>
-        
-        {/* 提示信息 */}
-        {!user && (
-          <View style={styles.signinHint}>
-            <Ionicons name="information-circle" size={20} color="#007AFF" />
-            <Text style={styles.signinText}>
-              Sign in to track your climbing statistics
-            </Text>
+      ) : null}
+
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>Climbing stats</Text>
+        {user ? (
+          <View style={styles.statsGrid}>
+            <View style={styles.statCard}>
+              <Text style={styles.statValue}>{favoriteCount}</Text>
+              <Text style={styles.statLabel}>Favorites</Text>
+            </View>
+            <View style={styles.statCard}>
+              <Text style={styles.statValue}>{logCount}</Text>
+              <Text style={styles.statLabel}>Logs</Text>
+            </View>
+            <View style={styles.statCard}>
+              <Text style={styles.statValue}>{spotsCount}</Text>
+              <Text style={styles.statLabel}>Spots</Text>
+            </View>
+            <View style={styles.statCard}>
+              <Text style={styles.statValue}>{daysCount}</Text>
+              <Text style={styles.statLabel}>Days out</Text>
+            </View>
+          </View>
+        ) : (
+          <View style={styles.infoBanner}>
+            <Ionicons name="information-circle-outline" size={18} color={ui.colors.accent} />
+            <Text style={styles.infoBannerText}>Sign in to start building your personal climbing stats.</Text>
           </View>
         )}
       </View>
 
-      {/* 关于信息 */}
-      <View style={styles.aboutSection}>
-        <Text style={styles.sectionTitle}>About Climbing Map</Text>
-        <View style={styles.aboutContent}>
-          <Ionicons name="rocket-outline" size={24} color="#666" style={styles.aboutIcon} />
-          <Text style={styles.aboutText}>
-            This is a graduation project app for tracking climbing spots and routes.
-            {!user && ' Sign in to experience the full features!'}
-          </Text>
-        </View>
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>About</Text>
+        <Text style={styles.aboutText}>
+          Climbing Map is a student project focused on making Irish climbing data easier to browse, save, and update on mobile.
+        </Text>
       </View>
     </ScrollView>
   );
@@ -214,178 +227,195 @@ export default function ProfileHome() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f5f5',
+    backgroundColor: ui.colors.background,
   },
-  userSection: {
+  content: {
+    paddingHorizontal: 20,
+    paddingTop: 58,
+    paddingBottom: 28,
+  },
+  heroCard: {
+    backgroundColor: ui.colors.surfaceGlassStrong,
+    borderRadius: 30,
+    padding: 22,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.34)',
+    ...ui.shadows.card,
+  },
+  heroTopRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+  },
+  avatar: {
+    width: 66,
+    height: 66,
+    borderRadius: 33,
+    backgroundColor: ui.colors.surfaceMuted,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
     alignItems: 'center',
-    paddingVertical: 32,
-    backgroundColor: 'white',
-    marginBottom: 16,
-    position: 'relative',
+    justifyContent: 'center',
   },
-  avatarContainer: {
-    marginBottom: 16,
+  heroMeta: {
+    flex: 1,
+    marginLeft: 14,
+  },
+  eyebrow: {
+    fontSize: 11,
+    letterSpacing: 1.4,
+    textTransform: 'uppercase',
+    color: ui.colors.textSoft,
+    marginBottom: 6,
   },
   userName: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: '#333',
-    marginBottom: 4,
-  },
-  userEmail: {
-    fontSize: 14,
-    color: '#666',
-    marginBottom: 8,
-    fontFamily: 'monospace',
+    fontSize: 28,
+    fontWeight: '800',
+    color: ui.colors.text,
+    letterSpacing: -0.7,
   },
   userBio: {
-    fontSize: 16,
-    color: '#666',
-    marginBottom: 16,
+    marginTop: 8,
+    fontSize: 15,
+    lineHeight: 22,
+    color: ui.colors.textMuted,
   },
-  
-  logoutButton: {
+  userEmail: {
+    marginTop: 14,
+    fontSize: 13,
+    color: ui.colors.textSoft,
+  },
+  primaryButton: {
+    marginTop: 20,
+    backgroundColor: ui.colors.accentStrong,
+    borderRadius: 18,
+    paddingVertical: 15,
+    paddingHorizontal: 18,
     flexDirection: 'row',
     alignItems: 'center',
-    paddingVertical: 8,
-    paddingHorizontal: 16,
-    borderWidth: 1,
-    borderColor: '#FF3B30',
-    borderRadius: 20,
-    marginTop: 8,
+    justifyContent: 'center',
+    gap: 8,
   },
-  logoutText: {
-    color: '#FF3B30',
+  primaryButtonText: {
+    color: ui.colors.white,
     fontSize: 14,
-    fontWeight: '500',
-    marginLeft: 6,
+    fontWeight: '700',
   },
-  
-  signInButton: {
+  ghostButton: {
+    marginTop: 18,
+    alignSelf: 'flex-start',
     flexDirection: 'row',
     alignItems: 'center',
-    paddingVertical: 8,
-    paddingHorizontal: 16,
+    gap: 8,
+    paddingHorizontal: 14,
+    paddingVertical: 12,
+    borderRadius: 18,
+    backgroundColor: 'rgba(255, 228, 239, 0.82)',
     borderWidth: 1,
-    borderColor: '#007AFF',
-    borderRadius: 20,
-    marginTop: 8,
+    borderColor: '#e6c5c0',
   },
-  signInText: {
-    color: '#007AFF',
+  ghostButtonDangerText: {
+    color: ui.colors.danger,
     fontSize: 14,
-    fontWeight: '500',
-    marginLeft: 6,
+    fontWeight: '700',
   },
-  cardsSection: {
-    backgroundColor: 'white',
-    paddingHorizontal: 16,
-    paddingTop: 20,
-    paddingBottom: 16,
-    marginBottom: 16,
+  section: {
+    marginTop: 18,
+    backgroundColor: ui.colors.surfaceGlass,
+    borderRadius: 26,
+    padding: 18,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.32)',
+    ...ui.shadows.soft,
   },
   sectionTitle: {
     fontSize: 18,
-    fontWeight: '600',
-    color: '#333',
-    marginBottom: 16,
+    fontWeight: '800',
+    color: ui.colors.text,
+    marginBottom: 14,
   },
-  card: {
+  rowCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingVertical: 16,
-    borderBottomWidth: 1,
-    borderBottomColor: '#f0f0f0',
+    backgroundColor: 'rgba(255,255,255,0.46)',
+    borderRadius: 20,
+    padding: 14,
+    marginBottom: 10,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
   },
-  cardDisabled: {
+  rowCardDisabled: {
     opacity: 0.6,
   },
-  cardIconContainer: {
-    width: 56,
-    height: 56,
-    borderRadius: 28,
-    justifyContent: 'center',
+  rowIcon: {
+    width: 42,
+    height: 42,
+    borderRadius: 21,
+    backgroundColor: 'rgba(255,255,255,0.76)',
     alignItems: 'center',
-    marginRight: 16,
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: ui.colors.border,
   },
-  cardContent: {
+  rowContent: {
     flex: 1,
+    marginHorizontal: 12,
   },
-  cardTitle: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#333',
-    marginBottom: 4,
+  rowTitle: {
+    fontSize: 15,
+    fontWeight: '700',
+    color: ui.colors.text,
   },
-  cardDescription: {
-    fontSize: 14,
-    color: '#666',
-  },
-  textDisabled: {
-    color: '#999',
-  },
-  statsSection: {
-    backgroundColor: 'white',
-    paddingHorizontal: 16,
-    paddingVertical: 20,
-    marginBottom: 16,
+  rowDescription: {
+    fontSize: 13,
+    lineHeight: 19,
+    color: ui.colors.textMuted,
+    marginTop: 4,
   },
   statsGrid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
   },
-  statItem: {
+  statCard: {
     width: '48%',
-    backgroundColor: '#f8f9fa',
-    borderRadius: 12,
-    padding: 16,
-    marginBottom: 12,
+    backgroundColor: 'rgba(255,255,255,0.46)',
+    borderRadius: 20,
+    paddingVertical: 18,
+    paddingHorizontal: 14,
     alignItems: 'center',
+    borderWidth: 1,
+    borderColor: ui.colors.border,
+    marginBottom: 10,
   },
   statValue: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: '#007AFF',
-    marginBottom: 4,
+    fontSize: 28,
+    fontWeight: '800',
+    color: ui.colors.text,
   },
   statLabel: {
-    fontSize: 14,
-    color: '#666',
+    fontSize: 13,
+    color: ui.colors.textSoft,
+    marginTop: 4,
   },
-  signinHint: {
+  infoBanner: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
-    marginTop: 16,
-    padding: 12,
-    backgroundColor: '#E3F2FD',
-    borderRadius: 8,
+    gap: 10,
+    padding: 14,
+    borderRadius: 18,
+    backgroundColor: 'rgba(156, 99, 255, 0.12)',
+    borderWidth: 1,
+    borderColor: 'rgba(188, 163, 255, 0.42)',
   },
-  signinText: {
-    marginLeft: 8,
-    color: '#1976D2',
-    fontSize: 14,
-  },
-  
-  aboutSection: {
-    backgroundColor: 'white',
-    paddingHorizontal: 16,
-    paddingVertical: 20,
-    marginBottom: 16,
-  },
-  aboutContent: {
-    flexDirection: 'row',
-    alignItems: 'flex-start',
-  },
-  aboutIcon: {
-    marginRight: 12,
-    marginTop: 2,
+  infoBannerText: {
+    flex: 1,
+    color: ui.colors.accentStrong,
+    fontSize: 13,
+    lineHeight: 20,
   },
   aboutText: {
-    flex: 1,
     fontSize: 14,
-    color: '#666',
-    lineHeight: 20,
+    lineHeight: 22,
+    color: ui.colors.textMuted,
   },
 });

@@ -1,3 +1,4 @@
+import { Ionicons } from '@expo/vector-icons';
 import React from 'react';
 import {
   Pressable,
@@ -7,130 +8,164 @@ import {
   TextInput,
   View,
 } from 'react-native';
+
+import { ui } from '@/constants/ui';
 import { ClimbingSite } from '../hooks/use-climbing-sites';
 
 type Props = {
   searchText: string;
   onChangeSearchText: (v: string) => void;
-  
   selectedCounty: string;
   onSelectCounty: (county: string) => void;
   countyOptions: string[];
   showCountyDropdown: boolean;
   onToggleCountyDropdown: () => void;
-  
   selectedTypes: string[];
   onSelectType: (type: string) => void;
   typeOptions: string[];
   showTypeDropdown: boolean;
   onToggleTypeDropdown: () => void;
-  
   selectedDifficulty: string | null;
   onSelectDifficulty: (difficulty: string | null) => void;
   difficultyOptions: { id: string | null; label: string }[];
   showDifficultyDropdown: boolean;
   onToggleDifficultyDropdown: () => void;
-  
+  selectedHotspot: string;
+  onSelectHotspot: (hotspot: string) => void;
+  hotspotOptions: string[];
+  showHotspotDropdown: boolean;
+  onToggleHotspotDropdown: () => void;
   suggestedSites: ClimbingSite[];
   onSelectSite: (site: ClimbingSite) => void;
 };
 
+const ALL_COUNTIES = 'All Counties';
+
 export const SearchPanel: React.FC<Props> = ({
   searchText,
   onChangeSearchText,
-  
   selectedCounty,
   onSelectCounty,
   countyOptions = [],
   showCountyDropdown,
   onToggleCountyDropdown,
-  
   selectedTypes = [],
   onSelectType,
   typeOptions = [],
   showTypeDropdown,
   onToggleTypeDropdown,
-  
   selectedDifficulty = null,
   onSelectDifficulty,
   difficultyOptions = [],
   showDifficultyDropdown,
   onToggleDifficultyDropdown,
-  
+  selectedHotspot = 'all',
+  onSelectHotspot,
+  hotspotOptions = [],
+  showHotspotDropdown,
+  onToggleHotspotDropdown,
   suggestedSites = [],
   onSelectSite,
 }) => {
   const getTypeButtonText = () => {
     if (selectedTypes.length === 0) return 'All types';
     if (selectedTypes.length === 1) return selectedTypes[0];
-    return `${selectedTypes.length} types selected`;
+    return `${selectedTypes.length} types`;
   };
+
+  const countyLabel = selectedCounty === ALL_COUNTIES
+    ? ALL_COUNTIES
+    : selectedCounty.replace('Co. ', '');
+
+  const DropdownItem = ({
+    label,
+    selected,
+    onPress,
+  }: {
+    label: string;
+    selected?: boolean;
+    onPress: () => void;
+  }) => (
+    <Pressable style={styles.dropdownItem} onPress={onPress}>
+      <Text style={[styles.dropdownItemText, selected && styles.dropdownItemTextActive]}>
+        {label}
+      </Text>
+      {selected ? (
+        <Ionicons name="checkmark" size={16} color={ui.colors.accent} />
+      ) : null}
+    </Pressable>
+  );
 
   return (
     <View style={styles.wrapper}>
-      <View style={styles.searchBar}>
-        {/* 第一行：搜索框 */}
-        <TextInput
-          style={styles.searchInput}
-          placeholder="Search by Crag Name"
-          placeholderTextColor="#999"
-          value={searchText}
-          onChangeText={onChangeSearchText}
-        />
+      <View style={styles.panel}>
+        <View style={styles.searchRow}>
+          <Ionicons name="search-outline" size={18} color={ui.colors.textSoft} />
+          <TextInput
+            style={styles.searchInput}
+            placeholder="Search crags, counties, routes"
+            placeholderTextColor={ui.colors.textSoft}
+            value={searchText}
+            onChangeText={onChangeSearchText}
+          />
+          {searchText ? (
+            <Pressable onPress={() => onChangeSearchText('')} style={styles.clearButton}>
+              <Ionicons name="close" size={16} color={ui.colors.textMuted} />
+            </Pressable>
+          ) : null}
+        </View>
 
-        {/* 第二行：三个筛选按钮并排 */}
-        <View style={styles.filterRow}>
-          {/* 郡筛选按钮 */}
-          <Pressable
-            style={styles.filterButton}
-            onPress={onToggleCountyDropdown}
-          >
-            <Text style={styles.filterButtonText} numberOfLines={1}>
-              {selectedCounty === '全部'
-                ? 'All counties'
-                : selectedCounty.replace('Co. ', '')}
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={styles.filterRow}
+        >
+          <Pressable style={styles.filterButton} onPress={onToggleCountyDropdown}>
+            <Text style={styles.filterLabel}>County</Text>
+            <Text style={styles.filterValue} numberOfLines={1}>
+              {countyLabel}
             </Text>
-            <Text style={styles.filterButtonIcon}>▼</Text>
+            <Ionicons style={styles.filterChevron} name="chevron-down" size={14} color={ui.colors.textMuted} />
           </Pressable>
 
-          {/* 类型筛选按钮（多选） */}
           <Pressable
             style={[styles.filterButton, selectedTypes.length > 0 && styles.filterButtonActive]}
             onPress={onToggleTypeDropdown}
           >
-            <Text style={styles.filterButtonText} numberOfLines={1}>
+            <Text style={styles.filterLabel}>Type</Text>
+            <Text style={styles.filterValue} numberOfLines={1}>
               {getTypeButtonText()}
             </Text>
-            <Text style={styles.filterButtonIcon}>▼</Text>
+            <Ionicons style={styles.filterChevron} name="chevron-down" size={14} color={ui.colors.textMuted} />
           </Pressable>
 
-          {/* 难度筛选按钮 */}
-          <Pressable
-            style={styles.filterButton}
-            onPress={onToggleDifficultyDropdown}
-          >
-            <Text style={styles.filterButtonText} numberOfLines={1}>
+          <Pressable style={styles.filterButton} onPress={onToggleDifficultyDropdown}>
+            <Text style={styles.filterLabel}>Grade</Text>
+            <Text style={styles.filterValue} numberOfLines={1}>
               {selectedDifficulty === null
                 ? 'All difficulties'
-                : difficultyOptions.find(opt => opt.id === selectedDifficulty)?.label || selectedDifficulty}
+                : difficultyOptions.find((opt) => opt.id === selectedDifficulty)?.label || selectedDifficulty}
             </Text>
-            <Text style={styles.filterButtonIcon}>▼</Text>
+            <Ionicons style={styles.filterChevron} name="chevron-down" size={14} color={ui.colors.textMuted} />
           </Pressable>
-        </View>
+
+          <Pressable style={styles.filterButton} onPress={onToggleHotspotDropdown}>
+            <Text style={styles.filterLabel}>Cluster</Text>
+            <Text style={styles.filterValue} numberOfLines={1}>
+              {selectedHotspot === 'all' ? 'All hotspots' : selectedHotspot}
+            </Text>
+            <Ionicons style={styles.filterChevron} name="chevron-down" size={14} color={ui.colors.textMuted} />
+          </Pressable>
+        </ScrollView>
       </View>
 
-      {/* 搜索联想结果 */}
-      {suggestedSites.length > 0 && (
-        <View 
+      {suggestedSites.length > 0 ? (
+        <View
           style={styles.suggestionBox}
           onStartShouldSetResponder={() => true}
           onTouchEnd={(e) => e.stopPropagation()}
         >
-          <ScrollView 
-            showsVerticalScrollIndicator={true}
-            nestedScrollEnabled={true}
-            style={{ maxHeight: 220 }}
-          >
+          <ScrollView showsVerticalScrollIndicator={false} nestedScrollEnabled style={styles.scrollArea}>
             {suggestedSites.map((site) => (
               <Pressable
                 key={`${site.id || site.name}`}
@@ -140,132 +175,118 @@ export const SearchPanel: React.FC<Props> = ({
                   onChangeSearchText('');
                 }}
               >
-                <Text style={styles.suggestionTitle}>{site.name}</Text>
-                <Text style={styles.suggestionSubtitle}>
-                  {site.countyName ?? ''}
-                </Text>
+                <View>
+                  <Text style={styles.suggestionTitle}>{site.name}</Text>
+                  <Text style={styles.suggestionSubtitle}>{site.countyName ?? ''}</Text>
+                </View>
+                <Ionicons name="arrow-forward" size={16} color={ui.colors.textSoft} />
               </Pressable>
             ))}
           </ScrollView>
         </View>
-      )}
+      ) : null}
 
-      {/* 郡下拉列表 */}
-      {showCountyDropdown && (
-        <View 
+      {showCountyDropdown ? (
+        <View
           style={styles.dropdownList}
           onStartShouldSetResponder={() => true}
           onTouchEnd={(e) => e.stopPropagation()}
         >
-          <ScrollView 
-            showsVerticalScrollIndicator={true}
-            nestedScrollEnabled={true}
-          >
-            <Pressable
-              style={styles.dropdownItem}
+          <ScrollView showsVerticalScrollIndicator={false} nestedScrollEnabled style={styles.scrollArea}>
+            <DropdownItem
+              label={ALL_COUNTIES}
+              selected={selectedCounty === ALL_COUNTIES}
               onPress={() => {
-                onSelectCounty('全部');
+                onSelectCounty(ALL_COUNTIES);
                 onToggleCountyDropdown();
               }}
-            >
-              <Text style={[
-                styles.dropdownItemText,
-                selectedCounty === '全部' && styles.dropdownItemTextActive
-              ]}>
-                All counties
-              </Text>
-            </Pressable>
-            {countyOptions.filter(c => c !== '全部').map((county) => (
-              <Pressable
+            />
+            {countyOptions.filter((county) => county !== ALL_COUNTIES).map((county) => (
+              <DropdownItem
                 key={county}
-                style={styles.dropdownItem}
+                label={county.replace('Co. ', '')}
+                selected={selectedCounty === county}
                 onPress={() => {
                   onSelectCounty(county);
                   onToggleCountyDropdown();
                 }}
-              >
-                <Text style={[
-                  styles.dropdownItemText,
-                  selectedCounty === county && styles.dropdownItemTextActive
-                ]}>
-                  {county.replace('Co. ', '')}
-                </Text>
-              </Pressable>
+              />
             ))}
           </ScrollView>
         </View>
-      )}
+      ) : null}
 
-      {/* 类型下拉列表（多选） */}
-      {showTypeDropdown && (
-        <View 
+      {showTypeDropdown ? (
+        <View
           style={styles.dropdownList}
           onStartShouldSetResponder={() => true}
           onTouchEnd={(e) => e.stopPropagation()}
         >
-          <ScrollView 
-            showsVerticalScrollIndicator={true}
-            nestedScrollEnabled={true}
-          >
-            <Pressable
-              style={styles.dropdownItem}
-              onPress={() => {
-                onSelectType('clear');
-              }}
-            >
-              <Text style={styles.dropdownItemText}>Clear all</Text>
-            </Pressable>
-            
-            {/* 类型选项 */}
+          <ScrollView showsVerticalScrollIndicator={false} nestedScrollEnabled style={styles.scrollArea}>
+            <DropdownItem label="Clear selection" onPress={() => onSelectType('clear')} />
             {typeOptions.map((type) => (
-              <Pressable
+              <DropdownItem
                 key={type}
-                style={styles.dropdownItem}
+                label={type}
+                selected={selectedTypes.includes(type)}
                 onPress={() => onSelectType(type)}
-              >
-                <Text style={[
-                  styles.dropdownItemText,
-                  selectedTypes.includes(type) && styles.dropdownItemTextActive
-                ]}>
-                  {type} {selectedTypes.includes(type) ? ' ✓' : ''}
-                </Text>
-              </Pressable>
+              />
             ))}
           </ScrollView>
         </View>
-      )}
+      ) : null}
 
-      {/* 难度下拉列表 */}
-      {showDifficultyDropdown && (
-        <View 
+      {showDifficultyDropdown ? (
+        <View
           style={styles.dropdownList}
           onStartShouldSetResponder={() => true}
           onTouchEnd={(e) => e.stopPropagation()}
         >
-          <ScrollView 
-            showsVerticalScrollIndicator={true}
-            nestedScrollEnabled={true}
-          >
+          <ScrollView showsVerticalScrollIndicator={false} nestedScrollEnabled style={styles.scrollArea}>
             {difficultyOptions.map((opt) => (
-              <Pressable
+              <DropdownItem
                 key={opt.id === null ? 'all' : opt.id}
-                style={styles.dropdownItem}
+                label={opt.label}
+                selected={opt.id === selectedDifficulty}
                 onPress={() => {
                   onSelectDifficulty(opt.id);
                   onToggleDifficultyDropdown();
                 }}
-              >
-                <Text style={[
-                  styles.dropdownItemText,
-                  opt.id === selectedDifficulty && styles.dropdownItemTextActive
-                ]}>
-                  {opt.label}
-                </Text>
-              </Pressable>
+              />
             ))}
           </ScrollView>
         </View>
-      )}
+      ) : null}
+
+      {showHotspotDropdown ? (
+        <View
+          style={styles.dropdownList}
+          onStartShouldSetResponder={() => true}
+          onTouchEnd={(e) => e.stopPropagation()}
+        >
+          <ScrollView showsVerticalScrollIndicator={false} nestedScrollEnabled style={styles.scrollArea}>
+            <DropdownItem
+              label="All hotspots"
+              selected={selectedHotspot === 'all'}
+              onPress={() => {
+                onSelectHotspot('all');
+                onToggleHotspotDropdown();
+              }}
+            />
+            {hotspotOptions.map((hotspot) => (
+              <DropdownItem
+                key={hotspot}
+                label={hotspot}
+                selected={selectedHotspot === hotspot}
+                onPress={() => {
+                  onSelectHotspot(hotspot);
+                  onToggleHotspotDropdown();
+                }}
+              />
+            ))}
+          </ScrollView>
+        </View>
+      ) : null}
     </View>
   );
 };
@@ -273,117 +294,136 @@ export const SearchPanel: React.FC<Props> = ({
 const styles = StyleSheet.create({
   wrapper: {
     position: 'absolute',
-    top: 50,
-    left: 8,
-    right: 8,
-    zIndex: 10,
+    top: 54,
+    left: 14,
+    right: 14,
+    zIndex: 12,
   },
-  searchBar: {
-    backgroundColor: 'rgba(255,255,255,0.96)',
-    borderRadius: 10,
-    paddingHorizontal: 8,
-    paddingVertical: 6,
-    shadowColor: '#000',
-    shadowOpacity: 0.12,
-    shadowOffset: { width: 0, height: 2 },
-    shadowRadius: 3,
-    elevation: 4,
+  panel: {
+    backgroundColor: 'rgba(255, 255, 255, 0.2)',
+    borderRadius: ui.radii.lg,
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.34)',
+    padding: 12,
+    ...ui.shadows.card,
+  },
+  searchRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 14,
+    paddingVertical: 12,
+    borderRadius: ui.radii.md,
+    backgroundColor: 'rgba(255,255,255,0.72)',
+    borderWidth: 1,
+    borderColor: ui.colors.border,
   },
   searchInput: {
-    height: 34,
-    borderRadius: 8,
-    borderWidth: 1,
-    borderColor: '#ccc',
-    paddingHorizontal: 8,
-    fontSize: 13,
-    backgroundColor: '#fff',
-    marginBottom: 8,
+    flex: 1,
+    marginLeft: 10,
+    fontSize: 14,
+    color: ui.colors.text,
+    paddingVertical: 0,
+  },
+  clearButton: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(156, 99, 255, 0.12)',
   },
   filterRow: {
     flexDirection: 'row',
-    gap: 6,
-    marginBottom: 2,
+    gap: 8,
+    marginTop: 10,
+    paddingRight: 8,
   },
   filterButton: {
-    flex: 1,
+    width: 138,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    paddingRight: 28,
+    borderRadius: ui.radii.md,
+    backgroundColor: 'rgba(255,255,255,0.56)',
+    borderWidth: 1,
+    borderColor: ui.colors.border,
+    position: 'relative',
+  },
+  filterButtonActive: {
+    backgroundColor: 'rgba(156, 99, 255, 0.2)',
+    borderColor: ui.colors.borderStrong,
+  },
+  filterLabel: {
+    fontSize: 10,
+    letterSpacing: 0.6,
+    textTransform: 'uppercase',
+    color: ui.colors.textSoft,
+    marginBottom: 3,
+  },
+  filterValue: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: ui.colors.text,
+    paddingRight: 4,
+  },
+  filterChevron: {
+    position: 'absolute',
+    right: 10,
+    top: 22,
+  },
+  suggestionBox: {
+    marginTop: 10,
+    backgroundColor: 'rgba(255,255,255,0.26)',
+    borderRadius: ui.radii.lg,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.3)',
+    ...ui.shadows.soft,
+  },
+  scrollArea: {
+    maxHeight: 260,
+  },
+  suggestionItem: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingHorizontal: 10,
-    paddingVertical: 7,
-    borderRadius: 8,
-    borderWidth: 1,
-    borderColor: '#ccc',
-    backgroundColor: '#fff',
-  },
-  filterButtonActive: {
-    borderColor: '#007AFF',
-    backgroundColor: '#F0F8FF',
-  },
-  filterButtonText: {
-    fontSize: 12,
-    color: '#333',
-    flex: 1,
-  },
-  filterButtonIcon: {
-    fontSize: 10,
-    color: '#666',
-    marginLeft: 4,
-  },
-  suggestionBox: {
-    position: 'absolute',
-    top: 90,
-    left: 0,
-    right: 0,
-    maxHeight: 220,
-    backgroundColor: '#fff',
-    borderWidth: 1,
-    borderColor: '#eee',
-    borderRadius: 8,
-    zIndex: 30,
-    elevation: 5,
-  },
-  suggestionItem: {
-    paddingHorizontal: 8,
-    paddingVertical: 6,
+    paddingHorizontal: 16,
+    paddingVertical: 14,
     borderBottomWidth: 1,
-    borderBottomColor: '#f2f2f2',
+    borderBottomColor: 'rgba(188, 163, 255, 0.18)',
   },
   suggestionTitle: {
-    fontSize: 13,
-    fontWeight: '500',
-    color: '#333',
+    fontSize: 15,
+    fontWeight: '600',
+    color: ui.colors.text,
   },
   suggestionSubtitle: {
-    fontSize: 11,
-    color: '#888',
+    fontSize: 12,
+    color: ui.colors.textSoft,
+    marginTop: 3,
   },
   dropdownList: {
-    position: 'absolute',
-    top: 90,
-    left: 8,
-    right: 8,
-    maxHeight: 180,
-    backgroundColor: '#fff',
+    marginTop: 10,
+    backgroundColor: 'rgba(255,255,255,0.44)',
+    borderRadius: ui.radii.lg,
     borderWidth: 1,
-    borderColor: '#eee',
-    borderRadius: 8,
-    marginTop: 4,
-    zIndex: 40,
-    elevation: 6,
+    borderColor: 'rgba(255,255,255,0.3)',
+    ...ui.shadows.soft,
   },
   dropdownItem: {
-    paddingHorizontal: 10,
-    paddingVertical: 8,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 16,
+    paddingVertical: 14,
     borderBottomWidth: 1,
-    borderBottomColor: '#f2f2f2',
+    borderBottomColor: 'rgba(188, 163, 255, 0.18)',
   },
   dropdownItemText: {
-    fontSize: 13,
-    color: '#333',
+    fontSize: 14,
+    color: ui.colors.textMuted,
   },
   dropdownItemTextActive: {
-    color: '#007AFF',
-    fontWeight: '600',
+    color: ui.colors.accent,
+    fontWeight: '700',
   },
 });

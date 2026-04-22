@@ -37,6 +37,9 @@ export function useClimbingLog() {
         if (currentUser) {
           setUserId(currentUser.uid);
           syncFromCloud(currentUser.uid);
+        } else {
+          // 未登录，只加载本地数据
+          loadLogs();
         }
         
         const unsubscribe = auth.onAuthStateChanged((user: any) => {
@@ -49,6 +52,7 @@ export function useClimbingLog() {
         return unsubscribe;
       } catch (error) {
         console.log('Auth init failed:', error);
+        loadLogs(); // 失败时只加载本地数据
       }
     };
     initAuth();
@@ -85,7 +89,7 @@ export function useClimbingLog() {
           );
           await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(merged));
           setLogs(merged);
-          console.log(`从云端拉取 ${newLogs.length} 条日志`);
+          console.log(`Cloud fetch successful, added ${newLogs.length} logs`);
         } else {
           setLogs(localLogs);
         }
@@ -94,7 +98,7 @@ export function useClimbingLog() {
         if (stored) setLogs(JSON.parse(stored));
       }
     } catch (error) {
-      console.log('云端拉取失败:', error);
+      console.log('Cloud fetch failed:', error);
       const stored = await AsyncStorage.getItem(STORAGE_KEY);
       if (stored) setLogs(JSON.parse(stored));
     }
@@ -102,9 +106,9 @@ export function useClimbingLog() {
 
   
   const syncToCloud = async (log: ClimbingLog, isDelete: boolean = false, uid: string) => {  
-    console.log('syncToCloud 被调用, userId:', uid, 'isDelete:', isDelete);
+    console.log('syncToCloud is called, userId:', uid, 'isDelete:', isDelete);
     if (!uid) {
-      console.log('没有 userId，跳过云端写入');
+      console.log('No userId，Skip cloud write');
       return;
     }
     
@@ -114,7 +118,7 @@ export function useClimbingLog() {
       
       if (isDelete) {
         await deleteDoc(docRef);
-        console.log('云端删除日志:', log.id);
+        console.log('Cloud delete log:', log.id);
       } else {
         
         const cleanLog = Object.fromEntries(
@@ -125,10 +129,10 @@ export function useClimbingLog() {
           ...cleanLog,
           userId: uid,  
         });
-        console.log('云端写入日志:', log.id);
+        console.log('Cloud write log:', log.id);
       }
     } catch (error) {
-      console.log('云端操作失败（已存本地）:', error);
+      console.log('Cloud operation failed (saved locally):', error);
     }
   };
 
@@ -160,6 +164,11 @@ export function useClimbingLog() {
   }, [loadLogs]);
 
 const addLog = useCallback(async (logData: Omit<ClimbingLog, 'id' | 'dateAdded'>) => {
+  const auth = await getFirebaseAuth();
+  const user = auth.currentUser;
+  if (!user) {
+    throw new Error('Please log in...');
+  }
   try {
     
     let currentUid = userId;
@@ -168,14 +177,14 @@ const addLog = useCallback(async (logData: Omit<ClimbingLog, 'id' | 'dateAdded'>
       const currentUser = auth.currentUser;
       if (currentUser) {
         currentUid = currentUser.uid;
-        console.log('addLog 中重新获取到用户:', currentUid);
+        console.log('Reloaded user ID in addLog:', currentUid);
         setUserId(currentUid);  
       }
     }
 
     
     if (!currentUid) {
-      console.log('用户未登录，仅保存到本地');
+      console.log('user not logged in, only saving locally');
     }
 
     const newLog: ClimbingLog = {
@@ -185,7 +194,7 @@ const addLog = useCallback(async (logData: Omit<ClimbingLog, 'id' | 'dateAdded'>
     };
 
     console.log('Adding new log:', newLog.id);
-    console.log('当前 userId:', currentUid);
+    console.log('current userId:', currentUid);
 
     
     const jsonValue = await AsyncStorage.getItem(STORAGE_KEY);

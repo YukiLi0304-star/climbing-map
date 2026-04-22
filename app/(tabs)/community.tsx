@@ -1,25 +1,47 @@
+import AuroraBackdrop from '@/components/AuroraBackdrop';
+import { ui } from '@/constants/ui';
 import { Ionicons } from '@expo/vector-icons';
+import { useRouter } from 'expo-router';
 import React, { useEffect } from 'react';
 import {
   FlatList,
   RefreshControl,
   StyleSheet,
   Text,
+  TouchableOpacity,
   View,
 } from 'react-native';
+
 import { useCommunityFeed } from '../../hooks/use-community-feed';
 
 export default function CommunityScreen() {
-  const { activities, loading, refresh } = useCommunityFeed();
+  const router = useRouter();
+  const { activities, loading, needLogin, refresh } = useCommunityFeed();
 
   useEffect(() => {
-    console.log('社区页面加载，当前数据条数:', activities.length);
-    refresh();
-  }, []);
+    if (!needLogin) {
+      refresh();
+    }
+  }, [needLogin, refresh]);
 
-  useEffect(() => {
-    console.log('社区数据已更新:', activities.length, '条');
-  }, [activities]);
+  if (needLogin) {
+    return (
+      <View style={styles.container}>
+        <View style={styles.lockedCard}>
+          <View style={styles.lockedIcon}>
+            <Ionicons name="people-outline" size={34} color={ui.colors.text} />
+          </View>
+          <Text style={styles.lockedTitle}>Community feed is private</Text>
+          <Text style={styles.lockedMessage}>
+            Sign in to see recent favorites, sends, and notes from other climbers.
+          </Text>
+          <TouchableOpacity style={styles.loginButton} onPress={() => router.push('/auth/login')}>
+            <Text style={styles.loginButtonText}>Go to login</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+    );
+  }
 
   const formatTime = (timestamp: string) => {
     const date = new Date(timestamp);
@@ -38,65 +60,72 @@ export default function CommunityScreen() {
 
   const renderActivity = ({ item }: { item: any }) => (
     <View style={styles.card}>
-      <View style={styles.header}>
-        <Ionicons name="person-circle" size={44} color="#007AFF" />
+      <View style={styles.cardHeader}>
+        <View style={styles.avatar}>
+          <Ionicons name="person-outline" size={18} color={ui.colors.text} />
+        </View>
         <View style={styles.userInfo}>
           <Text style={styles.userEmail}>{item.userEmail}</Text>
           <Text style={styles.time}>{formatTime(item.timestamp)}</Text>
         </View>
-      </View>
-      
-      <View style={styles.content}>
-        <View style={styles.actionRow}>
-          {item.type === 'favorite' ? (
-            <Ionicons name="star" size={18} color="#FFD700" />
-          ) : (
-            <Ionicons name="checkmark-circle" size={18} color="#4CAF50" />
-          )}
-          <Text style={styles.actionText}>
-            {item.type === 'favorite' ? ' favorited' : ' completed'}
+        <View
+          style={[
+            styles.typeBadge,
+            item.type === 'favorite' ? styles.favoriteBadge : styles.completedBadge,
+          ]}
+        >
+          <Ionicons
+            name={item.type === 'favorite' ? 'star' : 'checkmark-circle'}
+            size={14}
+            color={item.type === 'favorite' ? ui.colors.gold : ui.colors.success}
+          />
+          <Text style={styles.typeBadgeText}>
+            {item.type === 'favorite' ? 'Favorited' : 'Completed'}
           </Text>
         </View>
-        
-        <View style={styles.routeBox}>
-          <Text style={styles.routeName}>{item.routeName}</Text>
-          {item.difficulty && (
-            <View style={styles.difficultyBadge}>
-              <Text style={styles.difficultyText}>{item.difficulty}</Text>
-            </View>
-          )}
-        </View>
-        
-        <Text style={styles.siteName}>📍 {item.siteName}</Text>
-        
-        {item.notes && (
-          <View style={styles.notesBox}>
-            <Text style={styles.notesText}>📝 {item.notes}</Text>
-          </View>
-        )}
       </View>
+
+      <View style={styles.routeBox}>
+        <Text style={styles.routeName}>{item.routeName}</Text>
+        {item.difficulty ? (
+          <View style={styles.difficultyBadge}>
+            <Text style={styles.difficultyText}>{item.difficulty}</Text>
+          </View>
+        ) : null}
+      </View>
+
+      <Text style={styles.siteName}>{item.siteName}</Text>
+
+      {item.notes ? (
+        <View style={styles.notesBox}>
+          <Text style={styles.notesText}>{item.notes}</Text>
+        </View>
+      ) : null}
     </View>
   );
 
   return (
     <View style={styles.container}>
+      <AuroraBackdrop compact />
       <View style={styles.titleBar}>
-        <Text style={styles.title}>Community Updates</Text>
-        <Text style={styles.subtitle}>What Are Climbers Climbing Lately？</Text>
-      </View> 
-      
+        <Text style={styles.eyebrow}>Community</Text>
+        <Text style={styles.title}>Recent activity</Text>
+        <Text style={styles.subtitle}>A live look at what climbers are saving and sending.</Text>
+      </View>
+
       <FlatList
         data={activities}
         renderItem={renderActivity}
         keyExtractor={(item) => item.id}
-        refreshControl={
-          <RefreshControl refreshing={loading} onRefresh={refresh} />
-        }
+        refreshControl={<RefreshControl refreshing={loading} onRefresh={refresh} tintColor={ui.colors.accent} />}
         contentContainerStyle={styles.listContent}
         ListEmptyComponent={
           <View style={styles.emptyContainer}>
-            <Ionicons name="people-outline" size={64} color="#ccc" />
-            <Text style={styles.emptyTitle}>No Community Updates Yet</Text>
+            <View style={styles.emptyIcon}>
+              <Ionicons name="sparkles-outline" size={26} color={ui.colors.textSoft} />
+            </View>
+            <Text style={styles.emptyTitle}>No community updates yet</Text>
+            <Text style={styles.emptyText}>Fresh activity will appear here once climbers start sharing.</Text>
           </View>
         }
       />
@@ -107,127 +136,212 @@ export default function CommunityScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f8f9fa',
+    backgroundColor: ui.colors.background,
   },
   titleBar: {
-    backgroundColor: '#fff',
-    paddingHorizontal: 16,
-    paddingTop: 60,
-    paddingBottom: 16,
-    borderBottomWidth: 1,
-    borderBottomColor: '#f0f0f0',
+    paddingHorizontal: 20,
+    paddingTop: 64,
+    paddingBottom: 18,
+  },
+  eyebrow: {
+    fontSize: 11,
+    letterSpacing: 1.4,
+    textTransform: 'uppercase',
+    color: ui.colors.textSoft,
+    marginBottom: 8,
   },
   title: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    color: '#333',
+    fontSize: 32,
+    fontWeight: '800',
+    color: ui.colors.text,
+    letterSpacing: -0.9,
   },
   subtitle: {
-    fontSize: 14,
-    color: '#666',
-    marginTop: 4,
+    fontSize: 15,
+    lineHeight: 22,
+    color: ui.colors.textMuted,
+    marginTop: 8,
+    maxWidth: 320,
   },
   listContent: {
-    padding: 16,
+    paddingHorizontal: 20,
+    paddingBottom: 28,
+    flexGrow: 1,
   },
   card: {
-    backgroundColor: '#fff',
-    borderRadius: 16,
-    padding: 16,
-    marginBottom: 12,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.05,
-    shadowRadius: 8,
-    elevation: 3,
+    backgroundColor: ui.colors.surfaceGlassStrong,
+    borderRadius: 24,
+    padding: 18,
+    marginBottom: 14,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.34)',
+    ...ui.shadows.card,
   },
-  header: {
+  cardHeader: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 12,
+    marginBottom: 14,
+  },
+  avatar: {
+    width: 42,
+    height: 42,
+    borderRadius: 21,
+    backgroundColor: 'rgba(255,255,255,0.5)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: ui.colors.border,
   },
   userInfo: {
-    marginLeft: 12,
     flex: 1,
+    marginLeft: 12,
   },
   userEmail: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#333',
+    fontSize: 15,
+    fontWeight: '700',
+    color: ui.colors.text,
   },
   time: {
     fontSize: 12,
-    color: '#999',
+    color: ui.colors.textSoft,
     marginTop: 2,
   },
-  content: {
-    marginLeft: 4,
-  },
-  actionRow: {
+  typeBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 8,
+    gap: 6,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    borderRadius: ui.radii.pill,
+    borderWidth: 1,
   },
-  actionText: {
-    fontSize: 15,
-    color: '#555',
-    marginLeft: 4,
+  favoriteBadge: {
+    backgroundColor: 'rgba(255, 209, 102, 0.16)',
+    borderColor: 'rgba(255, 209, 102, 0.28)',
+  },
+  completedBadge: {
+    backgroundColor: 'rgba(90, 165, 154, 0.14)',
+    borderColor: 'rgba(90, 165, 154, 0.24)',
+  },
+  typeBadgeText: {
+    fontSize: 12,
+    fontWeight: '700',
+    color: ui.colors.textMuted,
   },
   routeBox: {
     flexDirection: 'row',
     alignItems: 'center',
     flexWrap: 'wrap',
-    marginBottom: 6,
+    marginBottom: 8,
   },
   routeName: {
-    fontSize: 18,
-    fontWeight: '700',
-    color: '#007AFF',
-    marginRight: 8,
+    fontSize: 22,
+    fontWeight: '800',
+    color: ui.colors.text,
+    marginRight: 10,
   },
   difficultyBadge: {
-    backgroundColor: '#e3f2fd',
-    paddingHorizontal: 8,
-    paddingVertical: 2,
-    borderRadius: 12,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    borderRadius: ui.radii.pill,
+    backgroundColor: ui.colors.accentSoft,
   },
   difficultyText: {
     fontSize: 12,
-    color: '#007AFF',
-    fontWeight: '600',
+    fontWeight: '700',
+    color: ui.colors.accent,
   },
   siteName: {
     fontSize: 14,
-    color: '#666',
-    marginBottom: 8,
+    color: ui.colors.textMuted,
+    marginBottom: 10,
   },
   notesBox: {
-    backgroundColor: '#f8f9fa',
-    padding: 10,
-    borderRadius: 8,
-    marginTop: 4,
+    backgroundColor: 'rgba(255,255,255,0.34)',
+    padding: 14,
+    borderRadius: 18,
+    borderWidth: 1,
+    borderColor: ui.colors.border,
   },
   notesText: {
     fontSize: 14,
-    color: '#444',
-    lineHeight: 20,
+    lineHeight: 22,
+    color: ui.colors.textMuted,
   },
   emptyContainer: {
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    paddingTop: 80,
+    paddingVertical: 88,
+    paddingHorizontal: 24,
+  },
+  emptyIcon: {
+    width: 62,
+    height: 62,
+    borderRadius: 31,
+    backgroundColor: ui.colors.surfaceMuted,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: ui.colors.border,
   },
   emptyTitle: {
     fontSize: 18,
-    fontWeight: '600',
-    color: '#999',
-    marginTop: 16,
+    fontWeight: '700',
+    color: ui.colors.text,
+    marginTop: 18,
   },
   emptyText: {
     fontSize: 14,
-    color: '#ccc',
+    lineHeight: 22,
+    color: ui.colors.textSoft,
     marginTop: 8,
     textAlign: 'center',
-    paddingHorizontal: 32,
+  },
+  lockedCard: {
+    marginHorizontal: 20,
+    marginTop: 120,
+    padding: 24,
+    borderRadius: 28,
+    backgroundColor: ui.colors.surfaceGlassStrong,
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.34)',
+    alignItems: 'center',
+    ...ui.shadows.card,
+  },
+  lockedIcon: {
+    width: 68,
+    height: 68,
+    borderRadius: 34,
+    backgroundColor: 'rgba(255,255,255,0.42)',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: ui.colors.border,
+  },
+  lockedTitle: {
+    fontSize: 22,
+    fontWeight: '800',
+    color: ui.colors.text,
+    marginTop: 16,
+  },
+  lockedMessage: {
+    fontSize: 15,
+    lineHeight: 24,
+    color: ui.colors.textMuted,
+    textAlign: 'center',
+    marginTop: 10,
+  },
+  loginButton: {
+    marginTop: 18,
+    backgroundColor: ui.colors.accentStrong,
+    borderRadius: 18,
+    paddingHorizontal: 18,
+    paddingVertical: 14,
+  },
+  loginButtonText: {
+    color: ui.colors.white,
+    fontSize: 14,
+    fontWeight: '700',
   },
 });

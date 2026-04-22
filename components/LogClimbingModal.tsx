@@ -1,4 +1,5 @@
 import LogClimbingForm from '@/components/LogClimbingForm';
+import { ui } from '@/constants/ui';
 import React from 'react';
 import { Modal, StyleSheet, View } from 'react-native';
 
@@ -42,6 +43,6 @@ export default function LogClimbingModal({ visible, onClose, route, onLogSaved }
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f5f5',
+    backgroundColor: ui.colors.background,
   },
 });

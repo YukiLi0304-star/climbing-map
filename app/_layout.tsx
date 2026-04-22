@@ -1,16 +1,17 @@
+import { ui } from '@/constants/ui';
 import { AuthProvider, useAuth } from '@/context/AuthContext';
 import { Stack } from 'expo-router';
-import { ActivityIndicator, Text, View } from 'react-native';
+import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 
 function LoadingScreen() {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <ActivityIndicator size="large" />
-      <Text>Loading...</Text>
+    <View style={styles.loadingScreen}>
+      <ActivityIndicator size="large" color={ui.colors.accent} />
+      <Text style={styles.loadingEyebrow}>Preparing session</Text>
+      <Text style={styles.loadingText}>Checking your climbing profile.</Text>
     </View>
   );
 }
-
 
 function RootLayoutContent() {
   const { user, loading } = useAuth();
@@ -20,34 +21,45 @@ function RootLayoutContent() {
   }
 
   return (
-    <Stack screenOptions={{ headerShown: false }}>
+    <Stack
+      screenOptions={{
+        headerShown: false,
+        headerStyle: { backgroundColor: ui.colors.surface },
+        headerShadowVisible: false,
+        headerTintColor: ui.colors.text,
+        headerTitleStyle: {
+          color: ui.colors.text,
+          fontWeight: '700',
+        },
+        contentStyle: {
+          backgroundColor: ui.colors.background,
+        },
+      }}
+    >
       {!user ? (
         <Stack.Screen name="auth/login" />
       ) : (
         <>
-          {/* tabs 页面继续隐藏 header */}
           <Stack.Screen name="(tabs)" />
-          
-          {/* 为 profile 下的页面显示 header */}
-          {/* 注意：这里需要指定完整的路由路径 */}
-          <Stack.Screen 
-            name="profile/favorites/index" 
-            options={{ 
+          <Stack.Screen
+            name="profile/favorites/index"
+            options={{
               headerShown: true,
               title: 'My Favorites',
               headerBackTitle: 'Back',
-              headerTintColor: '#007AFF',
-            }} 
+            }}
           />
-          <Stack.Screen 
-            name="profile/climbing-log/index" 
-            options={{ 
+          <Stack.Screen
+            name="profile/climbing-log/index"
+            options={{
               headerShown: true,
               title: 'Climbing Log',
               headerBackTitle: 'Back',
-              headerTintColor: '#007AFF',
-            }} 
+            }}
           />
+          <Stack.Screen name="edit-site/[id]" options={{ headerShown: false }} />
+          <Stack.Screen name="admin/review" options={{ headerShown: false }} />
+          <Stack.Screen name="admin/approved" options={{ headerShown: false }} />
         </>
       )}
     </Stack>
@@ -61,3 +73,26 @@ export default function RootLayout() {
     </AuthProvider>
   );
 }
+
+const styles = StyleSheet.create({
+  loadingScreen: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: ui.colors.background,
+    paddingHorizontal: 32,
+  },
+  loadingEyebrow: {
+    marginTop: 16,
+    fontSize: 11,
+    letterSpacing: 1.2,
+    textTransform: 'uppercase',
+    color: ui.colors.textSoft,
+  },
+  loadingText: {
+    marginTop: 8,
+    fontSize: 15,
+    color: ui.colors.textMuted,
+    textAlign: 'center',
+  },
+});

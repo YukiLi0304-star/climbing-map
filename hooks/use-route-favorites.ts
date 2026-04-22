@@ -24,23 +24,25 @@ useEffect(() => {
   const initAuth = async () => {
     try {
       const auth = await getFirebaseAuth();
-      console.log('Auth 实例获取成功');
+      console.log('Auth instance acquired successfully');
       
       
       const currentUser = auth.currentUser;
       if (currentUser) {
-        console.log('已有登录用户:', currentUser.uid);
+        console.log('Existing logged-in user:', currentUser.uid);
         setUserId(currentUser.uid);
         
         setTimeout(() => syncFromCloud(currentUser.uid), 500);  
+      }else {
+        // 未登录，只加载本地收藏
+        loadFavorites();
       }
       
       
       const unsubscribe = auth.onAuthStateChanged((user: any) => {
-        console.log('onAuthStateChanged 触发:', user?.uid);
         setUserId(user?.uid || null);
         if (user?.uid) {
-          console.log('用户登录，拉取云端数据');
+          console.log('User logged in, fetching cloud data');
           syncFromCloud(user.uid);  
         }
       });
@@ -48,6 +50,7 @@ useEffect(() => {
       return unsubscribe;
     } catch (error) {
       console.log('Auth init failed:', error);
+      loadFavorites(); // 失败时只加载本地收藏
     }
   };
   initAuth();
@@ -68,17 +71,17 @@ useEffect(() => {
       
       if (isDelete) {
         await deleteDoc(docRef);
-        console.log('云端删除:', favorite.id);
+        console.log('Cloud delete:', favorite.id);
       } else {
         await setDoc(docRef, {
           ...favorite,
           userId,
           dateAdded: favorite.dateAdded
         });
-        console.log('云端写入:', favorite.id);
+        console.log('Cloud write:', favorite.id);
       }
     } catch (error) {
-      console.log('云端操作失败（已存本地）:', error);
+      console.log('Cloud operation failed (saved locally):', error);
     }
   };
 
@@ -90,7 +93,7 @@ useEffect(() => {
         setFavorites(JSON.parse(stored));
       }
     } catch (error) {
-      console.error('加载收藏失败:', error);
+      console.error('Load favorites failed:', error);
     } finally {
       setLoading(false);
     }
@@ -102,6 +105,10 @@ useEffect(() => {
     difficulty?: string,
     siteUrl?: string
   ) => {
+    const auth = await getFirebaseAuth();
+    if (!auth.currentUser) {
+      throw new Error('Please log in to add favorites');
+    }
     const id = `${siteName}_${routeName}`.replace(/\s+/g, '_');
     
     const newFavorite: FavoriteRoute = {
@@ -124,6 +131,10 @@ useEffect(() => {
   };
 
   const removeFavorite = async (siteName: string, routeName: string) => {
+    const auth = await getFirebaseAuth();
+    if (!auth.currentUser) {
+      throw new Error('Please log in to remove favorites');
+    }
     const id = `${siteName}_${routeName}`.replace(/\s+/g, '_');
     
     
@@ -138,12 +149,12 @@ useEffect(() => {
 
 const syncFromCloud = async (uid: string) => {
   if (!uid) {
-    console.log('没有userId，跳过云端拉取');
+    console.log('No userId found, skipping cloud fetch');
     return;
   }
   
   try {
-    console.log('开始拉取云端收藏, userId:', uid);
+    console.log('Starting cloud fetch, userId:', uid);
     const firestore = await getFirebaseFirestore();
     const { collection, query, where, getDocs } = await import('firebase/firestore');
     
@@ -151,7 +162,7 @@ const syncFromCloud = async (uid: string) => {
     const q = query(favoritesRef, where('userId', '==', uid));  
     const snapshot = await getDocs(q);
     
-    console.log(`查询到 ${snapshot.size} 条云端收藏`);
+    console.log(`Query returned ${snapshot.size} cloud favorites`);
     
     const cloudFavorites: FavoriteRoute[] = [];
     snapshot.forEach((doc) => {
@@ -174,11 +185,11 @@ const syncFromCloud = async (uid: string) => {
         const merged = [...favorites, ...newFavorites];
         await AsyncStorage.setItem('@climbing_route_favorites', JSON.stringify(merged));
         setFavorites(merged);
-        console.log(`从云端拉取 ${newFavorites.length} 条新收藏`);
+        console.log(`From cloud fetch: ${newFavorites.length} new favorites`);
       }
     }
   } catch (error) {
-    console.error('云端拉取失败:', error);
+    console.error('Cloud fetch failed:', error);
   }
 };
 
@@ -194,6 +205,11 @@ const syncFromCloud = async (uid: string) => {
     difficulty?: string,
     siteUrl?: string
   ) => {
+    //添加检查
+    const auth = await getFirebaseAuth();
+    if (!auth.currentUser) {
+      throw new Error('Please log in first');
+    }
     if (isFavorite(siteName, routeName)) {
       await removeFavorite(siteName, routeName);
     } else {
@@ -201,7 +217,7 @@ const syncFromCloud = async (uid: string) => {
     }
     
     await loadFavorites();
-    console.log('重新加载完成');
+    console.log('Reload completed');
   };
 
   const getFavoritesBySite = (siteName: string): FavoriteRoute[] => {

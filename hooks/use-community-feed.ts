@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react'; // ← 添加 useCallback
 import { getFirebaseAuth, getFirebaseFirestore } from '../lib/firebase';
 
 export type Activity = {
@@ -17,19 +17,19 @@ export const useCommunityFeed = () => {
   const [activities, setActivities] = useState<Activity[]>([]);
   const [loading, setLoading] = useState(true);
   const [userId, setUserId] = useState<string | null>(null);
+  const [needLogin, setNeedLogin] = useState(false);
 
-  
-  useEffect(() => {
-    const initAuth = async () => {
-      const auth = await getFirebaseAuth();
-      const user = auth.currentUser;
-      setUserId(user?.uid || null);
-    };
-    initAuth();
-  }, []);
-
-  
-  const loadActivities = async () => {
+  // 用 useCallback 包装 loadActivities
+  const loadActivities = useCallback(async () => {
+    // 检查登录状态
+    const auth = await getFirebaseAuth();
+    if (!auth.currentUser) {
+      console.log('User not logged in, skipping community feed load');
+      setNeedLogin(true);
+      setLoading(false);
+      return;
+    }
+    
     try {
       setLoading(true);
       const firestore = await getFirebaseFirestore();
@@ -50,17 +50,29 @@ export const useCommunityFeed = () => {
       
       setActivities(items);
     } catch (error) {
-      console.error('加载社区动态失败:', error);
+      console.error('Load community feed failed:', error);
     } finally {
       setLoading(false);
     }
-  };
+  }, []); // 空依赖，因为不依赖任何外部变量
 
   useEffect(() => {
-    loadActivities();
-  }, []);
+    const initAuth = async () => {
+      const auth = await getFirebaseAuth();
+      const user = auth.currentUser;
+      setUserId(user?.uid || null);
+      
+      if (!user) {
+        setNeedLogin(true);
+        setLoading(false);
+      } else {
+        setNeedLogin(false);
+        loadActivities();
+      }
+    };
+    initAuth();
+  }, [loadActivities]); // ← 加上 loadActivities 依赖
 
-  
   const publishActivity = async (
     type: 'favorite' | 'log',
     siteName: string,
@@ -68,47 +80,44 @@ export const useCommunityFeed = () => {
     difficulty?: string,
     notes?: string
   ) => {
-    if (!userId) {
-      const auth = await getFirebaseAuth();
-      const user = auth.currentUser;
-      if (!user) return;
-      setUserId(user.uid);
+    const auth = await getFirebaseAuth();
+    if (!auth.currentUser) {
+      console.log('User not logged in, cannot publish activity');
+      return;
     }
 
-    const uid = userId || (await getFirebaseAuth()).currentUser?.uid;
-    if (!uid) return;
+    const uid = auth.currentUser.uid;
     
     try {
-        const firestore = await getFirebaseFirestore();
-        const { collection, addDoc } = await import('firebase/firestore');
-        const auth = await getFirebaseAuth();
+      const firestore = await getFirebaseFirestore();
+      const { collection, addDoc } = await import('firebase/firestore');
       
-        const activityData: any = {
+      const activityData: any = {
         userId: uid,
-        userEmail: auth.currentUser?.email || '匿名用户',
+        userEmail: auth.currentUser?.email || 'Anonymous User',
         type,
         siteName,
         routeName,
         timestamp: new Date().toISOString()
-        };
+      };
 
-        
-        if (difficulty) activityData.difficulty = difficulty;
-        if (notes && notes.trim() !== '') activityData.notes = notes.substring(0, 100);
+      if (difficulty) activityData.difficulty = difficulty;
+      if (notes && notes.trim() !== '') activityData.notes = notes.substring(0, 100);
 
-        await addDoc(collection(firestore, 'activities'), activityData);
+      await addDoc(collection(firestore, 'activities'), activityData);
+      console.log(`Publish activity successful: ${type} ${routeName}`);
       
-        console.log(`动态已发布: ${type} ${routeName}`);
-        
-        loadActivities();
+      loadActivities();
     } catch (error) {
-        console.error('发布动态失败:', error);
+      console.error('Publish activity failed:', error);
     }
   };
-    return {
-        activities,
-        loading,
-        refresh: loadActivities,
-        publishActivity,
-    };
+  
+  return {
+    activities,
+    loading,
+    needLogin,
+    refresh: loadActivities,  // ← 现在这个函数是稳定的了
+    publishActivity,
+  };
 };
