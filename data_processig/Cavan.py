@@ -60,78 +60,6 @@ class IrishClimbingRobust:
             print(f"网页爬取失败: {e}")
             return {}
     
-    
-    #def get_climbing_routes_from_page(self, page_content):
-        routes = []
-        if not page_content or 'error' in page_content:
-            return routes
-
-        content = page_content.get('content', '')
-        if not content:
-            return routes
-
-        lines = content.split('\n')
-        
-        for line in lines:
-            line = line.strip()
-            if not line:
-                continue
-            
-            # 检查粗体
-            has_bold = "'''" in line or "<b>" in line
-            if not has_bold:
-                continue
-            
-            # 找难度
-            grade_match = re.search(self.grade_pattern, line, re.IGNORECASE)
-            if not grade_match:
-                continue
-            
-            # 基础难度
-            difficulty = grade_match.group(0)
-            start = grade_match.start()
-            
-            if start > 0:
-                prev_char = line[start-1]
-                if prev_char == "'":  # 前面是单引号，比如 I'M 里的 'M
-                    print(f"  跳过：{difficulty} 前面有单引号")
-                    continue
-            
-            difficulty = grade_match.group(0)
-            # 新加：检查后面有没有技术等级
-            rest = line[grade_match.end():].strip()
-            tech_match = re.search(r'^[4-6][abc]', rest)
-            if tech_match:
-                difficulty += ' ' + tech_match.group(0)
-            
-            if difficulty.upper() == 'S':
-                s_pos = grade_match.start()
-                # 检查S前面3个字符内有没有单引号
-                context_before = line[max(0, s_pos-3):s_pos]
-                if "'" in context_before:
-                    print(f"  跳过带单引号的's': {line[:50]}...")
-                    continue
-
-            
-            # 提取名字（取难度之前的部分）
-            name = line[:grade_match.start()].strip()
-            name = re.sub(r"'''", '', name)
-            name = re.sub(r'<[^>]+>', ' ', name)
-            name = name.strip()
-            
-            routes.append({
-                'name': name,
-                'difficulty': difficulty,
-                'height': None,  # 高度提取可以另外加
-                'has_star': '*' in line,
-                'first_ascent': None,
-                'description': None
-            })
-            if len(routes) >= 20:
-                print(f"  已收集20条路线，停止解析")
-                break
-        
-        return routes
     def get_climbing_routes_from_page(self, page_content):
         routes = []
         if not page_content or 'error' in page_content:
@@ -589,7 +517,7 @@ class IrishClimbingRobust:
             easting = base_easting + easting_hm * 100
             northing = base_northing + northing_hm * 100
             
-            # ⭐ 使用旧的爱尔兰网格 (EPSG:29903)
+            #使用旧的爱尔兰网格 (EPSG:29903)
             transformer = Transformer.from_crs(29903, 4326, always_xy=True)
             longitude, latitude = transformer.transform(easting, northing)
             

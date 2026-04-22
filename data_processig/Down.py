@@ -467,25 +467,6 @@ class IrishClimbingRobust:
         except Exception as e:
             print(f"      本地转换失败: {e}")
             return None   
-
-    #def _extract_coordinates_logic(self, title, wikitext):
-        if title in MANUAL_COORDS:
-            return MANUAL_COORDS[title]
-
-        try:
-            coord_pattern = r"\{\{[Cc]oord\|([0-9\.]+)\|([0-9\.\-]+)\}\}"
-            match = re.search(coord_pattern, wikitext, re.IGNORECASE)
-            if match:
-                return {"latitude": float(match.group(1)), "longitude": float(match.group(2))}
-        except:
-            pass
-
-        print(f"      尝试去 OSM 搜索: {title} ...")
-        osm_coords = self._fetch_coords_from_osm(title)
-        if osm_coords:
-            return osm_coords
-
-        return {"latitude": None, "longitude": None}
     
     def _extract_coordinates_logic(self, title, wikitext):
         """分层次坐标提取"""
@@ -948,30 +929,6 @@ class IrishClimbingRobust:
                 
         return all_complete_data
 
-"""
-if __name__ == "__main__":
-    collector = IrishClimbingRobust()
-
-    counties_list = ["Antrim", "Armagh", "Carlow", "Cavan", "Clare", "Cork", "Derry", 
-                    "Donegal", "Down", "Dublin", "Fermanagh", "Galway", "Kerry", 
-                    "Kildare", "Kilkenny", "Laois", "Leitrim", "Limerick", "Longford", 
-                    "Louth", "Mayo", "Meath", "Monaghan", "Offaly", "Roscommon", 
-                    "Sligo", "Tipperary", "Tyrone", "Waterford", "Westmeath", 
-                    "Wexford", "Wicklow"]
-
-    for county in counties_list:
-        print(f"\n处理郡: {county}")
-        county_data = collector.collect_county_data(county, max_sites=None)
-        
-        if county_data:
-            collector.save_complete_data(county_data, f'{county.lower()}_all_data.json')
-            collector.generate_summary(county_data)
-            print(f"{county} 数据保存成功")
-        else:
-            print(f"未找到 {county} 郡的数据")
-        
-        time.sleep(1.5)
-"""
 if __name__ == "__main__":
     collector = IrishClimbingRobust()
     
