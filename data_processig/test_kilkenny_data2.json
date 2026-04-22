@@ -1,0 +1,205 @@
+{
+  "Co. Kilkenny": {
+    "county_info": {
+      "name": "Co. Kilkenny"
+    },
+    "climbing_sites": [
+      {
+        "name": "Ballykeefe Quarry",
+        "page_title": "Ballykeefe_Quarry",
+        "climbing_type": "Sea Cliff, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Ballykeefe_Quarry",
+        "routes": [
+          {
+            "name": "Sylvester",
+            "difficulty": "VD",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Aristotle",
+            "difficulty": "HS 4b",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Bill and Ben",
+            "difficulty": "S 4a",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Grod",
+            "difficulty": "VD",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Plato",
+            "difficulty": "HS 4b",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Steering Wheel",
+            "difficulty": "HS 4b",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Oggy and the Cockroaches",
+            "difficulty": "VS 4c",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GTX",
+            "difficulty": "HS 4b",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Ford Wall",
+            "difficulty": "E1 5b",
+            "height": 8,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Cadet Crack",
+            "difficulty": "HS 4b",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Rugrats",
+            "difficulty": "VD",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Jim Crack",
+            "difficulty": "VD",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Intifada",
+            "difficulty": "4a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Crooked Crack",
+            "difficulty": "VD",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "First Corner",
+            "difficulty": "VD",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Cliffhanger",
+            "difficulty": "HVS 5a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Kestrel Crack",
+            "difficulty": "HVS 5a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Pigeon",
+            "difficulty": "6b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "A Cone Ochone",
+            "difficulty": "6b",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Rosehip Crack",
+            "difficulty": "VS 5a",
+            "height": 8,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 52.6095264,
+          "longitude": -7.3994769,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Knockdrinna",
+        "page_title": "Knockdrinna",
+        "climbing_type": "Quarry, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Knockdrinna",
+        "routes": [
+          {
+            "name": "forgotten flake",
+            "difficulty": "6b",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 52.4992355,
+          "longitude": -7.2394776,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

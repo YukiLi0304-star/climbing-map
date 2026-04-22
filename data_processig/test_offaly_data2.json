@@ -1,0 +1,96 @@
+{
+  "Co. Offaly": {
+    "county_info": {
+      "name": "Co. Offaly"
+    },
+    "climbing_sites": [
+      {
+        "name": "Silver River Crag",
+        "page_title": "Silver_River_Crag",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Silver_River_Crag",
+        "routes": [
+          {
+            "name": "Black hole",
+            "difficulty": "S 4a",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Little Pocket",
+            "difficulty": "VS 4c",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Netty",
+            "difficulty": "S 4a",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Loose Tooth",
+            "difficulty": "HS 4b",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Hungover",
+            "difficulty": "HVS 5b",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Prow and the Stars",
+            "difficulty": "HVS 5b",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Over and up",
+            "difficulty": "VS 4c",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "On the corner",
+            "difficulty": "VS 4c",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Inside Story,",
+            "difficulty": "VS 4c",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 9,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}

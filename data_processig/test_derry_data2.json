@@ -1,0 +1,64 @@
+{
+  "Co. Derry": {
+    "county_info": {
+      "name": "Co. Derry"
+    },
+    "climbing_sites": [
+      {
+        "name": "Sperrin Mountains",
+        "page_title": "Sperrin_Mountains",
+        "climbing_type": "Mountain, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Sperrin_Mountains",
+        "routes": [
+          {
+            "name": "Magicrams",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Bee-Line",
+            "difficulty": "VS 4b",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Sting",
+            "difficulty": "HVS 5a",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Truant",
+            "difficulty": "S",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Gravy Drain",
+            "difficulty": "V",
+            "height": 8,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 5,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}

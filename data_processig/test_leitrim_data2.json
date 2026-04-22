@@ -1,0 +1,486 @@
+{
+  "Co. Leitrim": {
+    "county_info": {
+      "name": "Co. Leitrim"
+    },
+    "climbing_sites": [
+      {
+        "name": "Cloch An tSagairt / Carrignahasta",
+        "page_title": "Cloch_An_tSagairt_/_Carrignahasta",
+        "climbing_type": "Mountain, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Cloch_An_tSagairt_/_Carrignahasta",
+        "routes": [
+          {
+            "name": "W1a Black Mass",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W1 INTO THE WEST",
+            "difficulty": "HVS 5b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W2 TATO",
+            "difficulty": "VS 4c",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W3a BLACK HANDS",
+            "difficulty": "Severe 4a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W3 STRAIT AND NARROW",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W4 AN MHÉAR FHADA",
+            "difficulty": "Severe 4a",
+            "height": 3,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W5 OCTOBER",
+            "difficulty": "VS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W7 STATE OF EQUILIBRIUM",
+            "difficulty": "S",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CW IRIAMO",
+            "difficulty": "HS 4b",
+            "height": 1,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CW 2 BAD REPORT",
+            "difficulty": "VS 4b",
+            "height": 4,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C1a DEDALUS.",
+            "difficulty": "VS 4b",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C1 ROCK OF AGES.",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C2 REPENT! REPENT!",
+            "difficulty": "VS 4b",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C3 BLESS MY SOUL",
+            "difficulty": "HS 4a",
+            "height": 3,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C4 INTROIBO",
+            "difficulty": "S",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C5 WE'RE NO ANGELS",
+            "difficulty": "S",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C8a MEN OF THE WEST",
+            "difficulty": "VS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C8b SHOULD I GO, SHOULD I STAY",
+            "difficulty": "E2 5b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C8c LITTLE DIVIL",
+            "difficulty": "VS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C9 LITTLE ANGELS",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.168628,
+          "longitude": -7.947156,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Cloonty Pruglish",
+        "page_title": "Cloonty_Pruglish",
+        "climbing_type": "Quarry, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Cloonty_Pruglish",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.378393,
+          "longitude": -8.334686,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "King's Rock",
+        "page_title": "King%27s_Rock",
+        "climbing_type": "Mountain, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=King%27s_Rock",
+        "routes": [
+          {
+            "name": "Return of the king",
+            "difficulty": "E1 5b",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Mind those cows",
+            "difficulty": "E1 5b",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The cattle theory",
+            "difficulty": "HS 4b",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Amber",
+            "difficulty": "S 4a",
+            "height": 8,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Mass Rock",
+        "page_title": "Mass_Rock",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Mass_Rock",
+        "routes": [
+          {
+            "name": "Drumshambo Breakfast Roll",
+            "difficulty": "E1 5b",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Great Hunger",
+            "difficulty": "E2 5b",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Feed Me",
+            "difficulty": "D",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Offering",
+            "difficulty": "E4 6a",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Dont Pull Mary",
+            "difficulty": "E2 5c",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Jigsaw",
+            "difficulty": "HS 4b",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The 5th Ape",
+            "difficulty": "VS 4c",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Im in Heaven",
+            "difficulty": "HVS 5a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Reaper",
+            "difficulty": "E3 5c",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Forbidden Fruit",
+            "difficulty": "HVS 5a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Mmm Boxty",
+            "difficulty": "HVS 5a",
+            "height": 14,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "How Much is Enough",
+            "difficulty": "E1 5b",
+            "height": 14,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "OMG",
+            "difficulty": "E1 5b",
+            "height": 14,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "lord of the sheep",
+            "difficulty": "HVS 5a",
+            "height": 14,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 14,
+        "coordinates": {
+          "latitude": 53.2031803,
+          "longitude": -6.2633032,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "The Doons",
+        "page_title": "The_Doons",
+        "climbing_type": "Inland, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=The_Doons",
+        "routes": [
+          {
+            "name": "LORNA",
+            "difficulty": "VS 4c",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LIMESTONE LEMUR",
+            "difficulty": "HVS 5a",
+            "height": 28,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SLIGO RIPPER",
+            "difficulty": "VS 4b",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "MANKY MONKEY",
+            "difficulty": "VS 4c",
+            "height": 24,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 54.285873,
+          "longitude": -8.330865,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Swiss Valley",
+        "page_title": "Swiss_Valley",
+        "climbing_type": "Sea Cliff, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Swiss_Valley",
+        "routes": [
+          {
+            "name": "Enigma**",
+            "difficulty": "VS",
+            "height": 30,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Prime Lime Climb",
+            "difficulty": "E4/5",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Fossil Features",
+            "difficulty": "HS",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Lime Light",
+            "difficulty": "VS",
+            "height": 50,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Lime in the ballnut",
+            "difficulty": "E1",
+            "height": 50,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Optimus Lime",
+            "difficulty": "VS",
+            "height": 35,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Little drops of coolness",
+            "difficulty": "E1",
+            "height": 45,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 7,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}

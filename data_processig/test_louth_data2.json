@@ -1,0 +1,348 @@
+{
+  "Co. Louth": {
+    "county_info": {
+      "name": "Co. Louth"
+    },
+    "climbing_sites": [
+      {
+        "name": "Slievenaglogh",
+        "page_title": "Slievenaglogh",
+        "climbing_type": "Mountain, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Slievenaglogh",
+        "routes": [
+          {
+            "name": "CASEY JONES",
+            "difficulty": "S",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "BIG RIVER",
+            "difficulty": "VS 4c",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SWEET JAM",
+            "difficulty": "HVS 5a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "WINTERLAND",
+            "difficulty": "VS 4c",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GREEN SLAB",
+            "difficulty": "VS 4c",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "EROS",
+            "difficulty": "E1 5b",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "QUIVER",
+            "difficulty": "VS 4c",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "THE ARROW",
+            "difficulty": "HVS 5b",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "ROBIN HOOD",
+            "difficulty": "HS 4c",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "RAINMAKER",
+            "difficulty": "HVS 5c",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LULLABY",
+            "difficulty": "VD",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "BIG SUR",
+            "difficulty": "E1 5b",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "TRICK OR TREAT",
+            "difficulty": "VS 4b",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "DON'T FORGET YOUR PICKAXE",
+            "difficulty": "HS 4b",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "ROTATION, ROTATION, ROTATION",
+            "difficulty": "VD",
+            "height": 11,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "KIDNEY FAILURE",
+            "difficulty": "VD",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LADS IN OZ",
+            "difficulty": "S 4a",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "IN BOOTS, PLEASE",
+            "difficulty": "S",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "JUST GRUNT",
+            "difficulty": "VD",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "FEMME FATALE",
+            "difficulty": "S",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.0139718,
+          "longitude": -6.2634097,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Long Woman's Grave, Cooleys - The Thing In The Forest",
+        "page_title": "Long_Woman%27s_Grave,_Cooleys_-_The_Thing_In_The_Forest",
+        "climbing_type": "Mountain, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Long_Woman%27s_Grave,_Cooleys_-_The_Thing_In_The_Forest",
+        "routes": [
+          {
+            "name": "The Thing in the Forest",
+            "difficulty": "E7 6c",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Thing on the Right",
+            "difficulty": "E3/4 6a",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Clogherhead",
+        "page_title": "Clogherhead",
+        "climbing_type": "Mountain, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Clogherhead",
+        "routes": [
+          {
+            "name": "Babóg na Bealtaine  ",
+            "difficulty": "D",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Auld Lang Syne  ",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Ring in the New",
+            "difficulty": "Severe",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Autumn Airs ",
+            "difficulty": "E1 5b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Tooth Fairy E1",
+            "difficulty": "5b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Fiacail Forais  ",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Lú Lámh Fháda  ",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Habemus Papam",
+            "difficulty": "Severe",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Dubh Dorcha  ",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Eitre Éasca",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Trasna na dTonnta  ",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Time nor Tide",
+            "difficulty": "E1 5b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Seóltaí Geala",
+            "difficulty": "M",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Fumata Bianca  ",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Lá Breithe  ",
+            "difficulty": "Diff",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 15,
+        "coordinates": {
+          "latitude": 53.7917202,
+          "longitude": -6.2390693,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

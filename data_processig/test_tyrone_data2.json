@@ -1,0 +1,262 @@
+{
+  "Co. Tyrone": {
+    "county_info": {
+      "name": "Co. Tyrone"
+    },
+    "climbing_sites": [
+      {
+        "name": "Strabane Glen",
+        "page_title": "Strabane_Glen",
+        "climbing_type": "Inland, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Strabane_Glen",
+        "routes": [
+          {
+            "name": "Green Grave",
+            "difficulty": "HS",
+            "height": 55,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Temptation",
+            "difficulty": "Diff",
+            "height": 50,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Drunken Duck",
+            "difficulty": "Diff",
+            "height": 50,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Rigor Mortis",
+            "difficulty": "HS",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Highwayman",
+            "difficulty": "Diff",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Stumpeesbrae",
+            "difficulty": "Diff",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Strabanshee",
+            "difficulty": "Diff",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Strabanjo",
+            "difficulty": "Diff",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Strabandit",
+            "difficulty": "Diff",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 9,
+        "coordinates": {
+          "latitude": 54.8358356,
+          "longitude": -7.4433251,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Cookstown Quarry",
+        "page_title": "Cookstown_Quarry",
+        "climbing_type": "Quarry, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Cookstown_Quarry",
+        "routes": [
+          {
+            "name": "Willow",
+            "difficulty": "S",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Pathos",
+            "difficulty": "VS",
+            "height": 6,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Wild Side",
+            "difficulty": "VS",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Brick in the Wall",
+            "difficulty": "VS",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Step out of Time",
+            "difficulty": "VS",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Little Crack",
+            "difficulty": "E1 5c",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Big Crack",
+            "difficulty": "E1 6a",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Plum Jam",
+            "difficulty": "E2 5b",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Crack",
+            "difficulty": "VS 5b",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Diagonal",
+            "difficulty": "HVS 5b",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Walkover",
+            "difficulty": "S",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Buttress Right",
+            "difficulty": "E1 5c",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Buttress Left",
+            "difficulty": "E1 5c",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "A Level Blues",
+            "difficulty": "E3 5c",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Brick in the Wall",
+            "difficulty": "VS 5a",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Big Duck",
+            "difficulty": "E3 5c",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Right Hand",
+            "difficulty": "E2 5b",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Brain Wash",
+            "difficulty": "E1 5c",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Big Slabber",
+            "difficulty": "E1 5b",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 19,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}

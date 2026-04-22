@@ -1,0 +1,1903 @@
+{
+  "Co. Mayo": {
+    "county_info": {
+      "name": "Co. Mayo"
+    },
+    "climbing_sites": [
+      {
+        "name": "Achill",
+        "page_title": "Achill",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Achill",
+        "routes": [
+          {
+            "name": "The Long Walk",
+            "difficulty": "Severe 4a",
+            "height": 22,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "a  A'chill Seagull",
+            "difficulty": "VS",
+            "height": 16,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "b  A iew to Achill",
+            "difficulty": "HS 4b",
+            "height": 11,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Barnacle Bill",
+            "difficulty": "S",
+            "height": 17,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sky Road",
+            "difficulty": "VS",
+            "height": 17,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Thumper",
+            "difficulty": "VS",
+            "height": 18,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Big Blue",
+            "difficulty": "HS",
+            "height": 27,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Bridge Over Troubled Waters",
+            "difficulty": "S",
+            "height": 26,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Little Block of Horrors",
+            "difficulty": "HS",
+            "height": 26,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Noo Shoos?",
+            "difficulty": "Diff",
+            "height": 28,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Echoes",
+            "difficulty": "VS",
+            "height": 25,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Crouching Tiger",
+            "difficulty": "S",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "EZ Nuff",
+            "difficulty": "S",
+            "height": 22,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Ball Licker",
+            "difficulty": "S",
+            "height": 28,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Deliverance",
+            "difficulty": "S",
+            "height": 28,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Clockwork Orange",
+            "difficulty": "HS",
+            "height": 28,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Dark Water",
+            "difficulty": "HS",
+            "height": 27,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Twelve Monkeys",
+            "difficulty": "VS",
+            "height": 30,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Californication",
+            "difficulty": "S 4a",
+            "height": 20,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Huckleberry Hound",
+            "difficulty": "HS 4b",
+            "height": 20,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.969607,
+          "longitude": -10.157061,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Achill Atlantic Drive",
+        "page_title": "Achill_Atlantic_Drive",
+        "climbing_type": "Sea Cliff, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Achill_Atlantic_Drive",
+        "routes": [
+          {
+            "name": "Iron Mantopo climb number 1",
+            "difficulty": "Diff",
+            "height": 20,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Atlantic DriveHard",
+            "difficulty": "Severe 4a",
+            "height": 22,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "MAGIE CHARM",
+            "difficulty": "E3 5c",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Achillbeg Island",
+        "page_title": "Achillbeg_Island",
+        "climbing_type": "Inland, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Achillbeg_Island",
+        "routes": [
+          {
+            "name": "El Gran Grin",
+            "difficulty": "E1 5b",
+            "height": 70,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 53.8654684,
+          "longitude": -9.9493234,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Benwee Head",
+        "page_title": "Benwee_Head",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Benwee_Head",
+        "routes": [
+          {
+            "name": "The Misadventures of the Nocturnal Seal",
+            "difficulty": "E1",
+            "height": 200,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Misadventures Direct",
+            "difficulty": "E1",
+            "height": 170,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GOOGLIOX",
+            "difficulty": "Diff",
+            "height": 55,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GREAT EXPECTATIONS",
+            "difficulty": "S",
+            "height": 66,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "TIR NA NOG",
+            "difficulty": "S",
+            "height": 86,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CANDIDA",
+            "difficulty": "Diff",
+            "height": 54,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "QUIDNUNC",
+            "difficulty": "Diff",
+            "height": 45,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SEA BRINK",
+            "difficulty": "Diff",
+            "height": 45,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "BABY POWER",
+            "difficulty": "S",
+            "height": 60,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 9,
+        "coordinates": {
+          "latitude": 54.32343,
+          "longitude": -9.845052,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Clare Island",
+        "page_title": "Clare_Island",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Clare_Island",
+        "routes": [
+          {
+            "name": "The Scholar-Gypsy",
+            "difficulty": "Diff",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Avian Anger S4b P  O’Brien",
+            "difficulty": "D",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Seaga Ciúin",
+            "difficulty": "Diff",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Corner Boy",
+            "difficulty": "Diff",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Arch Central",
+            "difficulty": "VD",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 5,
+        "coordinates": {
+          "latitude": 53.8084116,
+          "longitude": -9.9881427,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Coum Gowlaun",
+        "page_title": "Coum_Gowlaun",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Coum_Gowlaun",
+        "routes": [
+          {
+            "name": "BÉAL BOCHT",
+            "difficulty": "S",
+            "height": 90,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "JANUS",
+            "difficulty": "MS",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "DOUBLE FUN",
+            "difficulty": "E1/2",
+            "height": 50,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SOBRIETY",
+            "difficulty": "VDiff",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "WETBACK",
+            "difficulty": "VDiff",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GEORDIE ARÊTE",
+            "difficulty": "VDiff",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CRACKLET",
+            "difficulty": "MS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "BALTHAZAR",
+            "difficulty": "VDiff",
+            "height": 57,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "MELCHOIR",
+            "difficulty": "MS",
+            "height": 23,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "FACETIOUS FACTION",
+            "difficulty": "VDiff",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SHALOM",
+            "difficulty": "Diff",
+            "height": 60,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "ACRIMONY",
+            "difficulty": "VDiff",
+            "height": 60,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "AN ÓIGE AOISTE",
+            "difficulty": "S",
+            "height": 81,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CRUSKEEN",
+            "difficulty": "HS",
+            "height": 42,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "0 BEREFT",
+            "difficulty": "D",
+            "height": 75,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "TRICORN",
+            "difficulty": "S",
+            "height": 59,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "a TRI-HARDER",
+            "difficulty": "MS",
+            "height": 56,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GOWLAUN CLEGS",
+            "difficulty": "S",
+            "height": 51,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Scairbhín",
+            "difficulty": "S",
+            "height": 60,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Ramp and Slab",
+            "difficulty": "S",
+            "height": 100,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Doo Lough",
+        "page_title": "Doo_Lough",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Doo_Lough",
+        "routes": [
+          {
+            "name": "Left Crack",
+            "difficulty": "Severe 4a",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Boomerang",
+            "difficulty": "E2 5b",
+            "height": 20,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Slab Central",
+            "difficulty": "E2 5b",
+            "height": 22,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sunflower Aretetop section needs re-clean",
+            "difficulty": "E1 5c",
+            "height": 18,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Paper Planes",
+            "difficulty": "E1/2 5b",
+            "height": 17,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sandstorm",
+            "difficulty": "HVS",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Born Slippy",
+            "difficulty": "VS 4c",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "AILILL",
+            "difficulty": "E1 5b",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "OYAGER",
+            "difficulty": "VS 4c",
+            "height": 42,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "RED DAWN",
+            "difficulty": "E2 5c",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LETTER TO BRESHNEV",
+            "difficulty": "E3/4 6a",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "EARTH WATCH",
+            "difficulty": "E1/2",
+            "height": 70,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "NIGHTRIDER",
+            "difficulty": "E1/2 5b",
+            "height": 70,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CHINA BEACH",
+            "difficulty": "E2",
+            "height": 60,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SOLITAIRE",
+            "difficulty": "HS",
+            "height": 55,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "0 ON REFLECTION",
+            "difficulty": "VS 4b",
+            "height": 115,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "1 DICTATOR",
+            "difficulty": "E1 5b",
+            "height": 75,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "2 BANBA",
+            "difficulty": "HVS 4c",
+            "height": 28,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "3 DARK WATERS",
+            "difficulty": "VS",
+            "height": 56,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "4 HEUSTON BLUES",
+            "difficulty": "VS 4b",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.774738,
+          "longitude": -9.993836,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Downpatrick Head",
+        "page_title": "Downpatrick_Head",
+        "climbing_type": "Sea Cliff, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Downpatrick_Head",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.3277542,
+          "longitude": -9.3453231,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Glen Loss Point",
+        "page_title": "Glen_Loss_Point",
+        "climbing_type": "Sea Cliff, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Glen_Loss_Point",
+        "routes": [
+          {
+            "name": "Archaos",
+            "difficulty": "VS 4b",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "New Frontier",
+            "difficulty": "HS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Backstairs",
+            "difficulty": "Diff",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Accidental Tourists",
+            "difficulty": "Severe",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Raven",
+            "difficulty": "HS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Bohemian Rhapsody",
+            "difficulty": "E2 5c",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Titanic",
+            "difficulty": "E2 5c",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Carpathia",
+            "difficulty": "E2 5b",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Californian",
+            "difficulty": "E1 5a",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Pretty Woman",
+            "difficulty": "VS 4b",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Grivle",
+            "difficulty": "VS 4c",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Drop the Dead Donkey",
+            "difficulty": "E2 5b",
+            "height": 35,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "White Sea Horse",
+            "difficulty": "VS 4b",
+            "height": 35,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Goldener Oktober",
+            "difficulty": "VS 4b",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Thunderbirds",
+            "difficulty": "E2 5b",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Brains",
+            "difficulty": "E2 5b",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 16,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Inishkea Island",
+        "page_title": "Inishkea_Island",
+        "climbing_type": "Inland, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Inishkea_Island",
+        "routes": [
+          {
+            "name": "Main Corner",
+            "difficulty": "HVS 5a",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Centurian",
+            "difficulty": "VS 4c",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Ceol Na Mara",
+            "difficulty": "E1 5b",
+            "height": 45,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Skyros",
+            "difficulty": "HS 4b",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Shoreline",
+            "difficulty": "VS",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 5,
+        "coordinates": {
+          "latitude": 54.1139791,
+          "longitude": -10.2249469,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Iorras - Ceann an Eannaigh",
+        "page_title": "Iorras_-_Ceann_an_Eannaigh",
+        "climbing_type": "Inland, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Iorras_-_Ceann_an_Eannaigh",
+        "routes": [
+          {
+            "name": "Barr Bán",
+            "difficulty": "VD",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "An Chéad Chúinne",
+            "difficulty": "VD",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Ascal na Lúb",
+            "difficulty": "VD",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Idir an Phéire",
+            "difficulty": "VD",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Laethanta Sona",
+            "difficulty": "VD",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Bogha Báistí",
+            "difficulty": "VS 4c",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "0 Ag Siúl an Clár",
+            "difficulty": "S",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "1 Gloine Dubh",
+            "difficulty": "HS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "3 An Ghloine Scaradh",
+            "difficulty": "S",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 9,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Iorras - Doonamo Point",
+        "page_title": "Iorras_-_Doonamo_Point",
+        "climbing_type": "Inland, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Iorras_-_Doonamo_Point",
+        "routes": [
+          {
+            "name": "   Oakwood Revisited",
+            "difficulty": "Diff",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "   Beavis and Butthead",
+            "difficulty": "HS 4b",
+            "height": 22,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "  Dumplings and Acne",
+            "difficulty": "VS 4c",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Iorras - Gleann Lára",
+        "page_title": "Iorras_-_Gleann_L%C3%A1ra",
+        "climbing_type": "Sea Cliff, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Iorras_-_Gleann_L%C3%A1ra",
+        "routes": [
+          {
+            "name": "FREAGHILLAUN",
+            "difficulty": "HVS 4c",
+            "height": 43,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "HELLSFIRE",
+            "difficulty": "E1 5a",
+            "height": 43,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "PATHFINDER",
+            "difficulty": "HVS",
+            "height": 43,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CLEO",
+            "difficulty": "HVS 4c",
+            "height": 43,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SEA QUEEN",
+            "difficulty": "VS 4b",
+            "height": 43,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SKYLARK",
+            "difficulty": "HS 3c",
+            "height": 76,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Gran Gris Traverse",
+            "difficulty": "S",
+            "height": 25,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Ciervo olante",
+            "difficulty": "VDiff",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Corner Craic",
+            "difficulty": "HS 4b",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Shipwreck Scramble",
+            "difficulty": "Diff",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Céim suas",
+            "difficulty": "Severe",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "San Nicolás",
+            "difficulty": "VS",
+            "height": 30,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Santiago",
+            "difficulty": "HS 4b",
+            "height": 30,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "2 Indíreach",
+            "difficulty": "Diff",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "6 Claudine",
+            "difficulty": "MS",
+            "height": 22,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The break",
+            "difficulty": "HVS 5a",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Wipe out",
+            "difficulty": "E1 5b",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The best wave in Mayo",
+            "difficulty": "E4 6a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 18,
+        "coordinates": {
+          "latitude": 54.287967,
+          "longitude": -9.984759,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Inishturk Island",
+        "page_title": "Inishturk_Island",
+        "climbing_type": "Sea Cliff, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Inishturk_Island",
+        "routes": [
+          {
+            "name": "Ataturk",
+            "difficulty": "E5",
+            "height": 120,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Strop",
+            "difficulty": "E1",
+            "height": 90,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Spume Storm",
+            "difficulty": "VS 4a",
+            "height": 45,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Okurano",
+            "difficulty": "E1 5b",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Migi No Ho",
+            "difficulty": "E3 6a",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "New Schedules",
+            "difficulty": "Severe",
+            "height": 45,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Cleggan-Roonah Rally",
+            "difficulty": "Severe",
+            "height": 45,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Kneel Before The Ferryman",
+            "difficulty": "VS 4c",
+            "height": 45,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Trapped Nerve",
+            "difficulty": "E2",
+            "height": 35,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 9,
+        "coordinates": {
+          "latitude": 53.7027842,
+          "longitude": -10.1102589,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Killary Crags",
+        "page_title": "Killary_Crags",
+        "climbing_type": "Mountain, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Killary_Crags",
+        "routes": [
+          {
+            "name": "R00a  Mind your own Business",
+            "difficulty": "Severe 4a",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Peeping Tom",
+            "difficulty": "Diff",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "R00b  West Wing",
+            "difficulty": "Diff",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "First Lady",
+            "difficulty": "Diff",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "b  GBH",
+            "difficulty": "Severe 4a",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "c  Phat Chimney",
+            "difficulty": "Diff",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Thin Lizzy",
+            "difficulty": "VS 4c",
+            "height": 8,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "a  Happy Days",
+            "difficulty": "VS 5a",
+            "height": 9,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "b  BFG Hard",
+            "difficulty": "Severe 4b",
+            "height": 8,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "c  Would you ever shut up about that Rock",
+            "difficulty": "Severe 4a",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Hide n Seek",
+            "difficulty": "HS",
+            "height": 16,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "a  Hammer Man",
+            "difficulty": "Diff",
+            "height": 16,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Pink Slab Possy",
+            "difficulty": "Diff",
+            "height": 14,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Slab and Tickle",
+            "difficulty": "Diff",
+            "height": 14,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Killary Overhang",
+            "difficulty": "E3 6a",
+            "height": 16,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Gardeners Delight",
+            "difficulty": "VS",
+            "height": 14,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Fire Starter",
+            "difficulty": "E1 5b",
+            "height": 14,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Portwest",
+            "difficulty": "5b",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Starboard Enterprise",
+            "difficulty": "HVS 4c",
+            "height": 11,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Donegal Redneck",
+            "difficulty": "Severe 4a",
+            "height": 10,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.605571,
+          "longitude": -9.780376,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Derreennawinshin",
+        "page_title": "Derreennawinshin",
+        "climbing_type": "Inland, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Derreennawinshin",
+        "routes": [
+          {
+            "name": "Dive Bomber",
+            "difficulty": "HVS 4b",
+            "height": 38,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Bugs Life",
+            "difficulty": "VS 4b",
+            "height": 35,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Angry Birds",
+            "difficulty": "HVS 5a",
+            "height": 34,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Jessica",
+            "difficulty": "HVS 5a",
+            "height": 45,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 53.6250768,
+          "longitude": -9.8201273,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Mweelrea",
+        "page_title": "Mweelrea",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Mweelrea",
+        "routes": [
+          {
+            "name": "GOAT WALK",
+            "difficulty": "MS",
+            "height": 63,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "BLACK BESS",
+            "difficulty": "VDiff",
+            "height": 45,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "AENGUS",
+            "difficulty": "VDiff",
+            "height": 61,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "ROUTE",
+            "difficulty": "S",
+            "height": 70,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 4,
+        "coordinates": {
+          "latitude": 53.6372697,
+          "longitude": -9.8303764,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Mweelrea/ Ben Bury Scrambles",
+        "page_title": "Mweelrea/_Ben_Bury_Scrambles",
+        "climbing_type": "Inland, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Mweelrea/_Ben_Bury_Scrambles",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Portacloy",
+        "page_title": "Portacloy",
+        "climbing_type": "Sea Cliff, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Portacloy",
+        "routes": [
+          {
+            "name": "Thirtysomething",
+            "difficulty": "HS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 54.3262981,
+          "longitude": -9.7723053,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Porturlin",
+        "page_title": "Porturlin",
+        "climbing_type": "Sea Cliff, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Porturlin",
+        "routes": [
+          {
+            "name": "PRE-CAMBRIAN WORLD",
+            "difficulty": "HS 4b",
+            "height": 50,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 54.3139474,
+          "longitude": -9.7285038,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Srahnalong Valley / An Scoltach",
+        "page_title": "Srahnalong_Valley_/_An_Scoltach",
+        "climbing_type": "Sea Cliff, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Srahnalong_Valley_/_An_Scoltach",
+        "routes": [
+          {
+            "name": "AN BÓTHAR FADA",
+            "difficulty": "VS",
+            "height": 416,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SLÍBHÍN   v",
+            "difficulty": "diff",
+            "height": 125,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LEAC FRITHCHUIMILTE",
+            "difficulty": "VS",
+            "height": 175,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "STEPPED EDGE",
+            "difficulty": "Diff",
+            "height": 180,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SCAMAILL THIOS",
+            "difficulty": "Diff",
+            "height": 120,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CAPALL SUAS",
+            "difficulty": "Diff",
+            "height": 180,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "FROG BUTTRESS",
+            "difficulty": "Diff",
+            "height": 254,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Fáinleog Bhán",
+            "difficulty": "HS",
+            "height": 90,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 8,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Tangincartoor",
+        "page_title": "Tangincartoor",
+        "climbing_type": "Mountain, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Tangincartoor",
+        "routes": [
+          {
+            "name": "Maneater",
+            "difficulty": "VS 4b",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Nanuk",
+            "difficulty": "HS 4b",
+            "height": 16,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Deception",
+            "difficulty": "S",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Boy Named Sue",
+            "difficulty": "VS",
+            "height": 11,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Slumdog Millionaire",
+            "difficulty": "VS",
+            "height": 9,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Poker Face",
+            "difficulty": "E1",
+            "height": 13,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Swing on a String",
+            "difficulty": "Diff",
+            "height": 7,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Jammie Dodger",
+            "difficulty": "HS",
+            "height": 10,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Street Fighter",
+            "difficulty": "VS",
+            "height": 10,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Jack Flash",
+            "difficulty": "HS",
+            "height": 10,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Waitext",
+            "difficulty": "VDiff",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Phoenix Rising",
+            "difficulty": "HVS",
+            "height": 23,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Windy Miller",
+            "difficulty": "Severe",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Top of the Tower",
+            "difficulty": "VS",
+            "height": 20,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Camelot",
+            "difficulty": "VS",
+            "height": 18,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Smile the Fear",
+            "difficulty": "E1 5b",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Pheonix Nights",
+            "difficulty": "HS",
+            "height": 17,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Patella Jam",
+            "difficulty": "HS",
+            "height": 18,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Great Craic",
+            "difficulty": "HVS",
+            "height": 10,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Tangy Cartoor",
+            "difficulty": "HS",
+            "height": 10,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.7197439,
+          "longitude": -9.714001,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Winter climbing Connemara/South Mayo group",
+        "page_title": "Winter_climbing_Connemara/South_Mayo_group",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Winter_climbing_Connemara/South_Mayo_group",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.097985,
+          "longitude": -9.771293,
+          "source": "grid_reference"
+        }
+      }
+    ]
+  }
+}

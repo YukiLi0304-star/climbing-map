@@ -173,8 +173,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.89959,
-          "longitude": -5.843341,
+          "latitude": 54.899768,
+          "longitude": -5.8430564,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -481,8 +481,8 @@
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Músaem Uladh",
@@ -506,8 +506,8 @@
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       }
     ]
   },
@@ -685,12 +685,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.168628,
-          "longitude": -7.947156,
+          "latitude": 54.168711,
+          "longitude": -7.9471548,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Englishman's House Crag",
@@ -861,12 +861,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.239609,
-          "longitude": -7.979273,
+          "latitude": 54.2397,
+          "longitude": -7.9792766,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "The Playbank",
@@ -1037,12 +1037,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.183906,
-          "longitude": -7.962453,
+          "latitude": 54.183991,
+          "longitude": -7.962454,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       }
     ]
   },
@@ -1240,8 +1240,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.0704666,
-          "longitude": -9.3584066,
+          "latitude": 53.07085618147317,
+          "longitude": -9.354521619848027,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -1391,13 +1391,13 @@
         ],
         "routes_count": 15,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.06938269157951,
+          "longitude": -9.358451391911105,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Aill na Cronain",
@@ -1588,13 +1588,13 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.09596652591798,
+          "longitude": -9.144287340281105,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Aillnagapple",
@@ -1704,13 +1704,13 @@
         ],
         "routes_count": 11,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.122266,
+          "longitude": -9.101277,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Aran Islands",
@@ -1901,8 +1901,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.1203518,
-          "longitude": -9.7056319,
+          "latitude": 53.108083,
+          "longitude": -9.709576,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -2007,8 +2007,8 @@
         ],
         "routes_count": 10,
         "coordinates": {
-          "latitude": 53.0662411,
-          "longitude": -9.358418,
+          "latitude": 53.17451489954013,
+          "longitude": -9.390433899659381,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -2041,12 +2041,12 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 53.2663252,
-          "longitude": -8.6225668,
+          "latitude": 53.067388,
+          "longitude": -9.334954,
           "source": "osm_search"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Ceann Capaill",
@@ -2237,13 +2237,13 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.07115829336483,
+          "longitude": -9.359705081373079,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Cliffs Of Moher",
@@ -2272,8 +2272,8 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 52.9595342,
-          "longitude": -9.4440647,
+          "latitude": 52.964067,
+          "longitude": -9.4400518,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -2468,13 +2468,13 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.094191,
+          "longitude": -9.1816252,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Doolin",
@@ -2602,8 +2602,8 @@
         ],
         "routes_count": 13,
         "coordinates": {
-          "latitude": 53.0163287,
-          "longitude": -9.3776097,
+          "latitude": 53.02402019444805,
+          "longitude": -9.39609563179353,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -2798,12 +2798,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.3959652,
-          "longitude": -8.3035704,
+          "latitude": 53.076307,
+          "longitude": -8.998787,
           "source": "osm_search"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Fanore More",
@@ -2913,8 +2913,8 @@
         ],
         "routes_count": 11,
         "coordinates": {
-          "latitude": 53.1164816,
-          "longitude": -9.2840825,
+          "latitude": 53.10536239793872,
+          "longitude": -9.295547145994309,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -3109,8 +3109,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 52.5595239,
-          "longitude": -9.9381113,
+          "latitude": 52.560616,
+          "longitude": -9.9326811,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -3233,12 +3233,12 @@
         ],
         "routes_count": 12,
         "coordinates": {
-          "latitude": 54.2139506,
-          "longitude": -8.0137944,
+          "latitude": 53.117204561626636,
+          "longitude": -9.084488379818408,
           "source": "osm_search"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Mullach Mor",
@@ -3429,12 +3429,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.8100577,
-          "longitude": -6.9532655,
+          "latitude": 53.00748071272914,
+          "longitude": -9.005975466625964,
           "source": "osm_search"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Murroughkilly",
@@ -3625,13 +3625,13 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.13508776659254,
+          "longitude": -9.248790450971583,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Sliabh Rua",
@@ -3822,12 +3822,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.2672675,
-          "longitude": -6.2208447,
+          "latitude": 53.006654852019565,
+          "longitude": -9.042485915938084,
           "source": "osm_search"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Oughtdarra",
@@ -4018,8 +4018,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.0621823,
-          "longitude": -9.340978,
+          "latitude": 53.11032479090399,
+          "longitude": -9.327885800688207,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -4214,13 +4214,13 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 52.96430513555103,
+          "longitude": -8.78254156583025,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Turloughmore",
@@ -4262,12 +4262,12 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 51.7079659,
-          "longitude": -9.7066073,
+          "latitude": 51.69703559301246,
+          "longitude": -9.723247999854827,
           "source": "osm_search"
         },
-        "cluster_id": 2,
-        "cluster_name": "West South Hotspot 3"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Allihies",
@@ -4458,8 +4458,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 51.6413687,
-          "longitude": -10.0444403,
+          "latitude": 51.649274937256536,
+          "longitude": -10.038061821475074,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -4636,12 +4636,12 @@
         ],
         "routes_count": 18,
         "coordinates": {
-          "latitude": 51.700524,
-          "longitude": -8.395589,
+          "latitude": 52.26976549735654,
+          "longitude": -8.412165058994592,
           "source": "grid_reference"
         },
-        "cluster_id": 3,
-        "cluster_name": "South Hotspot 4"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Beaumont Quarry",
@@ -4656,8 +4656,8 @@
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Black Ball Head",
@@ -4839,8 +4839,8 @@
         ],
         "routes_count": 19,
         "coordinates": {
-          "latitude": 53.028597,
-          "longitude": -4.868934,
+          "latitude": 51.93986112217122,
+          "longitude": -7.818375165799942,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -4963,8 +4963,8 @@
         ],
         "routes_count": 12,
         "coordinates": {
-          "latitude": 51.4369634,
-          "longitude": -9.4977054,
+          "latitude": 51.424889,
+          "longitude": -9.519918,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -5006,8 +5006,8 @@
         ],
         "routes_count": 3,
         "coordinates": {
-          "latitude": 52.1727472,
-          "longitude": -8.4635069,
+          "latitude": 52.150226,
+          "longitude": -8.434028,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -5031,13 +5031,13 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 51.72332672908744,
+          "longitude": -9.756742208368028,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Glengarriff",
@@ -5057,12 +5057,12 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 51.7501967,
-          "longitude": -9.5499762,
+          "latitude": 51.750237002605466,
+          "longitude": -9.552411053375456,
           "source": "osm_search"
         },
-        "cluster_id": 2,
-        "cluster_name": "West South Hotspot 3"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Gowlbeg Mountain",
@@ -5091,12 +5091,12 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 51.702736,
-          "longitude": -9.61068,
+          "latitude": 51.707573,
+          "longitude": -9.619954,
           "source": "grid_reference"
         },
-        "cluster_id": 2,
-        "cluster_name": "West South Hotspot 3"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Knockadoon Head",
@@ -5287,8 +5287,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 51.87817,
-          "longitude": -7.871491,
+          "latitude": 51.877993,
+          "longitude": -7.871538,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -5312,8 +5312,8 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 51.454412,
-          "longitude": -9.811982,
+          "latitude": 51.454466,
+          "longitude": -9.812773,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -5508,12 +5508,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 51.6040258,
-          "longitude": -8.5347004,
+          "latitude": 51.605408,
+          "longitude": -8.532379,
           "source": "osm_search"
         },
-        "cluster_id": 3,
-        "cluster_name": "South Hotspot 4"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Oysterhaven",
@@ -5695,12 +5695,12 @@
         ],
         "routes_count": 19,
         "coordinates": {
-          "latitude": 51.706233,
-          "longitude": -8.4564798,
+          "latitude": 51.688332,
+          "longitude": -8.428901,
           "source": "osm_search"
         },
-        "cluster_id": 3,
-        "cluster_name": "South Hotspot 4"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Roberts Cove/Roberts Head",
@@ -5891,12 +5891,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 51.730423,
-          "longitude": -8.316245,
+          "latitude": 51.732233,
+          "longitude": -8.314014,
           "source": "grid_reference"
         },
-        "cluster_id": 3,
-        "cluster_name": "South Hotspot 4"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Sands Cove",
@@ -5934,8 +5934,8 @@
         ],
         "routes_count": 3,
         "coordinates": {
-          "latitude": 51.55215,
-          "longitude": -8.898896,
+          "latitude": 51.55273899652469,
+          "longitude": -8.898379948300553,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -6130,8 +6130,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 51.570502,
-          "longitude": -8.713203,
+          "latitude": 51.570303,
+          "longitude": -8.713385,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -6227,8 +6227,8 @@
         ],
         "routes_count": 9,
         "coordinates": {
-          "latitude": 51.56076,
-          "longitude": -9.734006,
+          "latitude": 51.56051,
+          "longitude": -9.7342093,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -6261,8 +6261,8 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 51.4715854,
-          "longitude": -9.4175335,
+          "latitude": 51.468471,
+          "longitude": -9.416227,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -6457,13 +6457,13 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 51.594382,
+          "longitude": -10.050173,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       }
     ]
   },
@@ -6502,13 +6502,13 @@
         "routes": [],
         "routes_count": 0,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.247531526114365,
+          "longitude": -5.987275821901865,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Annalong Buttress",
@@ -6518,12 +6518,12 @@
         "routes": [],
         "routes_count": 0,
         "coordinates": {
-          "latitude": 54.173415,
-          "longitude": -5.936451,
+          "latitude": 54.11324808518896,
+          "longitude": -5.896021728201488,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Ben Crom",
@@ -6714,12 +6714,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.166266,
-          "longitude": -5.991934,
+          "latitude": 54.19695523627281,
+          "longitude": -6.000632145805122,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Bearnagh Slabs",
@@ -6784,12 +6784,12 @@
         ],
         "routes_count": 6,
         "coordinates": {
-          "latitude": 54.186967,
-          "longitude": -5.993995,
+          "latitude": 54.202842876562244,
+          "longitude": -5.987571577375912,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Bearnagh Tors",
@@ -6980,12 +6980,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.184197,
-          "longitude": -5.989533,
+          "latitude": 54.18801270783289,
+          "longitude": -5.985209556562492,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Binnian Lough Buttress",
@@ -7068,12 +7068,12 @@
         ],
         "routes_count": 8,
         "coordinates": {
-          "latitude": 54.152517,
-          "longitude": -5.975762,
+          "latitude": 54.15167896420869,
+          "longitude": -5.972937931433373,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Binnian Tors",
@@ -7264,12 +7264,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.142718,
-          "longitude": -5.980831,
+          "latitude": 54.15461636308752,
+          "longitude": -5.980978484719028,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Blue Lough Buttress",
@@ -7370,12 +7370,12 @@
         ],
         "routes_count": 10,
         "coordinates": {
-          "latitude": 54.153363,
-          "longitude": -5.972659,
+          "latitude": 54.1591934808425,
+          "longitude": -5.968506094838544,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Buzzard's Roost",
@@ -7503,12 +7503,12 @@
         ],
         "routes_count": 13,
         "coordinates": {
-          "latitude": 54.157955,
-          "longitude": -5.978558,
+          "latitude": 54.15804,
+          "longitude": -5.9782904,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Chimney Rock Mountain",
@@ -7546,12 +7546,12 @@
         ],
         "routes_count": 3,
         "coordinates": {
-          "latitude": 54.166628,
-          "longitude": -5.907694,
+          "latitude": 54.25912432838213,
+          "longitude": -6.0518083550039865,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Doan",
@@ -7670,12 +7670,12 @@
         ],
         "routes_count": 12,
         "coordinates": {
-          "latitude": 54.167418,
-          "longitude": -6.007192,
+          "latitude": 54.167504,
+          "longitude": -6.0069283,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Douglas Crag",
@@ -7776,12 +7776,12 @@
         ],
         "routes_count": 10,
         "coordinates": {
-          "latitude": 54.150566,
-          "longitude": -5.966672,
+          "latitude": 54.15065,
+          "longitude": -5.9664031,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Eagle Mountain",
@@ -7891,12 +7891,12 @@
         ],
         "routes_count": 11,
         "coordinates": {
-          "latitude": 54.13556,
-          "longitude": -6.092881,
+          "latitude": 54.135642,
+          "longitude": -6.0926285,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Eagle Rocks",
@@ -8087,12 +8087,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.186697,
-          "longitude": -5.925065,
+          "latitude": 54.186786,
+          "longitude": -5.9247901,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Hare's Castle",
@@ -8175,12 +8175,12 @@
         ],
         "routes_count": 8,
         "coordinates": {
-          "latitude": 54.160924,
-          "longitude": -5.941666,
+          "latitude": 54.245990923860106,
+          "longitude": -5.958968050765367,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Hen Mountain",
@@ -8371,12 +8371,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.1823192,
-          "longitude": -6.09336,
+          "latitude": 54.24071629483469,
+          "longitude": -6.130098941259329,
           "source": "osm_search"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Little Binnian",
@@ -8531,12 +8531,12 @@
         ],
         "routes_count": 16,
         "coordinates": {
-          "latitude": 54.134714,
-          "longitude": -5.985811,
+          "latitude": 54.302497444359496,
+          "longitude": -6.03739712994851,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Lower Cove",
@@ -8727,12 +8727,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 51.6842478,
-          "longitude": -8.4911367,
+          "latitude": 54.128685,
+          "longitude": -5.9429973,
           "source": "osm_search"
         },
-        "cluster_id": 3,
-        "cluster_name": "South Hotspot 4"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Meelmore",
@@ -8761,12 +8761,12 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 54.2017188,
-          "longitude": -6.0262517,
+          "latitude": 54.289027440592676,
+          "longitude": -6.004977864431485,
           "source": "osm_search"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Percy Bysshe",
@@ -8780,8 +8780,8 @@
           "longitude": -5.963349,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Pigeon Rock",
@@ -8972,12 +8972,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.3033658,
-          "longitude": -10.0068132,
+          "latitude": 54.16533918351656,
+          "longitude": -6.068896873339742,
           "source": "osm_search"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Slieve Beg",
@@ -9168,12 +9168,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.179011,
-          "longitude": -5.948427,
+          "latitude": 54.18542317835022,
+          "longitude": -5.946968799963725,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Slieve Commedagh",
@@ -9238,12 +9238,12 @@
         ],
         "routes_count": 6,
         "coordinates": {
-          "latitude": 54.1888532,
-          "longitude": -5.9385756,
+          "latitude": 54.19195224876853,
+          "longitude": -5.937161221040189,
           "source": "osm_search"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Slievemageogh",
@@ -9263,12 +9263,12 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 54.127914,
-          "longitude": -6.064165,
+          "latitude": 54.25915441222106,
+          "longitude": -6.078212076656391,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Slieve Muck",
@@ -9282,8 +9282,8 @@
           "longitude": -6.0395985,
           "source": "osm_search"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Slieve Lamagan",
@@ -9312,13 +9312,13 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.168717587508354,
+          "longitude": -5.966136981104991,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Slievenaglogh Buttress",
@@ -9383,12 +9383,12 @@
         ],
         "routes_count": 6,
         "coordinates": {
-          "latitude": 54.192021,
-          "longitude": -5.973831,
+          "latitude": 54.4144760128664,
+          "longitude": -6.016184226167725,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Spellack",
@@ -9579,12 +9579,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.197664,
-          "longitude": -5.988879,
+          "latitude": 54.197754,
+          "longitude": -5.9886131,
           "source": "grid_reference"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Upper Cove",
@@ -9775,12 +9775,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.1731515,
-          "longitude": -5.9521142,
+          "latitude": 54.128685,
+          "longitude": -5.9429973,
           "source": "osm_search"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Unnamed Tor",
@@ -9790,13 +9790,13 @@
         "routes": [],
         "routes_count": 0,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.148164,
+          "longitude": -5.983834,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       }
     ]
   },
@@ -9818,7 +9818,7 @@
           "source": "osm_search"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Dalkey Quarry",
@@ -9845,12 +9845,12 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 53.270971,
-          "longitude": -6.1067128,
+          "latitude": 53.27138770620197,
+          "longitude": -6.107532286156922,
           "source": "osm_search"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Howth Head",
@@ -10021,13 +10021,13 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.390310019416944,
+          "longitude": -6.045464217456754,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Ireland's Eye",
@@ -10198,8 +10198,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.4057034,
-          "longitude": -6.0642652,
+          "latitude": 53.40787400037956,
+          "longitude": -6.058602529197036,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -10374,12 +10374,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.2190706,
-          "longitude": -6.1809883,
+          "latitude": 53.21184808424381,
+          "longitude": -6.1716302650034,
           "source": "osm_search"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       }
     ]
   },
@@ -10405,12 +10405,12 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 54.232113,
-          "longitude": -7.726258,
+          "latitude": 54.232203,
+          "longitude": -7.7262278,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Crag With A View",
@@ -10445,12 +10445,12 @@
         ],
         "routes_count": 3,
         "coordinates": {
-          "latitude": 54.272722,
-          "longitude": -7.824226,
+          "latitude": 54.272818,
+          "longitude": -7.824209,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Cuilcagh Gap",
@@ -10533,12 +10533,12 @@
         ],
         "routes_count": 9,
         "coordinates": {
-          "latitude": 54.21526,
-          "longitude": -7.848996,
+          "latitude": 54.215349,
+          "longitude": -7.8489816,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "The Fosstra",
@@ -10629,12 +10629,12 @@
         ],
         "routes_count": 10,
         "coordinates": {
-          "latitude": 54.271828,
-          "longitude": -7.8273,
+          "latitude": 54.271924,
+          "longitude": -7.8272831,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Hanging Rock",
@@ -10685,12 +10685,12 @@
         ],
         "routes_count": 5,
         "coordinates": {
-          "latitude": 54.2767659,
-          "longitude": -7.8326148,
+          "latitude": 54.39054505429748,
+          "longitude": -7.89645854943997,
           "source": "osm_search"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Knockmore",
@@ -10749,12 +10749,12 @@
         ],
         "routes_count": 6,
         "coordinates": {
-          "latitude": 53.8082173,
-          "longitude": -10.0208166,
+          "latitude": 54.40495,
+          "longitude": -7.8698471,
           "source": "osm_search"
         },
-        "cluster_id": 1,
-        "cluster_name": "West Central Hotspot 2"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Monastir Sink",
@@ -10925,13 +10925,13 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.251245,
+          "longitude": -7.8181633,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Skreen Rock",
@@ -11102,12 +11102,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.265512,
-          "longitude": -7.80891,
+          "latitude": 54.265607,
+          "longitude": -7.8088908,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Wheathill Rock",
@@ -11126,12 +11126,12 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 54.260992,
-          "longitude": -7.792051,
+          "latitude": 54.261086,
+          "longitude": -7.7920297,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Coolrakan Quarry",
@@ -11238,13 +11238,13 @@
         ],
         "routes_count": 12,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.524271875120526,
+          "longitude": -7.8749819474559875,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       }
     ]
   },
@@ -11422,8 +11422,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.1203518,
-          "longitude": -9.7056319,
+          "latitude": 53.108083,
+          "longitude": -9.709576,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -11517,13 +11517,13 @@
         ],
         "routes_count": 8,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.508349,
+          "longitude": -9.83239,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Cnoc Mordáin",
@@ -11694,8 +11694,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.378601,
-          "longitude": -9.692748,
+          "latitude": 53.38045290696549,
+          "longitude": -9.70798650829127,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -11726,8 +11726,8 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 53.5482554,
-          "longitude": -9.9147006,
+          "latitude": 53.55032422955687,
+          "longitude": -9.914532921291539,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -11798,8 +11798,8 @@
         ],
         "routes_count": 7,
         "coordinates": {
-          "latitude": 53.391274,
-          "longitude": -9.978874,
+          "latitude": 53.39878581097253,
+          "longitude": -9.958932107995473,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -11894,8 +11894,8 @@
         ],
         "routes_count": 10,
         "coordinates": {
-          "latitude": 53.493115,
-          "longitude": -9.789224,
+          "latitude": 53.49698826590499,
+          "longitude": -9.809893534518832,
           "source": "grid_reference"
         },
         "cluster_id": 1,
@@ -12070,8 +12070,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.513656,
-          "longitude": -9.797627,
+          "latitude": 53.518991986672575,
+          "longitude": -9.79253298171159,
           "source": "grid_reference"
         },
         "cluster_id": 1,
@@ -12150,8 +12150,8 @@
         ],
         "routes_count": 8,
         "coordinates": {
-          "latitude": 53.500344,
-          "longitude": -9.786514,
+          "latitude": 53.51434966698361,
+          "longitude": -9.740151517966714,
           "source": "grid_reference"
         },
         "cluster_id": 1,
@@ -12326,8 +12326,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.589252,
-          "longitude": -9.849163,
+          "latitude": 53.60805615133407,
+          "longitude": -9.766478455220794,
           "source": "grid_reference"
         },
         "cluster_id": 1,
@@ -12374,12 +12374,12 @@
         ],
         "routes_count": 4,
         "coordinates": {
-          "latitude": 53.516949,
-          "longitude": -9.695242,
+          "latitude": 53.48254622629193,
+          "longitude": -9.599829122445222,
           "source": "grid_reference"
         },
-        "cluster_id": 1,
-        "cluster_name": "West Central Hotspot 2"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Galway city",
@@ -12436,12 +12436,12 @@
         ],
         "routes_count": 3,
         "coordinates": {
-          "latitude": 52.231231,
-          "longitude": -10.358708,
+          "latitude": 52.23285575369414,
+          "longitude": -10.360647282017522,
           "source": "grid_reference"
         },
-        "cluster_id": 2,
-        "cluster_name": "West South Hotspot 3"
+        "cluster_id": 3,
+        "cluster_name": "West South Hotspot 4"
       },
       {
         "name": "Brandon East Buttress",
@@ -12460,13 +12460,13 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 52.242602858398364,
+          "longitude": -10.294101696560197,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 3,
+        "cluster_name": "West South Hotspot 4"
       },
       {
         "name": "An Charraig Ard",
@@ -12533,12 +12533,12 @@
         ],
         "routes_count": 7,
         "coordinates": {
-          "latitude": 54.0639368,
-          "longitude": -8.2521476,
+          "latitude": 52.100085051328065,
+          "longitude": -10.451074730670724,
           "source": "osm_search"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 3,
+        "cluster_name": "West South Hotspot 4"
       },
       {
         "name": "Com an Lochaigh",
@@ -12637,12 +12637,12 @@
         ],
         "routes_count": 11,
         "coordinates": {
-          "latitude": 52.203652,
-          "longitude": -10.298728,
+          "latitude": 52.20423156896258,
+          "longitude": -10.298795473850385,
           "source": "grid_reference"
         },
-        "cluster_id": 2,
-        "cluster_name": "West South Hotspot 3"
+        "cluster_id": 3,
+        "cluster_name": "West South Hotspot 4"
       },
       {
         "name": "An Dún Mór / Dunmore Head",
@@ -12717,12 +12717,12 @@
         ],
         "routes_count": 8,
         "coordinates": {
-          "latitude": 53.00626,
-          "longitude": -10.521445,
+          "latitude": 52.11007937879707,
+          "longitude": -10.481086899911675,
           "source": "grid_reference"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 3,
+        "cluster_name": "West South Hotspot 4"
       },
       {
         "name": "Dún Séanna / Dunshean Head",
@@ -12893,12 +12893,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 52.118817,
-          "longitude": -10.222812,
+          "latitude": 52.12901616835795,
+          "longitude": -10.22667914511226,
           "source": "grid_reference"
         },
-        "cluster_id": 2,
-        "cluster_name": "West South Hotspot 3"
+        "cluster_id": 3,
+        "cluster_name": "West South Hotspot 4"
       },
       {
         "name": "Glanteenassig forest",
@@ -12941,8 +12941,8 @@
         ],
         "routes_count": 4,
         "coordinates": {
-          "latitude": 52.2043354,
-          "longitude": -10.0448224,
+          "latitude": 52.207848377218106,
+          "longitude": -10.04874301060994,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -13117,13 +13117,13 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 52.093522901041425,
+          "longitude": -10.548944008614004,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 3,
+        "cluster_name": "West South Hotspot 4"
       },
       {
         "name": "An Sás / Sauce Creek",
@@ -13173,12 +13173,12 @@
         ],
         "routes_count": 3,
         "coordinates": {
-          "latitude": 52.184096,
-          "longitude": -10.465888,
+          "latitude": 52.18290492064551,
+          "longitude": -10.470052838232178,
           "source": "grid_reference"
         },
-        "cluster_id": 2,
-        "cluster_name": "West South Hotspot 3"
+        "cluster_id": 3,
+        "cluster_name": "West South Hotspot 4"
       },
       {
         "name": "Binn Diarmada",
@@ -13197,12 +13197,12 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 52.2074423,
-          "longitude": -10.4093742,
+          "latitude": 52.20460133932021,
+          "longitude": -10.420341716556598,
           "source": "osm_search"
         },
-        "cluster_id": 2,
-        "cluster_name": "West South Hotspot 3"
+        "cluster_id": 3,
+        "cluster_name": "West South Hotspot 4"
       },
       {
         "name": "Ballyheigue",
@@ -13314,12 +13314,12 @@
         ],
         "routes_count": 7,
         "coordinates": {
-          "latitude": 51.979553,
-          "longitude": -10.266857,
+          "latitude": 52.14507431493748,
+          "longitude": -10.331172976032228,
           "source": "grid_reference"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 3,
+        "cluster_name": "West South Hotspot 4"
       },
       {
         "name": "Gap Of Dunloe",
@@ -13490,8 +13490,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 51.9943895,
-          "longitude": -9.6442886,
+          "latitude": 52.019511395614614,
+          "longitude": -9.634020753807484,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -13626,8 +13626,8 @@
         ],
         "routes_count": 15,
         "coordinates": {
-          "latitude": 51.850792,
-          "longitude": -10.369241,
+          "latitude": 51.84656237164003,
+          "longitude": -10.391349385275284,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -13706,8 +13706,8 @@
         ],
         "routes_count": 8,
         "coordinates": {
-          "latitude": 51.7472872,
-          "longitude": -10.1019771,
+          "latitude": 51.74781,
+          "longitude": -10.100547,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -13793,8 +13793,8 @@
         ],
         "routes_count": 7,
         "coordinates": {
-          "latitude": 51.7378866,
-          "longitude": -10.1311507,
+          "latitude": 51.739998,
+          "longitude": -10.134939,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -13929,8 +13929,8 @@
         ],
         "routes_count": 15,
         "coordinates": {
-          "latitude": 51.9773074,
-          "longitude": -9.331594,
+          "latitude": 51.977812837238396,
+          "longitude": -9.332394373070771,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -13948,8 +13948,8 @@
           "longitude": -10.223119,
           "source": "osm_search"
         },
-        "cluster_id": 2,
-        "cluster_name": "West South Hotspot 3"
+        "cluster_id": 3,
+        "cluster_name": "West South Hotspot 4"
       },
       {
         "name": "Maghancoosaun",
@@ -13984,8 +13984,8 @@
         ],
         "routes_count": 3,
         "coordinates": {
-          "latitude": 52.0189304,
-          "longitude": -9.8024368,
+          "latitude": 52.01777108421642,
+          "longitude": -9.815855754013741,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -14004,8 +14004,8 @@
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       }
     ]
   },
@@ -14183,8 +14183,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 52.6095264,
-          "longitude": -7.3994769,
+          "latitude": 52.60988385664857,
+          "longitude": -7.400515172899681,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -14207,8 +14207,8 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 52.4992355,
-          "longitude": -7.2394776,
+          "latitude": 52.506091407145,
+          "longitude": -7.241643832978418,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -14383,8 +14383,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 52.6095264,
-          "longitude": -7.3994769,
+          "latitude": 52.60988385664857,
+          "longitude": -7.400515172899681,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -14407,8 +14407,8 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 52.4992355,
-          "longitude": -7.2394776,
+          "latitude": 52.506091407145,
+          "longitude": -7.241643832978418,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -14590,12 +14590,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.168628,
-          "longitude": -7.947156,
+          "latitude": 54.168711,
+          "longitude": -7.9471548,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Cloonty Pruglish",
@@ -14609,8 +14609,8 @@
           "longitude": -8.334686,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "King's Rock",
@@ -14653,13 +14653,13 @@
         ],
         "routes_count": 4,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.13230698679976,
+          "longitude": -7.989750330435332,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Mass Rock",
@@ -14782,12 +14782,12 @@
         ],
         "routes_count": 14,
         "coordinates": {
-          "latitude": 53.2031803,
-          "longitude": -6.2633032,
+          "latitude": 54.09880315987047,
+          "longitude": -7.974482458839324,
           "source": "osm_search"
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "The Doons",
@@ -14830,12 +14830,12 @@
         ],
         "routes_count": 4,
         "coordinates": {
-          "latitude": 54.285873,
-          "longitude": -8.330865,
+          "latitude": 54.285969,
+          "longitude": -8.3309171,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Swiss Valley",
@@ -14902,13 +14902,13 @@
         ],
         "routes_count": 7,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.346006,
+          "longitude": -8.383216,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       }
     ]
   },
@@ -15086,8 +15086,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.0139718,
-          "longitude": -6.2634097,
+          "latitude": 54.0178247467604,
+          "longitude": -6.265703867854769,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -15118,13 +15118,13 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.066793949280324,
+          "longitude": -6.279619932356629,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Clogherhead",
@@ -15255,8 +15255,8 @@
         ],
         "routes_count": 15,
         "coordinates": {
-          "latitude": 53.7917202,
-          "longitude": -6.2390693,
+          "latitude": 53.79420520139857,
+          "longitude": -6.23867971716298,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -15438,8 +15438,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.969607,
-          "longitude": -10.157061,
+          "latitude": 53.99771566344582,
+          "longitude": -10.175992378391788,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -15478,13 +15478,13 @@
         ],
         "routes_count": 3,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.87616156388723,
+          "longitude": -9.959722325545195,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Achillbeg Island",
@@ -15503,8 +15503,8 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 53.8654684,
-          "longitude": -9.9493234,
+          "latitude": 53.86646134328796,
+          "longitude": -9.952288600050665,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -15591,8 +15591,8 @@
         ],
         "routes_count": 9,
         "coordinates": {
-          "latitude": 54.32343,
-          "longitude": -9.845052,
+          "latitude": 54.338760837679416,
+          "longitude": -9.8183746851223,
           "source": "grid_reference"
         },
         "cluster_id": 1,
@@ -15647,8 +15647,8 @@
         ],
         "routes_count": 5,
         "coordinates": {
-          "latitude": 53.8084116,
-          "longitude": -9.9881427,
+          "latitude": 53.80719389230989,
+          "longitude": -10.000544862735456,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -15823,13 +15823,13 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.645183,
+          "longitude": -9.5841495,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Doo Lough",
@@ -16000,8 +16000,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.774738,
-          "longitude": -9.993836,
+          "latitude": 53.641049,
+          "longitude": -9.7518614,
           "source": "grid_reference"
         },
         "cluster_id": 1,
@@ -16159,13 +16159,13 @@
         ],
         "routes_count": 16,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.31590881916907,
+          "longitude": -9.500639364052716,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Inishkea Island",
@@ -16216,8 +16216,8 @@
         ],
         "routes_count": 5,
         "coordinates": {
-          "latitude": 54.1139791,
-          "longitude": -10.2249469,
+          "latitude": 54.13082029632282,
+          "longitude": -10.208157271977418,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -16304,13 +16304,13 @@
         ],
         "routes_count": 9,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.26757637442341,
+          "longitude": -10.11255198826907,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Iorras - Doonamo Point",
@@ -16345,13 +16345,13 @@
         ],
         "routes_count": 3,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.270888262531315,
+          "longitude": -10.080482024901707,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Iorras - Gleann Lára",
@@ -16506,12 +16506,12 @@
         ],
         "routes_count": 18,
         "coordinates": {
-          "latitude": 54.287967,
-          "longitude": -9.984759,
+          "latitude": 54.291221555637556,
+          "longitude": -9.988287171197415,
           "source": "grid_reference"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Inishturk Island",
@@ -16594,8 +16594,8 @@
         ],
         "routes_count": 9,
         "coordinates": {
-          "latitude": 53.7027842,
-          "longitude": -10.1102589,
+          "latitude": 53.70286118986131,
+          "longitude": -10.10773872385007,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -16770,8 +16770,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.605571,
-          "longitude": -9.780376,
+          "latitude": 53.605575,
+          "longitude": -9.780614,
           "source": "grid_reference"
         },
         "cluster_id": 1,
@@ -16818,8 +16818,8 @@
         ],
         "routes_count": 4,
         "coordinates": {
-          "latitude": 53.6250768,
-          "longitude": -9.8201273,
+          "latitude": 53.619285,
+          "longitude": -9.8250265,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -16866,8 +16866,8 @@
         ],
         "routes_count": 4,
         "coordinates": {
-          "latitude": 53.6372697,
-          "longitude": -9.8303764,
+          "latitude": 53.63937072711347,
+          "longitude": -9.830828465282123,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -16886,8 +16886,8 @@
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       },
       {
         "name": "Portacloy",
@@ -16906,8 +16906,8 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 54.3262981,
-          "longitude": -9.7723053,
+          "latitude": 54.33284501013709,
+          "longitude": -9.773955294551843,
           "source": "osm_search"
         },
         "cluster_id": 1,
@@ -17010,13 +17010,13 @@
         ],
         "routes_count": 8,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.31250619471283,
+          "longitude": -9.66580229243825,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Tangincartoor",
@@ -17187,12 +17187,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.7197439,
-          "longitude": -9.714001,
+          "latitude": 53.72051882494716,
+          "longitude": -9.713071113081716,
           "source": "osm_search"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 1,
+        "cluster_name": "West Central Hotspot 2"
       },
       {
         "name": "Winter climbing Connemara/South Mayo group",
@@ -17297,13 +17297,13 @@
         ],
         "routes_count": 9,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.12454961698092,
+          "longitude": -7.653265018927733,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       }
     ]
   },
@@ -17353,8 +17353,8 @@
         ],
         "routes_count": 4,
         "coordinates": {
-          "latitude": 54.2768751,
-          "longitude": -8.7726473,
+          "latitude": 54.276748,
+          "longitude": -8.7745529,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -17449,12 +17449,12 @@
         ],
         "routes_count": 10,
         "coordinates": {
-          "latitude": 53.9664939,
-          "longitude": -6.3714402,
+          "latitude": 54.39532665798014,
+          "longitude": -8.372257424193025,
           "source": "osm_search"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Doomore Crag",
@@ -17473,13 +17473,13 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.321714011784174,
+          "longitude": -8.621732377097503,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Happy Valli",
@@ -17650,12 +17650,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.421649,
-          "longitude": -8.544549,
+          "latitude": 54.190869,
+          "longitude": -8.5408255,
           "source": "grid_reference"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Hawk Rock/Cuckoo Buttress",
@@ -17786,13 +17786,13 @@
         ],
         "routes_count": 15,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.188905,
+          "longitude": -8.5768035,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Kings Mountain",
@@ -17819,12 +17819,12 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 54.345433,
-          "longitude": -8.4570643,
+          "latitude": 54.343086,
+          "longitude": -8.4497853,
           "source": "osm_search"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Mullaghmore/Roskeeragh Point",
@@ -17995,13 +17995,13 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 54.453461,
+          "longitude": -8.4849167,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "Scalp na gCapail",
@@ -18172,12 +18172,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.197934,
-          "longitude": -8.549267,
+          "latitude": 54.1976,
+          "longitude": -8.5491,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Slish Wood",
@@ -18212,12 +18212,12 @@
         ],
         "routes_count": 3,
         "coordinates": {
-          "latitude": 54.226374,
-          "longitude": -8.399386,
+          "latitude": 54.226462,
+          "longitude": -8.3994461,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Tormore",
@@ -18388,12 +18388,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 54.34674,
-          "longitude": -8.403626,
+          "latitude": 54.346843,
+          "longitude": -8.4036884,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       },
       {
         "name": "Union Woods",
@@ -18444,12 +18444,12 @@
         ],
         "routes_count": 5,
         "coordinates": {
-          "latitude": 54.205385,
-          "longitude": -8.488067,
+          "latitude": 54.212718,
+          "longitude": -8.4728948,
           "source": "grid_reference"
         },
-        "cluster_id": 4,
-        "cluster_name": "Central Hotspot 5"
+        "cluster_id": 2,
+        "cluster_name": "Central Hotspot 3"
       }
     ]
   },
@@ -18627,8 +18627,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 51.9474255,
-          "longitude": -7.7069765,
+          "latitude": 51.947941656690496,
+          "longitude": -7.7096772725041465,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -18699,8 +18699,8 @@
         ],
         "routes_count": 7,
         "coordinates": {
-          "latitude": 52.200059,
-          "longitude": -7.215334,
+          "latitude": 52.199898,
+          "longitude": -7.2152214,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -18811,8 +18811,8 @@
         ],
         "routes_count": 12,
         "coordinates": {
-          "latitude": 52.133615,
-          "longitude": -7.375686,
+          "latitude": 52.133446,
+          "longitude": -7.3755935,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -18830,8 +18830,8 @@
           "longitude": -7.5222964,
           "source": "osm_search"
         },
-        "cluster_id": 3,
-        "cluster_name": "South Hotspot 4"
+        "cluster_id": 0,
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Crotty's",
@@ -18845,8 +18845,8 @@
           "longitude": -7.5213819,
           "source": "osm_search"
         },
-        "cluster_id": 3,
-        "cluster_name": "South Hotspot 4"
+        "cluster_id": 0,
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Fauscoum",
@@ -18881,12 +18881,12 @@
         ],
         "routes_count": 3,
         "coordinates": {
-          "latitude": 52.244855,
-          "longitude": -7.526385,
+          "latitude": 52.244699,
+          "longitude": -7.5263124,
           "source": "grid_reference"
         },
-        "cluster_id": 3,
-        "cluster_name": "South Hotspot 4"
+        "cluster_id": 0,
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Foill An Priosun",
@@ -19057,12 +19057,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 52.238456,
-          "longitude": -7.500104,
+          "latitude": 52.238299,
+          "longitude": -7.5000284,
           "source": "grid_reference"
         },
-        "cluster_id": 3,
-        "cluster_name": "South Hotspot 4"
+        "cluster_id": 0,
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Helvick Head",
@@ -19233,8 +19233,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 52.04544,
-          "longitude": -7.55036,
+          "latitude": 52.056425926554134,
+          "longitude": -7.538615769068466,
           "source": "grid_reference"
         },
         "cluster_id": -1,
@@ -19409,12 +19409,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 52.234084,
-          "longitude": -7.5527891,
+          "latitude": 52.223187,
+          "longitude": -7.5411765,
           "source": "osm_search"
         },
-        "cluster_id": 3,
-        "cluster_name": "South Hotspot 4"
+        "cluster_id": 0,
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Coum Tay",
@@ -19545,13 +19545,13 @@
         ],
         "routes_count": 15,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 52.23011304482015,
+          "longitude": -7.583939618545757,
           "source": "backup",
           "estimated": true
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Nire Valley",
@@ -19578,12 +19578,12 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 52.263965,
-          "longitude": -7.6202376,
+          "latitude": 52.27626314763002,
+          "longitude": -7.6307441267934095,
           "source": "osm_search"
         },
-        "cluster_id": 3,
-        "cluster_name": "South Hotspot 4"
+        "cluster_id": 0,
+        "cluster_name": "South Hotspot 1"
       }
     ]
   },
@@ -19705,8 +19705,8 @@
         ],
         "routes_count": 13,
         "coordinates": {
-          "latitude": 53.6805181,
-          "longitude": -7.2263083,
+          "latitude": 53.681059977081624,
+          "longitude": -7.2270168683822655,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -19785,8 +19785,8 @@
         ],
         "routes_count": 8,
         "coordinates": {
-          "latitude": 53.7318226,
-          "longitude": -7.3274957,
+          "latitude": 53.731945,
+          "longitude": -7.3263921,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -19968,8 +19968,8 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.2605838,
-          "longitude": -8.9182208,
+          "latitude": 52.327220384750575,
+          "longitude": -6.452628234464465,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -20024,8 +20024,8 @@
         ],
         "routes_count": 5,
         "coordinates": {
-          "latitude": 52.3161705,
-          "longitude": -6.5624567,
+          "latitude": 52.31858385531621,
+          "longitude": -6.5629811874627375,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -20046,13 +20046,13 @@
         "routes": [],
         "routes_count": 0,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.20149138241841,
+          "longitude": -6.127625334191007,
           "source": "backup",
           "estimated": true
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Annalecka Buttress",
@@ -20159,13 +20159,13 @@
         ],
         "routes_count": 12,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.053918,
+          "longitude": -6.42382,
           "source": "backup",
           "estimated": true
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Barnacullian",
@@ -20232,12 +20232,12 @@
         ],
         "routes_count": 7,
         "coordinates": {
-          "latitude": 53.089505,
-          "longitude": -6.391737,
+          "latitude": 53.089457,
+          "longitude": -6.3915215,
           "source": "grid_reference"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Barnbawn",
@@ -20408,12 +20408,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 55.131513,
-          "longitude": -3.73519,
+          "latitude": 52.97715212463861,
+          "longitude": -6.188929950901404,
           "source": "grid_reference"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 0,
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Bell Rock - Avoca",
@@ -20432,13 +20432,13 @@
         ],
         "routes_count": 1,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 52.87069,
+          "longitude": -6.22083,
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": -1,
+        "cluster_name": "Isolated"
       },
       {
         "name": "The Bishop - Dunran",
@@ -20452,8 +20452,8 @@
           "longitude": -6.101914,
           "source": "grid_reference"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 0,
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Bonfire Buttress",
@@ -20544,13 +20544,13 @@
         ],
         "routes_count": 10,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 53.00281295825833,
+          "longitude": -6.12164854232816,
           "source": "backup",
           "estimated": true
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Bray Head",
@@ -20617,12 +20617,12 @@
         ],
         "routes_count": 7,
         "coordinates": {
-          "latitude": 53.17551,
-          "longitude": -6.071432,
+          "latitude": 53.175472,
+          "longitude": -6.0711736,
           "source": "grid_reference"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Carrick Mountain",
@@ -20793,12 +20793,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 52.671363,
-          "longitude": -6.186859,
+          "latitude": 52.982744,
+          "longitude": -6.1601915,
           "source": "grid_reference"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 0,
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Carrigshouk",
@@ -20969,12 +20969,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.086404,
-          "longitude": -6.362002,
+          "latitude": 53.086355,
+          "longitude": -6.3617817,
           "source": "grid_reference"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Cloghoge",
@@ -21001,12 +21001,12 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 53.113813,
-          "longitude": -6.266866,
+          "latitude": 53.113767,
+          "longitude": -6.266634,
           "source": "grid_reference"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Glendalough",
@@ -21021,7 +21021,7 @@
           "source": "manual"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Glenmalure",
@@ -21036,7 +21036,7 @@
           "source": "grid_reference"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Great Sugar Loaf",
@@ -21143,12 +21143,12 @@
         ],
         "routes_count": 12,
         "coordinates": {
-          "latitude": 53.164171,
-          "longitude": -6.149698,
+          "latitude": 53.164131,
+          "longitude": -6.1494502,
           "source": "grid_reference"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Green Lizard",
@@ -21162,8 +21162,8 @@
           "longitude": -6.09106,
           "source": "grid_reference"
         },
-        "cluster_id": -1,
-        "cluster_name": "Isolated"
+        "cluster_id": 0,
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Hollywood",
@@ -21213,12 +21213,12 @@
         ],
         "routes_count": 3,
         "coordinates": {
-          "latitude": 53.176172,
-          "longitude": -6.291276,
+          "latitude": 53.176134,
+          "longitude": -6.2910468,
           "source": "grid_reference"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Lough Dan",
@@ -21389,12 +21389,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.080991,
-          "longitude": -6.296541,
+          "latitude": 53.080941,
+          "longitude": -6.2963128,
           "source": "grid_reference"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Lough Nahanagan",
@@ -21469,12 +21469,12 @@
         ],
         "routes_count": 8,
         "coordinates": {
-          "latitude": 53.0307181,
-          "longitude": -6.3913994,
+          "latitude": 53.03062896769608,
+          "longitude": -6.393227952813006,
           "source": "osm_search"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Lover's Leap - Enniskerry",
@@ -21489,7 +21489,7 @@
           "source": "osm_search"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Luggala",
@@ -21504,7 +21504,7 @@
           "source": "grid_reference"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Mall Hill",
@@ -21519,7 +21519,7 @@
           "source": "grid_reference"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Tonduff/Raven's Glen",
@@ -21578,13 +21578,13 @@
         ],
         "routes_count": 6,
         "coordinates": {
-          "latitude": 54.864,
-          "longitude": -6.268,
+          "latitude": 52.984571813271515,
+          "longitude": -6.435008273042526,
           "source": "backup",
           "estimated": true
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Rocky Valley",
@@ -21755,12 +21755,12 @@
         ],
         "routes_count": 20,
         "coordinates": {
-          "latitude": 53.1702157,
-          "longitude": -6.141528,
+          "latitude": 53.1688597069476,
+          "longitude": -6.150056034438238,
           "source": "osm_search"
         },
         "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_name": "South Hotspot 1"
       },
       {
         "name": "Wicklow Head",
@@ -21787,8 +21787,8 @@
         ],
         "routes_count": 2,
         "coordinates": {
-          "latitude": 52.9654909,
-          "longitude": -5.9977772,
+          "latitude": 52.9635465846995,
+          "longitude": -5.999404676696076,
           "source": "osm_search"
         },
         "cluster_id": -1,
@@ -21807,8 +21807,8 @@
           "source": "backup",
           "estimated": true
         },
-        "cluster_id": 0,
-        "cluster_name": "East Central Hotspot 1"
+        "cluster_id": 4,
+        "cluster_name": "East Central Hotspot 5"
       }
     ]
   }

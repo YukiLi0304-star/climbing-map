@@ -1,0 +1,237 @@
+{
+  "Co. Wexford": {
+    "county_info": {
+      "name": "Co. Wexford"
+    },
+    "climbing_sites": [
+      {
+        "name": "Rocklands",
+        "page_title": "Rocklands",
+        "climbing_type": "Mountain, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Rocklands",
+        "routes": [
+          {
+            "name": "Plum Pud",
+            "difficulty": "Diff",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Fickle Fingers",
+            "difficulty": "Severe",
+            "height": 35,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Stickleback Slab",
+            "difficulty": "Severe",
+            "height": 35,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Porcupine",
+            "difficulty": "VS4c",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Little Snip",
+            "difficulty": "HS",
+            "height": 35,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Creepy Crawl",
+            "difficulty": "H.S",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Charge of the Light Brigade",
+            "difficulty": "Diff",
+            "height": 45,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Black Swan",
+            "difficulty": "V",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Spider",
+            "difficulty": "VS",
+            "height": 55,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Nectaris",
+            "difficulty": "HVS",
+            "height": 55,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Bushwhacker",
+            "difficulty": "HS",
+            "height": 55,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Smash and Grab",
+            "difficulty": "VS",
+            "height": 55,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Garnet",
+            "difficulty": "HVS",
+            "height": 60,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Letus",
+            "difficulty": "HVS",
+            "height": 60,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Chilli Con Corner",
+            "difficulty": "V",
+            "height": 60,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Chimney Sweep",
+            "difficulty": "S",
+            "height": 55,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Burned Fingers",
+            "difficulty": "VS 4b",
+            "height": 55,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Cygnus",
+            "difficulty": "VS",
+            "height": 55,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Reunion",
+            "difficulty": "VS",
+            "height": 70,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Jack in the Green",
+            "difficulty": "VS 4c",
+            "height": 70,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.2605838,
+          "longitude": -8.9182208,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Forth Mountain",
+        "page_title": "Forth_Mountain",
+        "climbing_type": "Quarry, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Forth_Mountain",
+        "routes": [
+          {
+            "name": "The Overhang",
+            "difficulty": "6a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Un-named",
+            "difficulty": "HVS",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "May Contain Nut Traces",
+            "difficulty": "E4 6a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Easy Crack",
+            "difficulty": "HVS 5a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Chute",
+            "difficulty": "E1 5b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 5,
+        "coordinates": {
+          "latitude": 52.3161705,
+          "longitude": -6.5624567,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,575 @@
+{
+  "Co. Dublin": {
+    "county_info": {
+      "name": "Co. Dublin"
+    },
+    "climbing_sites": [
+      {
+        "name": "Bullock Harbour",
+        "page_title": "Bullock_Harbour",
+        "climbing_type": "Inland, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Bullock_Harbour",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.2848787,
+          "longitude": -6.1070919,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Dalkey Quarry",
+        "page_title": "Dalkey_Quarry",
+        "climbing_type": "Sea Cliff, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Dalkey_Quarry",
+        "routes": [
+          {
+            "name": "UP A GUM TREE",
+            "difficulty": "D",
+            "height": 22,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "POOHS CORNER",
+            "difficulty": "D",
+            "height": 22,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 53.270971,
+          "longitude": -6.1067128,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Howth Head",
+        "page_title": "Howth_Head",
+        "climbing_type": "Sea Cliff, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Howth_Head",
+        "routes": [
+          {
+            "name": "Daoine Eile ",
+            "difficulty": "HS 4b",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Daoine Maithe ",
+            "difficulty": "HVS 5a",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Grainne ",
+            "difficulty": "HVS",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Cooley Crack ",
+            "difficulty": "VS 4b",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Zambezi Nights ",
+            "difficulty": "S 4a",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Squawk Code ",
+            "difficulty": "HS 4b",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Snotser ",
+            "difficulty": "HS 4b",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Fire Certificate ",
+            "difficulty": "S 4a",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Fire Certificate ''\"Alternate Start\"'' ",
+            "difficulty": "S 4a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Navicula ",
+            "difficulty": "S 4a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "[[File:Navicula2.png|center|thumb]]Dat Dere ",
+            "difficulty": "S 4a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Scram Bull ",
+            "difficulty": "D 3a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Midshift Madness ",
+            "difficulty": "S 4a",
+            "height": 23,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Gabhar ",
+            "difficulty": "S 4a",
+            "height": 22,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Three Piece Sweet ",
+            "difficulty": "S 4a",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Variation The Sofa Start ",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Captain Planet ",
+            "difficulty": "VS 4c",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sharran’",
+            "difficulty": "s",
+            "height": 24,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Nicky Place ",
+            "difficulty": "Diff",
+            "height": 6,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sail of the Sentry ",
+            "difficulty": "VS 4b",
+            "height": 16,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Ireland's Eye",
+        "page_title": "Ireland%27s_Eye",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Ireland%27s_Eye",
+        "routes": [
+          {
+            "name": "North Chimney 2lm.",
+            "difficulty": "D",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Left-hand Wall .",
+            "difficulty": "VS",
+            "height": 24,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Hamilton Crack",
+            "difficulty": "VD",
+            "height": 27,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Theft",
+            "difficulty": "S",
+            "height": 27,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Swing Wing .",
+            "difficulty": "VS",
+            "height": 27,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Skyhook Wa1l",
+            "difficulty": "S",
+            "height": 33,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "American Express .",
+            "difficulty": "VD",
+            "height": 39,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Southeast Ridge",
+            "difficulty": "D",
+            "height": 66,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Mermaid",
+            "difficulty": "VS",
+            "height": 66,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "West Chimney",
+            "difficulty": "S",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Taman Shud",
+            "difficulty": "VS",
+            "height": 27,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "South Ridge",
+            "difficulty": "VD",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Outer Stack Ordinary",
+            "difficulty": "M",
+            "height": 50,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Corner and Ridge",
+            "difficulty": "D",
+            "height": 65,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Ridge",
+            "difficulty": "VD",
+            "height": 17,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Skyward",
+            "difficulty": "HS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Traverse",
+            "difficulty": "D",
+            "height": 24,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "OCTOPUS",
+            "difficulty": "S",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "DELIVERANCE",
+            "difficulty": "VS",
+            "height": 35,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SQUID .",
+            "difficulty": "HS",
+            "height": 45,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.4057034,
+          "longitude": -6.0642652,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "The Scalp",
+        "page_title": "The_Scalp",
+        "climbing_type": "Mountain, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=The_Scalp",
+        "routes": [
+          {
+            "name": "Flake Route",
+            "difficulty": "D",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Crack Direct .",
+            "difficulty": "Diff",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Crack - Left Entrance .",
+            "difficulty": "Diff",
+            "height": 11,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Safety Second Font",
+            "difficulty": "6a",
+            "height": 6,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "West Face Edge",
+            "difficulty": "Diff",
+            "height": 7,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Black Fault .",
+            "difficulty": "Diff",
+            "height": 8,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "North West Face",
+            "difficulty": "S",
+            "height": 7,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Right Hand Route",
+            "difficulty": "Diff",
+            "height": 7,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Cracked Wall",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Cracked Wall",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Unknown",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Square Chimney",
+            "difficulty": "Diff",
+            "height": 6,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Tree Chimney",
+            "difficulty": "S",
+            "height": 26,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Steep Slab *",
+            "difficulty": "VD",
+            "height": 38,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Conifer Crack",
+            "difficulty": "D",
+            "height": 6,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Winter Solstice",
+            "difficulty": "D",
+            "height": 24,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Diamond Flake",
+            "difficulty": "D",
+            "height": 11,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Pinnacle",
+            "difficulty": "VD",
+            "height": 4,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Two Tiers",
+            "difficulty": "VD",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Walsh Rarebit",
+            "difficulty": "VD",
+            "height": 17,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.2190706,
+          "longitude": -6.1809883,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "Co. Tipperary": {
+    "county_info": {
+      "name": "Co. Tipperary"
+    },
+    "climbing_sites": [
+      {
+        "name": "Devil's bit",
+        "page_title": "Devil%27s_bit",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Devil%27s_bit",
+        "routes": [
+          {
+            "name": "IP66",
+            "difficulty": "VS 4c",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GREETED BY MARY",
+            "difficulty": "HS 4b",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "PHYSICS",
+            "difficulty": "HS 4b",
+            "height": 8,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "ON THE GAME",
+            "difficulty": "Diff",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "ORIGINAL FIRE",
+            "difficulty": "HVS 5a",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Dragon",
+            "difficulty": "VS 4c",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Toasty Warm",
+            "difficulty": "HVS 5a",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Bee",
+            "difficulty": "HVS 5a",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Rumour Room",
+            "difficulty": "VS 4c",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Spike",
+            "difficulty": "S 4a",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Last Remaining Light",
+            "difficulty": "HVS 5a",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Running Scared",
+            "difficulty": "E2 5c",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Clio",
+            "difficulty": "S 4a",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Lost",
+            "difficulty": "VS 4c",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Concise",
+            "difficulty": "VS 4c",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Aneurysm",
+            "difficulty": "E1 5b",
+            "height": 17,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Catholic School Girls Rock",
+            "difficulty": "HVS 5a",
+            "height": 17,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Pursuit of Happiness",
+            "difficulty": "E2 6a",
+            "height": 17,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Snowstorm",
+            "difficulty": "E2 5b",
+            "height": 17,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Snatch",
+            "difficulty": "VS 4c",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 52.820894,
+          "longitude": -7.914701,
+          "source": "grid_reference"
+        }
+      }
+    ]
+  }
+}

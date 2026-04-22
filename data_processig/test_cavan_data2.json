@@ -1,0 +1,531 @@
+{
+  "Co. Cavan": {
+    "county_info": {
+      "name": "Co. Cavan"
+    },
+    "climbing_sites": [
+      {
+        "name": "Cloch An tSagairt / Carrignahasta",
+        "page_title": "Cloch_An_tSagairt_/_Carrignahasta",
+        "climbing_type": "Mountain, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Cloch_An_tSagairt_/_Carrignahasta",
+        "routes": [
+          {
+            "name": "W1a Black Mass",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W1 INTO THE WEST",
+            "difficulty": "HVS 5b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W2 TATO",
+            "difficulty": "VS 4c",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W3a BLACK HANDS",
+            "difficulty": "Severe 4a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W3 STRAIT AND NARROW",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W4 AN MHÉAR FHADA",
+            "difficulty": "Severe 4a",
+            "height": 3,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W5 OCTOBER",
+            "difficulty": "VS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "W7 STATE OF EQUILIBRIUM",
+            "difficulty": "S",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CW IRIAMO",
+            "difficulty": "HS 4b",
+            "height": 1,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CW 2 BAD REPORT",
+            "difficulty": "VS 4b",
+            "height": 4,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C1a DEDALUS.",
+            "difficulty": "VS 4b",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C1 ROCK OF AGES.",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C2 REPENT! REPENT!",
+            "difficulty": "VS 4b",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C3 BLESS MY SOUL",
+            "difficulty": "HS 4a",
+            "height": 3,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C4 INTROIBO",
+            "difficulty": "S",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C5 WE'RE NO ANGELS",
+            "difficulty": "S",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C8a MEN OF THE WEST",
+            "difficulty": "VS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C8b SHOULD I GO, SHOULD I STAY",
+            "difficulty": "E2 5b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C8c LITTLE DIVIL",
+            "difficulty": "VS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "C9 LITTLE ANGELS",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.168628,
+          "longitude": -7.947156,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Englishman's House Crag",
+        "page_title": "Englishman%27s_House_Crag",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Englishman%27s_House_Crag",
+        "routes": [
+          {
+            "name": "LISTEN TO THE WIND BLOW",
+            "difficulty": "VS 4c",
+            "height": 23,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SPIDER MOLE",
+            "difficulty": "VD",
+            "height": 23,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "THE SENTRY BOX",
+            "difficulty": "VS 4b",
+            "height": 23,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "WAR",
+            "difficulty": "HS 4a",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LITTLE PUFF PUFF",
+            "difficulty": "VD",
+            "height": 8,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "WHISTLE STOP",
+            "difficulty": "S 4a",
+            "height": 7,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "PIGS IN TOW",
+            "difficulty": "S 3c",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CANADIAN PACIFIC",
+            "difficulty": "VS 4b",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "BOXCAR",
+            "difficulty": "VD",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "WEE CHUGGY",
+            "difficulty": "VD",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CHOO CHOO",
+            "difficulty": "HS 4b",
+            "height": 14,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "PULLMAN EXPRESS",
+            "difficulty": "VD",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "TRUNDLE CHIMNEY",
+            "difficulty": "VD",
+            "height": 17,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GRAINNE MHAOL",
+            "difficulty": "VD",
+            "height": 50,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "BACK INTO THE FUTURE",
+            "difficulty": "E1 5b",
+            "height": 26,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "POLL NA CRAIG CAVE",
+            "difficulty": "VD",
+            "height": 24,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "MARIE",
+            "difficulty": "S 3c",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "ANTOINETTE",
+            "difficulty": "VS 4b",
+            "height": 27,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "STIL POITIN",
+            "difficulty": "HVS 5b",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "ACCESS ROAD",
+            "difficulty": "D",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.239609,
+          "longitude": -7.979273,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "The Playbank",
+        "page_title": "The_Playbank",
+        "climbing_type": "Sea Cliff, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=The_Playbank",
+        "routes": [
+          {
+            "name": "FAMILY ALBUM",
+            "difficulty": "S 4a",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "FIRST THERE WAS ONE",
+            "difficulty": "S 4a",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SWINGING CELIBATE",
+            "difficulty": "HS 4b",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "TIME SLIP",
+            "difficulty": "VS 4c",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "TO TERESA AND THE BOYS",
+            "difficulty": "S 4a",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "PICK UP THE PIECES AND GO HOME",
+            "difficulty": "VS 4b",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "AND THE SECOND SUFFERED",
+            "difficulty": "VD",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "NEW HORIZONS",
+            "difficulty": "S 3c",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "COLD HAND LUKE",
+            "difficulty": "E1 5b",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "COLD CORNER",
+            "difficulty": "S 4a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "NICE GUYS COME LAST",
+            "difficulty": "S 3c",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "TEAR FOR TITO",
+            "difficulty": "VD",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "BLINK BLINK",
+            "difficulty": "S 3c",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "WINK WINK",
+            "difficulty": "VD",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "WHEATEN FARL",
+            "difficulty": "VD",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SODA FARL",
+            "difficulty": "S 3c",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "HESS",
+            "difficulty": "VS 4b",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SPANDAU",
+            "difficulty": "E2 5c",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GORBELS",
+            "difficulty": "VD",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "TROTSKY",
+            "difficulty": "VS 4b",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.183906,
+          "longitude": -7.962453,
+          "source": "grid_reference"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1729 @@
+{
+  "Co. Wicklow": {
+    "county_info": {
+      "name": "Co. Wicklow"
+    },
+    "climbing_sites": [
+      {
+        "name": "Notes on Early Wicklow Climbing",
+        "page_title": "Notes_on_Early_Wicklow_Climbing",
+        "climbing_type": "Sea Cliff, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Notes_on_Early_Wicklow_Climbing",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Annalecka Buttress",
+        "page_title": "Annalecka_Buttress",
+        "climbing_type": "Mountain, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Annalecka_Buttress",
+        "routes": [
+          {
+            "name": "Picnic Basket",
+            "difficulty": "VS 4c",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Becky",
+            "difficulty": "HVS 5a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Shannon",
+            "difficulty": "VS 4c",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sixteen Mississippi",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Shush Your Mouth",
+            "difficulty": "S 4a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Mudhammer",
+            "difficulty": "S 4a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "So Does Straight On",
+            "difficulty": "VS 4c",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "So Sideways Works",
+            "difficulty": "S 4a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Pesto Special",
+            "difficulty": "HS 4a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Grand Canal Shannon Direct",
+            "difficulty": "VS 4c",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Skadoosh",
+            "difficulty": "E3 5c",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Move on",
+            "difficulty": "E2 5b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 12,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Barnacullian",
+        "page_title": "Barnacullian",
+        "climbing_type": "Mountain, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Barnacullian",
+        "routes": [
+          {
+            "name": "GORILLAS IN THE MIST",
+            "difficulty": "E2",
+            "height": 22,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "a HEATHER HAVEN",
+            "difficulty": "HS 4a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "b CHASING THE DRAGON",
+            "difficulty": "VS",
+            "height": 55,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SLAB MURPHY",
+            "difficulty": "S 4a",
+            "height": 58,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "a LAURA",
+            "difficulty": "HS 4b",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "c  NANNY & GRANDA",
+            "difficulty": "E1",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SPACEMURPHIE",
+            "difficulty": "HS 4b",
+            "height": 22,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 7,
+        "coordinates": {
+          "latitude": 53.089505,
+          "longitude": -6.391737,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Barnbawn",
+        "page_title": "Barnbawn",
+        "climbing_type": "Mountain, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Barnbawn",
+        "routes": [
+          {
+            "name": "A An Seanduine Dóite",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "c The Rocks of Bawn",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "PINE TREE WAY",
+            "difficulty": "VS",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "OOH! AAH!",
+            "difficulty": "D",
+            "height": 11,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "McGRATH",
+            "difficulty": "D",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "THE GHOST OF HOPE AGAIN",
+            "difficulty": "VD",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "BLOODY NOSE",
+            "difficulty": "E1",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LINEKER",
+            "difficulty": "VS",
+            "height": 13,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LE TAUREAU BRUN DE COOLEY",
+            "difficulty": "S",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "AN GRIANÁN",
+            "difficulty": "D",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "THE SAW DOCTORS",
+            "difficulty": "VS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "ORANGE PEEL",
+            "difficulty": "VS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "BONSAI",
+            "difficulty": "VS",
+            "height": 16,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SCUD GUYS DIE YOUNG",
+            "difficulty": "HVS",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "BUACHAILLÍ BÁNA",
+            "difficulty": "VS",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SWING LOWE",
+            "difficulty": "HS",
+            "height": 12,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "THE EDGE ROUTE",
+            "difficulty": "HVS",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "EYE OF THE NEEDLE",
+            "difficulty": "HS",
+            "height": 23,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SIR WALTER RALEIGH",
+            "difficulty": "VS",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "DAMP START CRACK",
+            "difficulty": "S",
+            "height": 14,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 55.131513,
+          "longitude": -3.73519,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Bell Rock - Avoca",
+        "page_title": "Bell_Rock_-_Avoca",
+        "climbing_type": "Inland, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Bell_Rock_-_Avoca",
+        "routes": [
+          {
+            "name": "'''' RUBIK’",
+            "difficulty": "S",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "The Bishop - Dunran",
+        "page_title": "The_Bishop_-_Dunran",
+        "climbing_type": "Mountain, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=The_Bishop_-_Dunran",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.06097,
+          "longitude": -6.101914,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Bonfire Buttress",
+        "page_title": "Bonfire_Buttress",
+        "climbing_type": "Quarry, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Bonfire_Buttress",
+        "routes": [
+          {
+            "name": "All Fired Up",
+            "difficulty": "VS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Burning Ambition",
+            "difficulty": "VS 4c",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Heather Blazing",
+            "difficulty": "VS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Phoenix",
+            "difficulty": "VS 4c",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Combustion",
+            "difficulty": "VS 4c",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Feel The Burn",
+            "difficulty": "E1 5b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Conflagration",
+            "difficulty": "HVS 5a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Unquenchable Fire",
+            "difficulty": "HS 4a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Oh Deer",
+            "difficulty": "HVS 5a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Incandescense",
+            "difficulty": "HVS 5a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 10,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Bray Head",
+        "page_title": "Bray_Head",
+        "climbing_type": "Sea Cliff, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Bray_Head",
+        "routes": [
+          {
+            "name": "Scallop         ",
+            "difficulty": "HS",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Thunderbolt",
+            "difficulty": "VD",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Slipway. bb - Blackbottom",
+            "difficulty": "VS",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Black-bottom          ",
+            "difficulty": "VS",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Tough Soot          ",
+            "difficulty": "HVS",
+            "height": 28,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Camán.          ",
+            "difficulty": "HS",
+            "height": 28,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Cricklewood",
+            "difficulty": "S",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 7,
+        "coordinates": {
+          "latitude": 53.17551,
+          "longitude": -6.071432,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Carrick Mountain",
+        "page_title": "Carrick_Mountain",
+        "climbing_type": "Quarry, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Carrick_Mountain",
+        "routes": [
+          {
+            "name": "WARMING UP          ",
+            "difficulty": "VD",
+            "height": 8,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SUN LOUNGING         ",
+            "difficulty": "HS",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "RUNNING BEFORE THE WIND.          ",
+            "difficulty": "HS",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "KNUCKLEBALL         ",
+            "difficulty": "E2",
+            "height": 13,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "NRG         ",
+            "difficulty": "E2",
+            "height": 13,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SORCHAS.          ",
+            "difficulty": "VS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sorchas",
+            "difficulty": "VS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "DORCHAS          ",
+            "difficulty": "D",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CARRICK CRACK         ",
+            "difficulty": "VS",
+            "height": 11,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "DOUBLE DECKER         ",
+            "difficulty": "HS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CARRICK ON CLIMBING.          ",
+            "difficulty": "VD",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GENTLE AIRS         ",
+            "difficulty": "HS",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "ON THE RUN         ",
+            "difficulty": "HS",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "COCOONING WHORTS          ",
+            "difficulty": "HS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GARVAGHY ROAD.          ",
+            "difficulty": "VS",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GLORIOUS TWELFTH.          ",
+            "difficulty": "VS",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "APPRENTICE BOYS          ",
+            "difficulty": "S",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Isolation Nation",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "irus direst",
+            "difficulty": "Severe",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Polemic Pandemic",
+            "difficulty": "VD",
+            "height": 4,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 52.671363,
+          "longitude": -6.186859,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Carrigshouk",
+        "page_title": "Carrigshouk",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Carrigshouk",
+        "routes": [
+          {
+            "name": "Variation:",
+            "difficulty": "HS",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "HIGHER CALLING         ",
+            "difficulty": "HVS",
+            "height": 10,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "NEW FACES          ",
+            "difficulty": "VS",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CLOSE ENCOUNTER          ",
+            "difficulty": "E4",
+            "height": 14,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "RANDOM EVENTS'         ",
+            "difficulty": "HVS",
+            "height": 17,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "COUNTRY ROAD         ",
+            "difficulty": "HVS",
+            "height": 50,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "FLIGHT OF FANCY         ",
+            "difficulty": "VS",
+            "height": 33,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "THE HILLS HAVE EYES         ",
+            "difficulty": "VS",
+            "height": 33,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "JOY ZIPPER         ",
+            "difficulty": "HS",
+            "height": 33,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LIGHT FANTASTIC         ",
+            "difficulty": "HVS",
+            "height": 33,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "ARABY         ",
+            "difficulty": "E2",
+            "height": 33,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "WINGS OF DESIRE         ",
+            "difficulty": "E1",
+            "height": 18,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "DIVIDED FEARS         ",
+            "difficulty": "E1",
+            "height": 8,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "PASSOVER          ",
+            "difficulty": "S",
+            "height": 35,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "IN TRANSIT         ",
+            "difficulty": "VD",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "OUTTA CONTROL          ",
+            "difficulty": "HVS",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LUCKY FOR SOME         ",
+            "difficulty": "E2",
+            "height": 14,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SNATCH          ",
+            "difficulty": "E1",
+            "height": 13,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "MILKY WAY LAKE         ",
+            "difficulty": "HVS",
+            "height": 13,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LATE DEPARTURE         ",
+            "difficulty": "VS",
+            "height": 23,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.086404,
+          "longitude": -6.362002,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Cloghoge",
+        "page_title": "Cloghoge",
+        "climbing_type": "Mountain, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Cloghoge",
+        "routes": [
+          {
+            "name": "Numbers",
+            "difficulty": "E2 5c",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Mix",
+            "difficulty": "E1 5b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 53.113813,
+          "longitude": -6.266866,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Glendalough",
+        "page_title": "Glendalough",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Glendalough",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.012,
+          "longitude": -6.355,
+          "source": "manual"
+        }
+      },
+      {
+        "name": "Glenmalure",
+        "page_title": "Glenmalure",
+        "climbing_type": "Sea Cliff, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Glenmalure",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 52.957779,
+          "longitude": -6.353475,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Great Sugar Loaf",
+        "page_title": "Great_Sugar_Loaf",
+        "climbing_type": "Mountain, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Great_Sugar_Loaf",
+        "routes": [
+          {
+            "name": "Loafing About",
+            "difficulty": "Diff",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sugar Lump",
+            "difficulty": "Diff",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Raven Chimney",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Use Your Loaf",
+            "difficulty": "Severe",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Selfraising Flower",
+            "difficulty": "Diff",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Half Baked",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sugar Baby",
+            "difficulty": "HS 4b",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sugar Daddy",
+            "difficulty": "HVS 5a",
+            "height": 5,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sweet Tooth",
+            "difficulty": "VS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Toute Suite!",
+            "difficulty": "VS 4c",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sugar LumpLump",
+            "difficulty": "E1 5b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Uppercrust",
+            "difficulty": "HVS 5a",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 12,
+        "coordinates": {
+          "latitude": 53.164171,
+          "longitude": -6.149698,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Green Lizard",
+        "page_title": "Green_Lizard",
+        "climbing_type": "Mountain, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Green_Lizard",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.036532,
+          "longitude": -6.09106,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Hollywood",
+        "page_title": "Hollywood",
+        "climbing_type": "Mountain, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Hollywood",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.090279,
+          "longitude": -6.594715,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Lough Bray",
+        "page_title": "Lough_Bray",
+        "climbing_type": "Quarry, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Lough_Bray",
+        "routes": [
+          {
+            "name": "CHIMINEY CRICKET",
+            "difficulty": "VD",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CHIMNEY SWEEP",
+            "difficulty": "MS 4a",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "WHERE EAGLES DARE",
+            "difficulty": "HVS 5a",
+            "height": 8,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 3,
+        "coordinates": {
+          "latitude": 53.176172,
+          "longitude": -6.291276,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Lough Dan",
+        "page_title": "Lough_Dan",
+        "climbing_type": "Mountain, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Lough_Dan",
+        "routes": [
+          {
+            "name": "CHUCKLING PIG",
+            "difficulty": "VS",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "THE CIRCUS ANIMALS' DESERTION",
+            "difficulty": "E3",
+            "height": 12,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "EXILES",
+            "difficulty": "E4",
+            "height": 12,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "HAT TRICK",
+            "difficulty": "S",
+            "height": 26,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "EXCITABLE BOY",
+            "difficulty": "E4",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LITTLE OAK CRACK",
+            "difficulty": "E1",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LITTLE OAK DIRECT",
+            "difficulty": "E4",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SURFS UP",
+            "difficulty": "E4",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SQUALL",
+            "difficulty": "E1",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "JET STREAM",
+            "difficulty": "E1",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "LIGHTNING CRACK",
+            "difficulty": "E2",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "ARCHAOS",
+            "difficulty": "E6",
+            "height": 18,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "STORM CLOUD",
+            "difficulty": "E3",
+            "height": 16,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "SIDEWINDER",
+            "difficulty": "E1",
+            "height": 35,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "DECEPTION",
+            "difficulty": "E2",
+            "height": 30,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "DUPLICITY",
+            "difficulty": "E2",
+            "height": 35,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "TOMAHAWK",
+            "difficulty": "E1",
+            "height": 35,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "DRAGONFLY",
+            "difficulty": "VS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "HEATHER BEE",
+            "difficulty": "HS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "OASIS",
+            "difficulty": "HS",
+            "height": 17,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.080991,
+          "longitude": -6.296541,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Lough Nahanagan",
+        "page_title": "Lough_Nahanagan",
+        "climbing_type": "Inland, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Lough_Nahanagan",
+        "routes": [
+          {
+            "name": "Chanter",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Grace Notes",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Flat Set",
+            "difficulty": "VS 4c",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Pipes are Calling",
+            "difficulty": "S",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Wild Geese",
+            "difficulty": "VS 4c",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Goose Bumps",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Old Curiousity",
+            "difficulty": "VS 4c",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Pump it Up",
+            "difficulty": "VS 4c",
+            "height": null,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 8,
+        "coordinates": {
+          "latitude": 53.0307181,
+          "longitude": -6.3913994,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Lover's Leap - Enniskerry",
+        "page_title": "Lover%27s_Leap_-_Enniskerry",
+        "climbing_type": "Mountain, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Lover%27s_Leap_-_Enniskerry",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.1842565,
+          "longitude": -6.1534644,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Luggala",
+        "page_title": "Luggala",
+        "climbing_type": "Sea Cliff, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Luggala",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.1179,
+          "longitude": -6.301057,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Mall Hill",
+        "page_title": "Mall_Hill",
+        "climbing_type": "Mountain, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Mall_Hill",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 53.041937,
+          "longitude": -6.330885,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Tonduff/Raven's Glen",
+        "page_title": "Tonduff/Raven%27s_Glen",
+        "climbing_type": "Mountain, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Tonduff/Raven%27s_Glen",
+        "routes": [
+          {
+            "name": "Sunny side up          ",
+            "difficulty": "VDIFF",
+            "height": 6,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Yellow Man          ",
+            "difficulty": "HS",
+            "height": 9,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Glendale Boulevard          ",
+            "difficulty": "VS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Dodgy Bunter          ",
+            "difficulty": "HS",
+            "height": 8,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "A Tribe Called Quest          ",
+            "difficulty": "S",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Crudley          ",
+            "difficulty": "HS",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 6,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Rocky Valley",
+        "page_title": "Rocky_Valley",
+        "climbing_type": "Mountain, Boulder",
+        "url": "http://wiki.climbing.ie/index.php?title=Rocky_Valley",
+        "routes": [
+          {
+            "name": "GILTSPUR",
+            "difficulty": "HS",
+            "height": 16,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "KILMAC CRACK",
+            "difficulty": "VS",
+            "height": 17,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "KAWASAKI",
+            "difficulty": "VS",
+            "height": 17,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CARRIGOONA",
+            "difficulty": "VS",
+            "height": 17,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "CILL CAIS",
+            "difficulty": "HS",
+            "height": 16,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "TRIUMPH",
+            "difficulty": "S",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "GLENCAP",
+            "difficulty": "VS",
+            "height": 13,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "HONDA 50",
+            "difficulty": "VD",
+            "height": 13,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Ducati",
+            "difficulty": "S",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "MEAN WALL",
+            "difficulty": "S",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Rocky ll",
+            "difficulty": "VS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Holly Days",
+            "difficulty": "Diff",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Merry Prowboy",
+            "difficulty": "HS",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Briars",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Fissure Grianmhar",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Branch Out",
+            "difficulty": "Severe 4a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Ga Gréine",
+            "difficulty": "HS 4b",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Nutcracker",
+            "difficulty": "VS 5a",
+            "height": 3,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Little Pelstein",
+            "difficulty": "Severe 4a",
+            "height": 2,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Rambling Rose",
+            "difficulty": "HS 4a",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 53.1702157,
+          "longitude": -6.141528,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Wicklow Head",
+        "page_title": "Wicklow_Head",
+        "climbing_type": "Inland, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Wicklow_Head",
+        "routes": [
+          {
+            "name": "Crab Crack 50ft",
+            "difficulty": "VD",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Seal Slab. 200ft. max",
+            "difficulty": "S",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 2,
+        "coordinates": {
+          "latitude": 52.9654909,
+          "longitude": -5.9977772,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Wicklow Winter Climbs",
+        "page_title": "Wicklow_Winter_Climbs",
+        "climbing_type": "Sea Cliff, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Wicklow_Winter_Climbs",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}

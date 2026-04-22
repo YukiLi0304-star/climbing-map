@@ -1,0 +1,205 @@
+{
+  "Co. Westmeath": {
+    "county_info": {
+      "name": "Co. Westmeath"
+    },
+    "climbing_sites": [
+      {
+        "name": "Fore",
+        "page_title": "Fore",
+        "climbing_type": "Mountain, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Fore",
+        "routes": [
+          {
+            "name": "Salvage",
+            "difficulty": "S",
+            "height": 50,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "1974",
+            "difficulty": "VS",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "1974 direct",
+            "difficulty": "Vs",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Foreplay",
+            "difficulty": "vs 4b",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The life of Reilly",
+            "difficulty": "HS",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "3'n'4Fore",
+            "difficulty": "VS 5a",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Wholly",
+            "difficulty": "HS",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "A bit Presumptuous",
+            "difficulty": "HvS 4c",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Ancient Brambles Arête",
+            "difficulty": "Diff 3c",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Immram",
+            "difficulty": "Diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Zardos speaks",
+            "difficulty": "M",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Road to ruin",
+            "difficulty": "Severe",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Flint blade",
+            "difficulty": "diff",
+            "height": null,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 13,
+        "coordinates": {
+          "latitude": 53.6805181,
+          "longitude": -7.2263083,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Rock of Curry",
+        "page_title": "Rock_of_Curry",
+        "climbing_type": "Sea Cliff, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Rock_of_Curry",
+        "routes": [
+          {
+            "name": "Bombay Brambles",
+            "difficulty": "VS 4c",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Decs route",
+            "difficulty": "HS 4b",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "bird of prey",
+            "difficulty": "HS 4b",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "into the wild",
+            "difficulty": "VS 4c",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "gerrys route 1",
+            "difficulty": "E2 5c",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "gerrys route 2",
+            "difficulty": "E1 5b",
+            "height": 25,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "august rush",
+            "difficulty": "HS 4b",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "korma",
+            "difficulty": "HVS 5a",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 8,
+        "coordinates": {
+          "latitude": 53.7318226,
+          "longitude": -7.3274957,
+          "source": "osm_search"
+        }
+      }
+    ]
+  }
+}

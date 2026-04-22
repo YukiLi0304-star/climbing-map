@@ -1,0 +1,504 @@
+{
+  "Co. Antrim": {
+    "county_info": {
+      "name": "Co. Antrim"
+    },
+    "climbing_sites": [
+      {
+        "name": "Ballygalley Head",
+        "page_title": "Ballygalley_Head",
+        "climbing_type": "Sea Cliff, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Ballygalley_Head",
+        "routes": [
+          {
+            "name": "Tapiola",
+            "difficulty": "VD",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "WC",
+            "difficulty": "VD",
+            "height": 10,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Iky-Mo-MO",
+            "difficulty": "S 3c",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Slipskid",
+            "difficulty": "E1 5c",
+            "height": 28,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Lucky Strike",
+            "difficulty": "VS 5a",
+            "height": 28,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Reprisal",
+            "difficulty": "VS 4b",
+            "height": 28,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sabre",
+            "difficulty": "S",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Astronaut",
+            "difficulty": "S",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Christmas",
+            "difficulty": "VD",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Cutlass",
+            "difficulty": "VD",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Hammer",
+            "difficulty": "S",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Stiletto",
+            "difficulty": "S",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Satellite",
+            "difficulty": "S",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Skylab",
+            "difficulty": "VD",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Grass Stupidity",
+            "difficulty": "S",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Sputnik",
+            "difficulty": "S",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Pull Through",
+            "difficulty": "S",
+            "height": 150,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Quiet Times",
+            "difficulty": "HVS 5b",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Postie",
+            "difficulty": "HVS 5b",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Rupert Bear and Bright Red Wellies",
+            "difficulty": "HVS 5b",
+            "height": 30,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 54.89959,
+          "longitude": -5.843341,
+          "source": "grid_reference"
+        }
+      },
+      {
+        "name": "Fairhead",
+        "page_title": "Fairhead",
+        "climbing_type": "Sea Cliff, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Fairhead",
+        "routes": [
+          {
+            "name": "Snow White Faulty",
+            "difficulty": "E3",
+            "height": 20,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Backwoods Jellyroll",
+            "difficulty": "VS",
+            "height": 18,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Epileptic Grasshopper",
+            "difficulty": "E1",
+            "height": 18,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Droughting About",
+            "difficulty": "HS",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Elvis Lives",
+            "difficulty": "HS",
+            "height": 16,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "3a Dirty Elvis",
+            "difficulty": "VS",
+            "height": 16,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "3b Diggers Delight",
+            "difficulty": "E1",
+            "height": 16,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "PP",
+            "difficulty": "VS",
+            "height": 20,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Stump",
+            "difficulty": "HS",
+            "height": 12,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Voluminous Overcoats",
+            "difficulty": "VS",
+            "height": 16,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Skin the Goat",
+            "difficulty": "HVS",
+            "height": 16,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Horse Feathers",
+            "difficulty": "VS",
+            "height": 15,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Duck Soup",
+            "difficulty": "VS",
+            "height": 20,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "One Crack Mind",
+            "difficulty": "HVS",
+            "height": 20,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Jungle Line",
+            "difficulty": "VS",
+            "height": 18,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Second Choice",
+            "difficulty": "S",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Zoot Horn Rollo",
+            "difficulty": "VS",
+            "height": 15,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Aghaidh Na Muice",
+            "difficulty": "VS",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Wink",
+            "difficulty": "VS",
+            "height": 20,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Santana",
+            "difficulty": "VS",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 20,
+        "coordinates": {
+          "latitude": 55.2235959,
+          "longitude": -6.1384308,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Garron Point",
+        "page_title": "Garron_Point",
+        "climbing_type": "Sea Cliff, Sport",
+        "url": "http://wiki.climbing.ie/index.php?title=Garron_Point",
+        "routes": [
+          {
+            "name": "Moratorium",
+            "difficulty": "HS",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Cockleshell Cracks",
+            "difficulty": "HS",
+            "height": 45,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "King Nose",
+            "difficulty": "S",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Tort",
+            "difficulty": "S",
+            "height": 56,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Impending Disaster",
+            "difficulty": "VD",
+            "height": 42,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "El Condor",
+            "difficulty": "S",
+            "height": 42,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Coughin Wall",
+            "difficulty": "HS",
+            "height": 33,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Ottago",
+            "difficulty": "S",
+            "height": 33,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Heckler",
+            "difficulty": "VS",
+            "height": 40,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Violator",
+            "difficulty": "VD",
+            "height": 18,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "The Savage",
+            "difficulty": "VD",
+            "height": 35,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          },
+          {
+            "name": "Milky Way",
+            "difficulty": "E2 5c",
+            "height": 30,
+            "has_star": false,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 12,
+        "coordinates": {
+          "latitude": 55.044327,
+          "longitude": -5.9636919,
+          "source": "osm_search"
+        }
+      },
+      {
+        "name": "Winter Climbing Glenariff",
+        "page_title": "Winter_Climbing_Glenariff",
+        "climbing_type": "Sea Cliff, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=Winter_Climbing_Glenariff",
+        "routes": [],
+        "routes_count": 0,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      },
+      {
+        "name": "Músaem Uladh",
+        "page_title": "M%C3%BAsaem_Uladh",
+        "climbing_type": "Inland, Trad",
+        "url": "http://wiki.climbing.ie/index.php?title=M%C3%BAsaem_Uladh",
+        "routes": [
+          {
+            "name": "Night at the Museum",
+            "difficulty": "E1 4c",
+            "height": 17,
+            "has_star": true,
+            "first_ascent": null,
+            "description": null
+          }
+        ],
+        "routes_count": 1,
+        "coordinates": {
+          "latitude": 54.864,
+          "longitude": -6.268,
+          "source": "backup",
+          "estimated": true
+        }
+      }
+    ]
+  }
+}
